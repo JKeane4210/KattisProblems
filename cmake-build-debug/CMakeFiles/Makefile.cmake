@@ -52,9 +52,12 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/01Sequences2.dir/DependInfo.cmake"
+  "CMakeFiles/01Sequences.dir/DependInfo.cmake"
   "CMakeFiles/LostMap.dir/DependInfo.cmake"
   "CMakeFiles/LostMap2.dir/DependInfo.cmake"
   "CMakeFiles/Treehouse.dir/DependInfo.cmake"
+  "CMakeFiles/ACMScoringContest.dir/DependInfo.cmake"
   "CMakeFiles/WaifUntilDark.dir/DependInfo.cmake"
   "CMakeFiles/SingleSourceNegativeWeights.dir/DependInfo.cmake"
   )

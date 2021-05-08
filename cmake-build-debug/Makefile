@@ -131,6 +131,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named 01Sequences2
+
+# Build rule for target.
+01Sequences2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 01Sequences2
+.PHONY : 01Sequences2
+
+# fast build rule for target.
+01Sequences2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01Sequences2.dir/build.make CMakeFiles/01Sequences2.dir/build
+.PHONY : 01Sequences2/fast
+
+#=============================================================================
+# Target rules for targets named 01Sequences
+
+# Build rule for target.
+01Sequences: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 01Sequences
+.PHONY : 01Sequences
+
+# fast build rule for target.
+01Sequences/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01Sequences.dir/build.make CMakeFiles/01Sequences.dir/build
+.PHONY : 01Sequences/fast
+
+#=============================================================================
 # Target rules for targets named LostMap
 
 # Build rule for target.
@@ -170,6 +196,19 @@ Treehouse/fast:
 .PHONY : Treehouse/fast
 
 #=============================================================================
+# Target rules for targets named ACMScoringContest
+
+# Build rule for target.
+ACMScoringContest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ACMScoringContest
+.PHONY : ACMScoringContest
+
+# fast build rule for target.
+ACMScoringContest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ACMScoringContest.dir/build.make CMakeFiles/ACMScoringContest.dir/build
+.PHONY : ACMScoringContest/fast
+
+#=============================================================================
 # Target rules for targets named WaifUntilDark
 
 # Build rule for target.
@@ -194,6 +233,87 @@ SingleSourceNegativeWeights: cmake_check_build_system
 SingleSourceNegativeWeights/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SingleSourceNegativeWeights.dir/build.make CMakeFiles/SingleSourceNegativeWeights.dir/build
 .PHONY : SingleSourceNegativeWeights/fast
+
+01Sequences.o: 01Sequences.cpp.o
+
+.PHONY : 01Sequences.o
+
+# target to build an object file
+01Sequences.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01Sequences.dir/build.make CMakeFiles/01Sequences.dir/01Sequences.cpp.o
+.PHONY : 01Sequences.cpp.o
+
+01Sequences.i: 01Sequences.cpp.i
+
+.PHONY : 01Sequences.i
+
+# target to preprocess a source file
+01Sequences.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01Sequences.dir/build.make CMakeFiles/01Sequences.dir/01Sequences.cpp.i
+.PHONY : 01Sequences.cpp.i
+
+01Sequences.s: 01Sequences.cpp.s
+
+.PHONY : 01Sequences.s
+
+# target to generate assembly for a file
+01Sequences.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01Sequences.dir/build.make CMakeFiles/01Sequences.dir/01Sequences.cpp.s
+.PHONY : 01Sequences.cpp.s
+
+01Sequences2.o: 01Sequences2.cpp.o
+
+.PHONY : 01Sequences2.o
+
+# target to build an object file
+01Sequences2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01Sequences2.dir/build.make CMakeFiles/01Sequences2.dir/01Sequences2.cpp.o
+.PHONY : 01Sequences2.cpp.o
+
+01Sequences2.i: 01Sequences2.cpp.i
+
+.PHONY : 01Sequences2.i
+
+# target to preprocess a source file
+01Sequences2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01Sequences2.dir/build.make CMakeFiles/01Sequences2.dir/01Sequences2.cpp.i
+.PHONY : 01Sequences2.cpp.i
+
+01Sequences2.s: 01Sequences2.cpp.s
+
+.PHONY : 01Sequences2.s
+
+# target to generate assembly for a file
+01Sequences2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/01Sequences2.dir/build.make CMakeFiles/01Sequences2.dir/01Sequences2.cpp.s
+.PHONY : 01Sequences2.cpp.s
+
+ACMScoringContest.o: ACMScoringContest.cpp.o
+
+.PHONY : ACMScoringContest.o
+
+# target to build an object file
+ACMScoringContest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ACMScoringContest.dir/build.make CMakeFiles/ACMScoringContest.dir/ACMScoringContest.cpp.o
+.PHONY : ACMScoringContest.cpp.o
+
+ACMScoringContest.i: ACMScoringContest.cpp.i
+
+.PHONY : ACMScoringContest.i
+
+# target to preprocess a source file
+ACMScoringContest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ACMScoringContest.dir/build.make CMakeFiles/ACMScoringContest.dir/ACMScoringContest.cpp.i
+.PHONY : ACMScoringContest.cpp.i
+
+ACMScoringContest.s: ACMScoringContest.cpp.s
+
+.PHONY : ACMScoringContest.s
+
+# target to generate assembly for a file
+ACMScoringContest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ACMScoringContest.dir/build.make CMakeFiles/ACMScoringContest.dir/ACMScoringContest.cpp.s
+.PHONY : ACMScoringContest.cpp.s
 
 WaifUntilDark.o: WaifUntilDark.cpp.o
 
@@ -338,11 +458,23 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... 01Sequences"
+	@echo "... 01Sequences2"
+	@echo "... ACMScoringContest"
 	@echo "... LostMap"
 	@echo "... LostMap2"
 	@echo "... SingleSourceNegativeWeights"
 	@echo "... Treehouse"
 	@echo "... WaifUntilDark"
+	@echo "... 01Sequences.o"
+	@echo "... 01Sequences.i"
+	@echo "... 01Sequences.s"
+	@echo "... 01Sequences2.o"
+	@echo "... 01Sequences2.i"
+	@echo "... 01Sequences2.s"
+	@echo "... ACMScoringContest.o"
+	@echo "... ACMScoringContest.i"
+	@echo "... ACMScoringContest.s"
 	@echo "... WaifUntilDark.o"
 	@echo "... WaifUntilDark.i"
 	@echo "... WaifUntilDark.s"
