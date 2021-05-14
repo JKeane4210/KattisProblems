@@ -131,6 +131,71 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named WaifUntilDark
+
+# Build rule for target.
+WaifUntilDark: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 WaifUntilDark
+.PHONY : WaifUntilDark
+
+# fast build rule for target.
+WaifUntilDark/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WaifUntilDark.dir/build.make CMakeFiles/WaifUntilDark.dir/build
+.PHONY : WaifUntilDark/fast
+
+#=============================================================================
+# Target rules for targets named LaptopSticker
+
+# Build rule for target.
+LaptopSticker: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 LaptopSticker
+.PHONY : LaptopSticker
+
+# fast build rule for target.
+LaptopSticker/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LaptopSticker.dir/build.make CMakeFiles/LaptopSticker.dir/build
+.PHONY : LaptopSticker/fast
+
+#=============================================================================
+# Target rules for targets named A1Paper
+
+# Build rule for target.
+A1Paper: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 A1Paper
+.PHONY : A1Paper
+
+# fast build rule for target.
+A1Paper/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A1Paper.dir/build.make CMakeFiles/A1Paper.dir/build
+.PHONY : A1Paper/fast
+
+#=============================================================================
+# Target rules for targets named SingleSourceNegativeWeights
+
+# Build rule for target.
+SingleSourceNegativeWeights: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SingleSourceNegativeWeights
+.PHONY : SingleSourceNegativeWeights
+
+# fast build rule for target.
+SingleSourceNegativeWeights/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SingleSourceNegativeWeights.dir/build.make CMakeFiles/SingleSourceNegativeWeights.dir/build
+.PHONY : SingleSourceNegativeWeights/fast
+
+#=============================================================================
+# Target rules for targets named LostMap2
+
+# Build rule for target.
+LostMap2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 LostMap2
+.PHONY : LostMap2
+
+# fast build rule for target.
+LostMap2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LostMap2.dir/build.make CMakeFiles/LostMap2.dir/build
+.PHONY : LostMap2/fast
+
+#=============================================================================
 # Target rules for targets named 01Sequences2
 
 # Build rule for target.
@@ -170,19 +235,6 @@ LostMap/fast:
 .PHONY : LostMap/fast
 
 #=============================================================================
-# Target rules for targets named LostMap2
-
-# Build rule for target.
-LostMap2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 LostMap2
-.PHONY : LostMap2
-
-# fast build rule for target.
-LostMap2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LostMap2.dir/build.make CMakeFiles/LostMap2.dir/build
-.PHONY : LostMap2/fast
-
-#=============================================================================
 # Target rules for targets named Treehouse
 
 # Build rule for target.
@@ -207,32 +259,6 @@ ACMScoringContest: cmake_check_build_system
 ACMScoringContest/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ACMScoringContest.dir/build.make CMakeFiles/ACMScoringContest.dir/build
 .PHONY : ACMScoringContest/fast
-
-#=============================================================================
-# Target rules for targets named WaifUntilDark
-
-# Build rule for target.
-WaifUntilDark: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 WaifUntilDark
-.PHONY : WaifUntilDark
-
-# fast build rule for target.
-WaifUntilDark/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/WaifUntilDark.dir/build.make CMakeFiles/WaifUntilDark.dir/build
-.PHONY : WaifUntilDark/fast
-
-#=============================================================================
-# Target rules for targets named SingleSourceNegativeWeights
-
-# Build rule for target.
-SingleSourceNegativeWeights: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SingleSourceNegativeWeights
-.PHONY : SingleSourceNegativeWeights
-
-# fast build rule for target.
-SingleSourceNegativeWeights/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SingleSourceNegativeWeights.dir/build.make CMakeFiles/SingleSourceNegativeWeights.dir/build
-.PHONY : SingleSourceNegativeWeights/fast
 
 01Sequences.o: 01Sequences.cpp.o
 
@@ -288,6 +314,33 @@ SingleSourceNegativeWeights/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/01Sequences2.dir/build.make CMakeFiles/01Sequences2.dir/01Sequences2.cpp.s
 .PHONY : 01Sequences2.cpp.s
 
+A1Paper.o: A1Paper.cpp.o
+
+.PHONY : A1Paper.o
+
+# target to build an object file
+A1Paper.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A1Paper.dir/build.make CMakeFiles/A1Paper.dir/A1Paper.cpp.o
+.PHONY : A1Paper.cpp.o
+
+A1Paper.i: A1Paper.cpp.i
+
+.PHONY : A1Paper.i
+
+# target to preprocess a source file
+A1Paper.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A1Paper.dir/build.make CMakeFiles/A1Paper.dir/A1Paper.cpp.i
+.PHONY : A1Paper.cpp.i
+
+A1Paper.s: A1Paper.cpp.s
+
+.PHONY : A1Paper.s
+
+# target to generate assembly for a file
+A1Paper.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A1Paper.dir/build.make CMakeFiles/A1Paper.dir/A1Paper.cpp.s
+.PHONY : A1Paper.cpp.s
+
 ACMScoringContest.o: ACMScoringContest.cpp.o
 
 .PHONY : ACMScoringContest.o
@@ -314,6 +367,33 @@ ACMScoringContest.s: ACMScoringContest.cpp.s
 ACMScoringContest.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ACMScoringContest.dir/build.make CMakeFiles/ACMScoringContest.dir/ACMScoringContest.cpp.s
 .PHONY : ACMScoringContest.cpp.s
+
+LaptopSticker.o: LaptopSticker.cpp.o
+
+.PHONY : LaptopSticker.o
+
+# target to build an object file
+LaptopSticker.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LaptopSticker.dir/build.make CMakeFiles/LaptopSticker.dir/LaptopSticker.cpp.o
+.PHONY : LaptopSticker.cpp.o
+
+LaptopSticker.i: LaptopSticker.cpp.i
+
+.PHONY : LaptopSticker.i
+
+# target to preprocess a source file
+LaptopSticker.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LaptopSticker.dir/build.make CMakeFiles/LaptopSticker.dir/LaptopSticker.cpp.i
+.PHONY : LaptopSticker.cpp.i
+
+LaptopSticker.s: LaptopSticker.cpp.s
+
+.PHONY : LaptopSticker.s
+
+# target to generate assembly for a file
+LaptopSticker.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LaptopSticker.dir/build.make CMakeFiles/LaptopSticker.dir/LaptopSticker.cpp.s
+.PHONY : LaptopSticker.cpp.s
 
 WaifUntilDark.o: WaifUntilDark.cpp.o
 
@@ -460,7 +540,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... 01Sequences"
 	@echo "... 01Sequences2"
+	@echo "... A1Paper"
 	@echo "... ACMScoringContest"
+	@echo "... LaptopSticker"
 	@echo "... LostMap"
 	@echo "... LostMap2"
 	@echo "... SingleSourceNegativeWeights"
@@ -472,9 +554,15 @@ help:
 	@echo "... 01Sequences2.o"
 	@echo "... 01Sequences2.i"
 	@echo "... 01Sequences2.s"
+	@echo "... A1Paper.o"
+	@echo "... A1Paper.i"
+	@echo "... A1Paper.s"
 	@echo "... ACMScoringContest.o"
 	@echo "... ACMScoringContest.i"
 	@echo "... ACMScoringContest.s"
+	@echo "... LaptopSticker.o"
+	@echo "... LaptopSticker.i"
+	@echo "... LaptopSticker.s"
 	@echo "... WaifUntilDark.o"
 	@echo "... WaifUntilDark.i"
 	@echo "... WaifUntilDark.s"

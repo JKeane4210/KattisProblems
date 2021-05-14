@@ -11,6 +11,8 @@ add_executable(LostMap2 lostMap2.cpp)
 add_executable(01Sequences 01Sequences.cpp)
 add_executable(01Sequences2 01Sequences2.cpp)
 add_executable(ACMScoringContest ACMScoringContest.cpp)
+add_executable(A1Paper A1Paper.cpp)
+add_executable(LaptopSticker LaptopSticker.cpp)
 
 #include_directories(/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++)
 #include_directories(/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1)
