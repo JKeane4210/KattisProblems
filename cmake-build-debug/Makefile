@@ -131,6 +131,97 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named RandomProblem
+
+# Build rule for target.
+RandomProblem: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 RandomProblem
+.PHONY : RandomProblem
+
+# fast build rule for target.
+RandomProblem/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RandomProblem.dir/build.make CMakeFiles/RandomProblem.dir/build
+.PHONY : RandomProblem/fast
+
+#=============================================================================
+# Target rules for targets named Difference
+
+# Build rule for target.
+Difference: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Difference
+.PHONY : Difference
+
+# fast build rule for target.
+Difference/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Difference.dir/build.make CMakeFiles/Difference.dir/build
+.PHONY : Difference/fast
+
+#=============================================================================
+# Target rules for targets named PunctiliousCruciverbalist
+
+# Build rule for target.
+PunctiliousCruciverbalist: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PunctiliousCruciverbalist
+.PHONY : PunctiliousCruciverbalist
+
+# fast build rule for target.
+PunctiliousCruciverbalist/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PunctiliousCruciverbalist.dir/build.make CMakeFiles/PunctiliousCruciverbalist.dir/build
+.PHONY : PunctiliousCruciverbalist/fast
+
+#=============================================================================
+# Target rules for targets named PizzaCutting
+
+# Build rule for target.
+PizzaCutting: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PizzaCutting
+.PHONY : PizzaCutting
+
+# fast build rule for target.
+PizzaCutting/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PizzaCutting.dir/build.make CMakeFiles/PizzaCutting.dir/build
+.PHONY : PizzaCutting/fast
+
+#=============================================================================
+# Target rules for targets named CarVet
+
+# Build rule for target.
+CarVet: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CarVet
+.PHONY : CarVet
+
+# fast build rule for target.
+CarVet/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CarVet.dir/build.make CMakeFiles/CarVet.dir/build
+.PHONY : CarVet/fast
+
+#=============================================================================
+# Target rules for targets named PearWiseVoting
+
+# Build rule for target.
+PearWiseVoting: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PearWiseVoting
+.PHONY : PearWiseVoting
+
+# fast build rule for target.
+PearWiseVoting/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PearWiseVoting.dir/build.make CMakeFiles/PearWiseVoting.dir/build
+.PHONY : PearWiseVoting/fast
+
+#=============================================================================
+# Target rules for targets named 10KindsOfPeople
+
+# Build rule for target.
+10KindsOfPeople: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 10KindsOfPeople
+.PHONY : 10KindsOfPeople
+
+# fast build rule for target.
+10KindsOfPeople/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/10KindsOfPeople.dir/build.make CMakeFiles/10KindsOfPeople.dir/build
+.PHONY : 10KindsOfPeople/fast
+
+#=============================================================================
 # Target rules for targets named WaifUntilDark
 
 # Build rule for target.
@@ -170,17 +261,17 @@ A1Paper/fast:
 .PHONY : A1Paper/fast
 
 #=============================================================================
-# Target rules for targets named SingleSourceNegativeWeights
+# Target rules for targets named RomanHolidays
 
 # Build rule for target.
-SingleSourceNegativeWeights: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SingleSourceNegativeWeights
-.PHONY : SingleSourceNegativeWeights
+RomanHolidays: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 RomanHolidays
+.PHONY : RomanHolidays
 
 # fast build rule for target.
-SingleSourceNegativeWeights/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SingleSourceNegativeWeights.dir/build.make CMakeFiles/SingleSourceNegativeWeights.dir/build
-.PHONY : SingleSourceNegativeWeights/fast
+RomanHolidays/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RomanHolidays.dir/build.make CMakeFiles/RomanHolidays.dir/build
+.PHONY : RomanHolidays/fast
 
 #=============================================================================
 # Target rules for targets named LostMap2
@@ -260,6 +351,32 @@ ACMScoringContest/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ACMScoringContest.dir/build.make CMakeFiles/ACMScoringContest.dir/build
 .PHONY : ACMScoringContest/fast
 
+#=============================================================================
+# Target rules for targets named ToursDeSalesForce
+
+# Build rule for target.
+ToursDeSalesForce: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ToursDeSalesForce
+.PHONY : ToursDeSalesForce
+
+# fast build rule for target.
+ToursDeSalesForce/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToursDeSalesForce.dir/build.make CMakeFiles/ToursDeSalesForce.dir/build
+.PHONY : ToursDeSalesForce/fast
+
+#=============================================================================
+# Target rules for targets named SingleSourceNegativeWeights
+
+# Build rule for target.
+SingleSourceNegativeWeights: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SingleSourceNegativeWeights
+.PHONY : SingleSourceNegativeWeights
+
+# fast build rule for target.
+SingleSourceNegativeWeights/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SingleSourceNegativeWeights.dir/build.make CMakeFiles/SingleSourceNegativeWeights.dir/build
+.PHONY : SingleSourceNegativeWeights/fast
+
 01Sequences.o: 01Sequences.cpp.o
 
 .PHONY : 01Sequences.o
@@ -313,6 +430,33 @@ ACMScoringContest/fast:
 01Sequences2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/01Sequences2.dir/build.make CMakeFiles/01Sequences2.dir/01Sequences2.cpp.s
 .PHONY : 01Sequences2.cpp.s
+
+10KindsOfPeople.o: 10KindsOfPeople.cpp.o
+
+.PHONY : 10KindsOfPeople.o
+
+# target to build an object file
+10KindsOfPeople.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/10KindsOfPeople.dir/build.make CMakeFiles/10KindsOfPeople.dir/10KindsOfPeople.cpp.o
+.PHONY : 10KindsOfPeople.cpp.o
+
+10KindsOfPeople.i: 10KindsOfPeople.cpp.i
+
+.PHONY : 10KindsOfPeople.i
+
+# target to preprocess a source file
+10KindsOfPeople.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/10KindsOfPeople.dir/build.make CMakeFiles/10KindsOfPeople.dir/10KindsOfPeople.cpp.i
+.PHONY : 10KindsOfPeople.cpp.i
+
+10KindsOfPeople.s: 10KindsOfPeople.cpp.s
+
+.PHONY : 10KindsOfPeople.s
+
+# target to generate assembly for a file
+10KindsOfPeople.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/10KindsOfPeople.dir/build.make CMakeFiles/10KindsOfPeople.dir/10KindsOfPeople.cpp.s
+.PHONY : 10KindsOfPeople.cpp.s
 
 A1Paper.o: A1Paper.cpp.o
 
@@ -394,6 +538,222 @@ LaptopSticker.s: LaptopSticker.cpp.s
 LaptopSticker.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LaptopSticker.dir/build.make CMakeFiles/LaptopSticker.dir/LaptopSticker.cpp.s
 .PHONY : LaptopSticker.cpp.s
+
+MSOE2021Summer/Week1/CarVet.o: MSOE2021Summer/Week1/CarVet.cpp.o
+
+.PHONY : MSOE2021Summer/Week1/CarVet.o
+
+# target to build an object file
+MSOE2021Summer/Week1/CarVet.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CarVet.dir/build.make CMakeFiles/CarVet.dir/MSOE2021Summer/Week1/CarVet.cpp.o
+.PHONY : MSOE2021Summer/Week1/CarVet.cpp.o
+
+MSOE2021Summer/Week1/CarVet.i: MSOE2021Summer/Week1/CarVet.cpp.i
+
+.PHONY : MSOE2021Summer/Week1/CarVet.i
+
+# target to preprocess a source file
+MSOE2021Summer/Week1/CarVet.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CarVet.dir/build.make CMakeFiles/CarVet.dir/MSOE2021Summer/Week1/CarVet.cpp.i
+.PHONY : MSOE2021Summer/Week1/CarVet.cpp.i
+
+MSOE2021Summer/Week1/CarVet.s: MSOE2021Summer/Week1/CarVet.cpp.s
+
+.PHONY : MSOE2021Summer/Week1/CarVet.s
+
+# target to generate assembly for a file
+MSOE2021Summer/Week1/CarVet.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CarVet.dir/build.make CMakeFiles/CarVet.dir/MSOE2021Summer/Week1/CarVet.cpp.s
+.PHONY : MSOE2021Summer/Week1/CarVet.cpp.s
+
+MSOE2021Summer/Week1/Difference.o: MSOE2021Summer/Week1/Difference.cpp.o
+
+.PHONY : MSOE2021Summer/Week1/Difference.o
+
+# target to build an object file
+MSOE2021Summer/Week1/Difference.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Difference.dir/build.make CMakeFiles/Difference.dir/MSOE2021Summer/Week1/Difference.cpp.o
+.PHONY : MSOE2021Summer/Week1/Difference.cpp.o
+
+MSOE2021Summer/Week1/Difference.i: MSOE2021Summer/Week1/Difference.cpp.i
+
+.PHONY : MSOE2021Summer/Week1/Difference.i
+
+# target to preprocess a source file
+MSOE2021Summer/Week1/Difference.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Difference.dir/build.make CMakeFiles/Difference.dir/MSOE2021Summer/Week1/Difference.cpp.i
+.PHONY : MSOE2021Summer/Week1/Difference.cpp.i
+
+MSOE2021Summer/Week1/Difference.s: MSOE2021Summer/Week1/Difference.cpp.s
+
+.PHONY : MSOE2021Summer/Week1/Difference.s
+
+# target to generate assembly for a file
+MSOE2021Summer/Week1/Difference.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Difference.dir/build.make CMakeFiles/Difference.dir/MSOE2021Summer/Week1/Difference.cpp.s
+.PHONY : MSOE2021Summer/Week1/Difference.cpp.s
+
+MSOE2021Summer/Week1/PearWiseVoting.o: MSOE2021Summer/Week1/PearWiseVoting.cpp.o
+
+.PHONY : MSOE2021Summer/Week1/PearWiseVoting.o
+
+# target to build an object file
+MSOE2021Summer/Week1/PearWiseVoting.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PearWiseVoting.dir/build.make CMakeFiles/PearWiseVoting.dir/MSOE2021Summer/Week1/PearWiseVoting.cpp.o
+.PHONY : MSOE2021Summer/Week1/PearWiseVoting.cpp.o
+
+MSOE2021Summer/Week1/PearWiseVoting.i: MSOE2021Summer/Week1/PearWiseVoting.cpp.i
+
+.PHONY : MSOE2021Summer/Week1/PearWiseVoting.i
+
+# target to preprocess a source file
+MSOE2021Summer/Week1/PearWiseVoting.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PearWiseVoting.dir/build.make CMakeFiles/PearWiseVoting.dir/MSOE2021Summer/Week1/PearWiseVoting.cpp.i
+.PHONY : MSOE2021Summer/Week1/PearWiseVoting.cpp.i
+
+MSOE2021Summer/Week1/PearWiseVoting.s: MSOE2021Summer/Week1/PearWiseVoting.cpp.s
+
+.PHONY : MSOE2021Summer/Week1/PearWiseVoting.s
+
+# target to generate assembly for a file
+MSOE2021Summer/Week1/PearWiseVoting.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PearWiseVoting.dir/build.make CMakeFiles/PearWiseVoting.dir/MSOE2021Summer/Week1/PearWiseVoting.cpp.s
+.PHONY : MSOE2021Summer/Week1/PearWiseVoting.cpp.s
+
+MSOE2021Summer/Week1/PizzaCutting.o: MSOE2021Summer/Week1/PizzaCutting.cpp.o
+
+.PHONY : MSOE2021Summer/Week1/PizzaCutting.o
+
+# target to build an object file
+MSOE2021Summer/Week1/PizzaCutting.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PizzaCutting.dir/build.make CMakeFiles/PizzaCutting.dir/MSOE2021Summer/Week1/PizzaCutting.cpp.o
+.PHONY : MSOE2021Summer/Week1/PizzaCutting.cpp.o
+
+MSOE2021Summer/Week1/PizzaCutting.i: MSOE2021Summer/Week1/PizzaCutting.cpp.i
+
+.PHONY : MSOE2021Summer/Week1/PizzaCutting.i
+
+# target to preprocess a source file
+MSOE2021Summer/Week1/PizzaCutting.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PizzaCutting.dir/build.make CMakeFiles/PizzaCutting.dir/MSOE2021Summer/Week1/PizzaCutting.cpp.i
+.PHONY : MSOE2021Summer/Week1/PizzaCutting.cpp.i
+
+MSOE2021Summer/Week1/PizzaCutting.s: MSOE2021Summer/Week1/PizzaCutting.cpp.s
+
+.PHONY : MSOE2021Summer/Week1/PizzaCutting.s
+
+# target to generate assembly for a file
+MSOE2021Summer/Week1/PizzaCutting.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PizzaCutting.dir/build.make CMakeFiles/PizzaCutting.dir/MSOE2021Summer/Week1/PizzaCutting.cpp.s
+.PHONY : MSOE2021Summer/Week1/PizzaCutting.cpp.s
+
+MSOE2021Summer/Week1/PunctiliousCruciverbalist.o: MSOE2021Summer/Week1/PunctiliousCruciverbalist.cpp.o
+
+.PHONY : MSOE2021Summer/Week1/PunctiliousCruciverbalist.o
+
+# target to build an object file
+MSOE2021Summer/Week1/PunctiliousCruciverbalist.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PunctiliousCruciverbalist.dir/build.make CMakeFiles/PunctiliousCruciverbalist.dir/MSOE2021Summer/Week1/PunctiliousCruciverbalist.cpp.o
+.PHONY : MSOE2021Summer/Week1/PunctiliousCruciverbalist.cpp.o
+
+MSOE2021Summer/Week1/PunctiliousCruciverbalist.i: MSOE2021Summer/Week1/PunctiliousCruciverbalist.cpp.i
+
+.PHONY : MSOE2021Summer/Week1/PunctiliousCruciverbalist.i
+
+# target to preprocess a source file
+MSOE2021Summer/Week1/PunctiliousCruciverbalist.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PunctiliousCruciverbalist.dir/build.make CMakeFiles/PunctiliousCruciverbalist.dir/MSOE2021Summer/Week1/PunctiliousCruciverbalist.cpp.i
+.PHONY : MSOE2021Summer/Week1/PunctiliousCruciverbalist.cpp.i
+
+MSOE2021Summer/Week1/PunctiliousCruciverbalist.s: MSOE2021Summer/Week1/PunctiliousCruciverbalist.cpp.s
+
+.PHONY : MSOE2021Summer/Week1/PunctiliousCruciverbalist.s
+
+# target to generate assembly for a file
+MSOE2021Summer/Week1/PunctiliousCruciverbalist.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PunctiliousCruciverbalist.dir/build.make CMakeFiles/PunctiliousCruciverbalist.dir/MSOE2021Summer/Week1/PunctiliousCruciverbalist.cpp.s
+.PHONY : MSOE2021Summer/Week1/PunctiliousCruciverbalist.cpp.s
+
+MSOE2021Summer/Week1/RandomProblem.o: MSOE2021Summer/Week1/RandomProblem.cpp.o
+
+.PHONY : MSOE2021Summer/Week1/RandomProblem.o
+
+# target to build an object file
+MSOE2021Summer/Week1/RandomProblem.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RandomProblem.dir/build.make CMakeFiles/RandomProblem.dir/MSOE2021Summer/Week1/RandomProblem.cpp.o
+.PHONY : MSOE2021Summer/Week1/RandomProblem.cpp.o
+
+MSOE2021Summer/Week1/RandomProblem.i: MSOE2021Summer/Week1/RandomProblem.cpp.i
+
+.PHONY : MSOE2021Summer/Week1/RandomProblem.i
+
+# target to preprocess a source file
+MSOE2021Summer/Week1/RandomProblem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RandomProblem.dir/build.make CMakeFiles/RandomProblem.dir/MSOE2021Summer/Week1/RandomProblem.cpp.i
+.PHONY : MSOE2021Summer/Week1/RandomProblem.cpp.i
+
+MSOE2021Summer/Week1/RandomProblem.s: MSOE2021Summer/Week1/RandomProblem.cpp.s
+
+.PHONY : MSOE2021Summer/Week1/RandomProblem.s
+
+# target to generate assembly for a file
+MSOE2021Summer/Week1/RandomProblem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RandomProblem.dir/build.make CMakeFiles/RandomProblem.dir/MSOE2021Summer/Week1/RandomProblem.cpp.s
+.PHONY : MSOE2021Summer/Week1/RandomProblem.cpp.s
+
+MSOE2021Summer/Week1/RomanHolidays.o: MSOE2021Summer/Week1/RomanHolidays.cpp.o
+
+.PHONY : MSOE2021Summer/Week1/RomanHolidays.o
+
+# target to build an object file
+MSOE2021Summer/Week1/RomanHolidays.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RomanHolidays.dir/build.make CMakeFiles/RomanHolidays.dir/MSOE2021Summer/Week1/RomanHolidays.cpp.o
+.PHONY : MSOE2021Summer/Week1/RomanHolidays.cpp.o
+
+MSOE2021Summer/Week1/RomanHolidays.i: MSOE2021Summer/Week1/RomanHolidays.cpp.i
+
+.PHONY : MSOE2021Summer/Week1/RomanHolidays.i
+
+# target to preprocess a source file
+MSOE2021Summer/Week1/RomanHolidays.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RomanHolidays.dir/build.make CMakeFiles/RomanHolidays.dir/MSOE2021Summer/Week1/RomanHolidays.cpp.i
+.PHONY : MSOE2021Summer/Week1/RomanHolidays.cpp.i
+
+MSOE2021Summer/Week1/RomanHolidays.s: MSOE2021Summer/Week1/RomanHolidays.cpp.s
+
+.PHONY : MSOE2021Summer/Week1/RomanHolidays.s
+
+# target to generate assembly for a file
+MSOE2021Summer/Week1/RomanHolidays.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RomanHolidays.dir/build.make CMakeFiles/RomanHolidays.dir/MSOE2021Summer/Week1/RomanHolidays.cpp.s
+.PHONY : MSOE2021Summer/Week1/RomanHolidays.cpp.s
+
+MSOE2021Summer/Week1/ToursDeSalesForce.o: MSOE2021Summer/Week1/ToursDeSalesForce.cpp.o
+
+.PHONY : MSOE2021Summer/Week1/ToursDeSalesForce.o
+
+# target to build an object file
+MSOE2021Summer/Week1/ToursDeSalesForce.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToursDeSalesForce.dir/build.make CMakeFiles/ToursDeSalesForce.dir/MSOE2021Summer/Week1/ToursDeSalesForce.cpp.o
+.PHONY : MSOE2021Summer/Week1/ToursDeSalesForce.cpp.o
+
+MSOE2021Summer/Week1/ToursDeSalesForce.i: MSOE2021Summer/Week1/ToursDeSalesForce.cpp.i
+
+.PHONY : MSOE2021Summer/Week1/ToursDeSalesForce.i
+
+# target to preprocess a source file
+MSOE2021Summer/Week1/ToursDeSalesForce.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToursDeSalesForce.dir/build.make CMakeFiles/ToursDeSalesForce.dir/MSOE2021Summer/Week1/ToursDeSalesForce.cpp.i
+.PHONY : MSOE2021Summer/Week1/ToursDeSalesForce.cpp.i
+
+MSOE2021Summer/Week1/ToursDeSalesForce.s: MSOE2021Summer/Week1/ToursDeSalesForce.cpp.s
+
+.PHONY : MSOE2021Summer/Week1/ToursDeSalesForce.s
+
+# target to generate assembly for a file
+MSOE2021Summer/Week1/ToursDeSalesForce.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToursDeSalesForce.dir/build.make CMakeFiles/ToursDeSalesForce.dir/MSOE2021Summer/Week1/ToursDeSalesForce.cpp.s
+.PHONY : MSOE2021Summer/Week1/ToursDeSalesForce.cpp.s
 
 WaifUntilDark.o: WaifUntilDark.cpp.o
 
@@ -540,12 +900,21 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... 01Sequences"
 	@echo "... 01Sequences2"
+	@echo "... 10KindsOfPeople"
 	@echo "... A1Paper"
 	@echo "... ACMScoringContest"
+	@echo "... CarVet"
+	@echo "... Difference"
 	@echo "... LaptopSticker"
 	@echo "... LostMap"
 	@echo "... LostMap2"
+	@echo "... PearWiseVoting"
+	@echo "... PizzaCutting"
+	@echo "... PunctiliousCruciverbalist"
+	@echo "... RandomProblem"
+	@echo "... RomanHolidays"
 	@echo "... SingleSourceNegativeWeights"
+	@echo "... ToursDeSalesForce"
 	@echo "... Treehouse"
 	@echo "... WaifUntilDark"
 	@echo "... 01Sequences.o"
@@ -554,6 +923,9 @@ help:
 	@echo "... 01Sequences2.o"
 	@echo "... 01Sequences2.i"
 	@echo "... 01Sequences2.s"
+	@echo "... 10KindsOfPeople.o"
+	@echo "... 10KindsOfPeople.i"
+	@echo "... 10KindsOfPeople.s"
 	@echo "... A1Paper.o"
 	@echo "... A1Paper.i"
 	@echo "... A1Paper.s"
@@ -563,6 +935,30 @@ help:
 	@echo "... LaptopSticker.o"
 	@echo "... LaptopSticker.i"
 	@echo "... LaptopSticker.s"
+	@echo "... MSOE2021Summer/Week1/CarVet.o"
+	@echo "... MSOE2021Summer/Week1/CarVet.i"
+	@echo "... MSOE2021Summer/Week1/CarVet.s"
+	@echo "... MSOE2021Summer/Week1/Difference.o"
+	@echo "... MSOE2021Summer/Week1/Difference.i"
+	@echo "... MSOE2021Summer/Week1/Difference.s"
+	@echo "... MSOE2021Summer/Week1/PearWiseVoting.o"
+	@echo "... MSOE2021Summer/Week1/PearWiseVoting.i"
+	@echo "... MSOE2021Summer/Week1/PearWiseVoting.s"
+	@echo "... MSOE2021Summer/Week1/PizzaCutting.o"
+	@echo "... MSOE2021Summer/Week1/PizzaCutting.i"
+	@echo "... MSOE2021Summer/Week1/PizzaCutting.s"
+	@echo "... MSOE2021Summer/Week1/PunctiliousCruciverbalist.o"
+	@echo "... MSOE2021Summer/Week1/PunctiliousCruciverbalist.i"
+	@echo "... MSOE2021Summer/Week1/PunctiliousCruciverbalist.s"
+	@echo "... MSOE2021Summer/Week1/RandomProblem.o"
+	@echo "... MSOE2021Summer/Week1/RandomProblem.i"
+	@echo "... MSOE2021Summer/Week1/RandomProblem.s"
+	@echo "... MSOE2021Summer/Week1/RomanHolidays.o"
+	@echo "... MSOE2021Summer/Week1/RomanHolidays.i"
+	@echo "... MSOE2021Summer/Week1/RomanHolidays.s"
+	@echo "... MSOE2021Summer/Week1/ToursDeSalesForce.o"
+	@echo "... MSOE2021Summer/Week1/ToursDeSalesForce.i"
+	@echo "... MSOE2021Summer/Week1/ToursDeSalesForce.s"
 	@echo "... WaifUntilDark.o"
 	@echo "... WaifUntilDark.i"
 	@echo "... WaifUntilDark.s"
