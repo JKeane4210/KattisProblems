@@ -157,6 +157,19 @@ Difference/fast:
 .PHONY : Difference/fast
 
 #=============================================================================
+# Target rules for targets named LandlineTelephoneNetwork
+
+# Build rule for target.
+LandlineTelephoneNetwork: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 LandlineTelephoneNetwork
+.PHONY : LandlineTelephoneNetwork
+
+# fast build rule for target.
+LandlineTelephoneNetwork/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LandlineTelephoneNetwork.dir/build.make CMakeFiles/LandlineTelephoneNetwork.dir/build
+.PHONY : LandlineTelephoneNetwork/fast
+
+#=============================================================================
 # Target rules for targets named PunctiliousCruciverbalist
 
 # Build rule for target.
@@ -259,6 +272,19 @@ A1Paper: cmake_check_build_system
 A1Paper/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/A1Paper.dir/build.make CMakeFiles/A1Paper.dir/build
 .PHONY : A1Paper/fast
+
+#=============================================================================
+# Target rules for targets named LockedTreasure
+
+# Build rule for target.
+LockedTreasure: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 LockedTreasure
+.PHONY : LockedTreasure
+
+# fast build rule for target.
+LockedTreasure/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LockedTreasure.dir/build.make CMakeFiles/LockedTreasure.dir/build
+.PHONY : LockedTreasure/fast
 
 #=============================================================================
 # Target rules for targets named RomanHolidays
@@ -755,6 +781,60 @@ MSOE2021Summer/Week1/ToursDeSalesForce.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToursDeSalesForce.dir/build.make CMakeFiles/ToursDeSalesForce.dir/MSOE2021Summer/Week1/ToursDeSalesForce.cpp.s
 .PHONY : MSOE2021Summer/Week1/ToursDeSalesForce.cpp.s
 
+MSOE2021Summer/Week2/LandlineTelephoneNetwork2.o: MSOE2021Summer/Week2/LandlineTelephoneNetwork2.cpp.o
+
+.PHONY : MSOE2021Summer/Week2/LandlineTelephoneNetwork2.o
+
+# target to build an object file
+MSOE2021Summer/Week2/LandlineTelephoneNetwork2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LandlineTelephoneNetwork.dir/build.make CMakeFiles/LandlineTelephoneNetwork.dir/MSOE2021Summer/Week2/LandlineTelephoneNetwork2.cpp.o
+.PHONY : MSOE2021Summer/Week2/LandlineTelephoneNetwork2.cpp.o
+
+MSOE2021Summer/Week2/LandlineTelephoneNetwork2.i: MSOE2021Summer/Week2/LandlineTelephoneNetwork2.cpp.i
+
+.PHONY : MSOE2021Summer/Week2/LandlineTelephoneNetwork2.i
+
+# target to preprocess a source file
+MSOE2021Summer/Week2/LandlineTelephoneNetwork2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LandlineTelephoneNetwork.dir/build.make CMakeFiles/LandlineTelephoneNetwork.dir/MSOE2021Summer/Week2/LandlineTelephoneNetwork2.cpp.i
+.PHONY : MSOE2021Summer/Week2/LandlineTelephoneNetwork2.cpp.i
+
+MSOE2021Summer/Week2/LandlineTelephoneNetwork2.s: MSOE2021Summer/Week2/LandlineTelephoneNetwork2.cpp.s
+
+.PHONY : MSOE2021Summer/Week2/LandlineTelephoneNetwork2.s
+
+# target to generate assembly for a file
+MSOE2021Summer/Week2/LandlineTelephoneNetwork2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LandlineTelephoneNetwork.dir/build.make CMakeFiles/LandlineTelephoneNetwork.dir/MSOE2021Summer/Week2/LandlineTelephoneNetwork2.cpp.s
+.PHONY : MSOE2021Summer/Week2/LandlineTelephoneNetwork2.cpp.s
+
+MSOE2021Summer/Week2/LockedTreasure.o: MSOE2021Summer/Week2/LockedTreasure.cpp.o
+
+.PHONY : MSOE2021Summer/Week2/LockedTreasure.o
+
+# target to build an object file
+MSOE2021Summer/Week2/LockedTreasure.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LockedTreasure.dir/build.make CMakeFiles/LockedTreasure.dir/MSOE2021Summer/Week2/LockedTreasure.cpp.o
+.PHONY : MSOE2021Summer/Week2/LockedTreasure.cpp.o
+
+MSOE2021Summer/Week2/LockedTreasure.i: MSOE2021Summer/Week2/LockedTreasure.cpp.i
+
+.PHONY : MSOE2021Summer/Week2/LockedTreasure.i
+
+# target to preprocess a source file
+MSOE2021Summer/Week2/LockedTreasure.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LockedTreasure.dir/build.make CMakeFiles/LockedTreasure.dir/MSOE2021Summer/Week2/LockedTreasure.cpp.i
+.PHONY : MSOE2021Summer/Week2/LockedTreasure.cpp.i
+
+MSOE2021Summer/Week2/LockedTreasure.s: MSOE2021Summer/Week2/LockedTreasure.cpp.s
+
+.PHONY : MSOE2021Summer/Week2/LockedTreasure.s
+
+# target to generate assembly for a file
+MSOE2021Summer/Week2/LockedTreasure.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LockedTreasure.dir/build.make CMakeFiles/LockedTreasure.dir/MSOE2021Summer/Week2/LockedTreasure.cpp.s
+.PHONY : MSOE2021Summer/Week2/LockedTreasure.cpp.s
+
 WaifUntilDark.o: WaifUntilDark.cpp.o
 
 .PHONY : WaifUntilDark.o
@@ -905,7 +985,9 @@ help:
 	@echo "... ACMScoringContest"
 	@echo "... CarVet"
 	@echo "... Difference"
+	@echo "... LandlineTelephoneNetwork"
 	@echo "... LaptopSticker"
+	@echo "... LockedTreasure"
 	@echo "... LostMap"
 	@echo "... LostMap2"
 	@echo "... PearWiseVoting"
@@ -959,6 +1041,12 @@ help:
 	@echo "... MSOE2021Summer/Week1/ToursDeSalesForce.o"
 	@echo "... MSOE2021Summer/Week1/ToursDeSalesForce.i"
 	@echo "... MSOE2021Summer/Week1/ToursDeSalesForce.s"
+	@echo "... MSOE2021Summer/Week2/LandlineTelephoneNetwork2.o"
+	@echo "... MSOE2021Summer/Week2/LandlineTelephoneNetwork2.i"
+	@echo "... MSOE2021Summer/Week2/LandlineTelephoneNetwork2.s"
+	@echo "... MSOE2021Summer/Week2/LockedTreasure.o"
+	@echo "... MSOE2021Summer/Week2/LockedTreasure.i"
+	@echo "... MSOE2021Summer/Week2/LockedTreasure.s"
 	@echo "... WaifUntilDark.o"
 	@echo "... WaifUntilDark.i"
 	@echo "... WaifUntilDark.s"

@@ -23,7 +23,8 @@ add_executable(ToursDeSalesForce MSOE2021Summer/Week1/ToursDeSalesForce.cpp)
 add_executable(PunctiliousCruciverbalist MSOE2021Summer/Week1/PunctiliousCruciverbalist.cpp)
 add_executable(Difference MSOE2021Summer/Week1/Difference.cpp)
 add_executable(RandomProblem MSOE2021Summer/Week1/RandomProblem.cpp)
-
+add_executable(LandlineTelephoneNetwork MSOE2021Summer/Week2/LandlineTelephoneNetwork2.cpp)
+add_executable(LockedTreasure MSOE2021Summer/Week2/LockedTreasure.cpp)
 
 #include_directories(/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++)
 #include_directories(/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1)
