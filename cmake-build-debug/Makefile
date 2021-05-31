@@ -131,6 +131,58 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Server
+
+# Build rule for target.
+Server: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Server
+.PHONY : Server
+
+# fast build rule for target.
+Server/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/build
+.PHONY : Server/fast
+
+#=============================================================================
+# Target rules for targets named LandlineTelephoneNetwork
+
+# Build rule for target.
+LandlineTelephoneNetwork: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 LandlineTelephoneNetwork
+.PHONY : LandlineTelephoneNetwork
+
+# fast build rule for target.
+LandlineTelephoneNetwork/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LandlineTelephoneNetwork.dir/build.make CMakeFiles/LandlineTelephoneNetwork.dir/build
+.PHONY : LandlineTelephoneNetwork/fast
+
+#=============================================================================
+# Target rules for targets named FacilityLocations
+
+# Build rule for target.
+FacilityLocations: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FacilityLocations
+.PHONY : FacilityLocations
+
+# fast build rule for target.
+FacilityLocations/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FacilityLocations.dir/build.make CMakeFiles/FacilityLocations.dir/build
+.PHONY : FacilityLocations/fast
+
+#=============================================================================
+# Target rules for targets named RestaurantRatings
+
+# Build rule for target.
+RestaurantRatings: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 RestaurantRatings
+.PHONY : RestaurantRatings
+
+# fast build rule for target.
+RestaurantRatings/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RestaurantRatings.dir/build.make CMakeFiles/RestaurantRatings.dir/build
+.PHONY : RestaurantRatings/fast
+
+#=============================================================================
 # Target rules for targets named RandomProblem
 
 # Build rule for target.
@@ -142,6 +194,19 @@ RandomProblem: cmake_check_build_system
 RandomProblem/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RandomProblem.dir/build.make CMakeFiles/RandomProblem.dir/build
 .PHONY : RandomProblem/fast
+
+#=============================================================================
+# Target rules for targets named A1Paper
+
+# Build rule for target.
+A1Paper: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 A1Paper
+.PHONY : A1Paper
+
+# fast build rule for target.
+A1Paper/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A1Paper.dir/build.make CMakeFiles/A1Paper.dir/build
+.PHONY : A1Paper/fast
 
 #=============================================================================
 # Target rules for targets named Difference
@@ -157,17 +222,17 @@ Difference/fast:
 .PHONY : Difference/fast
 
 #=============================================================================
-# Target rules for targets named LandlineTelephoneNetwork
+# Target rules for targets named Treehouse
 
 # Build rule for target.
-LandlineTelephoneNetwork: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 LandlineTelephoneNetwork
-.PHONY : LandlineTelephoneNetwork
+Treehouse: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Treehouse
+.PHONY : Treehouse
 
 # fast build rule for target.
-LandlineTelephoneNetwork/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LandlineTelephoneNetwork.dir/build.make CMakeFiles/LandlineTelephoneNetwork.dir/build
-.PHONY : LandlineTelephoneNetwork/fast
+Treehouse/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Treehouse.dir/build.make CMakeFiles/Treehouse.dir/build
+.PHONY : Treehouse/fast
 
 #=============================================================================
 # Target rules for targets named PunctiliousCruciverbalist
@@ -261,19 +326,6 @@ LaptopSticker/fast:
 .PHONY : LaptopSticker/fast
 
 #=============================================================================
-# Target rules for targets named A1Paper
-
-# Build rule for target.
-A1Paper: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 A1Paper
-.PHONY : A1Paper
-
-# fast build rule for target.
-A1Paper/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A1Paper.dir/build.make CMakeFiles/A1Paper.dir/build
-.PHONY : A1Paper/fast
-
-#=============================================================================
 # Target rules for targets named LockedTreasure
 
 # Build rule for target.
@@ -326,6 +378,19 @@ LostMap2/fast:
 .PHONY : 01Sequences2/fast
 
 #=============================================================================
+# Target rules for targets named SingleSourceNegativeWeights
+
+# Build rule for target.
+SingleSourceNegativeWeights: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SingleSourceNegativeWeights
+.PHONY : SingleSourceNegativeWeights
+
+# fast build rule for target.
+SingleSourceNegativeWeights/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SingleSourceNegativeWeights.dir/build.make CMakeFiles/SingleSourceNegativeWeights.dir/build
+.PHONY : SingleSourceNegativeWeights/fast
+
+#=============================================================================
 # Target rules for targets named 01Sequences
 
 # Build rule for target.
@@ -352,19 +417,6 @@ LostMap/fast:
 .PHONY : LostMap/fast
 
 #=============================================================================
-# Target rules for targets named Treehouse
-
-# Build rule for target.
-Treehouse: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Treehouse
-.PHONY : Treehouse
-
-# fast build rule for target.
-Treehouse/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Treehouse.dir/build.make CMakeFiles/Treehouse.dir/build
-.PHONY : Treehouse/fast
-
-#=============================================================================
 # Target rules for targets named ACMScoringContest
 
 # Build rule for target.
@@ -389,19 +441,6 @@ ToursDeSalesForce: cmake_check_build_system
 ToursDeSalesForce/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToursDeSalesForce.dir/build.make CMakeFiles/ToursDeSalesForce.dir/build
 .PHONY : ToursDeSalesForce/fast
-
-#=============================================================================
-# Target rules for targets named SingleSourceNegativeWeights
-
-# Build rule for target.
-SingleSourceNegativeWeights: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SingleSourceNegativeWeights
-.PHONY : SingleSourceNegativeWeights
-
-# fast build rule for target.
-SingleSourceNegativeWeights/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SingleSourceNegativeWeights.dir/build.make CMakeFiles/SingleSourceNegativeWeights.dir/build
-.PHONY : SingleSourceNegativeWeights/fast
 
 01Sequences.o: 01Sequences.cpp.o
 
@@ -781,6 +820,33 @@ MSOE2021Summer/Week1/ToursDeSalesForce.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToursDeSalesForce.dir/build.make CMakeFiles/ToursDeSalesForce.dir/MSOE2021Summer/Week1/ToursDeSalesForce.cpp.s
 .PHONY : MSOE2021Summer/Week1/ToursDeSalesForce.cpp.s
 
+MSOE2021Summer/Week2/FacilityLocations.o: MSOE2021Summer/Week2/FacilityLocations.cpp.o
+
+.PHONY : MSOE2021Summer/Week2/FacilityLocations.o
+
+# target to build an object file
+MSOE2021Summer/Week2/FacilityLocations.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FacilityLocations.dir/build.make CMakeFiles/FacilityLocations.dir/MSOE2021Summer/Week2/FacilityLocations.cpp.o
+.PHONY : MSOE2021Summer/Week2/FacilityLocations.cpp.o
+
+MSOE2021Summer/Week2/FacilityLocations.i: MSOE2021Summer/Week2/FacilityLocations.cpp.i
+
+.PHONY : MSOE2021Summer/Week2/FacilityLocations.i
+
+# target to preprocess a source file
+MSOE2021Summer/Week2/FacilityLocations.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FacilityLocations.dir/build.make CMakeFiles/FacilityLocations.dir/MSOE2021Summer/Week2/FacilityLocations.cpp.i
+.PHONY : MSOE2021Summer/Week2/FacilityLocations.cpp.i
+
+MSOE2021Summer/Week2/FacilityLocations.s: MSOE2021Summer/Week2/FacilityLocations.cpp.s
+
+.PHONY : MSOE2021Summer/Week2/FacilityLocations.s
+
+# target to generate assembly for a file
+MSOE2021Summer/Week2/FacilityLocations.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FacilityLocations.dir/build.make CMakeFiles/FacilityLocations.dir/MSOE2021Summer/Week2/FacilityLocations.cpp.s
+.PHONY : MSOE2021Summer/Week2/FacilityLocations.cpp.s
+
 MSOE2021Summer/Week2/LandlineTelephoneNetwork2.o: MSOE2021Summer/Week2/LandlineTelephoneNetwork2.cpp.o
 
 .PHONY : MSOE2021Summer/Week2/LandlineTelephoneNetwork2.o
@@ -834,6 +900,60 @@ MSOE2021Summer/Week2/LockedTreasure.s: MSOE2021Summer/Week2/LockedTreasure.cpp.s
 MSOE2021Summer/Week2/LockedTreasure.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LockedTreasure.dir/build.make CMakeFiles/LockedTreasure.dir/MSOE2021Summer/Week2/LockedTreasure.cpp.s
 .PHONY : MSOE2021Summer/Week2/LockedTreasure.cpp.s
+
+MSOE2021Summer/Week2/RestaurantRatings.o: MSOE2021Summer/Week2/RestaurantRatings.cpp.o
+
+.PHONY : MSOE2021Summer/Week2/RestaurantRatings.o
+
+# target to build an object file
+MSOE2021Summer/Week2/RestaurantRatings.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RestaurantRatings.dir/build.make CMakeFiles/RestaurantRatings.dir/MSOE2021Summer/Week2/RestaurantRatings.cpp.o
+.PHONY : MSOE2021Summer/Week2/RestaurantRatings.cpp.o
+
+MSOE2021Summer/Week2/RestaurantRatings.i: MSOE2021Summer/Week2/RestaurantRatings.cpp.i
+
+.PHONY : MSOE2021Summer/Week2/RestaurantRatings.i
+
+# target to preprocess a source file
+MSOE2021Summer/Week2/RestaurantRatings.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RestaurantRatings.dir/build.make CMakeFiles/RestaurantRatings.dir/MSOE2021Summer/Week2/RestaurantRatings.cpp.i
+.PHONY : MSOE2021Summer/Week2/RestaurantRatings.cpp.i
+
+MSOE2021Summer/Week2/RestaurantRatings.s: MSOE2021Summer/Week2/RestaurantRatings.cpp.s
+
+.PHONY : MSOE2021Summer/Week2/RestaurantRatings.s
+
+# target to generate assembly for a file
+MSOE2021Summer/Week2/RestaurantRatings.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RestaurantRatings.dir/build.make CMakeFiles/RestaurantRatings.dir/MSOE2021Summer/Week2/RestaurantRatings.cpp.s
+.PHONY : MSOE2021Summer/Week2/RestaurantRatings.cpp.s
+
+MSOE2021Summer/Week2/Server.o: MSOE2021Summer/Week2/Server.cpp.o
+
+.PHONY : MSOE2021Summer/Week2/Server.o
+
+# target to build an object file
+MSOE2021Summer/Week2/Server.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/MSOE2021Summer/Week2/Server.cpp.o
+.PHONY : MSOE2021Summer/Week2/Server.cpp.o
+
+MSOE2021Summer/Week2/Server.i: MSOE2021Summer/Week2/Server.cpp.i
+
+.PHONY : MSOE2021Summer/Week2/Server.i
+
+# target to preprocess a source file
+MSOE2021Summer/Week2/Server.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/MSOE2021Summer/Week2/Server.cpp.i
+.PHONY : MSOE2021Summer/Week2/Server.cpp.i
+
+MSOE2021Summer/Week2/Server.s: MSOE2021Summer/Week2/Server.cpp.s
+
+.PHONY : MSOE2021Summer/Week2/Server.s
+
+# target to generate assembly for a file
+MSOE2021Summer/Week2/Server.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/MSOE2021Summer/Week2/Server.cpp.s
+.PHONY : MSOE2021Summer/Week2/Server.cpp.s
 
 WaifUntilDark.o: WaifUntilDark.cpp.o
 
@@ -985,6 +1105,7 @@ help:
 	@echo "... ACMScoringContest"
 	@echo "... CarVet"
 	@echo "... Difference"
+	@echo "... FacilityLocations"
 	@echo "... LandlineTelephoneNetwork"
 	@echo "... LaptopSticker"
 	@echo "... LockedTreasure"
@@ -994,7 +1115,9 @@ help:
 	@echo "... PizzaCutting"
 	@echo "... PunctiliousCruciverbalist"
 	@echo "... RandomProblem"
+	@echo "... RestaurantRatings"
 	@echo "... RomanHolidays"
+	@echo "... Server"
 	@echo "... SingleSourceNegativeWeights"
 	@echo "... ToursDeSalesForce"
 	@echo "... Treehouse"
@@ -1041,12 +1164,21 @@ help:
 	@echo "... MSOE2021Summer/Week1/ToursDeSalesForce.o"
 	@echo "... MSOE2021Summer/Week1/ToursDeSalesForce.i"
 	@echo "... MSOE2021Summer/Week1/ToursDeSalesForce.s"
+	@echo "... MSOE2021Summer/Week2/FacilityLocations.o"
+	@echo "... MSOE2021Summer/Week2/FacilityLocations.i"
+	@echo "... MSOE2021Summer/Week2/FacilityLocations.s"
 	@echo "... MSOE2021Summer/Week2/LandlineTelephoneNetwork2.o"
 	@echo "... MSOE2021Summer/Week2/LandlineTelephoneNetwork2.i"
 	@echo "... MSOE2021Summer/Week2/LandlineTelephoneNetwork2.s"
 	@echo "... MSOE2021Summer/Week2/LockedTreasure.o"
 	@echo "... MSOE2021Summer/Week2/LockedTreasure.i"
 	@echo "... MSOE2021Summer/Week2/LockedTreasure.s"
+	@echo "... MSOE2021Summer/Week2/RestaurantRatings.o"
+	@echo "... MSOE2021Summer/Week2/RestaurantRatings.i"
+	@echo "... MSOE2021Summer/Week2/RestaurantRatings.s"
+	@echo "... MSOE2021Summer/Week2/Server.o"
+	@echo "... MSOE2021Summer/Week2/Server.i"
+	@echo "... MSOE2021Summer/Week2/Server.s"
 	@echo "... WaifUntilDark.o"
 	@echo "... WaifUntilDark.i"
 	@echo "... WaifUntilDark.s"
