@@ -43,10 +43,6 @@ long perms(int sum, int n) {
     }
 }
 
-long perms2(int sum, int n) {
-
-}
-
 void solve(const int* ratings, int n, int sum) {
     long res = 0;
     res += perms(sum - 1, n);

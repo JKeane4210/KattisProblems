@@ -52,6 +52,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/AquariumTank.dir/DependInfo.cmake"
   "CMakeFiles/Server.dir/DependInfo.cmake"
   "CMakeFiles/LandlineTelephoneNetwork.dir/DependInfo.cmake"
   "CMakeFiles/FacilityLocations.dir/DependInfo.cmake"
@@ -68,12 +69,15 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/WaifUntilDark.dir/DependInfo.cmake"
   "CMakeFiles/LaptopSticker.dir/DependInfo.cmake"
   "CMakeFiles/LockedTreasure.dir/DependInfo.cmake"
+  "CMakeFiles/ContinuedFraction.dir/DependInfo.cmake"
   "CMakeFiles/RomanHolidays.dir/DependInfo.cmake"
   "CMakeFiles/LostMap2.dir/DependInfo.cmake"
   "CMakeFiles/01Sequences2.dir/DependInfo.cmake"
+  "CMakeFiles/RepeatedSubstrings.dir/DependInfo.cmake"
   "CMakeFiles/SingleSourceNegativeWeights.dir/DependInfo.cmake"
   "CMakeFiles/01Sequences.dir/DependInfo.cmake"
   "CMakeFiles/LostMap.dir/DependInfo.cmake"
+  "CMakeFiles/PlaneTicketPricing.dir/DependInfo.cmake"
   "CMakeFiles/ACMScoringContest.dir/DependInfo.cmake"
   "CMakeFiles/ToursDeSalesForce.dir/DependInfo.cmake"
   )

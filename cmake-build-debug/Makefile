@@ -131,6 +131,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named AquariumTank
+
+# Build rule for target.
+AquariumTank: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 AquariumTank
+.PHONY : AquariumTank
+
+# fast build rule for target.
+AquariumTank/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AquariumTank.dir/build.make CMakeFiles/AquariumTank.dir/build
+.PHONY : AquariumTank/fast
+
+#=============================================================================
 # Target rules for targets named Server
 
 # Build rule for target.
@@ -339,6 +352,19 @@ LockedTreasure/fast:
 .PHONY : LockedTreasure/fast
 
 #=============================================================================
+# Target rules for targets named ContinuedFraction
+
+# Build rule for target.
+ContinuedFraction: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ContinuedFraction
+.PHONY : ContinuedFraction
+
+# fast build rule for target.
+ContinuedFraction/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ContinuedFraction.dir/build.make CMakeFiles/ContinuedFraction.dir/build
+.PHONY : ContinuedFraction/fast
+
+#=============================================================================
 # Target rules for targets named RomanHolidays
 
 # Build rule for target.
@@ -378,6 +404,19 @@ LostMap2/fast:
 .PHONY : 01Sequences2/fast
 
 #=============================================================================
+# Target rules for targets named RepeatedSubstrings
+
+# Build rule for target.
+RepeatedSubstrings: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 RepeatedSubstrings
+.PHONY : RepeatedSubstrings
+
+# fast build rule for target.
+RepeatedSubstrings/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RepeatedSubstrings.dir/build.make CMakeFiles/RepeatedSubstrings.dir/build
+.PHONY : RepeatedSubstrings/fast
+
+#=============================================================================
 # Target rules for targets named SingleSourceNegativeWeights
 
 # Build rule for target.
@@ -415,6 +454,19 @@ LostMap: cmake_check_build_system
 LostMap/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LostMap.dir/build.make CMakeFiles/LostMap.dir/build
 .PHONY : LostMap/fast
+
+#=============================================================================
+# Target rules for targets named PlaneTicketPricing
+
+# Build rule for target.
+PlaneTicketPricing: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PlaneTicketPricing
+.PHONY : PlaneTicketPricing
+
+# fast build rule for target.
+PlaneTicketPricing/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PlaneTicketPricing.dir/build.make CMakeFiles/PlaneTicketPricing.dir/build
+.PHONY : PlaneTicketPricing/fast
 
 #=============================================================================
 # Target rules for targets named ACMScoringContest
@@ -820,6 +872,60 @@ MSOE2021Summer/Week1/ToursDeSalesForce.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToursDeSalesForce.dir/build.make CMakeFiles/ToursDeSalesForce.dir/MSOE2021Summer/Week1/ToursDeSalesForce.cpp.s
 .PHONY : MSOE2021Summer/Week1/ToursDeSalesForce.cpp.s
 
+MSOE2021Summer/Week2/AquariumTank.o: MSOE2021Summer/Week2/AquariumTank.cpp.o
+
+.PHONY : MSOE2021Summer/Week2/AquariumTank.o
+
+# target to build an object file
+MSOE2021Summer/Week2/AquariumTank.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AquariumTank.dir/build.make CMakeFiles/AquariumTank.dir/MSOE2021Summer/Week2/AquariumTank.cpp.o
+.PHONY : MSOE2021Summer/Week2/AquariumTank.cpp.o
+
+MSOE2021Summer/Week2/AquariumTank.i: MSOE2021Summer/Week2/AquariumTank.cpp.i
+
+.PHONY : MSOE2021Summer/Week2/AquariumTank.i
+
+# target to preprocess a source file
+MSOE2021Summer/Week2/AquariumTank.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AquariumTank.dir/build.make CMakeFiles/AquariumTank.dir/MSOE2021Summer/Week2/AquariumTank.cpp.i
+.PHONY : MSOE2021Summer/Week2/AquariumTank.cpp.i
+
+MSOE2021Summer/Week2/AquariumTank.s: MSOE2021Summer/Week2/AquariumTank.cpp.s
+
+.PHONY : MSOE2021Summer/Week2/AquariumTank.s
+
+# target to generate assembly for a file
+MSOE2021Summer/Week2/AquariumTank.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AquariumTank.dir/build.make CMakeFiles/AquariumTank.dir/MSOE2021Summer/Week2/AquariumTank.cpp.s
+.PHONY : MSOE2021Summer/Week2/AquariumTank.cpp.s
+
+MSOE2021Summer/Week2/ContinuedFraction.o: MSOE2021Summer/Week2/ContinuedFraction.cpp.o
+
+.PHONY : MSOE2021Summer/Week2/ContinuedFraction.o
+
+# target to build an object file
+MSOE2021Summer/Week2/ContinuedFraction.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ContinuedFraction.dir/build.make CMakeFiles/ContinuedFraction.dir/MSOE2021Summer/Week2/ContinuedFraction.cpp.o
+.PHONY : MSOE2021Summer/Week2/ContinuedFraction.cpp.o
+
+MSOE2021Summer/Week2/ContinuedFraction.i: MSOE2021Summer/Week2/ContinuedFraction.cpp.i
+
+.PHONY : MSOE2021Summer/Week2/ContinuedFraction.i
+
+# target to preprocess a source file
+MSOE2021Summer/Week2/ContinuedFraction.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ContinuedFraction.dir/build.make CMakeFiles/ContinuedFraction.dir/MSOE2021Summer/Week2/ContinuedFraction.cpp.i
+.PHONY : MSOE2021Summer/Week2/ContinuedFraction.cpp.i
+
+MSOE2021Summer/Week2/ContinuedFraction.s: MSOE2021Summer/Week2/ContinuedFraction.cpp.s
+
+.PHONY : MSOE2021Summer/Week2/ContinuedFraction.s
+
+# target to generate assembly for a file
+MSOE2021Summer/Week2/ContinuedFraction.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ContinuedFraction.dir/build.make CMakeFiles/ContinuedFraction.dir/MSOE2021Summer/Week2/ContinuedFraction.cpp.s
+.PHONY : MSOE2021Summer/Week2/ContinuedFraction.cpp.s
+
 MSOE2021Summer/Week2/FacilityLocations.o: MSOE2021Summer/Week2/FacilityLocations.cpp.o
 
 .PHONY : MSOE2021Summer/Week2/FacilityLocations.o
@@ -900,6 +1006,60 @@ MSOE2021Summer/Week2/LockedTreasure.s: MSOE2021Summer/Week2/LockedTreasure.cpp.s
 MSOE2021Summer/Week2/LockedTreasure.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LockedTreasure.dir/build.make CMakeFiles/LockedTreasure.dir/MSOE2021Summer/Week2/LockedTreasure.cpp.s
 .PHONY : MSOE2021Summer/Week2/LockedTreasure.cpp.s
+
+MSOE2021Summer/Week2/PlaneTicketPricing.o: MSOE2021Summer/Week2/PlaneTicketPricing.cpp.o
+
+.PHONY : MSOE2021Summer/Week2/PlaneTicketPricing.o
+
+# target to build an object file
+MSOE2021Summer/Week2/PlaneTicketPricing.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PlaneTicketPricing.dir/build.make CMakeFiles/PlaneTicketPricing.dir/MSOE2021Summer/Week2/PlaneTicketPricing.cpp.o
+.PHONY : MSOE2021Summer/Week2/PlaneTicketPricing.cpp.o
+
+MSOE2021Summer/Week2/PlaneTicketPricing.i: MSOE2021Summer/Week2/PlaneTicketPricing.cpp.i
+
+.PHONY : MSOE2021Summer/Week2/PlaneTicketPricing.i
+
+# target to preprocess a source file
+MSOE2021Summer/Week2/PlaneTicketPricing.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PlaneTicketPricing.dir/build.make CMakeFiles/PlaneTicketPricing.dir/MSOE2021Summer/Week2/PlaneTicketPricing.cpp.i
+.PHONY : MSOE2021Summer/Week2/PlaneTicketPricing.cpp.i
+
+MSOE2021Summer/Week2/PlaneTicketPricing.s: MSOE2021Summer/Week2/PlaneTicketPricing.cpp.s
+
+.PHONY : MSOE2021Summer/Week2/PlaneTicketPricing.s
+
+# target to generate assembly for a file
+MSOE2021Summer/Week2/PlaneTicketPricing.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PlaneTicketPricing.dir/build.make CMakeFiles/PlaneTicketPricing.dir/MSOE2021Summer/Week2/PlaneTicketPricing.cpp.s
+.PHONY : MSOE2021Summer/Week2/PlaneTicketPricing.cpp.s
+
+MSOE2021Summer/Week2/RepeatedSubstrings.o: MSOE2021Summer/Week2/RepeatedSubstrings.cpp.o
+
+.PHONY : MSOE2021Summer/Week2/RepeatedSubstrings.o
+
+# target to build an object file
+MSOE2021Summer/Week2/RepeatedSubstrings.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RepeatedSubstrings.dir/build.make CMakeFiles/RepeatedSubstrings.dir/MSOE2021Summer/Week2/RepeatedSubstrings.cpp.o
+.PHONY : MSOE2021Summer/Week2/RepeatedSubstrings.cpp.o
+
+MSOE2021Summer/Week2/RepeatedSubstrings.i: MSOE2021Summer/Week2/RepeatedSubstrings.cpp.i
+
+.PHONY : MSOE2021Summer/Week2/RepeatedSubstrings.i
+
+# target to preprocess a source file
+MSOE2021Summer/Week2/RepeatedSubstrings.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RepeatedSubstrings.dir/build.make CMakeFiles/RepeatedSubstrings.dir/MSOE2021Summer/Week2/RepeatedSubstrings.cpp.i
+.PHONY : MSOE2021Summer/Week2/RepeatedSubstrings.cpp.i
+
+MSOE2021Summer/Week2/RepeatedSubstrings.s: MSOE2021Summer/Week2/RepeatedSubstrings.cpp.s
+
+.PHONY : MSOE2021Summer/Week2/RepeatedSubstrings.s
+
+# target to generate assembly for a file
+MSOE2021Summer/Week2/RepeatedSubstrings.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RepeatedSubstrings.dir/build.make CMakeFiles/RepeatedSubstrings.dir/MSOE2021Summer/Week2/RepeatedSubstrings.cpp.s
+.PHONY : MSOE2021Summer/Week2/RepeatedSubstrings.cpp.s
 
 MSOE2021Summer/Week2/RestaurantRatings.o: MSOE2021Summer/Week2/RestaurantRatings.cpp.o
 
@@ -1103,7 +1263,9 @@ help:
 	@echo "... 10KindsOfPeople"
 	@echo "... A1Paper"
 	@echo "... ACMScoringContest"
+	@echo "... AquariumTank"
 	@echo "... CarVet"
+	@echo "... ContinuedFraction"
 	@echo "... Difference"
 	@echo "... FacilityLocations"
 	@echo "... LandlineTelephoneNetwork"
@@ -1113,8 +1275,10 @@ help:
 	@echo "... LostMap2"
 	@echo "... PearWiseVoting"
 	@echo "... PizzaCutting"
+	@echo "... PlaneTicketPricing"
 	@echo "... PunctiliousCruciverbalist"
 	@echo "... RandomProblem"
+	@echo "... RepeatedSubstrings"
 	@echo "... RestaurantRatings"
 	@echo "... RomanHolidays"
 	@echo "... Server"
@@ -1164,6 +1328,12 @@ help:
 	@echo "... MSOE2021Summer/Week1/ToursDeSalesForce.o"
 	@echo "... MSOE2021Summer/Week1/ToursDeSalesForce.i"
 	@echo "... MSOE2021Summer/Week1/ToursDeSalesForce.s"
+	@echo "... MSOE2021Summer/Week2/AquariumTank.o"
+	@echo "... MSOE2021Summer/Week2/AquariumTank.i"
+	@echo "... MSOE2021Summer/Week2/AquariumTank.s"
+	@echo "... MSOE2021Summer/Week2/ContinuedFraction.o"
+	@echo "... MSOE2021Summer/Week2/ContinuedFraction.i"
+	@echo "... MSOE2021Summer/Week2/ContinuedFraction.s"
 	@echo "... MSOE2021Summer/Week2/FacilityLocations.o"
 	@echo "... MSOE2021Summer/Week2/FacilityLocations.i"
 	@echo "... MSOE2021Summer/Week2/FacilityLocations.s"
@@ -1173,6 +1343,12 @@ help:
 	@echo "... MSOE2021Summer/Week2/LockedTreasure.o"
 	@echo "... MSOE2021Summer/Week2/LockedTreasure.i"
 	@echo "... MSOE2021Summer/Week2/LockedTreasure.s"
+	@echo "... MSOE2021Summer/Week2/PlaneTicketPricing.o"
+	@echo "... MSOE2021Summer/Week2/PlaneTicketPricing.i"
+	@echo "... MSOE2021Summer/Week2/PlaneTicketPricing.s"
+	@echo "... MSOE2021Summer/Week2/RepeatedSubstrings.o"
+	@echo "... MSOE2021Summer/Week2/RepeatedSubstrings.i"
+	@echo "... MSOE2021Summer/Week2/RepeatedSubstrings.s"
 	@echo "... MSOE2021Summer/Week2/RestaurantRatings.o"
 	@echo "... MSOE2021Summer/Week2/RestaurantRatings.i"
 	@echo "... MSOE2021Summer/Week2/RestaurantRatings.s"

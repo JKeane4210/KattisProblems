@@ -34,8 +34,40 @@ using namespace std;
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(0);
+    const int MAX_SIZE = 100;
+    int m, n, k;
+    cin >> m >> n >> k;
+    bitset<MAX_SIZE> sets[m];
+    for (int i = 0; i < m; ++i) {
+        bitset<MAX_SIZE> set;
+        for (int j = 0; j < n; ++j) {
+            int next;
+            cin >> next;
+            if (next == 0) {
+                set[j] = true;
+            }
+        }
+        sets[i] = set;
+    }
 
-    // code here
+    int canHold = 0;
+    for (int i = 0; i < k; ++i) {
+        int maxNew = 0;
+        bitset<MAX_SIZE> max;
+        for (auto set: sets) {
+            if (set.count() > maxNew) {
+                maxNew = set.count();
+                max = set;
+            }
+        }
+        if (maxNew == 0) break;
+        canHold += maxNew;
+        for (int j = 0; j < m; ++j) {
+            sets[j] &= ~max;
+        }
+    }
+//    cout << canHold << endl;
+    cout << (canHold == n ? "yes" : "no") << endl;
 
     return 0;
 }
