@@ -101,3 +101,8 @@ int main() {
     cout << res.first << endl;
     cout << res.second << endl;
 }
+
+// DP for week and people left
+
+// Repeated Substrings:
+    // suffix arrays

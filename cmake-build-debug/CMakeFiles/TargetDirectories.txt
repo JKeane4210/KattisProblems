@@ -1,5 +1,10 @@
 /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/BumperToBumperTraffic.dir
+/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/Election.dir
+/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/FlowShop.dir
+/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/FizzBuzz.dir
 /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/AquariumTank.dir
+/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/PasswordHacking.dir
 /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/Server.dir
 /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/LandlineTelephoneNetwork.dir
 /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/FacilityLocations.dir
@@ -13,6 +18,7 @@
 /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/CarVet.dir
 /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/PearWiseVoting.dir
 /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/10KindsOfPeople.dir
+/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/DeliveringGoods.dir
 /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/WaifUntilDark.dir
 /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/LaptopSticker.dir
 /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/LockedTreasure.dir

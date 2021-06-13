@@ -52,7 +52,12 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/BumperToBumperTraffic.dir/DependInfo.cmake"
+  "CMakeFiles/Election.dir/DependInfo.cmake"
+  "CMakeFiles/FlowShop.dir/DependInfo.cmake"
+  "CMakeFiles/FizzBuzz.dir/DependInfo.cmake"
   "CMakeFiles/AquariumTank.dir/DependInfo.cmake"
+  "CMakeFiles/PasswordHacking.dir/DependInfo.cmake"
   "CMakeFiles/Server.dir/DependInfo.cmake"
   "CMakeFiles/LandlineTelephoneNetwork.dir/DependInfo.cmake"
   "CMakeFiles/FacilityLocations.dir/DependInfo.cmake"
@@ -66,6 +71,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/CarVet.dir/DependInfo.cmake"
   "CMakeFiles/PearWiseVoting.dir/DependInfo.cmake"
   "CMakeFiles/10KindsOfPeople.dir/DependInfo.cmake"
+  "CMakeFiles/DeliveringGoods.dir/DependInfo.cmake"
   "CMakeFiles/WaifUntilDark.dir/DependInfo.cmake"
   "CMakeFiles/LaptopSticker.dir/DependInfo.cmake"
   "CMakeFiles/LockedTreasure.dir/DependInfo.cmake"

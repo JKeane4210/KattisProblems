@@ -73,7 +73,12 @@ CMAKE_BINARY_DIR = /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/BumperToBumperTraffic.dir/all
+all: CMakeFiles/Election.dir/all
+all: CMakeFiles/FlowShop.dir/all
+all: CMakeFiles/FizzBuzz.dir/all
 all: CMakeFiles/AquariumTank.dir/all
+all: CMakeFiles/PasswordHacking.dir/all
 all: CMakeFiles/Server.dir/all
 all: CMakeFiles/LandlineTelephoneNetwork.dir/all
 all: CMakeFiles/FacilityLocations.dir/all
@@ -87,6 +92,7 @@ all: CMakeFiles/PizzaCutting.dir/all
 all: CMakeFiles/CarVet.dir/all
 all: CMakeFiles/PearWiseVoting.dir/all
 all: CMakeFiles/10KindsOfPeople.dir/all
+all: CMakeFiles/DeliveringGoods.dir/all
 all: CMakeFiles/WaifUntilDark.dir/all
 all: CMakeFiles/LaptopSticker.dir/all
 all: CMakeFiles/LockedTreasure.dir/all
@@ -110,7 +116,12 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/BumperToBumperTraffic.dir/clean
+clean: CMakeFiles/Election.dir/clean
+clean: CMakeFiles/FlowShop.dir/clean
+clean: CMakeFiles/FizzBuzz.dir/clean
 clean: CMakeFiles/AquariumTank.dir/clean
+clean: CMakeFiles/PasswordHacking.dir/clean
 clean: CMakeFiles/Server.dir/clean
 clean: CMakeFiles/LandlineTelephoneNetwork.dir/clean
 clean: CMakeFiles/FacilityLocations.dir/clean
@@ -124,6 +135,7 @@ clean: CMakeFiles/PizzaCutting.dir/clean
 clean: CMakeFiles/CarVet.dir/clean
 clean: CMakeFiles/PearWiseVoting.dir/clean
 clean: CMakeFiles/10KindsOfPeople.dir/clean
+clean: CMakeFiles/DeliveringGoods.dir/clean
 clean: CMakeFiles/WaifUntilDark.dir/clean
 clean: CMakeFiles/LaptopSticker.dir/clean
 clean: CMakeFiles/LockedTreasure.dir/clean
@@ -140,6 +152,114 @@ clean: CMakeFiles/ACMScoringContest.dir/clean
 clean: CMakeFiles/ToursDeSalesForce.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/BumperToBumperTraffic.dir
+
+# All Build rule for target.
+CMakeFiles/BumperToBumperTraffic.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BumperToBumperTraffic.dir/build.make CMakeFiles/BumperToBumperTraffic.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BumperToBumperTraffic.dir/build.make CMakeFiles/BumperToBumperTraffic.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target BumperToBumperTraffic"
+.PHONY : CMakeFiles/BumperToBumperTraffic.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/BumperToBumperTraffic.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/BumperToBumperTraffic.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/BumperToBumperTraffic.dir/rule
+
+# Convenience name for target.
+BumperToBumperTraffic: CMakeFiles/BumperToBumperTraffic.dir/rule
+
+.PHONY : BumperToBumperTraffic
+
+# clean rule for target.
+CMakeFiles/BumperToBumperTraffic.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BumperToBumperTraffic.dir/build.make CMakeFiles/BumperToBumperTraffic.dir/clean
+.PHONY : CMakeFiles/BumperToBumperTraffic.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Election.dir
+
+# All Build rule for target.
+CMakeFiles/Election.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Election.dir/build.make CMakeFiles/Election.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Election.dir/build.make CMakeFiles/Election.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target Election"
+.PHONY : CMakeFiles/Election.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Election.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Election.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Election.dir/rule
+
+# Convenience name for target.
+Election: CMakeFiles/Election.dir/rule
+
+.PHONY : Election
+
+# clean rule for target.
+CMakeFiles/Election.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Election.dir/build.make CMakeFiles/Election.dir/clean
+.PHONY : CMakeFiles/Election.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/FlowShop.dir
+
+# All Build rule for target.
+CMakeFiles/FlowShop.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FlowShop.dir/build.make CMakeFiles/FlowShop.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FlowShop.dir/build.make CMakeFiles/FlowShop.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles --progress-num=29,30 "Built target FlowShop"
+.PHONY : CMakeFiles/FlowShop.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/FlowShop.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/FlowShop.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/FlowShop.dir/rule
+
+# Convenience name for target.
+FlowShop: CMakeFiles/FlowShop.dir/rule
+
+.PHONY : FlowShop
+
+# clean rule for target.
+CMakeFiles/FlowShop.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FlowShop.dir/build.make CMakeFiles/FlowShop.dir/clean
+.PHONY : CMakeFiles/FlowShop.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/FizzBuzz.dir
+
+# All Build rule for target.
+CMakeFiles/FizzBuzz.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FizzBuzz.dir/build.make CMakeFiles/FizzBuzz.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FizzBuzz.dir/build.make CMakeFiles/FizzBuzz.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles --progress-num=27,28 "Built target FizzBuzz"
+.PHONY : CMakeFiles/FizzBuzz.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/FizzBuzz.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/FizzBuzz.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/FizzBuzz.dir/rule
+
+# Convenience name for target.
+FizzBuzz: CMakeFiles/FizzBuzz.dir/rule
+
+.PHONY : FizzBuzz
+
+# clean rule for target.
+CMakeFiles/FizzBuzz.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FizzBuzz.dir/build.make CMakeFiles/FizzBuzz.dir/clean
+.PHONY : CMakeFiles/FizzBuzz.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/AquariumTank.dir
@@ -169,13 +289,40 @@ CMakeFiles/AquariumTank.dir/clean:
 .PHONY : CMakeFiles/AquariumTank.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/PasswordHacking.dir
+
+# All Build rule for target.
+CMakeFiles/PasswordHacking.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PasswordHacking.dir/build.make CMakeFiles/PasswordHacking.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PasswordHacking.dir/build.make CMakeFiles/PasswordHacking.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles --progress-num=41,42 "Built target PasswordHacking"
+.PHONY : CMakeFiles/PasswordHacking.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/PasswordHacking.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/PasswordHacking.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/PasswordHacking.dir/rule
+
+# Convenience name for target.
+PasswordHacking: CMakeFiles/PasswordHacking.dir/rule
+
+.PHONY : PasswordHacking
+
+# clean rule for target.
+CMakeFiles/PasswordHacking.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PasswordHacking.dir/build.make CMakeFiles/PasswordHacking.dir/clean
+.PHONY : CMakeFiles/PasswordHacking.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/Server.dir
 
 # All Build rule for target.
 CMakeFiles/Server.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles --progress-num=47,48 "Built target Server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles --progress-num=59,60 "Built target Server"
 .PHONY : CMakeFiles/Server.dir/all
 
 # Build rule for subdir invocation for target.
@@ -202,7 +349,7 @@ CMakeFiles/Server.dir/clean:
 CMakeFiles/LandlineTelephoneNetwork.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LandlineTelephoneNetwork.dir/build.make CMakeFiles/LandlineTelephoneNetwork.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LandlineTelephoneNetwork.dir/build.make CMakeFiles/LandlineTelephoneNetwork.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target LandlineTelephoneNetwork"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles --progress-num=31,32 "Built target LandlineTelephoneNetwork"
 .PHONY : CMakeFiles/LandlineTelephoneNetwork.dir/all
 
 # Build rule for subdir invocation for target.
@@ -229,7 +376,7 @@ CMakeFiles/LandlineTelephoneNetwork.dir/clean:
 CMakeFiles/FacilityLocations.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FacilityLocations.dir/build.make CMakeFiles/FacilityLocations.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FacilityLocations.dir/build.make CMakeFiles/FacilityLocations.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target FacilityLocations"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles --progress-num=25,26 "Built target FacilityLocations"
 .PHONY : CMakeFiles/FacilityLocations.dir/all
 
 # Build rule for subdir invocation for target.
@@ -256,7 +403,7 @@ CMakeFiles/FacilityLocations.dir/clean:
 CMakeFiles/RestaurantRatings.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RestaurantRatings.dir/build.make CMakeFiles/RestaurantRatings.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RestaurantRatings.dir/build.make CMakeFiles/RestaurantRatings.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles --progress-num=43,44 "Built target RestaurantRatings"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles --progress-num=55,56 "Built target RestaurantRatings"
 .PHONY : CMakeFiles/RestaurantRatings.dir/all
 
 # Build rule for subdir invocation for target.
@@ -283,7 +430,7 @@ CMakeFiles/RestaurantRatings.dir/clean:
 CMakeFiles/RandomProblem.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RandomProblem.dir/build.make CMakeFiles/RandomProblem.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RandomProblem.dir/build.make CMakeFiles/RandomProblem.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles --progress-num=39,40 "Built target RandomProblem"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles --progress-num=51,52 "Built target RandomProblem"
 .PHONY : CMakeFiles/RandomProblem.dir/all
 
 # Build rule for subdir invocation for target.
@@ -337,7 +484,7 @@ CMakeFiles/A1Paper.dir/clean:
 CMakeFiles/Difference.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Difference.dir/build.make CMakeFiles/Difference.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Difference.dir/build.make CMakeFiles/Difference.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target Difference"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target Difference"
 .PHONY : CMakeFiles/Difference.dir/all
 
 # Build rule for subdir invocation for target.
@@ -364,7 +511,7 @@ CMakeFiles/Difference.dir/clean:
 CMakeFiles/Treehouse.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Treehouse.dir/build.make CMakeFiles/Treehouse.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Treehouse.dir/build.make CMakeFiles/Treehouse.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles --progress-num=53,54 "Built target Treehouse"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles --progress-num=65,66 "Built target Treehouse"
 .PHONY : CMakeFiles/Treehouse.dir/all
 
 # Build rule for subdir invocation for target.
@@ -391,7 +538,7 @@ CMakeFiles/Treehouse.dir/clean:
 CMakeFiles/PunctiliousCruciverbalist.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PunctiliousCruciverbalist.dir/build.make CMakeFiles/PunctiliousCruciverbalist.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PunctiliousCruciverbalist.dir/build.make CMakeFiles/PunctiliousCruciverbalist.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles --progress-num=37,38 "Built target PunctiliousCruciverbalist"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles --progress-num=49,50 "Built target PunctiliousCruciverbalist"
 .PHONY : CMakeFiles/PunctiliousCruciverbalist.dir/all
 
 # Build rule for subdir invocation for target.
@@ -418,7 +565,7 @@ CMakeFiles/PunctiliousCruciverbalist.dir/clean:
 CMakeFiles/PizzaCutting.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PizzaCutting.dir/build.make CMakeFiles/PizzaCutting.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PizzaCutting.dir/build.make CMakeFiles/PizzaCutting.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles --progress-num=33,34 "Built target PizzaCutting"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles --progress-num=45,46 "Built target PizzaCutting"
 .PHONY : CMakeFiles/PizzaCutting.dir/all
 
 # Build rule for subdir invocation for target.
@@ -445,7 +592,7 @@ CMakeFiles/PizzaCutting.dir/clean:
 CMakeFiles/CarVet.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CarVet.dir/build.make CMakeFiles/CarVet.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CarVet.dir/build.make CMakeFiles/CarVet.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target CarVet"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target CarVet"
 .PHONY : CMakeFiles/CarVet.dir/all
 
 # Build rule for subdir invocation for target.
@@ -472,7 +619,7 @@ CMakeFiles/CarVet.dir/clean:
 CMakeFiles/PearWiseVoting.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PearWiseVoting.dir/build.make CMakeFiles/PearWiseVoting.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PearWiseVoting.dir/build.make CMakeFiles/PearWiseVoting.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles --progress-num=31,32 "Built target PearWiseVoting"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles --progress-num=43,44 "Built target PearWiseVoting"
 .PHONY : CMakeFiles/PearWiseVoting.dir/all
 
 # Build rule for subdir invocation for target.
@@ -520,13 +667,40 @@ CMakeFiles/10KindsOfPeople.dir/clean:
 .PHONY : CMakeFiles/10KindsOfPeople.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/DeliveringGoods.dir
+
+# All Build rule for target.
+CMakeFiles/DeliveringGoods.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DeliveringGoods.dir/build.make CMakeFiles/DeliveringGoods.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DeliveringGoods.dir/build.make CMakeFiles/DeliveringGoods.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target DeliveringGoods"
+.PHONY : CMakeFiles/DeliveringGoods.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/DeliveringGoods.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/DeliveringGoods.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/DeliveringGoods.dir/rule
+
+# Convenience name for target.
+DeliveringGoods: CMakeFiles/DeliveringGoods.dir/rule
+
+.PHONY : DeliveringGoods
+
+# clean rule for target.
+CMakeFiles/DeliveringGoods.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DeliveringGoods.dir/build.make CMakeFiles/DeliveringGoods.dir/clean
+.PHONY : CMakeFiles/DeliveringGoods.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/WaifUntilDark.dir
 
 # All Build rule for target.
 CMakeFiles/WaifUntilDark.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/WaifUntilDark.dir/build.make CMakeFiles/WaifUntilDark.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/WaifUntilDark.dir/build.make CMakeFiles/WaifUntilDark.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles --progress-num=55,56 "Built target WaifUntilDark"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles --progress-num=67,68 "Built target WaifUntilDark"
 .PHONY : CMakeFiles/WaifUntilDark.dir/all
 
 # Build rule for subdir invocation for target.
@@ -553,7 +727,7 @@ CMakeFiles/WaifUntilDark.dir/clean:
 CMakeFiles/LaptopSticker.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LaptopSticker.dir/build.make CMakeFiles/LaptopSticker.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LaptopSticker.dir/build.make CMakeFiles/LaptopSticker.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target LaptopSticker"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles --progress-num=33,34 "Built target LaptopSticker"
 .PHONY : CMakeFiles/LaptopSticker.dir/all
 
 # Build rule for subdir invocation for target.
@@ -580,7 +754,7 @@ CMakeFiles/LaptopSticker.dir/clean:
 CMakeFiles/LockedTreasure.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LockedTreasure.dir/build.make CMakeFiles/LockedTreasure.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LockedTreasure.dir/build.make CMakeFiles/LockedTreasure.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles --progress-num=25,26 "Built target LockedTreasure"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles --progress-num=35,36 "Built target LockedTreasure"
 .PHONY : CMakeFiles/LockedTreasure.dir/all
 
 # Build rule for subdir invocation for target.
@@ -607,7 +781,7 @@ CMakeFiles/LockedTreasure.dir/clean:
 CMakeFiles/ContinuedFraction.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ContinuedFraction.dir/build.make CMakeFiles/ContinuedFraction.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ContinuedFraction.dir/build.make CMakeFiles/ContinuedFraction.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target ContinuedFraction"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target ContinuedFraction"
 .PHONY : CMakeFiles/ContinuedFraction.dir/all
 
 # Build rule for subdir invocation for target.
@@ -634,7 +808,7 @@ CMakeFiles/ContinuedFraction.dir/clean:
 CMakeFiles/RomanHolidays.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RomanHolidays.dir/build.make CMakeFiles/RomanHolidays.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RomanHolidays.dir/build.make CMakeFiles/RomanHolidays.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles --progress-num=45,46 "Built target RomanHolidays"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles --progress-num=57,58 "Built target RomanHolidays"
 .PHONY : CMakeFiles/RomanHolidays.dir/all
 
 # Build rule for subdir invocation for target.
@@ -661,7 +835,7 @@ CMakeFiles/RomanHolidays.dir/clean:
 CMakeFiles/LostMap2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LostMap2.dir/build.make CMakeFiles/LostMap2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LostMap2.dir/build.make CMakeFiles/LostMap2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles --progress-num=29,30 "Built target LostMap2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles --progress-num=39,40 "Built target LostMap2"
 .PHONY : CMakeFiles/LostMap2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -715,7 +889,7 @@ CMakeFiles/01Sequences2.dir/clean:
 CMakeFiles/RepeatedSubstrings.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RepeatedSubstrings.dir/build.make CMakeFiles/RepeatedSubstrings.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RepeatedSubstrings.dir/build.make CMakeFiles/RepeatedSubstrings.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles --progress-num=41,42 "Built target RepeatedSubstrings"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles --progress-num=53,54 "Built target RepeatedSubstrings"
 .PHONY : CMakeFiles/RepeatedSubstrings.dir/all
 
 # Build rule for subdir invocation for target.
@@ -742,7 +916,7 @@ CMakeFiles/RepeatedSubstrings.dir/clean:
 CMakeFiles/SingleSourceNegativeWeights.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SingleSourceNegativeWeights.dir/build.make CMakeFiles/SingleSourceNegativeWeights.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SingleSourceNegativeWeights.dir/build.make CMakeFiles/SingleSourceNegativeWeights.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles --progress-num=49,50 "Built target SingleSourceNegativeWeights"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles --progress-num=61,62 "Built target SingleSourceNegativeWeights"
 .PHONY : CMakeFiles/SingleSourceNegativeWeights.dir/all
 
 # Build rule for subdir invocation for target.
@@ -796,7 +970,7 @@ CMakeFiles/01Sequences.dir/clean:
 CMakeFiles/LostMap.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LostMap.dir/build.make CMakeFiles/LostMap.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LostMap.dir/build.make CMakeFiles/LostMap.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles --progress-num=27,28 "Built target LostMap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles --progress-num=37,38 "Built target LostMap"
 .PHONY : CMakeFiles/LostMap.dir/all
 
 # Build rule for subdir invocation for target.
@@ -823,7 +997,7 @@ CMakeFiles/LostMap.dir/clean:
 CMakeFiles/PlaneTicketPricing.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PlaneTicketPricing.dir/build.make CMakeFiles/PlaneTicketPricing.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PlaneTicketPricing.dir/build.make CMakeFiles/PlaneTicketPricing.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles --progress-num=35,36 "Built target PlaneTicketPricing"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles --progress-num=47,48 "Built target PlaneTicketPricing"
 .PHONY : CMakeFiles/PlaneTicketPricing.dir/all
 
 # Build rule for subdir invocation for target.
@@ -877,7 +1051,7 @@ CMakeFiles/ACMScoringContest.dir/clean:
 CMakeFiles/ToursDeSalesForce.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToursDeSalesForce.dir/build.make CMakeFiles/ToursDeSalesForce.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToursDeSalesForce.dir/build.make CMakeFiles/ToursDeSalesForce.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles --progress-num=51,52 "Built target ToursDeSalesForce"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles --progress-num=63,64 "Built target ToursDeSalesForce"
 .PHONY : CMakeFiles/ToursDeSalesForce.dir/all
 
 # Build rule for subdir invocation for target.

@@ -27,6 +27,11 @@ bool operator<(const TourMerge& a, const TourMerge& b) {
     return a.distance > b.distance;
 }
 
+// array for dynamic programming [n - 1][2 ^ (n - 1)] (removing your initial point)
+// minimum wait/max matching
+    // minimum cost/max flow
+    // hungarian algorithm
+
 float memo[16][1 << 16];
 
 // backtracking combinations

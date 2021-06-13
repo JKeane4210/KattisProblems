@@ -131,6 +131,58 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named BumperToBumperTraffic
+
+# Build rule for target.
+BumperToBumperTraffic: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 BumperToBumperTraffic
+.PHONY : BumperToBumperTraffic
+
+# fast build rule for target.
+BumperToBumperTraffic/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BumperToBumperTraffic.dir/build.make CMakeFiles/BumperToBumperTraffic.dir/build
+.PHONY : BumperToBumperTraffic/fast
+
+#=============================================================================
+# Target rules for targets named Election
+
+# Build rule for target.
+Election: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Election
+.PHONY : Election
+
+# fast build rule for target.
+Election/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Election.dir/build.make CMakeFiles/Election.dir/build
+.PHONY : Election/fast
+
+#=============================================================================
+# Target rules for targets named FlowShop
+
+# Build rule for target.
+FlowShop: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FlowShop
+.PHONY : FlowShop
+
+# fast build rule for target.
+FlowShop/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FlowShop.dir/build.make CMakeFiles/FlowShop.dir/build
+.PHONY : FlowShop/fast
+
+#=============================================================================
+# Target rules for targets named FizzBuzz
+
+# Build rule for target.
+FizzBuzz: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FizzBuzz
+.PHONY : FizzBuzz
+
+# fast build rule for target.
+FizzBuzz/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FizzBuzz.dir/build.make CMakeFiles/FizzBuzz.dir/build
+.PHONY : FizzBuzz/fast
+
+#=============================================================================
 # Target rules for targets named AquariumTank
 
 # Build rule for target.
@@ -142,6 +194,19 @@ AquariumTank: cmake_check_build_system
 AquariumTank/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AquariumTank.dir/build.make CMakeFiles/AquariumTank.dir/build
 .PHONY : AquariumTank/fast
+
+#=============================================================================
+# Target rules for targets named PasswordHacking
+
+# Build rule for target.
+PasswordHacking: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PasswordHacking
+.PHONY : PasswordHacking
+
+# fast build rule for target.
+PasswordHacking/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PasswordHacking.dir/build.make CMakeFiles/PasswordHacking.dir/build
+.PHONY : PasswordHacking/fast
 
 #=============================================================================
 # Target rules for targets named Server
@@ -311,6 +376,19 @@ PearWiseVoting/fast:
 10KindsOfPeople/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/10KindsOfPeople.dir/build.make CMakeFiles/10KindsOfPeople.dir/build
 .PHONY : 10KindsOfPeople/fast
+
+#=============================================================================
+# Target rules for targets named DeliveringGoods
+
+# Build rule for target.
+DeliveringGoods: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DeliveringGoods
+.PHONY : DeliveringGoods
+
+# fast build rule for target.
+DeliveringGoods/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DeliveringGoods.dir/build.make CMakeFiles/DeliveringGoods.dir/build
+.PHONY : DeliveringGoods/fast
 
 #=============================================================================
 # Target rules for targets named WaifUntilDark
@@ -1115,6 +1193,168 @@ MSOE2021Summer/Week2/Server.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Server.dir/build.make CMakeFiles/Server.dir/MSOE2021Summer/Week2/Server.cpp.s
 .PHONY : MSOE2021Summer/Week2/Server.cpp.s
 
+MSOE2021Summer/Week3/BumperToBumperTraffic.o: MSOE2021Summer/Week3/BumperToBumperTraffic.cpp.o
+
+.PHONY : MSOE2021Summer/Week3/BumperToBumperTraffic.o
+
+# target to build an object file
+MSOE2021Summer/Week3/BumperToBumperTraffic.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BumperToBumperTraffic.dir/build.make CMakeFiles/BumperToBumperTraffic.dir/MSOE2021Summer/Week3/BumperToBumperTraffic.cpp.o
+.PHONY : MSOE2021Summer/Week3/BumperToBumperTraffic.cpp.o
+
+MSOE2021Summer/Week3/BumperToBumperTraffic.i: MSOE2021Summer/Week3/BumperToBumperTraffic.cpp.i
+
+.PHONY : MSOE2021Summer/Week3/BumperToBumperTraffic.i
+
+# target to preprocess a source file
+MSOE2021Summer/Week3/BumperToBumperTraffic.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BumperToBumperTraffic.dir/build.make CMakeFiles/BumperToBumperTraffic.dir/MSOE2021Summer/Week3/BumperToBumperTraffic.cpp.i
+.PHONY : MSOE2021Summer/Week3/BumperToBumperTraffic.cpp.i
+
+MSOE2021Summer/Week3/BumperToBumperTraffic.s: MSOE2021Summer/Week3/BumperToBumperTraffic.cpp.s
+
+.PHONY : MSOE2021Summer/Week3/BumperToBumperTraffic.s
+
+# target to generate assembly for a file
+MSOE2021Summer/Week3/BumperToBumperTraffic.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BumperToBumperTraffic.dir/build.make CMakeFiles/BumperToBumperTraffic.dir/MSOE2021Summer/Week3/BumperToBumperTraffic.cpp.s
+.PHONY : MSOE2021Summer/Week3/BumperToBumperTraffic.cpp.s
+
+MSOE2021Summer/Week3/DeliveringGoods.o: MSOE2021Summer/Week3/DeliveringGoods.cpp.o
+
+.PHONY : MSOE2021Summer/Week3/DeliveringGoods.o
+
+# target to build an object file
+MSOE2021Summer/Week3/DeliveringGoods.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DeliveringGoods.dir/build.make CMakeFiles/DeliveringGoods.dir/MSOE2021Summer/Week3/DeliveringGoods.cpp.o
+.PHONY : MSOE2021Summer/Week3/DeliveringGoods.cpp.o
+
+MSOE2021Summer/Week3/DeliveringGoods.i: MSOE2021Summer/Week3/DeliveringGoods.cpp.i
+
+.PHONY : MSOE2021Summer/Week3/DeliveringGoods.i
+
+# target to preprocess a source file
+MSOE2021Summer/Week3/DeliveringGoods.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DeliveringGoods.dir/build.make CMakeFiles/DeliveringGoods.dir/MSOE2021Summer/Week3/DeliveringGoods.cpp.i
+.PHONY : MSOE2021Summer/Week3/DeliveringGoods.cpp.i
+
+MSOE2021Summer/Week3/DeliveringGoods.s: MSOE2021Summer/Week3/DeliveringGoods.cpp.s
+
+.PHONY : MSOE2021Summer/Week3/DeliveringGoods.s
+
+# target to generate assembly for a file
+MSOE2021Summer/Week3/DeliveringGoods.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DeliveringGoods.dir/build.make CMakeFiles/DeliveringGoods.dir/MSOE2021Summer/Week3/DeliveringGoods.cpp.s
+.PHONY : MSOE2021Summer/Week3/DeliveringGoods.cpp.s
+
+MSOE2021Summer/Week3/Election.o: MSOE2021Summer/Week3/Election.cpp.o
+
+.PHONY : MSOE2021Summer/Week3/Election.o
+
+# target to build an object file
+MSOE2021Summer/Week3/Election.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Election.dir/build.make CMakeFiles/Election.dir/MSOE2021Summer/Week3/Election.cpp.o
+.PHONY : MSOE2021Summer/Week3/Election.cpp.o
+
+MSOE2021Summer/Week3/Election.i: MSOE2021Summer/Week3/Election.cpp.i
+
+.PHONY : MSOE2021Summer/Week3/Election.i
+
+# target to preprocess a source file
+MSOE2021Summer/Week3/Election.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Election.dir/build.make CMakeFiles/Election.dir/MSOE2021Summer/Week3/Election.cpp.i
+.PHONY : MSOE2021Summer/Week3/Election.cpp.i
+
+MSOE2021Summer/Week3/Election.s: MSOE2021Summer/Week3/Election.cpp.s
+
+.PHONY : MSOE2021Summer/Week3/Election.s
+
+# target to generate assembly for a file
+MSOE2021Summer/Week3/Election.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Election.dir/build.make CMakeFiles/Election.dir/MSOE2021Summer/Week3/Election.cpp.s
+.PHONY : MSOE2021Summer/Week3/Election.cpp.s
+
+MSOE2021Summer/Week3/FizzBuzz.o: MSOE2021Summer/Week3/FizzBuzz.cpp.o
+
+.PHONY : MSOE2021Summer/Week3/FizzBuzz.o
+
+# target to build an object file
+MSOE2021Summer/Week3/FizzBuzz.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FizzBuzz.dir/build.make CMakeFiles/FizzBuzz.dir/MSOE2021Summer/Week3/FizzBuzz.cpp.o
+.PHONY : MSOE2021Summer/Week3/FizzBuzz.cpp.o
+
+MSOE2021Summer/Week3/FizzBuzz.i: MSOE2021Summer/Week3/FizzBuzz.cpp.i
+
+.PHONY : MSOE2021Summer/Week3/FizzBuzz.i
+
+# target to preprocess a source file
+MSOE2021Summer/Week3/FizzBuzz.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FizzBuzz.dir/build.make CMakeFiles/FizzBuzz.dir/MSOE2021Summer/Week3/FizzBuzz.cpp.i
+.PHONY : MSOE2021Summer/Week3/FizzBuzz.cpp.i
+
+MSOE2021Summer/Week3/FizzBuzz.s: MSOE2021Summer/Week3/FizzBuzz.cpp.s
+
+.PHONY : MSOE2021Summer/Week3/FizzBuzz.s
+
+# target to generate assembly for a file
+MSOE2021Summer/Week3/FizzBuzz.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FizzBuzz.dir/build.make CMakeFiles/FizzBuzz.dir/MSOE2021Summer/Week3/FizzBuzz.cpp.s
+.PHONY : MSOE2021Summer/Week3/FizzBuzz.cpp.s
+
+MSOE2021Summer/Week3/FlowShop3.o: MSOE2021Summer/Week3/FlowShop3.cpp.o
+
+.PHONY : MSOE2021Summer/Week3/FlowShop3.o
+
+# target to build an object file
+MSOE2021Summer/Week3/FlowShop3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FlowShop.dir/build.make CMakeFiles/FlowShop.dir/MSOE2021Summer/Week3/FlowShop3.cpp.o
+.PHONY : MSOE2021Summer/Week3/FlowShop3.cpp.o
+
+MSOE2021Summer/Week3/FlowShop3.i: MSOE2021Summer/Week3/FlowShop3.cpp.i
+
+.PHONY : MSOE2021Summer/Week3/FlowShop3.i
+
+# target to preprocess a source file
+MSOE2021Summer/Week3/FlowShop3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FlowShop.dir/build.make CMakeFiles/FlowShop.dir/MSOE2021Summer/Week3/FlowShop3.cpp.i
+.PHONY : MSOE2021Summer/Week3/FlowShop3.cpp.i
+
+MSOE2021Summer/Week3/FlowShop3.s: MSOE2021Summer/Week3/FlowShop3.cpp.s
+
+.PHONY : MSOE2021Summer/Week3/FlowShop3.s
+
+# target to generate assembly for a file
+MSOE2021Summer/Week3/FlowShop3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FlowShop.dir/build.make CMakeFiles/FlowShop.dir/MSOE2021Summer/Week3/FlowShop3.cpp.s
+.PHONY : MSOE2021Summer/Week3/FlowShop3.cpp.s
+
+MSOE2021Summer/Week3/PasswordHacking.o: MSOE2021Summer/Week3/PasswordHacking.cpp.o
+
+.PHONY : MSOE2021Summer/Week3/PasswordHacking.o
+
+# target to build an object file
+MSOE2021Summer/Week3/PasswordHacking.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PasswordHacking.dir/build.make CMakeFiles/PasswordHacking.dir/MSOE2021Summer/Week3/PasswordHacking.cpp.o
+.PHONY : MSOE2021Summer/Week3/PasswordHacking.cpp.o
+
+MSOE2021Summer/Week3/PasswordHacking.i: MSOE2021Summer/Week3/PasswordHacking.cpp.i
+
+.PHONY : MSOE2021Summer/Week3/PasswordHacking.i
+
+# target to preprocess a source file
+MSOE2021Summer/Week3/PasswordHacking.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PasswordHacking.dir/build.make CMakeFiles/PasswordHacking.dir/MSOE2021Summer/Week3/PasswordHacking.cpp.i
+.PHONY : MSOE2021Summer/Week3/PasswordHacking.cpp.i
+
+MSOE2021Summer/Week3/PasswordHacking.s: MSOE2021Summer/Week3/PasswordHacking.cpp.s
+
+.PHONY : MSOE2021Summer/Week3/PasswordHacking.s
+
+# target to generate assembly for a file
+MSOE2021Summer/Week3/PasswordHacking.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PasswordHacking.dir/build.make CMakeFiles/PasswordHacking.dir/MSOE2021Summer/Week3/PasswordHacking.cpp.s
+.PHONY : MSOE2021Summer/Week3/PasswordHacking.cpp.s
+
 WaifUntilDark.o: WaifUntilDark.cpp.o
 
 .PHONY : WaifUntilDark.o
@@ -1264,15 +1504,21 @@ help:
 	@echo "... A1Paper"
 	@echo "... ACMScoringContest"
 	@echo "... AquariumTank"
+	@echo "... BumperToBumperTraffic"
 	@echo "... CarVet"
 	@echo "... ContinuedFraction"
+	@echo "... DeliveringGoods"
 	@echo "... Difference"
+	@echo "... Election"
 	@echo "... FacilityLocations"
+	@echo "... FizzBuzz"
+	@echo "... FlowShop"
 	@echo "... LandlineTelephoneNetwork"
 	@echo "... LaptopSticker"
 	@echo "... LockedTreasure"
 	@echo "... LostMap"
 	@echo "... LostMap2"
+	@echo "... PasswordHacking"
 	@echo "... PearWiseVoting"
 	@echo "... PizzaCutting"
 	@echo "... PlaneTicketPricing"
@@ -1355,6 +1601,24 @@ help:
 	@echo "... MSOE2021Summer/Week2/Server.o"
 	@echo "... MSOE2021Summer/Week2/Server.i"
 	@echo "... MSOE2021Summer/Week2/Server.s"
+	@echo "... MSOE2021Summer/Week3/BumperToBumperTraffic.o"
+	@echo "... MSOE2021Summer/Week3/BumperToBumperTraffic.i"
+	@echo "... MSOE2021Summer/Week3/BumperToBumperTraffic.s"
+	@echo "... MSOE2021Summer/Week3/DeliveringGoods.o"
+	@echo "... MSOE2021Summer/Week3/DeliveringGoods.i"
+	@echo "... MSOE2021Summer/Week3/DeliveringGoods.s"
+	@echo "... MSOE2021Summer/Week3/Election.o"
+	@echo "... MSOE2021Summer/Week3/Election.i"
+	@echo "... MSOE2021Summer/Week3/Election.s"
+	@echo "... MSOE2021Summer/Week3/FizzBuzz.o"
+	@echo "... MSOE2021Summer/Week3/FizzBuzz.i"
+	@echo "... MSOE2021Summer/Week3/FizzBuzz.s"
+	@echo "... MSOE2021Summer/Week3/FlowShop3.o"
+	@echo "... MSOE2021Summer/Week3/FlowShop3.i"
+	@echo "... MSOE2021Summer/Week3/FlowShop3.s"
+	@echo "... MSOE2021Summer/Week3/PasswordHacking.o"
+	@echo "... MSOE2021Summer/Week3/PasswordHacking.i"
+	@echo "... MSOE2021Summer/Week3/PasswordHacking.s"
 	@echo "... WaifUntilDark.o"
 	@echo "... WaifUntilDark.i"
 	@echo "... WaifUntilDark.s"
