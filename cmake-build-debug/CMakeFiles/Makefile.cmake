@@ -52,8 +52,12 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/PolylineSimplification.dir/DependInfo.cmake"
+  "CMakeFiles/HissingMicrophone.dir/DependInfo.cmake"
+  "CMakeFiles/FroshWeek.dir/DependInfo.cmake"
   "CMakeFiles/BumperToBumperTraffic.dir/DependInfo.cmake"
   "CMakeFiles/Election.dir/DependInfo.cmake"
+  "CMakeFiles/HeartRate.dir/DependInfo.cmake"
   "CMakeFiles/FlowShop.dir/DependInfo.cmake"
   "CMakeFiles/FizzBuzz.dir/DependInfo.cmake"
   "CMakeFiles/AquariumTank.dir/DependInfo.cmake"
@@ -65,6 +69,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/RandomProblem.dir/DependInfo.cmake"
   "CMakeFiles/A1Paper.dir/DependInfo.cmake"
   "CMakeFiles/Difference.dir/DependInfo.cmake"
+  "CMakeFiles/PalindromicPassword.dir/DependInfo.cmake"
   "CMakeFiles/Treehouse.dir/DependInfo.cmake"
   "CMakeFiles/PunctiliousCruciverbalist.dir/DependInfo.cmake"
   "CMakeFiles/PizzaCutting.dir/DependInfo.cmake"

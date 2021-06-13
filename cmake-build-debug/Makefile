@@ -131,6 +131,45 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named PolylineSimplification
+
+# Build rule for target.
+PolylineSimplification: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PolylineSimplification
+.PHONY : PolylineSimplification
+
+# fast build rule for target.
+PolylineSimplification/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PolylineSimplification.dir/build.make CMakeFiles/PolylineSimplification.dir/build
+.PHONY : PolylineSimplification/fast
+
+#=============================================================================
+# Target rules for targets named HissingMicrophone
+
+# Build rule for target.
+HissingMicrophone: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 HissingMicrophone
+.PHONY : HissingMicrophone
+
+# fast build rule for target.
+HissingMicrophone/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HissingMicrophone.dir/build.make CMakeFiles/HissingMicrophone.dir/build
+.PHONY : HissingMicrophone/fast
+
+#=============================================================================
+# Target rules for targets named FroshWeek
+
+# Build rule for target.
+FroshWeek: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FroshWeek
+.PHONY : FroshWeek
+
+# fast build rule for target.
+FroshWeek/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FroshWeek.dir/build.make CMakeFiles/FroshWeek.dir/build
+.PHONY : FroshWeek/fast
+
+#=============================================================================
 # Target rules for targets named BumperToBumperTraffic
 
 # Build rule for target.
@@ -155,6 +194,19 @@ Election: cmake_check_build_system
 Election/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Election.dir/build.make CMakeFiles/Election.dir/build
 .PHONY : Election/fast
+
+#=============================================================================
+# Target rules for targets named HeartRate
+
+# Build rule for target.
+HeartRate: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 HeartRate
+.PHONY : HeartRate
+
+# fast build rule for target.
+HeartRate/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HeartRate.dir/build.make CMakeFiles/HeartRate.dir/build
+.PHONY : HeartRate/fast
 
 #=============================================================================
 # Target rules for targets named FlowShop
@@ -298,6 +350,19 @@ Difference: cmake_check_build_system
 Difference/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Difference.dir/build.make CMakeFiles/Difference.dir/build
 .PHONY : Difference/fast
+
+#=============================================================================
+# Target rules for targets named PalindromicPassword
+
+# Build rule for target.
+PalindromicPassword: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PalindromicPassword
+.PHONY : PalindromicPassword
+
+# fast build rule for target.
+PalindromicPassword/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PalindromicPassword.dir/build.make CMakeFiles/PalindromicPassword.dir/build
+.PHONY : PalindromicPassword/fast
 
 #=============================================================================
 # Target rules for targets named Treehouse
@@ -1355,6 +1420,141 @@ MSOE2021Summer/Week3/PasswordHacking.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PasswordHacking.dir/build.make CMakeFiles/PasswordHacking.dir/MSOE2021Summer/Week3/PasswordHacking.cpp.s
 .PHONY : MSOE2021Summer/Week3/PasswordHacking.cpp.s
 
+MSOE2021Summer/Week4/FroshWeek.o: MSOE2021Summer/Week4/FroshWeek.cpp.o
+
+.PHONY : MSOE2021Summer/Week4/FroshWeek.o
+
+# target to build an object file
+MSOE2021Summer/Week4/FroshWeek.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FroshWeek.dir/build.make CMakeFiles/FroshWeek.dir/MSOE2021Summer/Week4/FroshWeek.cpp.o
+.PHONY : MSOE2021Summer/Week4/FroshWeek.cpp.o
+
+MSOE2021Summer/Week4/FroshWeek.i: MSOE2021Summer/Week4/FroshWeek.cpp.i
+
+.PHONY : MSOE2021Summer/Week4/FroshWeek.i
+
+# target to preprocess a source file
+MSOE2021Summer/Week4/FroshWeek.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FroshWeek.dir/build.make CMakeFiles/FroshWeek.dir/MSOE2021Summer/Week4/FroshWeek.cpp.i
+.PHONY : MSOE2021Summer/Week4/FroshWeek.cpp.i
+
+MSOE2021Summer/Week4/FroshWeek.s: MSOE2021Summer/Week4/FroshWeek.cpp.s
+
+.PHONY : MSOE2021Summer/Week4/FroshWeek.s
+
+# target to generate assembly for a file
+MSOE2021Summer/Week4/FroshWeek.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FroshWeek.dir/build.make CMakeFiles/FroshWeek.dir/MSOE2021Summer/Week4/FroshWeek.cpp.s
+.PHONY : MSOE2021Summer/Week4/FroshWeek.cpp.s
+
+MSOE2021Summer/Week4/HeartRate.o: MSOE2021Summer/Week4/HeartRate.cpp.o
+
+.PHONY : MSOE2021Summer/Week4/HeartRate.o
+
+# target to build an object file
+MSOE2021Summer/Week4/HeartRate.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HeartRate.dir/build.make CMakeFiles/HeartRate.dir/MSOE2021Summer/Week4/HeartRate.cpp.o
+.PHONY : MSOE2021Summer/Week4/HeartRate.cpp.o
+
+MSOE2021Summer/Week4/HeartRate.i: MSOE2021Summer/Week4/HeartRate.cpp.i
+
+.PHONY : MSOE2021Summer/Week4/HeartRate.i
+
+# target to preprocess a source file
+MSOE2021Summer/Week4/HeartRate.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HeartRate.dir/build.make CMakeFiles/HeartRate.dir/MSOE2021Summer/Week4/HeartRate.cpp.i
+.PHONY : MSOE2021Summer/Week4/HeartRate.cpp.i
+
+MSOE2021Summer/Week4/HeartRate.s: MSOE2021Summer/Week4/HeartRate.cpp.s
+
+.PHONY : MSOE2021Summer/Week4/HeartRate.s
+
+# target to generate assembly for a file
+MSOE2021Summer/Week4/HeartRate.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HeartRate.dir/build.make CMakeFiles/HeartRate.dir/MSOE2021Summer/Week4/HeartRate.cpp.s
+.PHONY : MSOE2021Summer/Week4/HeartRate.cpp.s
+
+MSOE2021Summer/Week4/HissingMicrophone.o: MSOE2021Summer/Week4/HissingMicrophone.cpp.o
+
+.PHONY : MSOE2021Summer/Week4/HissingMicrophone.o
+
+# target to build an object file
+MSOE2021Summer/Week4/HissingMicrophone.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HissingMicrophone.dir/build.make CMakeFiles/HissingMicrophone.dir/MSOE2021Summer/Week4/HissingMicrophone.cpp.o
+.PHONY : MSOE2021Summer/Week4/HissingMicrophone.cpp.o
+
+MSOE2021Summer/Week4/HissingMicrophone.i: MSOE2021Summer/Week4/HissingMicrophone.cpp.i
+
+.PHONY : MSOE2021Summer/Week4/HissingMicrophone.i
+
+# target to preprocess a source file
+MSOE2021Summer/Week4/HissingMicrophone.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HissingMicrophone.dir/build.make CMakeFiles/HissingMicrophone.dir/MSOE2021Summer/Week4/HissingMicrophone.cpp.i
+.PHONY : MSOE2021Summer/Week4/HissingMicrophone.cpp.i
+
+MSOE2021Summer/Week4/HissingMicrophone.s: MSOE2021Summer/Week4/HissingMicrophone.cpp.s
+
+.PHONY : MSOE2021Summer/Week4/HissingMicrophone.s
+
+# target to generate assembly for a file
+MSOE2021Summer/Week4/HissingMicrophone.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HissingMicrophone.dir/build.make CMakeFiles/HissingMicrophone.dir/MSOE2021Summer/Week4/HissingMicrophone.cpp.s
+.PHONY : MSOE2021Summer/Week4/HissingMicrophone.cpp.s
+
+MSOE2021Summer/Week4/PalindromicPassword.o: MSOE2021Summer/Week4/PalindromicPassword.cpp.o
+
+.PHONY : MSOE2021Summer/Week4/PalindromicPassword.o
+
+# target to build an object file
+MSOE2021Summer/Week4/PalindromicPassword.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PalindromicPassword.dir/build.make CMakeFiles/PalindromicPassword.dir/MSOE2021Summer/Week4/PalindromicPassword.cpp.o
+.PHONY : MSOE2021Summer/Week4/PalindromicPassword.cpp.o
+
+MSOE2021Summer/Week4/PalindromicPassword.i: MSOE2021Summer/Week4/PalindromicPassword.cpp.i
+
+.PHONY : MSOE2021Summer/Week4/PalindromicPassword.i
+
+# target to preprocess a source file
+MSOE2021Summer/Week4/PalindromicPassword.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PalindromicPassword.dir/build.make CMakeFiles/PalindromicPassword.dir/MSOE2021Summer/Week4/PalindromicPassword.cpp.i
+.PHONY : MSOE2021Summer/Week4/PalindromicPassword.cpp.i
+
+MSOE2021Summer/Week4/PalindromicPassword.s: MSOE2021Summer/Week4/PalindromicPassword.cpp.s
+
+.PHONY : MSOE2021Summer/Week4/PalindromicPassword.s
+
+# target to generate assembly for a file
+MSOE2021Summer/Week4/PalindromicPassword.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PalindromicPassword.dir/build.make CMakeFiles/PalindromicPassword.dir/MSOE2021Summer/Week4/PalindromicPassword.cpp.s
+.PHONY : MSOE2021Summer/Week4/PalindromicPassword.cpp.s
+
+MSOE2021Summer/Week4/PolylineSimplification.o: MSOE2021Summer/Week4/PolylineSimplification.cpp.o
+
+.PHONY : MSOE2021Summer/Week4/PolylineSimplification.o
+
+# target to build an object file
+MSOE2021Summer/Week4/PolylineSimplification.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PolylineSimplification.dir/build.make CMakeFiles/PolylineSimplification.dir/MSOE2021Summer/Week4/PolylineSimplification.cpp.o
+.PHONY : MSOE2021Summer/Week4/PolylineSimplification.cpp.o
+
+MSOE2021Summer/Week4/PolylineSimplification.i: MSOE2021Summer/Week4/PolylineSimplification.cpp.i
+
+.PHONY : MSOE2021Summer/Week4/PolylineSimplification.i
+
+# target to preprocess a source file
+MSOE2021Summer/Week4/PolylineSimplification.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PolylineSimplification.dir/build.make CMakeFiles/PolylineSimplification.dir/MSOE2021Summer/Week4/PolylineSimplification.cpp.i
+.PHONY : MSOE2021Summer/Week4/PolylineSimplification.cpp.i
+
+MSOE2021Summer/Week4/PolylineSimplification.s: MSOE2021Summer/Week4/PolylineSimplification.cpp.s
+
+.PHONY : MSOE2021Summer/Week4/PolylineSimplification.s
+
+# target to generate assembly for a file
+MSOE2021Summer/Week4/PolylineSimplification.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PolylineSimplification.dir/build.make CMakeFiles/PolylineSimplification.dir/MSOE2021Summer/Week4/PolylineSimplification.cpp.s
+.PHONY : MSOE2021Summer/Week4/PolylineSimplification.cpp.s
+
 WaifUntilDark.o: WaifUntilDark.cpp.o
 
 .PHONY : WaifUntilDark.o
@@ -1513,15 +1713,20 @@ help:
 	@echo "... FacilityLocations"
 	@echo "... FizzBuzz"
 	@echo "... FlowShop"
+	@echo "... FroshWeek"
+	@echo "... HeartRate"
+	@echo "... HissingMicrophone"
 	@echo "... LandlineTelephoneNetwork"
 	@echo "... LaptopSticker"
 	@echo "... LockedTreasure"
 	@echo "... LostMap"
 	@echo "... LostMap2"
+	@echo "... PalindromicPassword"
 	@echo "... PasswordHacking"
 	@echo "... PearWiseVoting"
 	@echo "... PizzaCutting"
 	@echo "... PlaneTicketPricing"
+	@echo "... PolylineSimplification"
 	@echo "... PunctiliousCruciverbalist"
 	@echo "... RandomProblem"
 	@echo "... RepeatedSubstrings"
@@ -1619,6 +1824,21 @@ help:
 	@echo "... MSOE2021Summer/Week3/PasswordHacking.o"
 	@echo "... MSOE2021Summer/Week3/PasswordHacking.i"
 	@echo "... MSOE2021Summer/Week3/PasswordHacking.s"
+	@echo "... MSOE2021Summer/Week4/FroshWeek.o"
+	@echo "... MSOE2021Summer/Week4/FroshWeek.i"
+	@echo "... MSOE2021Summer/Week4/FroshWeek.s"
+	@echo "... MSOE2021Summer/Week4/HeartRate.o"
+	@echo "... MSOE2021Summer/Week4/HeartRate.i"
+	@echo "... MSOE2021Summer/Week4/HeartRate.s"
+	@echo "... MSOE2021Summer/Week4/HissingMicrophone.o"
+	@echo "... MSOE2021Summer/Week4/HissingMicrophone.i"
+	@echo "... MSOE2021Summer/Week4/HissingMicrophone.s"
+	@echo "... MSOE2021Summer/Week4/PalindromicPassword.o"
+	@echo "... MSOE2021Summer/Week4/PalindromicPassword.i"
+	@echo "... MSOE2021Summer/Week4/PalindromicPassword.s"
+	@echo "... MSOE2021Summer/Week4/PolylineSimplification.o"
+	@echo "... MSOE2021Summer/Week4/PolylineSimplification.i"
+	@echo "... MSOE2021Summer/Week4/PolylineSimplification.s"
 	@echo "... WaifUntilDark.o"
 	@echo "... WaifUntilDark.i"
 	@echo "... WaifUntilDark.s"
