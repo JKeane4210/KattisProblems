@@ -300,6 +300,19 @@ FacilityLocations/fast:
 .PHONY : FacilityLocations/fast
 
 #=============================================================================
+# Target rules for targets named FlowFree
+
+# Build rule for target.
+FlowFree: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FlowFree
+.PHONY : FlowFree
+
+# fast build rule for target.
+FlowFree/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FlowFree.dir/build.make CMakeFiles/FlowFree.dir/build
+.PHONY : FlowFree/fast
+
+#=============================================================================
 # Target rules for targets named RestaurantRatings
 
 # Build rule for target.
@@ -493,6 +506,19 @@ LockedTreasure: cmake_check_build_system
 LockedTreasure/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LockedTreasure.dir/build.make CMakeFiles/LockedTreasure.dir/build
 .PHONY : LockedTreasure/fast
+
+#=============================================================================
+# Target rules for targets named Decisions
+
+# Build rule for target.
+Decisions: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Decisions
+.PHONY : Decisions
+
+# fast build rule for target.
+Decisions/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Decisions.dir/build.make CMakeFiles/Decisions.dir/build
+.PHONY : Decisions/fast
 
 #=============================================================================
 # Target rules for targets named ContinuedFraction
@@ -1420,6 +1446,60 @@ MSOE2021Summer/Week3/PasswordHacking.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PasswordHacking.dir/build.make CMakeFiles/PasswordHacking.dir/MSOE2021Summer/Week3/PasswordHacking.cpp.s
 .PHONY : MSOE2021Summer/Week3/PasswordHacking.cpp.s
 
+MSOE2021Summer/Week4/DecisionsDecisions.o: MSOE2021Summer/Week4/DecisionsDecisions.cpp.o
+
+.PHONY : MSOE2021Summer/Week4/DecisionsDecisions.o
+
+# target to build an object file
+MSOE2021Summer/Week4/DecisionsDecisions.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Decisions.dir/build.make CMakeFiles/Decisions.dir/MSOE2021Summer/Week4/DecisionsDecisions.cpp.o
+.PHONY : MSOE2021Summer/Week4/DecisionsDecisions.cpp.o
+
+MSOE2021Summer/Week4/DecisionsDecisions.i: MSOE2021Summer/Week4/DecisionsDecisions.cpp.i
+
+.PHONY : MSOE2021Summer/Week4/DecisionsDecisions.i
+
+# target to preprocess a source file
+MSOE2021Summer/Week4/DecisionsDecisions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Decisions.dir/build.make CMakeFiles/Decisions.dir/MSOE2021Summer/Week4/DecisionsDecisions.cpp.i
+.PHONY : MSOE2021Summer/Week4/DecisionsDecisions.cpp.i
+
+MSOE2021Summer/Week4/DecisionsDecisions.s: MSOE2021Summer/Week4/DecisionsDecisions.cpp.s
+
+.PHONY : MSOE2021Summer/Week4/DecisionsDecisions.s
+
+# target to generate assembly for a file
+MSOE2021Summer/Week4/DecisionsDecisions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Decisions.dir/build.make CMakeFiles/Decisions.dir/MSOE2021Summer/Week4/DecisionsDecisions.cpp.s
+.PHONY : MSOE2021Summer/Week4/DecisionsDecisions.cpp.s
+
+MSOE2021Summer/Week4/FlowFree.o: MSOE2021Summer/Week4/FlowFree.cpp.o
+
+.PHONY : MSOE2021Summer/Week4/FlowFree.o
+
+# target to build an object file
+MSOE2021Summer/Week4/FlowFree.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FlowFree.dir/build.make CMakeFiles/FlowFree.dir/MSOE2021Summer/Week4/FlowFree.cpp.o
+.PHONY : MSOE2021Summer/Week4/FlowFree.cpp.o
+
+MSOE2021Summer/Week4/FlowFree.i: MSOE2021Summer/Week4/FlowFree.cpp.i
+
+.PHONY : MSOE2021Summer/Week4/FlowFree.i
+
+# target to preprocess a source file
+MSOE2021Summer/Week4/FlowFree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FlowFree.dir/build.make CMakeFiles/FlowFree.dir/MSOE2021Summer/Week4/FlowFree.cpp.i
+.PHONY : MSOE2021Summer/Week4/FlowFree.cpp.i
+
+MSOE2021Summer/Week4/FlowFree.s: MSOE2021Summer/Week4/FlowFree.cpp.s
+
+.PHONY : MSOE2021Summer/Week4/FlowFree.s
+
+# target to generate assembly for a file
+MSOE2021Summer/Week4/FlowFree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FlowFree.dir/build.make CMakeFiles/FlowFree.dir/MSOE2021Summer/Week4/FlowFree.cpp.s
+.PHONY : MSOE2021Summer/Week4/FlowFree.cpp.s
+
 MSOE2021Summer/Week4/FroshWeek.o: MSOE2021Summer/Week4/FroshWeek.cpp.o
 
 .PHONY : MSOE2021Summer/Week4/FroshWeek.o
@@ -1707,11 +1787,13 @@ help:
 	@echo "... BumperToBumperTraffic"
 	@echo "... CarVet"
 	@echo "... ContinuedFraction"
+	@echo "... Decisions"
 	@echo "... DeliveringGoods"
 	@echo "... Difference"
 	@echo "... Election"
 	@echo "... FacilityLocations"
 	@echo "... FizzBuzz"
+	@echo "... FlowFree"
 	@echo "... FlowShop"
 	@echo "... FroshWeek"
 	@echo "... HeartRate"
@@ -1824,6 +1906,12 @@ help:
 	@echo "... MSOE2021Summer/Week3/PasswordHacking.o"
 	@echo "... MSOE2021Summer/Week3/PasswordHacking.i"
 	@echo "... MSOE2021Summer/Week3/PasswordHacking.s"
+	@echo "... MSOE2021Summer/Week4/DecisionsDecisions.o"
+	@echo "... MSOE2021Summer/Week4/DecisionsDecisions.i"
+	@echo "... MSOE2021Summer/Week4/DecisionsDecisions.s"
+	@echo "... MSOE2021Summer/Week4/FlowFree.o"
+	@echo "... MSOE2021Summer/Week4/FlowFree.i"
+	@echo "... MSOE2021Summer/Week4/FlowFree.s"
 	@echo "... MSOE2021Summer/Week4/FroshWeek.o"
 	@echo "... MSOE2021Summer/Week4/FroshWeek.i"
 	@echo "... MSOE2021Summer/Week4/FroshWeek.s"

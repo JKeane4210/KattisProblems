@@ -43,6 +43,8 @@ add_executable(HeartRate MSOE2021Summer/Week4/HeartRate.cpp)
 add_executable(HissingMicrophone MSOE2021Summer/Week4/HissingMicrophone.cpp)
 add_executable(PalindromicPassword MSOE2021Summer/Week4/PalindromicPassword.cpp)
 add_executable(PolylineSimplification MSOE2021Summer/Week4/PolylineSimplification.cpp)
+add_executable(FlowFree MSOE2021Summer/Week4/FlowFree.cpp)
+add_executable(Decisions MSOE2021Summer/Week4/DecisionsDecisions.cpp)
 
 #include_directories(/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++)
 #include_directories(/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1)
