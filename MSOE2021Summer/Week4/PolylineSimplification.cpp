@@ -37,19 +37,24 @@ public:
     int x, y;
     Point *prev;
     Point *next;
-    long double area = HUGE_VALL;
+    int area = INT_MAX;
     Point(int x, int y, int ind) : x(x), y(y), ind(ind), prev(nullptr), next(nullptr) {}
 
     void calculateArea() {
         if (prev != nullptr && next != nullptr) {
-            long double s1 = sqrt((x - prev->x)*(x - prev->x) + (y - prev->y)*(y - prev->y));
-            long double s2 = sqrt((next->x - x)*(next->x - x) + (next->y - y)*(next->y - y));
-            long double s3 = sqrt((next->x - prev->x)*(next->x - prev->x) + (next->y - prev->y)*(next->y - prev->y));
-            long double p = (s1 + s2 + s3) / 2.0;
-            area = sqrt(p * (p - s1) * (p - s2) * (p - s3)); // Heron's Formula
+            area = abs(prev->x*(y - next->y) + x*(next->y - prev->y) + next->x*(prev->y - y));
         }
     }
 };
+struct Compare {
+    bool operator()(const pair<int, pair<int, int>>& a, const pair<int, pair<int, int>>& b) {
+        if (a.first == b.first) {
+            return a.second.first > b.second.first;
+        }
+        return a.first > b.first;
+    }
+};
+
 
 int main() {
     ios::sync_with_stdio(false);
@@ -63,32 +68,38 @@ int main() {
         cin >> x >> y;
         points[i] = new Point(x, y, i);
     }
+    // <area <ind, round>>
+    priority_queue<pair<int, pair<int, int>>, vector<pair<int, pair<int, int>>>, Compare> pq;
     points[0]->next = points[1];
     for (int i = 1; i < n; ++i) {
         points[i]->prev = points[i - 1];
         points[i]->next = points[i + 1];
         points[i]->calculateArea();
+        pq.push(make_pair(points[i]->area, make_pair(i, 0)));
     }
     points[n]->prev = points[n - 1];
-
-    for (int i = 0; i < n - m; ++i) {
-        long double min = HUGE_VALL;
-        Point* minPt = points[0];
-        Point* curr = points[0];
-        while (curr != nullptr) {
-            if (curr->area < min) {
-                min = curr->area;
-                minPt = curr;
-            }
-            curr = curr->next;
-        }
-        cout << minPt->ind << endl;
+    int round = 0;
+    int currentRounds[n + 1];
+    for (int i = 0; i < n + 1; ++i) {
+        currentRounds[i] = 0;
+    }
+    while (round < n - m) {
+        auto top = pq.top();
+        pq.pop();
+        if (top.second.second < currentRounds[top.second.first]) continue;
+        ++round;
+        cout << top.second.first << endl;
+        Point* minPt = points[top.second.first];
         Point* minPrev = minPt->prev;
         Point* minNext = minPt->next;
         minPrev->next = minPt->next;
         minNext->prev = minPt->prev;
         minPrev->calculateArea();
         minNext->calculateArea();
+        currentRounds[minPrev->ind] = round;
+        currentRounds[minNext->ind] = round;
+        pq.push(make_pair(minPrev->area, make_pair(minPrev->ind, round)));
+        pq.push(make_pair(minNext->area, make_pair(minNext->ind, round)));
     }
 
     return 0;

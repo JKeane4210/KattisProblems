@@ -131,6 +131,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named MultiplicationGame
+
+# Build rule for target.
+MultiplicationGame: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MultiplicationGame
+.PHONY : MultiplicationGame
+
+# fast build rule for target.
+MultiplicationGame/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MultiplicationGame.dir/build.make CMakeFiles/MultiplicationGame.dir/build
+.PHONY : MultiplicationGame/fast
+
+#=============================================================================
+# Target rules for targets named DecisionsDecisions
+
+# Build rule for target.
+DecisionsDecisions: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DecisionsDecisions
+.PHONY : DecisionsDecisions
+
+# fast build rule for target.
+DecisionsDecisions/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DecisionsDecisions.dir/build.make CMakeFiles/DecisionsDecisions.dir/build
+.PHONY : DecisionsDecisions/fast
+
+#=============================================================================
 # Target rules for targets named PolylineSimplification
 
 # Build rule for target.
@@ -155,6 +181,19 @@ HissingMicrophone: cmake_check_build_system
 HissingMicrophone/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/HissingMicrophone.dir/build.make CMakeFiles/HissingMicrophone.dir/build
 .PHONY : HissingMicrophone/fast
+
+#=============================================================================
+# Target rules for targets named OpenPitMining
+
+# Build rule for target.
+OpenPitMining: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 OpenPitMining
+.PHONY : OpenPitMining
+
+# fast build rule for target.
+OpenPitMining/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenPitMining.dir/build.make CMakeFiles/OpenPitMining.dir/build
+.PHONY : OpenPitMining/fast
 
 #=============================================================================
 # Target rules for targets named FroshWeek
@@ -417,6 +456,19 @@ PizzaCutting/fast:
 .PHONY : PizzaCutting/fast
 
 #=============================================================================
+# Target rules for targets named Initials
+
+# Build rule for target.
+Initials: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Initials
+.PHONY : Initials
+
+# fast build rule for target.
+Initials/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Initials.dir/build.make CMakeFiles/Initials.dir/build
+.PHONY : Initials/fast
+
+#=============================================================================
 # Target rules for targets named CarVet
 
 # Build rule for target.
@@ -506,19 +558,6 @@ LockedTreasure: cmake_check_build_system
 LockedTreasure/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LockedTreasure.dir/build.make CMakeFiles/LockedTreasure.dir/build
 .PHONY : LockedTreasure/fast
-
-#=============================================================================
-# Target rules for targets named Decisions
-
-# Build rule for target.
-Decisions: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Decisions
-.PHONY : Decisions
-
-# fast build rule for target.
-Decisions/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Decisions.dir/build.make CMakeFiles/Decisions.dir/build
-.PHONY : Decisions/fast
 
 #=============================================================================
 # Target rules for targets named ContinuedFraction
@@ -1452,7 +1491,7 @@ MSOE2021Summer/Week4/DecisionsDecisions.o: MSOE2021Summer/Week4/DecisionsDecisio
 
 # target to build an object file
 MSOE2021Summer/Week4/DecisionsDecisions.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Decisions.dir/build.make CMakeFiles/Decisions.dir/MSOE2021Summer/Week4/DecisionsDecisions.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DecisionsDecisions.dir/build.make CMakeFiles/DecisionsDecisions.dir/MSOE2021Summer/Week4/DecisionsDecisions.cpp.o
 .PHONY : MSOE2021Summer/Week4/DecisionsDecisions.cpp.o
 
 MSOE2021Summer/Week4/DecisionsDecisions.i: MSOE2021Summer/Week4/DecisionsDecisions.cpp.i
@@ -1461,7 +1500,7 @@ MSOE2021Summer/Week4/DecisionsDecisions.i: MSOE2021Summer/Week4/DecisionsDecisio
 
 # target to preprocess a source file
 MSOE2021Summer/Week4/DecisionsDecisions.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Decisions.dir/build.make CMakeFiles/Decisions.dir/MSOE2021Summer/Week4/DecisionsDecisions.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DecisionsDecisions.dir/build.make CMakeFiles/DecisionsDecisions.dir/MSOE2021Summer/Week4/DecisionsDecisions.cpp.i
 .PHONY : MSOE2021Summer/Week4/DecisionsDecisions.cpp.i
 
 MSOE2021Summer/Week4/DecisionsDecisions.s: MSOE2021Summer/Week4/DecisionsDecisions.cpp.s
@@ -1470,7 +1509,7 @@ MSOE2021Summer/Week4/DecisionsDecisions.s: MSOE2021Summer/Week4/DecisionsDecisio
 
 # target to generate assembly for a file
 MSOE2021Summer/Week4/DecisionsDecisions.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Decisions.dir/build.make CMakeFiles/Decisions.dir/MSOE2021Summer/Week4/DecisionsDecisions.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DecisionsDecisions.dir/build.make CMakeFiles/DecisionsDecisions.dir/MSOE2021Summer/Week4/DecisionsDecisions.cpp.s
 .PHONY : MSOE2021Summer/Week4/DecisionsDecisions.cpp.s
 
 MSOE2021Summer/Week4/FlowFree.o: MSOE2021Summer/Week4/FlowFree.cpp.o
@@ -1580,6 +1619,87 @@ MSOE2021Summer/Week4/HissingMicrophone.s: MSOE2021Summer/Week4/HissingMicrophone
 MSOE2021Summer/Week4/HissingMicrophone.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/HissingMicrophone.dir/build.make CMakeFiles/HissingMicrophone.dir/MSOE2021Summer/Week4/HissingMicrophone.cpp.s
 .PHONY : MSOE2021Summer/Week4/HissingMicrophone.cpp.s
+
+MSOE2021Summer/Week4/Initials.o: MSOE2021Summer/Week4/Initials.cpp.o
+
+.PHONY : MSOE2021Summer/Week4/Initials.o
+
+# target to build an object file
+MSOE2021Summer/Week4/Initials.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Initials.dir/build.make CMakeFiles/Initials.dir/MSOE2021Summer/Week4/Initials.cpp.o
+.PHONY : MSOE2021Summer/Week4/Initials.cpp.o
+
+MSOE2021Summer/Week4/Initials.i: MSOE2021Summer/Week4/Initials.cpp.i
+
+.PHONY : MSOE2021Summer/Week4/Initials.i
+
+# target to preprocess a source file
+MSOE2021Summer/Week4/Initials.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Initials.dir/build.make CMakeFiles/Initials.dir/MSOE2021Summer/Week4/Initials.cpp.i
+.PHONY : MSOE2021Summer/Week4/Initials.cpp.i
+
+MSOE2021Summer/Week4/Initials.s: MSOE2021Summer/Week4/Initials.cpp.s
+
+.PHONY : MSOE2021Summer/Week4/Initials.s
+
+# target to generate assembly for a file
+MSOE2021Summer/Week4/Initials.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Initials.dir/build.make CMakeFiles/Initials.dir/MSOE2021Summer/Week4/Initials.cpp.s
+.PHONY : MSOE2021Summer/Week4/Initials.cpp.s
+
+MSOE2021Summer/Week4/MultiplicationGame.o: MSOE2021Summer/Week4/MultiplicationGame.cpp.o
+
+.PHONY : MSOE2021Summer/Week4/MultiplicationGame.o
+
+# target to build an object file
+MSOE2021Summer/Week4/MultiplicationGame.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MultiplicationGame.dir/build.make CMakeFiles/MultiplicationGame.dir/MSOE2021Summer/Week4/MultiplicationGame.cpp.o
+.PHONY : MSOE2021Summer/Week4/MultiplicationGame.cpp.o
+
+MSOE2021Summer/Week4/MultiplicationGame.i: MSOE2021Summer/Week4/MultiplicationGame.cpp.i
+
+.PHONY : MSOE2021Summer/Week4/MultiplicationGame.i
+
+# target to preprocess a source file
+MSOE2021Summer/Week4/MultiplicationGame.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MultiplicationGame.dir/build.make CMakeFiles/MultiplicationGame.dir/MSOE2021Summer/Week4/MultiplicationGame.cpp.i
+.PHONY : MSOE2021Summer/Week4/MultiplicationGame.cpp.i
+
+MSOE2021Summer/Week4/MultiplicationGame.s: MSOE2021Summer/Week4/MultiplicationGame.cpp.s
+
+.PHONY : MSOE2021Summer/Week4/MultiplicationGame.s
+
+# target to generate assembly for a file
+MSOE2021Summer/Week4/MultiplicationGame.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MultiplicationGame.dir/build.make CMakeFiles/MultiplicationGame.dir/MSOE2021Summer/Week4/MultiplicationGame.cpp.s
+.PHONY : MSOE2021Summer/Week4/MultiplicationGame.cpp.s
+
+MSOE2021Summer/Week4/OpenPitMining3.o: MSOE2021Summer/Week4/OpenPitMining3.cpp.o
+
+.PHONY : MSOE2021Summer/Week4/OpenPitMining3.o
+
+# target to build an object file
+MSOE2021Summer/Week4/OpenPitMining3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenPitMining.dir/build.make CMakeFiles/OpenPitMining.dir/MSOE2021Summer/Week4/OpenPitMining3.cpp.o
+.PHONY : MSOE2021Summer/Week4/OpenPitMining3.cpp.o
+
+MSOE2021Summer/Week4/OpenPitMining3.i: MSOE2021Summer/Week4/OpenPitMining3.cpp.i
+
+.PHONY : MSOE2021Summer/Week4/OpenPitMining3.i
+
+# target to preprocess a source file
+MSOE2021Summer/Week4/OpenPitMining3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenPitMining.dir/build.make CMakeFiles/OpenPitMining.dir/MSOE2021Summer/Week4/OpenPitMining3.cpp.i
+.PHONY : MSOE2021Summer/Week4/OpenPitMining3.cpp.i
+
+MSOE2021Summer/Week4/OpenPitMining3.s: MSOE2021Summer/Week4/OpenPitMining3.cpp.s
+
+.PHONY : MSOE2021Summer/Week4/OpenPitMining3.s
+
+# target to generate assembly for a file
+MSOE2021Summer/Week4/OpenPitMining3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenPitMining.dir/build.make CMakeFiles/OpenPitMining.dir/MSOE2021Summer/Week4/OpenPitMining3.cpp.s
+.PHONY : MSOE2021Summer/Week4/OpenPitMining3.cpp.s
 
 MSOE2021Summer/Week4/PalindromicPassword.o: MSOE2021Summer/Week4/PalindromicPassword.cpp.o
 
@@ -1787,7 +1907,7 @@ help:
 	@echo "... BumperToBumperTraffic"
 	@echo "... CarVet"
 	@echo "... ContinuedFraction"
-	@echo "... Decisions"
+	@echo "... DecisionsDecisions"
 	@echo "... DeliveringGoods"
 	@echo "... Difference"
 	@echo "... Election"
@@ -1798,11 +1918,14 @@ help:
 	@echo "... FroshWeek"
 	@echo "... HeartRate"
 	@echo "... HissingMicrophone"
+	@echo "... Initials"
 	@echo "... LandlineTelephoneNetwork"
 	@echo "... LaptopSticker"
 	@echo "... LockedTreasure"
 	@echo "... LostMap"
 	@echo "... LostMap2"
+	@echo "... MultiplicationGame"
+	@echo "... OpenPitMining"
 	@echo "... PalindromicPassword"
 	@echo "... PasswordHacking"
 	@echo "... PearWiseVoting"
@@ -1921,6 +2044,15 @@ help:
 	@echo "... MSOE2021Summer/Week4/HissingMicrophone.o"
 	@echo "... MSOE2021Summer/Week4/HissingMicrophone.i"
 	@echo "... MSOE2021Summer/Week4/HissingMicrophone.s"
+	@echo "... MSOE2021Summer/Week4/Initials.o"
+	@echo "... MSOE2021Summer/Week4/Initials.i"
+	@echo "... MSOE2021Summer/Week4/Initials.s"
+	@echo "... MSOE2021Summer/Week4/MultiplicationGame.o"
+	@echo "... MSOE2021Summer/Week4/MultiplicationGame.i"
+	@echo "... MSOE2021Summer/Week4/MultiplicationGame.s"
+	@echo "... MSOE2021Summer/Week4/OpenPitMining3.o"
+	@echo "... MSOE2021Summer/Week4/OpenPitMining3.i"
+	@echo "... MSOE2021Summer/Week4/OpenPitMining3.s"
 	@echo "... MSOE2021Summer/Week4/PalindromicPassword.o"
 	@echo "... MSOE2021Summer/Week4/PalindromicPassword.i"
 	@echo "... MSOE2021Summer/Week4/PalindromicPassword.s"

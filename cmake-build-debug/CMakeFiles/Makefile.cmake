@@ -52,8 +52,11 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/MultiplicationGame.dir/DependInfo.cmake"
+  "CMakeFiles/DecisionsDecisions.dir/DependInfo.cmake"
   "CMakeFiles/PolylineSimplification.dir/DependInfo.cmake"
   "CMakeFiles/HissingMicrophone.dir/DependInfo.cmake"
+  "CMakeFiles/OpenPitMining.dir/DependInfo.cmake"
   "CMakeFiles/FroshWeek.dir/DependInfo.cmake"
   "CMakeFiles/BumperToBumperTraffic.dir/DependInfo.cmake"
   "CMakeFiles/Election.dir/DependInfo.cmake"
@@ -74,6 +77,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Treehouse.dir/DependInfo.cmake"
   "CMakeFiles/PunctiliousCruciverbalist.dir/DependInfo.cmake"
   "CMakeFiles/PizzaCutting.dir/DependInfo.cmake"
+  "CMakeFiles/Initials.dir/DependInfo.cmake"
   "CMakeFiles/CarVet.dir/DependInfo.cmake"
   "CMakeFiles/PearWiseVoting.dir/DependInfo.cmake"
   "CMakeFiles/10KindsOfPeople.dir/DependInfo.cmake"
@@ -81,7 +85,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/WaifUntilDark.dir/DependInfo.cmake"
   "CMakeFiles/LaptopSticker.dir/DependInfo.cmake"
   "CMakeFiles/LockedTreasure.dir/DependInfo.cmake"
-  "CMakeFiles/Decisions.dir/DependInfo.cmake"
   "CMakeFiles/ContinuedFraction.dir/DependInfo.cmake"
   "CMakeFiles/RomanHolidays.dir/DependInfo.cmake"
   "CMakeFiles/LostMap2.dir/DependInfo.cmake"

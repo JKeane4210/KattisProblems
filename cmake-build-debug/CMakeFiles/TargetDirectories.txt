@@ -1,6 +1,9 @@
 /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/MultiplicationGame.dir
+/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/DecisionsDecisions.dir
 /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/PolylineSimplification.dir
 /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/HissingMicrophone.dir
+/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/OpenPitMining.dir
 /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/FroshWeek.dir
 /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/BumperToBumperTraffic.dir
 /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/Election.dir
@@ -21,6 +24,7 @@
 /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/Treehouse.dir
 /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/PunctiliousCruciverbalist.dir
 /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/PizzaCutting.dir
+/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/Initials.dir
 /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/CarVet.dir
 /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/PearWiseVoting.dir
 /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/10KindsOfPeople.dir
@@ -28,7 +32,6 @@
 /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/WaifUntilDark.dir
 /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/LaptopSticker.dir
 /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/LockedTreasure.dir
-/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/Decisions.dir
 /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/ContinuedFraction.dir
 /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/RomanHolidays.dir
 /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/LostMap2.dir
