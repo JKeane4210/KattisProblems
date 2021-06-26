@@ -131,6 +131,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named TaxedEditor
+
+# Build rule for target.
+TaxedEditor: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TaxedEditor
+.PHONY : TaxedEditor
+
+# fast build rule for target.
+TaxedEditor/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaxedEditor.dir/build.make CMakeFiles/TaxedEditor.dir/build
+.PHONY : TaxedEditor/fast
+
+#=============================================================================
 # Target rules for targets named MultiplicationGame
 
 # Build rule for target.
@@ -142,6 +155,19 @@ MultiplicationGame: cmake_check_build_system
 MultiplicationGame/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MultiplicationGame.dir/build.make CMakeFiles/MultiplicationGame.dir/build
 .PHONY : MultiplicationGame/fast
+
+#=============================================================================
+# Target rules for targets named Retribution
+
+# Build rule for target.
+Retribution: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Retribution
+.PHONY : Retribution
+
+# fast build rule for target.
+Retribution/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Retribution.dir/build.make CMakeFiles/Retribution.dir/build
+.PHONY : Retribution/fast
 
 #=============================================================================
 # Target rules for targets named DecisionsDecisions
@@ -168,6 +194,19 @@ PolylineSimplification: cmake_check_build_system
 PolylineSimplification/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PolylineSimplification.dir/build.make CMakeFiles/PolylineSimplification.dir/build
 .PHONY : PolylineSimplification/fast
+
+#=============================================================================
+# Target rules for targets named ACMScoringContest
+
+# Build rule for target.
+ACMScoringContest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ACMScoringContest
+.PHONY : ACMScoringContest
+
+# fast build rule for target.
+ACMScoringContest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ACMScoringContest.dir/build.make CMakeFiles/ACMScoringContest.dir/build
+.PHONY : ACMScoringContest/fast
 
 #=============================================================================
 # Target rules for targets named HissingMicrophone
@@ -209,6 +248,32 @@ FroshWeek/fast:
 .PHONY : FroshWeek/fast
 
 #=============================================================================
+# Target rules for targets named DeliveringGoods
+
+# Build rule for target.
+DeliveringGoods: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DeliveringGoods
+.PHONY : DeliveringGoods
+
+# fast build rule for target.
+DeliveringGoods/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DeliveringGoods.dir/build.make CMakeFiles/DeliveringGoods.dir/build
+.PHONY : DeliveringGoods/fast
+
+#=============================================================================
+# Target rules for targets named CarVet
+
+# Build rule for target.
+CarVet: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CarVet
+.PHONY : CarVet
+
+# fast build rule for target.
+CarVet/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CarVet.dir/build.make CMakeFiles/CarVet.dir/build
+.PHONY : CarVet/fast
+
+#=============================================================================
 # Target rules for targets named BumperToBumperTraffic
 
 # Build rule for target.
@@ -235,6 +300,19 @@ Election/fast:
 .PHONY : Election/fast
 
 #=============================================================================
+# Target rules for targets named PizzaCutting
+
+# Build rule for target.
+PizzaCutting: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PizzaCutting
+.PHONY : PizzaCutting
+
+# fast build rule for target.
+PizzaCutting/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PizzaCutting.dir/build.make CMakeFiles/PizzaCutting.dir/build
+.PHONY : PizzaCutting/fast
+
+#=============================================================================
 # Target rules for targets named HeartRate
 
 # Build rule for target.
@@ -246,6 +324,32 @@ HeartRate: cmake_check_build_system
 HeartRate/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/HeartRate.dir/build.make CMakeFiles/HeartRate.dir/build
 .PHONY : HeartRate/fast
+
+#=============================================================================
+# Target rules for targets named ToursDeSalesForce
+
+# Build rule for target.
+ToursDeSalesForce: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ToursDeSalesForce
+.PHONY : ToursDeSalesForce
+
+# fast build rule for target.
+ToursDeSalesForce/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToursDeSalesForce.dir/build.make CMakeFiles/ToursDeSalesForce.dir/build
+.PHONY : ToursDeSalesForce/fast
+
+#=============================================================================
+# Target rules for targets named Treehouse
+
+# Build rule for target.
+Treehouse: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Treehouse
+.PHONY : Treehouse
+
+# fast build rule for target.
+Treehouse/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Treehouse.dir/build.make CMakeFiles/Treehouse.dir/build
+.PHONY : Treehouse/fast
 
 #=============================================================================
 # Target rules for targets named FlowShop
@@ -261,6 +365,32 @@ FlowShop/fast:
 .PHONY : FlowShop/fast
 
 #=============================================================================
+# Target rules for targets named ContinuedFraction
+
+# Build rule for target.
+ContinuedFraction: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ContinuedFraction
+.PHONY : ContinuedFraction
+
+# fast build rule for target.
+ContinuedFraction/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ContinuedFraction.dir/build.make CMakeFiles/ContinuedFraction.dir/build
+.PHONY : ContinuedFraction/fast
+
+#=============================================================================
+# Target rules for targets named BioTrip
+
+# Build rule for target.
+BioTrip: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 BioTrip
+.PHONY : BioTrip
+
+# fast build rule for target.
+BioTrip/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BioTrip.dir/build.make CMakeFiles/BioTrip.dir/build
+.PHONY : BioTrip/fast
+
+#=============================================================================
 # Target rules for targets named FizzBuzz
 
 # Build rule for target.
@@ -274,6 +404,19 @@ FizzBuzz/fast:
 .PHONY : FizzBuzz/fast
 
 #=============================================================================
+# Target rules for targets named Difference
+
+# Build rule for target.
+Difference: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Difference
+.PHONY : Difference
+
+# fast build rule for target.
+Difference/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Difference.dir/build.make CMakeFiles/Difference.dir/build
+.PHONY : Difference/fast
+
+#=============================================================================
 # Target rules for targets named AquariumTank
 
 # Build rule for target.
@@ -285,6 +428,19 @@ AquariumTank: cmake_check_build_system
 AquariumTank/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/AquariumTank.dir/build.make CMakeFiles/AquariumTank.dir/build
 .PHONY : AquariumTank/fast
+
+#=============================================================================
+# Target rules for targets named RomanHolidays
+
+# Build rule for target.
+RomanHolidays: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 RomanHolidays
+.PHONY : RomanHolidays
+
+# fast build rule for target.
+RomanHolidays/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RomanHolidays.dir/build.make CMakeFiles/RomanHolidays.dir/build
+.PHONY : RomanHolidays/fast
 
 #=============================================================================
 # Target rules for targets named PasswordHacking
@@ -391,19 +547,6 @@ A1Paper/fast:
 .PHONY : A1Paper/fast
 
 #=============================================================================
-# Target rules for targets named Difference
-
-# Build rule for target.
-Difference: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Difference
-.PHONY : Difference
-
-# fast build rule for target.
-Difference/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Difference.dir/build.make CMakeFiles/Difference.dir/build
-.PHONY : Difference/fast
-
-#=============================================================================
 # Target rules for targets named PalindromicPassword
 
 # Build rule for target.
@@ -415,19 +558,6 @@ PalindromicPassword: cmake_check_build_system
 PalindromicPassword/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PalindromicPassword.dir/build.make CMakeFiles/PalindromicPassword.dir/build
 .PHONY : PalindromicPassword/fast
-
-#=============================================================================
-# Target rules for targets named Treehouse
-
-# Build rule for target.
-Treehouse: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Treehouse
-.PHONY : Treehouse
-
-# fast build rule for target.
-Treehouse/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Treehouse.dir/build.make CMakeFiles/Treehouse.dir/build
-.PHONY : Treehouse/fast
 
 #=============================================================================
 # Target rules for targets named PunctiliousCruciverbalist
@@ -443,19 +573,6 @@ PunctiliousCruciverbalist/fast:
 .PHONY : PunctiliousCruciverbalist/fast
 
 #=============================================================================
-# Target rules for targets named PizzaCutting
-
-# Build rule for target.
-PizzaCutting: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PizzaCutting
-.PHONY : PizzaCutting
-
-# fast build rule for target.
-PizzaCutting/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PizzaCutting.dir/build.make CMakeFiles/PizzaCutting.dir/build
-.PHONY : PizzaCutting/fast
-
-#=============================================================================
 # Target rules for targets named Initials
 
 # Build rule for target.
@@ -469,17 +586,17 @@ Initials/fast:
 .PHONY : Initials/fast
 
 #=============================================================================
-# Target rules for targets named CarVet
+# Target rules for targets named MusicalChairs
 
 # Build rule for target.
-CarVet: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CarVet
-.PHONY : CarVet
+MusicalChairs: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MusicalChairs
+.PHONY : MusicalChairs
 
 # fast build rule for target.
-CarVet/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CarVet.dir/build.make CMakeFiles/CarVet.dir/build
-.PHONY : CarVet/fast
+MusicalChairs/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MusicalChairs.dir/build.make CMakeFiles/MusicalChairs.dir/build
+.PHONY : MusicalChairs/fast
 
 #=============================================================================
 # Target rules for targets named PearWiseVoting
@@ -506,19 +623,6 @@ PearWiseVoting/fast:
 10KindsOfPeople/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/10KindsOfPeople.dir/build.make CMakeFiles/10KindsOfPeople.dir/build
 .PHONY : 10KindsOfPeople/fast
-
-#=============================================================================
-# Target rules for targets named DeliveringGoods
-
-# Build rule for target.
-DeliveringGoods: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DeliveringGoods
-.PHONY : DeliveringGoods
-
-# fast build rule for target.
-DeliveringGoods/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DeliveringGoods.dir/build.make CMakeFiles/DeliveringGoods.dir/build
-.PHONY : DeliveringGoods/fast
 
 #=============================================================================
 # Target rules for targets named WaifUntilDark
@@ -558,32 +662,6 @@ LockedTreasure: cmake_check_build_system
 LockedTreasure/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LockedTreasure.dir/build.make CMakeFiles/LockedTreasure.dir/build
 .PHONY : LockedTreasure/fast
-
-#=============================================================================
-# Target rules for targets named ContinuedFraction
-
-# Build rule for target.
-ContinuedFraction: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ContinuedFraction
-.PHONY : ContinuedFraction
-
-# fast build rule for target.
-ContinuedFraction/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ContinuedFraction.dir/build.make CMakeFiles/ContinuedFraction.dir/build
-.PHONY : ContinuedFraction/fast
-
-#=============================================================================
-# Target rules for targets named RomanHolidays
-
-# Build rule for target.
-RomanHolidays: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 RomanHolidays
-.PHONY : RomanHolidays
-
-# fast build rule for target.
-RomanHolidays/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RomanHolidays.dir/build.make CMakeFiles/RomanHolidays.dir/build
-.PHONY : RomanHolidays/fast
 
 #=============================================================================
 # Target rules for targets named LostMap2
@@ -675,32 +753,6 @@ PlaneTicketPricing: cmake_check_build_system
 PlaneTicketPricing/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PlaneTicketPricing.dir/build.make CMakeFiles/PlaneTicketPricing.dir/build
 .PHONY : PlaneTicketPricing/fast
-
-#=============================================================================
-# Target rules for targets named ACMScoringContest
-
-# Build rule for target.
-ACMScoringContest: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ACMScoringContest
-.PHONY : ACMScoringContest
-
-# fast build rule for target.
-ACMScoringContest/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ACMScoringContest.dir/build.make CMakeFiles/ACMScoringContest.dir/build
-.PHONY : ACMScoringContest/fast
-
-#=============================================================================
-# Target rules for targets named ToursDeSalesForce
-
-# Build rule for target.
-ToursDeSalesForce: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ToursDeSalesForce
-.PHONY : ToursDeSalesForce
-
-# fast build rule for target.
-ToursDeSalesForce/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ToursDeSalesForce.dir/build.make CMakeFiles/ToursDeSalesForce.dir/build
-.PHONY : ToursDeSalesForce/fast
 
 01Sequences.o: 01Sequences.cpp.o
 
@@ -1755,6 +1807,114 @@ MSOE2021Summer/Week4/PolylineSimplification.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PolylineSimplification.dir/build.make CMakeFiles/PolylineSimplification.dir/MSOE2021Summer/Week4/PolylineSimplification.cpp.s
 .PHONY : MSOE2021Summer/Week4/PolylineSimplification.cpp.s
 
+MSOE2021Summer/Week5/BioTrip2.o: MSOE2021Summer/Week5/BioTrip2.cpp.o
+
+.PHONY : MSOE2021Summer/Week5/BioTrip2.o
+
+# target to build an object file
+MSOE2021Summer/Week5/BioTrip2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BioTrip.dir/build.make CMakeFiles/BioTrip.dir/MSOE2021Summer/Week5/BioTrip2.cpp.o
+.PHONY : MSOE2021Summer/Week5/BioTrip2.cpp.o
+
+MSOE2021Summer/Week5/BioTrip2.i: MSOE2021Summer/Week5/BioTrip2.cpp.i
+
+.PHONY : MSOE2021Summer/Week5/BioTrip2.i
+
+# target to preprocess a source file
+MSOE2021Summer/Week5/BioTrip2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BioTrip.dir/build.make CMakeFiles/BioTrip.dir/MSOE2021Summer/Week5/BioTrip2.cpp.i
+.PHONY : MSOE2021Summer/Week5/BioTrip2.cpp.i
+
+MSOE2021Summer/Week5/BioTrip2.s: MSOE2021Summer/Week5/BioTrip2.cpp.s
+
+.PHONY : MSOE2021Summer/Week5/BioTrip2.s
+
+# target to generate assembly for a file
+MSOE2021Summer/Week5/BioTrip2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BioTrip.dir/build.make CMakeFiles/BioTrip.dir/MSOE2021Summer/Week5/BioTrip2.cpp.s
+.PHONY : MSOE2021Summer/Week5/BioTrip2.cpp.s
+
+MSOE2021Summer/Week5/MusicalChairs.o: MSOE2021Summer/Week5/MusicalChairs.cpp.o
+
+.PHONY : MSOE2021Summer/Week5/MusicalChairs.o
+
+# target to build an object file
+MSOE2021Summer/Week5/MusicalChairs.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MusicalChairs.dir/build.make CMakeFiles/MusicalChairs.dir/MSOE2021Summer/Week5/MusicalChairs.cpp.o
+.PHONY : MSOE2021Summer/Week5/MusicalChairs.cpp.o
+
+MSOE2021Summer/Week5/MusicalChairs.i: MSOE2021Summer/Week5/MusicalChairs.cpp.i
+
+.PHONY : MSOE2021Summer/Week5/MusicalChairs.i
+
+# target to preprocess a source file
+MSOE2021Summer/Week5/MusicalChairs.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MusicalChairs.dir/build.make CMakeFiles/MusicalChairs.dir/MSOE2021Summer/Week5/MusicalChairs.cpp.i
+.PHONY : MSOE2021Summer/Week5/MusicalChairs.cpp.i
+
+MSOE2021Summer/Week5/MusicalChairs.s: MSOE2021Summer/Week5/MusicalChairs.cpp.s
+
+.PHONY : MSOE2021Summer/Week5/MusicalChairs.s
+
+# target to generate assembly for a file
+MSOE2021Summer/Week5/MusicalChairs.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MusicalChairs.dir/build.make CMakeFiles/MusicalChairs.dir/MSOE2021Summer/Week5/MusicalChairs.cpp.s
+.PHONY : MSOE2021Summer/Week5/MusicalChairs.cpp.s
+
+MSOE2021Summer/Week5/Retribution.o: MSOE2021Summer/Week5/Retribution.cpp.o
+
+.PHONY : MSOE2021Summer/Week5/Retribution.o
+
+# target to build an object file
+MSOE2021Summer/Week5/Retribution.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Retribution.dir/build.make CMakeFiles/Retribution.dir/MSOE2021Summer/Week5/Retribution.cpp.o
+.PHONY : MSOE2021Summer/Week5/Retribution.cpp.o
+
+MSOE2021Summer/Week5/Retribution.i: MSOE2021Summer/Week5/Retribution.cpp.i
+
+.PHONY : MSOE2021Summer/Week5/Retribution.i
+
+# target to preprocess a source file
+MSOE2021Summer/Week5/Retribution.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Retribution.dir/build.make CMakeFiles/Retribution.dir/MSOE2021Summer/Week5/Retribution.cpp.i
+.PHONY : MSOE2021Summer/Week5/Retribution.cpp.i
+
+MSOE2021Summer/Week5/Retribution.s: MSOE2021Summer/Week5/Retribution.cpp.s
+
+.PHONY : MSOE2021Summer/Week5/Retribution.s
+
+# target to generate assembly for a file
+MSOE2021Summer/Week5/Retribution.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Retribution.dir/build.make CMakeFiles/Retribution.dir/MSOE2021Summer/Week5/Retribution.cpp.s
+.PHONY : MSOE2021Summer/Week5/Retribution.cpp.s
+
+MSOE2021Summer/Week5/TaxedEditor.o: MSOE2021Summer/Week5/TaxedEditor.cpp.o
+
+.PHONY : MSOE2021Summer/Week5/TaxedEditor.o
+
+# target to build an object file
+MSOE2021Summer/Week5/TaxedEditor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaxedEditor.dir/build.make CMakeFiles/TaxedEditor.dir/MSOE2021Summer/Week5/TaxedEditor.cpp.o
+.PHONY : MSOE2021Summer/Week5/TaxedEditor.cpp.o
+
+MSOE2021Summer/Week5/TaxedEditor.i: MSOE2021Summer/Week5/TaxedEditor.cpp.i
+
+.PHONY : MSOE2021Summer/Week5/TaxedEditor.i
+
+# target to preprocess a source file
+MSOE2021Summer/Week5/TaxedEditor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaxedEditor.dir/build.make CMakeFiles/TaxedEditor.dir/MSOE2021Summer/Week5/TaxedEditor.cpp.i
+.PHONY : MSOE2021Summer/Week5/TaxedEditor.cpp.i
+
+MSOE2021Summer/Week5/TaxedEditor.s: MSOE2021Summer/Week5/TaxedEditor.cpp.s
+
+.PHONY : MSOE2021Summer/Week5/TaxedEditor.s
+
+# target to generate assembly for a file
+MSOE2021Summer/Week5/TaxedEditor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaxedEditor.dir/build.make CMakeFiles/TaxedEditor.dir/MSOE2021Summer/Week5/TaxedEditor.cpp.s
+.PHONY : MSOE2021Summer/Week5/TaxedEditor.cpp.s
+
 WaifUntilDark.o: WaifUntilDark.cpp.o
 
 .PHONY : WaifUntilDark.o
@@ -1904,6 +2064,7 @@ help:
 	@echo "... A1Paper"
 	@echo "... ACMScoringContest"
 	@echo "... AquariumTank"
+	@echo "... BioTrip"
 	@echo "... BumperToBumperTraffic"
 	@echo "... CarVet"
 	@echo "... ContinuedFraction"
@@ -1925,6 +2086,7 @@ help:
 	@echo "... LostMap"
 	@echo "... LostMap2"
 	@echo "... MultiplicationGame"
+	@echo "... MusicalChairs"
 	@echo "... OpenPitMining"
 	@echo "... PalindromicPassword"
 	@echo "... PasswordHacking"
@@ -1936,9 +2098,11 @@ help:
 	@echo "... RandomProblem"
 	@echo "... RepeatedSubstrings"
 	@echo "... RestaurantRatings"
+	@echo "... Retribution"
 	@echo "... RomanHolidays"
 	@echo "... Server"
 	@echo "... SingleSourceNegativeWeights"
+	@echo "... TaxedEditor"
 	@echo "... ToursDeSalesForce"
 	@echo "... Treehouse"
 	@echo "... WaifUntilDark"
@@ -2059,6 +2223,18 @@ help:
 	@echo "... MSOE2021Summer/Week4/PolylineSimplification.o"
 	@echo "... MSOE2021Summer/Week4/PolylineSimplification.i"
 	@echo "... MSOE2021Summer/Week4/PolylineSimplification.s"
+	@echo "... MSOE2021Summer/Week5/BioTrip2.o"
+	@echo "... MSOE2021Summer/Week5/BioTrip2.i"
+	@echo "... MSOE2021Summer/Week5/BioTrip2.s"
+	@echo "... MSOE2021Summer/Week5/MusicalChairs.o"
+	@echo "... MSOE2021Summer/Week5/MusicalChairs.i"
+	@echo "... MSOE2021Summer/Week5/MusicalChairs.s"
+	@echo "... MSOE2021Summer/Week5/Retribution.o"
+	@echo "... MSOE2021Summer/Week5/Retribution.i"
+	@echo "... MSOE2021Summer/Week5/Retribution.s"
+	@echo "... MSOE2021Summer/Week5/TaxedEditor.o"
+	@echo "... MSOE2021Summer/Week5/TaxedEditor.i"
+	@echo "... MSOE2021Summer/Week5/TaxedEditor.s"
 	@echo "... WaifUntilDark.o"
 	@echo "... WaifUntilDark.i"
 	@echo "... WaifUntilDark.s"
