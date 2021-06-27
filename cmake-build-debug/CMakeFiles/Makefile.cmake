@@ -89,6 +89,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Initials.dir/DependInfo.cmake"
   "CMakeFiles/MusicalChairs.dir/DependInfo.cmake"
   "CMakeFiles/PearWiseVoting.dir/DependInfo.cmake"
+  "CMakeFiles/JustPassingThrough.dir/DependInfo.cmake"
   "CMakeFiles/10KindsOfPeople.dir/DependInfo.cmake"
   "CMakeFiles/WaifUntilDark.dir/DependInfo.cmake"
   "CMakeFiles/LaptopSticker.dir/DependInfo.cmake"

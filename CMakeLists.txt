@@ -52,6 +52,7 @@ add_executable(BioTrip MSOE2021Summer/Week5/BioTrip2.cpp)
 add_executable(MusicalChairs MSOE2021Summer/Week5/MusicalChairs.cpp)
 add_executable(Retribution MSOE2021Summer/Week5/Retribution.cpp)
 add_executable(TaxedEditor MSOE2021Summer/Week5/TaxedEditor.cpp)
+add_executable(JustPassingThrough MSOE2021Summer/Week5/JustPassingThrough.cpp)
 
 #include_directories(/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++)
 #include_directories(/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1)

@@ -612,6 +612,19 @@ PearWiseVoting/fast:
 .PHONY : PearWiseVoting/fast
 
 #=============================================================================
+# Target rules for targets named JustPassingThrough
+
+# Build rule for target.
+JustPassingThrough: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 JustPassingThrough
+.PHONY : JustPassingThrough
+
+# fast build rule for target.
+JustPassingThrough/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JustPassingThrough.dir/build.make CMakeFiles/JustPassingThrough.dir/build
+.PHONY : JustPassingThrough/fast
+
+#=============================================================================
 # Target rules for targets named 10KindsOfPeople
 
 # Build rule for target.
@@ -1834,6 +1847,33 @@ MSOE2021Summer/Week5/BioTrip2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BioTrip.dir/build.make CMakeFiles/BioTrip.dir/MSOE2021Summer/Week5/BioTrip2.cpp.s
 .PHONY : MSOE2021Summer/Week5/BioTrip2.cpp.s
 
+MSOE2021Summer/Week5/JustPassingThrough.o: MSOE2021Summer/Week5/JustPassingThrough.cpp.o
+
+.PHONY : MSOE2021Summer/Week5/JustPassingThrough.o
+
+# target to build an object file
+MSOE2021Summer/Week5/JustPassingThrough.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JustPassingThrough.dir/build.make CMakeFiles/JustPassingThrough.dir/MSOE2021Summer/Week5/JustPassingThrough.cpp.o
+.PHONY : MSOE2021Summer/Week5/JustPassingThrough.cpp.o
+
+MSOE2021Summer/Week5/JustPassingThrough.i: MSOE2021Summer/Week5/JustPassingThrough.cpp.i
+
+.PHONY : MSOE2021Summer/Week5/JustPassingThrough.i
+
+# target to preprocess a source file
+MSOE2021Summer/Week5/JustPassingThrough.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JustPassingThrough.dir/build.make CMakeFiles/JustPassingThrough.dir/MSOE2021Summer/Week5/JustPassingThrough.cpp.i
+.PHONY : MSOE2021Summer/Week5/JustPassingThrough.cpp.i
+
+MSOE2021Summer/Week5/JustPassingThrough.s: MSOE2021Summer/Week5/JustPassingThrough.cpp.s
+
+.PHONY : MSOE2021Summer/Week5/JustPassingThrough.s
+
+# target to generate assembly for a file
+MSOE2021Summer/Week5/JustPassingThrough.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JustPassingThrough.dir/build.make CMakeFiles/JustPassingThrough.dir/MSOE2021Summer/Week5/JustPassingThrough.cpp.s
+.PHONY : MSOE2021Summer/Week5/JustPassingThrough.cpp.s
+
 MSOE2021Summer/Week5/MusicalChairs.o: MSOE2021Summer/Week5/MusicalChairs.cpp.o
 
 .PHONY : MSOE2021Summer/Week5/MusicalChairs.o
@@ -2080,6 +2120,7 @@ help:
 	@echo "... HeartRate"
 	@echo "... HissingMicrophone"
 	@echo "... Initials"
+	@echo "... JustPassingThrough"
 	@echo "... LandlineTelephoneNetwork"
 	@echo "... LaptopSticker"
 	@echo "... LockedTreasure"
@@ -2226,6 +2267,9 @@ help:
 	@echo "... MSOE2021Summer/Week5/BioTrip2.o"
 	@echo "... MSOE2021Summer/Week5/BioTrip2.i"
 	@echo "... MSOE2021Summer/Week5/BioTrip2.s"
+	@echo "... MSOE2021Summer/Week5/JustPassingThrough.o"
+	@echo "... MSOE2021Summer/Week5/JustPassingThrough.i"
+	@echo "... MSOE2021Summer/Week5/JustPassingThrough.s"
 	@echo "... MSOE2021Summer/Week5/MusicalChairs.o"
 	@echo "... MSOE2021Summer/Week5/MusicalChairs.i"
 	@echo "... MSOE2021Summer/Week5/MusicalChairs.s"

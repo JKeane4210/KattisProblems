@@ -37,6 +37,7 @@
 /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/MusicalChairs.dir
 /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/PearWiseVoting.dir
 /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/JustPassingThrough.dir
 /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/10KindsOfPeople.dir
 /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/WaifUntilDark.dir
 /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/LaptopSticker.dir
