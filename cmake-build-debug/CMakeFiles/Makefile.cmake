@@ -52,6 +52,10 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/TransportationDelegation.dir/DependInfo.cmake"
+  "CMakeFiles/KenKenYouDoIt.dir/DependInfo.cmake"
+  "CMakeFiles/SquawkVirus.dir/DependInfo.cmake"
+  "CMakeFiles/WhatsOnTheGrille.dir/DependInfo.cmake"
   "CMakeFiles/TaxedEditor.dir/DependInfo.cmake"
   "CMakeFiles/MultiplicationGame.dir/DependInfo.cmake"
   "CMakeFiles/Retribution.dir/DependInfo.cmake"
@@ -89,6 +93,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/Initials.dir/DependInfo.cmake"
   "CMakeFiles/MusicalChairs.dir/DependInfo.cmake"
   "CMakeFiles/PearWiseVoting.dir/DependInfo.cmake"
+  "CMakeFiles/Rings.dir/DependInfo.cmake"
   "CMakeFiles/JustPassingThrough.dir/DependInfo.cmake"
   "CMakeFiles/10KindsOfPeople.dir/DependInfo.cmake"
   "CMakeFiles/WaifUntilDark.dir/DependInfo.cmake"

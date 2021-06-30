@@ -131,6 +131,58 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named TransportationDelegation
+
+# Build rule for target.
+TransportationDelegation: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TransportationDelegation
+.PHONY : TransportationDelegation
+
+# fast build rule for target.
+TransportationDelegation/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TransportationDelegation.dir/build.make CMakeFiles/TransportationDelegation.dir/build
+.PHONY : TransportationDelegation/fast
+
+#=============================================================================
+# Target rules for targets named KenKenYouDoIt
+
+# Build rule for target.
+KenKenYouDoIt: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 KenKenYouDoIt
+.PHONY : KenKenYouDoIt
+
+# fast build rule for target.
+KenKenYouDoIt/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KenKenYouDoIt.dir/build.make CMakeFiles/KenKenYouDoIt.dir/build
+.PHONY : KenKenYouDoIt/fast
+
+#=============================================================================
+# Target rules for targets named SquawkVirus
+
+# Build rule for target.
+SquawkVirus: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SquawkVirus
+.PHONY : SquawkVirus
+
+# fast build rule for target.
+SquawkVirus/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SquawkVirus.dir/build.make CMakeFiles/SquawkVirus.dir/build
+.PHONY : SquawkVirus/fast
+
+#=============================================================================
+# Target rules for targets named WhatsOnTheGrille
+
+# Build rule for target.
+WhatsOnTheGrille: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 WhatsOnTheGrille
+.PHONY : WhatsOnTheGrille
+
+# fast build rule for target.
+WhatsOnTheGrille/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WhatsOnTheGrille.dir/build.make CMakeFiles/WhatsOnTheGrille.dir/build
+.PHONY : WhatsOnTheGrille/fast
+
+#=============================================================================
 # Target rules for targets named TaxedEditor
 
 # Build rule for target.
@@ -610,6 +662,19 @@ PearWiseVoting: cmake_check_build_system
 PearWiseVoting/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PearWiseVoting.dir/build.make CMakeFiles/PearWiseVoting.dir/build
 .PHONY : PearWiseVoting/fast
+
+#=============================================================================
+# Target rules for targets named Rings
+
+# Build rule for target.
+Rings: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Rings
+.PHONY : Rings
+
+# fast build rule for target.
+Rings/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rings.dir/build.make CMakeFiles/Rings.dir/build
+.PHONY : Rings/fast
 
 #=============================================================================
 # Target rules for targets named JustPassingThrough
@@ -1955,6 +2020,141 @@ MSOE2021Summer/Week5/TaxedEditor.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaxedEditor.dir/build.make CMakeFiles/TaxedEditor.dir/MSOE2021Summer/Week5/TaxedEditor.cpp.s
 .PHONY : MSOE2021Summer/Week5/TaxedEditor.cpp.s
 
+MSOE2021Summer/Week6/KenKenYouDoIt.o: MSOE2021Summer/Week6/KenKenYouDoIt.cpp.o
+
+.PHONY : MSOE2021Summer/Week6/KenKenYouDoIt.o
+
+# target to build an object file
+MSOE2021Summer/Week6/KenKenYouDoIt.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KenKenYouDoIt.dir/build.make CMakeFiles/KenKenYouDoIt.dir/MSOE2021Summer/Week6/KenKenYouDoIt.cpp.o
+.PHONY : MSOE2021Summer/Week6/KenKenYouDoIt.cpp.o
+
+MSOE2021Summer/Week6/KenKenYouDoIt.i: MSOE2021Summer/Week6/KenKenYouDoIt.cpp.i
+
+.PHONY : MSOE2021Summer/Week6/KenKenYouDoIt.i
+
+# target to preprocess a source file
+MSOE2021Summer/Week6/KenKenYouDoIt.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KenKenYouDoIt.dir/build.make CMakeFiles/KenKenYouDoIt.dir/MSOE2021Summer/Week6/KenKenYouDoIt.cpp.i
+.PHONY : MSOE2021Summer/Week6/KenKenYouDoIt.cpp.i
+
+MSOE2021Summer/Week6/KenKenYouDoIt.s: MSOE2021Summer/Week6/KenKenYouDoIt.cpp.s
+
+.PHONY : MSOE2021Summer/Week6/KenKenYouDoIt.s
+
+# target to generate assembly for a file
+MSOE2021Summer/Week6/KenKenYouDoIt.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/KenKenYouDoIt.dir/build.make CMakeFiles/KenKenYouDoIt.dir/MSOE2021Summer/Week6/KenKenYouDoIt.cpp.s
+.PHONY : MSOE2021Summer/Week6/KenKenYouDoIt.cpp.s
+
+MSOE2021Summer/Week6/Rings.o: MSOE2021Summer/Week6/Rings.cpp.o
+
+.PHONY : MSOE2021Summer/Week6/Rings.o
+
+# target to build an object file
+MSOE2021Summer/Week6/Rings.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rings.dir/build.make CMakeFiles/Rings.dir/MSOE2021Summer/Week6/Rings.cpp.o
+.PHONY : MSOE2021Summer/Week6/Rings.cpp.o
+
+MSOE2021Summer/Week6/Rings.i: MSOE2021Summer/Week6/Rings.cpp.i
+
+.PHONY : MSOE2021Summer/Week6/Rings.i
+
+# target to preprocess a source file
+MSOE2021Summer/Week6/Rings.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rings.dir/build.make CMakeFiles/Rings.dir/MSOE2021Summer/Week6/Rings.cpp.i
+.PHONY : MSOE2021Summer/Week6/Rings.cpp.i
+
+MSOE2021Summer/Week6/Rings.s: MSOE2021Summer/Week6/Rings.cpp.s
+
+.PHONY : MSOE2021Summer/Week6/Rings.s
+
+# target to generate assembly for a file
+MSOE2021Summer/Week6/Rings.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Rings.dir/build.make CMakeFiles/Rings.dir/MSOE2021Summer/Week6/Rings.cpp.s
+.PHONY : MSOE2021Summer/Week6/Rings.cpp.s
+
+MSOE2021Summer/Week6/SquawkVirus.o: MSOE2021Summer/Week6/SquawkVirus.cpp.o
+
+.PHONY : MSOE2021Summer/Week6/SquawkVirus.o
+
+# target to build an object file
+MSOE2021Summer/Week6/SquawkVirus.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SquawkVirus.dir/build.make CMakeFiles/SquawkVirus.dir/MSOE2021Summer/Week6/SquawkVirus.cpp.o
+.PHONY : MSOE2021Summer/Week6/SquawkVirus.cpp.o
+
+MSOE2021Summer/Week6/SquawkVirus.i: MSOE2021Summer/Week6/SquawkVirus.cpp.i
+
+.PHONY : MSOE2021Summer/Week6/SquawkVirus.i
+
+# target to preprocess a source file
+MSOE2021Summer/Week6/SquawkVirus.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SquawkVirus.dir/build.make CMakeFiles/SquawkVirus.dir/MSOE2021Summer/Week6/SquawkVirus.cpp.i
+.PHONY : MSOE2021Summer/Week6/SquawkVirus.cpp.i
+
+MSOE2021Summer/Week6/SquawkVirus.s: MSOE2021Summer/Week6/SquawkVirus.cpp.s
+
+.PHONY : MSOE2021Summer/Week6/SquawkVirus.s
+
+# target to generate assembly for a file
+MSOE2021Summer/Week6/SquawkVirus.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SquawkVirus.dir/build.make CMakeFiles/SquawkVirus.dir/MSOE2021Summer/Week6/SquawkVirus.cpp.s
+.PHONY : MSOE2021Summer/Week6/SquawkVirus.cpp.s
+
+MSOE2021Summer/Week6/TransportationDelegation.o: MSOE2021Summer/Week6/TransportationDelegation.cpp.o
+
+.PHONY : MSOE2021Summer/Week6/TransportationDelegation.o
+
+# target to build an object file
+MSOE2021Summer/Week6/TransportationDelegation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TransportationDelegation.dir/build.make CMakeFiles/TransportationDelegation.dir/MSOE2021Summer/Week6/TransportationDelegation.cpp.o
+.PHONY : MSOE2021Summer/Week6/TransportationDelegation.cpp.o
+
+MSOE2021Summer/Week6/TransportationDelegation.i: MSOE2021Summer/Week6/TransportationDelegation.cpp.i
+
+.PHONY : MSOE2021Summer/Week6/TransportationDelegation.i
+
+# target to preprocess a source file
+MSOE2021Summer/Week6/TransportationDelegation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TransportationDelegation.dir/build.make CMakeFiles/TransportationDelegation.dir/MSOE2021Summer/Week6/TransportationDelegation.cpp.i
+.PHONY : MSOE2021Summer/Week6/TransportationDelegation.cpp.i
+
+MSOE2021Summer/Week6/TransportationDelegation.s: MSOE2021Summer/Week6/TransportationDelegation.cpp.s
+
+.PHONY : MSOE2021Summer/Week6/TransportationDelegation.s
+
+# target to generate assembly for a file
+MSOE2021Summer/Week6/TransportationDelegation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TransportationDelegation.dir/build.make CMakeFiles/TransportationDelegation.dir/MSOE2021Summer/Week6/TransportationDelegation.cpp.s
+.PHONY : MSOE2021Summer/Week6/TransportationDelegation.cpp.s
+
+MSOE2021Summer/Week6/WhatsOnTheGrille.o: MSOE2021Summer/Week6/WhatsOnTheGrille.cpp.o
+
+.PHONY : MSOE2021Summer/Week6/WhatsOnTheGrille.o
+
+# target to build an object file
+MSOE2021Summer/Week6/WhatsOnTheGrille.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WhatsOnTheGrille.dir/build.make CMakeFiles/WhatsOnTheGrille.dir/MSOE2021Summer/Week6/WhatsOnTheGrille.cpp.o
+.PHONY : MSOE2021Summer/Week6/WhatsOnTheGrille.cpp.o
+
+MSOE2021Summer/Week6/WhatsOnTheGrille.i: MSOE2021Summer/Week6/WhatsOnTheGrille.cpp.i
+
+.PHONY : MSOE2021Summer/Week6/WhatsOnTheGrille.i
+
+# target to preprocess a source file
+MSOE2021Summer/Week6/WhatsOnTheGrille.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WhatsOnTheGrille.dir/build.make CMakeFiles/WhatsOnTheGrille.dir/MSOE2021Summer/Week6/WhatsOnTheGrille.cpp.i
+.PHONY : MSOE2021Summer/Week6/WhatsOnTheGrille.cpp.i
+
+MSOE2021Summer/Week6/WhatsOnTheGrille.s: MSOE2021Summer/Week6/WhatsOnTheGrille.cpp.s
+
+.PHONY : MSOE2021Summer/Week6/WhatsOnTheGrille.s
+
+# target to generate assembly for a file
+MSOE2021Summer/Week6/WhatsOnTheGrille.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/WhatsOnTheGrille.dir/build.make CMakeFiles/WhatsOnTheGrille.dir/MSOE2021Summer/Week6/WhatsOnTheGrille.cpp.s
+.PHONY : MSOE2021Summer/Week6/WhatsOnTheGrille.cpp.s
+
 WaifUntilDark.o: WaifUntilDark.cpp.o
 
 .PHONY : WaifUntilDark.o
@@ -2121,6 +2321,7 @@ help:
 	@echo "... HissingMicrophone"
 	@echo "... Initials"
 	@echo "... JustPassingThrough"
+	@echo "... KenKenYouDoIt"
 	@echo "... LandlineTelephoneNetwork"
 	@echo "... LaptopSticker"
 	@echo "... LockedTreasure"
@@ -2140,13 +2341,17 @@ help:
 	@echo "... RepeatedSubstrings"
 	@echo "... RestaurantRatings"
 	@echo "... Retribution"
+	@echo "... Rings"
 	@echo "... RomanHolidays"
 	@echo "... Server"
 	@echo "... SingleSourceNegativeWeights"
+	@echo "... SquawkVirus"
 	@echo "... TaxedEditor"
 	@echo "... ToursDeSalesForce"
+	@echo "... TransportationDelegation"
 	@echo "... Treehouse"
 	@echo "... WaifUntilDark"
+	@echo "... WhatsOnTheGrille"
 	@echo "... 01Sequences.o"
 	@echo "... 01Sequences.i"
 	@echo "... 01Sequences.s"
@@ -2279,6 +2484,21 @@ help:
 	@echo "... MSOE2021Summer/Week5/TaxedEditor.o"
 	@echo "... MSOE2021Summer/Week5/TaxedEditor.i"
 	@echo "... MSOE2021Summer/Week5/TaxedEditor.s"
+	@echo "... MSOE2021Summer/Week6/KenKenYouDoIt.o"
+	@echo "... MSOE2021Summer/Week6/KenKenYouDoIt.i"
+	@echo "... MSOE2021Summer/Week6/KenKenYouDoIt.s"
+	@echo "... MSOE2021Summer/Week6/Rings.o"
+	@echo "... MSOE2021Summer/Week6/Rings.i"
+	@echo "... MSOE2021Summer/Week6/Rings.s"
+	@echo "... MSOE2021Summer/Week6/SquawkVirus.o"
+	@echo "... MSOE2021Summer/Week6/SquawkVirus.i"
+	@echo "... MSOE2021Summer/Week6/SquawkVirus.s"
+	@echo "... MSOE2021Summer/Week6/TransportationDelegation.o"
+	@echo "... MSOE2021Summer/Week6/TransportationDelegation.i"
+	@echo "... MSOE2021Summer/Week6/TransportationDelegation.s"
+	@echo "... MSOE2021Summer/Week6/WhatsOnTheGrille.o"
+	@echo "... MSOE2021Summer/Week6/WhatsOnTheGrille.i"
+	@echo "... MSOE2021Summer/Week6/WhatsOnTheGrille.s"
 	@echo "... WaifUntilDark.o"
 	@echo "... WaifUntilDark.i"
 	@echo "... WaifUntilDark.s"
