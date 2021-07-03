@@ -58,6 +58,8 @@ add_executable(Rings MSOE2021Summer/Week6/Rings.cpp)
 add_executable(SquawkVirus MSOE2021Summer/Week6/SquawkVirus.cpp)
 add_executable(KenKenYouDoIt MSOE2021Summer/Week6/KenKenYouDoIt.cpp)
 add_executable(TransportationDelegation MSOE2021Summer/Week6/TransportationDelegation.cpp)
+add_executable(TrayBien MSOE2021Summer/Week6/TrayBien.cpp)
+add_executable(DeleteThis MSOE2021Summer/Week6/DeleteThis.cpp)
 
 #include_directories(/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++)
 #include_directories(/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1)

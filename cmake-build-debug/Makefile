@@ -131,6 +131,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named DeleteThis
+
+# Build rule for target.
+DeleteThis: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DeleteThis
+.PHONY : DeleteThis
+
+# fast build rule for target.
+DeleteThis/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DeleteThis.dir/build.make CMakeFiles/DeleteThis.dir/build
+.PHONY : DeleteThis/fast
+
+#=============================================================================
 # Target rules for targets named TransportationDelegation
 
 # Build rule for target.
@@ -805,6 +818,19 @@ SingleSourceNegativeWeights/fast:
 01Sequences/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/01Sequences.dir/build.make CMakeFiles/01Sequences.dir/build
 .PHONY : 01Sequences/fast
+
+#=============================================================================
+# Target rules for targets named TrayBien
+
+# Build rule for target.
+TrayBien: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TrayBien
+.PHONY : TrayBien
+
+# fast build rule for target.
+TrayBien/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TrayBien.dir/build.make CMakeFiles/TrayBien.dir/build
+.PHONY : TrayBien/fast
 
 #=============================================================================
 # Target rules for targets named LostMap
@@ -2020,6 +2046,33 @@ MSOE2021Summer/Week5/TaxedEditor.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaxedEditor.dir/build.make CMakeFiles/TaxedEditor.dir/MSOE2021Summer/Week5/TaxedEditor.cpp.s
 .PHONY : MSOE2021Summer/Week5/TaxedEditor.cpp.s
 
+MSOE2021Summer/Week6/DeleteThis.o: MSOE2021Summer/Week6/DeleteThis.cpp.o
+
+.PHONY : MSOE2021Summer/Week6/DeleteThis.o
+
+# target to build an object file
+MSOE2021Summer/Week6/DeleteThis.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DeleteThis.dir/build.make CMakeFiles/DeleteThis.dir/MSOE2021Summer/Week6/DeleteThis.cpp.o
+.PHONY : MSOE2021Summer/Week6/DeleteThis.cpp.o
+
+MSOE2021Summer/Week6/DeleteThis.i: MSOE2021Summer/Week6/DeleteThis.cpp.i
+
+.PHONY : MSOE2021Summer/Week6/DeleteThis.i
+
+# target to preprocess a source file
+MSOE2021Summer/Week6/DeleteThis.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DeleteThis.dir/build.make CMakeFiles/DeleteThis.dir/MSOE2021Summer/Week6/DeleteThis.cpp.i
+.PHONY : MSOE2021Summer/Week6/DeleteThis.cpp.i
+
+MSOE2021Summer/Week6/DeleteThis.s: MSOE2021Summer/Week6/DeleteThis.cpp.s
+
+.PHONY : MSOE2021Summer/Week6/DeleteThis.s
+
+# target to generate assembly for a file
+MSOE2021Summer/Week6/DeleteThis.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DeleteThis.dir/build.make CMakeFiles/DeleteThis.dir/MSOE2021Summer/Week6/DeleteThis.cpp.s
+.PHONY : MSOE2021Summer/Week6/DeleteThis.cpp.s
+
 MSOE2021Summer/Week6/KenKenYouDoIt.o: MSOE2021Summer/Week6/KenKenYouDoIt.cpp.o
 
 .PHONY : MSOE2021Summer/Week6/KenKenYouDoIt.o
@@ -2127,6 +2180,33 @@ MSOE2021Summer/Week6/TransportationDelegation.s: MSOE2021Summer/Week6/Transporta
 MSOE2021Summer/Week6/TransportationDelegation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TransportationDelegation.dir/build.make CMakeFiles/TransportationDelegation.dir/MSOE2021Summer/Week6/TransportationDelegation.cpp.s
 .PHONY : MSOE2021Summer/Week6/TransportationDelegation.cpp.s
+
+MSOE2021Summer/Week6/TrayBien.o: MSOE2021Summer/Week6/TrayBien.cpp.o
+
+.PHONY : MSOE2021Summer/Week6/TrayBien.o
+
+# target to build an object file
+MSOE2021Summer/Week6/TrayBien.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TrayBien.dir/build.make CMakeFiles/TrayBien.dir/MSOE2021Summer/Week6/TrayBien.cpp.o
+.PHONY : MSOE2021Summer/Week6/TrayBien.cpp.o
+
+MSOE2021Summer/Week6/TrayBien.i: MSOE2021Summer/Week6/TrayBien.cpp.i
+
+.PHONY : MSOE2021Summer/Week6/TrayBien.i
+
+# target to preprocess a source file
+MSOE2021Summer/Week6/TrayBien.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TrayBien.dir/build.make CMakeFiles/TrayBien.dir/MSOE2021Summer/Week6/TrayBien.cpp.i
+.PHONY : MSOE2021Summer/Week6/TrayBien.cpp.i
+
+MSOE2021Summer/Week6/TrayBien.s: MSOE2021Summer/Week6/TrayBien.cpp.s
+
+.PHONY : MSOE2021Summer/Week6/TrayBien.s
+
+# target to generate assembly for a file
+MSOE2021Summer/Week6/TrayBien.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TrayBien.dir/build.make CMakeFiles/TrayBien.dir/MSOE2021Summer/Week6/TrayBien.cpp.s
+.PHONY : MSOE2021Summer/Week6/TrayBien.cpp.s
 
 MSOE2021Summer/Week6/WhatsOnTheGrille.o: MSOE2021Summer/Week6/WhatsOnTheGrille.cpp.o
 
@@ -2309,6 +2389,7 @@ help:
 	@echo "... CarVet"
 	@echo "... ContinuedFraction"
 	@echo "... DecisionsDecisions"
+	@echo "... DeleteThis"
 	@echo "... DeliveringGoods"
 	@echo "... Difference"
 	@echo "... Election"
@@ -2349,6 +2430,7 @@ help:
 	@echo "... TaxedEditor"
 	@echo "... ToursDeSalesForce"
 	@echo "... TransportationDelegation"
+	@echo "... TrayBien"
 	@echo "... Treehouse"
 	@echo "... WaifUntilDark"
 	@echo "... WhatsOnTheGrille"
@@ -2484,6 +2566,9 @@ help:
 	@echo "... MSOE2021Summer/Week5/TaxedEditor.o"
 	@echo "... MSOE2021Summer/Week5/TaxedEditor.i"
 	@echo "... MSOE2021Summer/Week5/TaxedEditor.s"
+	@echo "... MSOE2021Summer/Week6/DeleteThis.o"
+	@echo "... MSOE2021Summer/Week6/DeleteThis.i"
+	@echo "... MSOE2021Summer/Week6/DeleteThis.s"
 	@echo "... MSOE2021Summer/Week6/KenKenYouDoIt.o"
 	@echo "... MSOE2021Summer/Week6/KenKenYouDoIt.i"
 	@echo "... MSOE2021Summer/Week6/KenKenYouDoIt.s"
@@ -2496,6 +2581,9 @@ help:
 	@echo "... MSOE2021Summer/Week6/TransportationDelegation.o"
 	@echo "... MSOE2021Summer/Week6/TransportationDelegation.i"
 	@echo "... MSOE2021Summer/Week6/TransportationDelegation.s"
+	@echo "... MSOE2021Summer/Week6/TrayBien.o"
+	@echo "... MSOE2021Summer/Week6/TrayBien.i"
+	@echo "... MSOE2021Summer/Week6/TrayBien.s"
 	@echo "... MSOE2021Summer/Week6/WhatsOnTheGrille.o"
 	@echo "... MSOE2021Summer/Week6/WhatsOnTheGrille.i"
 	@echo "... MSOE2021Summer/Week6/WhatsOnTheGrille.s"

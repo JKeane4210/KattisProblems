@@ -73,6 +73,12 @@ int main() {
         res += currSquawks[i];
     }
     cout << res << endl;
+//    __m128i;
+//    uint_21t;
+// school boy algorithm -> multiplication
+// f-sanitize = unsigned/signed integer overflow in clang tests (oops and)
+// implementation -> creating an algorithm (tough to do -> scared)
+// div 2 saturday 8:05, wednesday, 10th, 11th
 
     return 0;
 }

@@ -288,16 +288,5 @@ int main() {
     }
 
     cout << flowGraph.fordFulkerson() << endl;
-
     return 0;
 }
-
-//7 3 3 4
-//A B C
-//D E F
-//3 A E G
-//3 A C E
-//3 B D F
-//2 G F
-
-

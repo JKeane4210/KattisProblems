@@ -52,6 +52,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/DeleteThis.dir/DependInfo.cmake"
   "CMakeFiles/TransportationDelegation.dir/DependInfo.cmake"
   "CMakeFiles/KenKenYouDoIt.dir/DependInfo.cmake"
   "CMakeFiles/SquawkVirus.dir/DependInfo.cmake"
@@ -104,6 +105,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/RepeatedSubstrings.dir/DependInfo.cmake"
   "CMakeFiles/SingleSourceNegativeWeights.dir/DependInfo.cmake"
   "CMakeFiles/01Sequences.dir/DependInfo.cmake"
+  "CMakeFiles/TrayBien.dir/DependInfo.cmake"
   "CMakeFiles/LostMap.dir/DependInfo.cmake"
   "CMakeFiles/PlaneTicketPricing.dir/DependInfo.cmake"
   )
