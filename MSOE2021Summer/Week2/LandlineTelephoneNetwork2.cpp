@@ -33,7 +33,7 @@ using namespace std;
 
 /**
 * Class to represent a node with a representative
-* and a size
+* and a n
 */
 template <typename T>
 class Node {
@@ -45,7 +45,7 @@ public:
     /**
      * Constructor to initialize the Node
      * @param rep_ the representative
-     * @param size_ the size of the set it's in
+     * @param size_ the n of the set it's in
      * @param data_ the data stored in the Node
      */
     Node(long rep_, long size_, T data_) {
@@ -115,7 +115,7 @@ public:
 
     /**
      * Constructor for the UnionFind
-     * @param size the size of the data
+     * @param size the n of the data
      */
     explicit UnionFind(long size_) {
         size = size_;
@@ -131,12 +131,12 @@ public:
     void unite(long a, long b) {
         a = find(a);
         b = find(b);
-        if (data[a].size < data[b].size) {
+        if (data[a].n < data[b].n) {
             data[b].rep = data[a].rep;
-            data[b].size += data[a].size;
+            data[b].n += data[a].n;
         } else {
             data[a].rep = data[b].rep;
-            data[a].size += data[b].size;
+            data[a].n += data[b].n;
         }
     }
 

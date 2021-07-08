@@ -109,14 +109,14 @@ float findSalesTour(vector<pair<float, float>> tour) {
     }
     return minTourCost;
 // My Way of DP Exceeds Memory
-//    vector<pair<float, pair<int, int>>> solutions[tour.size()];
+//    vector<pair<float, pair<int, int>>> solutions[tour.n()];
 //    vector<pair<float, pair<int, int>>> layer1;
 //    layer1.emplace_back(0, make_pair(0, 1)); // distance, last node and visited
 //    solutions[0] = layer1;
-//    for (int i = 0; i < tour.size() - 1; ++i) {
+//    for (int i = 0; i < tour.n() - 1; ++i) {
 //        vector<pair<float, pair<int, int>>> layerN;
 //        for (auto path: solutions[i]) {
-//            for (int j = 0; j < tour.size(); ++j) {
+//            for (int j = 0; j < tour.n(); ++j) {
 //                if (j != path.second.first && (path.second.second & (1 << j)) == 0) {
 //                    layerN.emplace_back(path.first + distances[path.second.first][j], make_pair(j, path.second.second | (1 << j)));
 //                }
@@ -125,7 +125,7 @@ float findSalesTour(vector<pair<float, float>> tour) {
 //        solutions[i + 1] = layerN;
 //    }
 //    float min = INF;
-//    for (auto path: solutions[tour.size() - 1]) {
+//    for (auto path: solutions[tour.n() - 1]) {
 //        if (path.first + distances[path.second.first][0] < min) {
 //            min = path.first + distances[path.second.first][0];
 //        }
@@ -196,7 +196,7 @@ int main() {
 //float recursiveTour(vector<pair<float, float>> tour, int first, int curr, float dist, int visited) {
 //    visited |= (1 << curr);
 //    float min_ = -1;
-//    for (int i = 0; i < tour.size(); ++i) {
+//    for (int i = 0; i < tour.n(); ++i) {
 //        if ((visited & (1 << i)) == 0) {
 //            float path = recursiveTour(tour, first, i, dist + dst(tour[curr], tour[i]), visited);
 //            if (min_ == -1 || path < min_) {

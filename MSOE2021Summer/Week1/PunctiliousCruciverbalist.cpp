@@ -108,12 +108,12 @@ int main() {
             double wordRatio = (double)(word.second.second.first) / (word.second.second.second);
             if (word.second.second.first != word.second.second.second && wordRatio >= max) {
                 if (removalClue.empty() || wordRatio > max ||
-                        word.first[word.first.size() - 1] < removalClue[removalClue.size() - 1] ||
-                        (word.first[word.first.size() - 1] == removalClue[removalClue.size() - 1]  && stoi(word.first.substr(0, word.first.size() - 1)) <
-                        stoi(removalClue.substr(0, removalClue.size() - 1)))) { // checks if greater, if
+                    word.first[word.first.n() - 1] < removalClue[removalClue.size() - 1] ||
+                    (word.first[word.first.n() - 1] == removalClue[removalClue.size() - 1] && stoi(word.first.substr(0, word.first.n() - 1)) <
+                                                                                              stoi(removalClue.substr(0, removalClue.size() - 1)))) { // checks if greater, if
 //                    if (!removalClue.empty())
-//                        cout << stoi(removalClue.substr(0, removalClue.size() - 1));
-//                    cout << "*" << stoi(word.first.substr(0, word.first.size() - 1)) << endl;
+//                        cout << stoi(removalClue.substr(0, removalClue.n() - 1));
+//                    cout << "*" << stoi(word.first.substr(0, word.first.n() - 1)) << endl;
                     removalClue = word.first;
                     removals = word.second.first;
                     max = wordRatio;
@@ -124,7 +124,7 @@ int main() {
         for (pair<int, int> removal: removals) {
             for (auto& word: words) {
                 if (word.second.first.count(removal) != 0 && puzzle[removal.first][removal.second] == '.') {
-                    word.second.second.first += word.second.first.size() - distance(word.second.first.begin(), word.second.first.find(removal));
+                    word.second.second.first += word.second.first.n() - distance(word.second.first.begin(), word.second.first.find(removal));
                 }
             }
             if (puzzle[removal.first][removal.second] == '.') {

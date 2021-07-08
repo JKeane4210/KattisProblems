@@ -40,7 +40,7 @@ int main() {
     cin >> n;
     string names[n];
     int inds[n];
-    pair<pair<string, int>, pair<string, int>> nameInfo[n]; // first, size, last, size
+    pair<pair<string, int>, pair<string, int>> nameInfo[n]; // first, n, last, n
 //    map<string, string> namesToFolders;
     map<string, vector<string>> folderPossibilities;
     for (int i = 0; i < n; ++i) {
