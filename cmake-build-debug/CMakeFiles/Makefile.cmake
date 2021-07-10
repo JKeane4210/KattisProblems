@@ -52,13 +52,11 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/TernarianWeights.dir/DependInfo.cmake"
-  "CMakeFiles/TrapezoidWalkway.dir/DependInfo.cmake"
-  "CMakeFiles/ErraticAnts.dir/DependInfo.cmake"
-  "CMakeFiles/EvenUpSolitaire.dir/DependInfo.cmake"
-  "CMakeFiles/IslandBuses.dir/DependInfo.cmake"
-  "CMakeFiles/PlottingPolynomials.dir/DependInfo.cmake"
-  "CMakeFiles/4Thought.dir/DependInfo.cmake"
-  "CMakeFiles/GoldbachsConjecture.dir/DependInfo.cmake"
-  "CMakeFiles/Oddities.dir/DependInfo.cmake"
+  "CMakeFiles/BrickWall.dir/DependInfo.cmake"
+  "CMakeFiles/DisastrousDoubling.dir/DependInfo.cmake"
+  "CMakeFiles/FlightPlans.dir/DependInfo.cmake"
+  "CMakeFiles/EatingOut.dir/DependInfo.cmake"
+  "CMakeFiles/BabelFisch.dir/DependInfo.cmake"
+  "CMakeFiles/PrimalRepresentation.dir/DependInfo.cmake"
+  "CMakeFiles/ShotCube.dir/DependInfo.cmake"
   )

@@ -76,17 +76,6 @@ CMAKE_BINARY_DIR = /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -97,6 +86,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -131,364 +131,284 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named TernarianWeights
+# Target rules for targets named BrickWall
 
 # Build rule for target.
-TernarianWeights: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TernarianWeights
-.PHONY : TernarianWeights
+BrickWall: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 BrickWall
+.PHONY : BrickWall
 
 # fast build rule for target.
-TernarianWeights/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TernarianWeights.dir/build.make CMakeFiles/TernarianWeights.dir/build
-.PHONY : TernarianWeights/fast
+BrickWall/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BrickWall.dir/build.make CMakeFiles/BrickWall.dir/build
+.PHONY : BrickWall/fast
 
 #=============================================================================
-# Target rules for targets named TrapezoidWalkway
+# Target rules for targets named DisastrousDoubling
 
 # Build rule for target.
-TrapezoidWalkway: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TrapezoidWalkway
-.PHONY : TrapezoidWalkway
+DisastrousDoubling: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DisastrousDoubling
+.PHONY : DisastrousDoubling
 
 # fast build rule for target.
-TrapezoidWalkway/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TrapezoidWalkway.dir/build.make CMakeFiles/TrapezoidWalkway.dir/build
-.PHONY : TrapezoidWalkway/fast
+DisastrousDoubling/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DisastrousDoubling.dir/build.make CMakeFiles/DisastrousDoubling.dir/build
+.PHONY : DisastrousDoubling/fast
 
 #=============================================================================
-# Target rules for targets named ErraticAnts
+# Target rules for targets named FlightPlans
 
 # Build rule for target.
-ErraticAnts: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ErraticAnts
-.PHONY : ErraticAnts
+FlightPlans: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FlightPlans
+.PHONY : FlightPlans
 
 # fast build rule for target.
-ErraticAnts/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ErraticAnts.dir/build.make CMakeFiles/ErraticAnts.dir/build
-.PHONY : ErraticAnts/fast
+FlightPlans/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FlightPlans.dir/build.make CMakeFiles/FlightPlans.dir/build
+.PHONY : FlightPlans/fast
 
 #=============================================================================
-# Target rules for targets named EvenUpSolitaire
+# Target rules for targets named EatingOut
 
 # Build rule for target.
-EvenUpSolitaire: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 EvenUpSolitaire
-.PHONY : EvenUpSolitaire
+EatingOut: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 EatingOut
+.PHONY : EatingOut
 
 # fast build rule for target.
-EvenUpSolitaire/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EvenUpSolitaire.dir/build.make CMakeFiles/EvenUpSolitaire.dir/build
-.PHONY : EvenUpSolitaire/fast
+EatingOut/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EatingOut.dir/build.make CMakeFiles/EatingOut.dir/build
+.PHONY : EatingOut/fast
 
 #=============================================================================
-# Target rules for targets named IslandBuses
+# Target rules for targets named BabelFisch
 
 # Build rule for target.
-IslandBuses: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 IslandBuses
-.PHONY : IslandBuses
+BabelFisch: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 BabelFisch
+.PHONY : BabelFisch
 
 # fast build rule for target.
-IslandBuses/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/IslandBuses.dir/build.make CMakeFiles/IslandBuses.dir/build
-.PHONY : IslandBuses/fast
+BabelFisch/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BabelFisch.dir/build.make CMakeFiles/BabelFisch.dir/build
+.PHONY : BabelFisch/fast
 
 #=============================================================================
-# Target rules for targets named PlottingPolynomials
+# Target rules for targets named PrimalRepresentation
 
 # Build rule for target.
-PlottingPolynomials: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PlottingPolynomials
-.PHONY : PlottingPolynomials
+PrimalRepresentation: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PrimalRepresentation
+.PHONY : PrimalRepresentation
 
 # fast build rule for target.
-PlottingPolynomials/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PlottingPolynomials.dir/build.make CMakeFiles/PlottingPolynomials.dir/build
-.PHONY : PlottingPolynomials/fast
+PrimalRepresentation/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PrimalRepresentation.dir/build.make CMakeFiles/PrimalRepresentation.dir/build
+.PHONY : PrimalRepresentation/fast
 
 #=============================================================================
-# Target rules for targets named 4Thought
+# Target rules for targets named ShotCube
 
 # Build rule for target.
-4Thought: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 4Thought
-.PHONY : 4Thought
+ShotCube: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ShotCube
+.PHONY : ShotCube
 
 # fast build rule for target.
-4Thought/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4Thought.dir/build.make CMakeFiles/4Thought.dir/build
-.PHONY : 4Thought/fast
+ShotCube/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ShotCube.dir/build.make CMakeFiles/ShotCube.dir/build
+.PHONY : ShotCube/fast
 
-#=============================================================================
-# Target rules for targets named GoldbachsConjecture
+MSOE2021Summer/NAPCPracticeContest_Jul10/BabelFisch.o: MSOE2021Summer/NAPCPracticeContest_Jul10/BabelFisch.cpp.o
 
-# Build rule for target.
-GoldbachsConjecture: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 GoldbachsConjecture
-.PHONY : GoldbachsConjecture
-
-# fast build rule for target.
-GoldbachsConjecture/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GoldbachsConjecture.dir/build.make CMakeFiles/GoldbachsConjecture.dir/build
-.PHONY : GoldbachsConjecture/fast
-
-#=============================================================================
-# Target rules for targets named Oddities
-
-# Build rule for target.
-Oddities: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Oddities
-.PHONY : Oddities
-
-# fast build rule for target.
-Oddities/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Oddities.dir/build.make CMakeFiles/Oddities.dir/build
-.PHONY : Oddities/fast
-
-MSOE2021Summer/Week7/4Thought.o: MSOE2021Summer/Week7/4Thought.cpp.o
-
-.PHONY : MSOE2021Summer/Week7/4Thought.o
+.PHONY : MSOE2021Summer/NAPCPracticeContest_Jul10/BabelFisch.o
 
 # target to build an object file
-MSOE2021Summer/Week7/4Thought.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4Thought.dir/build.make CMakeFiles/4Thought.dir/MSOE2021Summer/Week7/4Thought.cpp.o
-.PHONY : MSOE2021Summer/Week7/4Thought.cpp.o
+MSOE2021Summer/NAPCPracticeContest_Jul10/BabelFisch.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BabelFisch.dir/build.make CMakeFiles/BabelFisch.dir/MSOE2021Summer/NAPCPracticeContest_Jul10/BabelFisch.cpp.o
+.PHONY : MSOE2021Summer/NAPCPracticeContest_Jul10/BabelFisch.cpp.o
 
-MSOE2021Summer/Week7/4Thought.i: MSOE2021Summer/Week7/4Thought.cpp.i
+MSOE2021Summer/NAPCPracticeContest_Jul10/BabelFisch.i: MSOE2021Summer/NAPCPracticeContest_Jul10/BabelFisch.cpp.i
 
-.PHONY : MSOE2021Summer/Week7/4Thought.i
+.PHONY : MSOE2021Summer/NAPCPracticeContest_Jul10/BabelFisch.i
 
 # target to preprocess a source file
-MSOE2021Summer/Week7/4Thought.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4Thought.dir/build.make CMakeFiles/4Thought.dir/MSOE2021Summer/Week7/4Thought.cpp.i
-.PHONY : MSOE2021Summer/Week7/4Thought.cpp.i
+MSOE2021Summer/NAPCPracticeContest_Jul10/BabelFisch.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BabelFisch.dir/build.make CMakeFiles/BabelFisch.dir/MSOE2021Summer/NAPCPracticeContest_Jul10/BabelFisch.cpp.i
+.PHONY : MSOE2021Summer/NAPCPracticeContest_Jul10/BabelFisch.cpp.i
 
-MSOE2021Summer/Week7/4Thought.s: MSOE2021Summer/Week7/4Thought.cpp.s
+MSOE2021Summer/NAPCPracticeContest_Jul10/BabelFisch.s: MSOE2021Summer/NAPCPracticeContest_Jul10/BabelFisch.cpp.s
 
-.PHONY : MSOE2021Summer/Week7/4Thought.s
+.PHONY : MSOE2021Summer/NAPCPracticeContest_Jul10/BabelFisch.s
 
 # target to generate assembly for a file
-MSOE2021Summer/Week7/4Thought.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/4Thought.dir/build.make CMakeFiles/4Thought.dir/MSOE2021Summer/Week7/4Thought.cpp.s
-.PHONY : MSOE2021Summer/Week7/4Thought.cpp.s
+MSOE2021Summer/NAPCPracticeContest_Jul10/BabelFisch.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BabelFisch.dir/build.make CMakeFiles/BabelFisch.dir/MSOE2021Summer/NAPCPracticeContest_Jul10/BabelFisch.cpp.s
+.PHONY : MSOE2021Summer/NAPCPracticeContest_Jul10/BabelFisch.cpp.s
 
-MSOE2021Summer/Week7/ErraticAnts.o: MSOE2021Summer/Week7/ErraticAnts.cpp.o
+MSOE2021Summer/NAPCPracticeContest_Jul10/BrickWall.o: MSOE2021Summer/NAPCPracticeContest_Jul10/BrickWall.cpp.o
 
-.PHONY : MSOE2021Summer/Week7/ErraticAnts.o
+.PHONY : MSOE2021Summer/NAPCPracticeContest_Jul10/BrickWall.o
 
 # target to build an object file
-MSOE2021Summer/Week7/ErraticAnts.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ErraticAnts.dir/build.make CMakeFiles/ErraticAnts.dir/MSOE2021Summer/Week7/ErraticAnts.cpp.o
-.PHONY : MSOE2021Summer/Week7/ErraticAnts.cpp.o
+MSOE2021Summer/NAPCPracticeContest_Jul10/BrickWall.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BrickWall.dir/build.make CMakeFiles/BrickWall.dir/MSOE2021Summer/NAPCPracticeContest_Jul10/BrickWall.cpp.o
+.PHONY : MSOE2021Summer/NAPCPracticeContest_Jul10/BrickWall.cpp.o
 
-MSOE2021Summer/Week7/ErraticAnts.i: MSOE2021Summer/Week7/ErraticAnts.cpp.i
+MSOE2021Summer/NAPCPracticeContest_Jul10/BrickWall.i: MSOE2021Summer/NAPCPracticeContest_Jul10/BrickWall.cpp.i
 
-.PHONY : MSOE2021Summer/Week7/ErraticAnts.i
+.PHONY : MSOE2021Summer/NAPCPracticeContest_Jul10/BrickWall.i
 
 # target to preprocess a source file
-MSOE2021Summer/Week7/ErraticAnts.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ErraticAnts.dir/build.make CMakeFiles/ErraticAnts.dir/MSOE2021Summer/Week7/ErraticAnts.cpp.i
-.PHONY : MSOE2021Summer/Week7/ErraticAnts.cpp.i
+MSOE2021Summer/NAPCPracticeContest_Jul10/BrickWall.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BrickWall.dir/build.make CMakeFiles/BrickWall.dir/MSOE2021Summer/NAPCPracticeContest_Jul10/BrickWall.cpp.i
+.PHONY : MSOE2021Summer/NAPCPracticeContest_Jul10/BrickWall.cpp.i
 
-MSOE2021Summer/Week7/ErraticAnts.s: MSOE2021Summer/Week7/ErraticAnts.cpp.s
+MSOE2021Summer/NAPCPracticeContest_Jul10/BrickWall.s: MSOE2021Summer/NAPCPracticeContest_Jul10/BrickWall.cpp.s
 
-.PHONY : MSOE2021Summer/Week7/ErraticAnts.s
+.PHONY : MSOE2021Summer/NAPCPracticeContest_Jul10/BrickWall.s
 
 # target to generate assembly for a file
-MSOE2021Summer/Week7/ErraticAnts.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ErraticAnts.dir/build.make CMakeFiles/ErraticAnts.dir/MSOE2021Summer/Week7/ErraticAnts.cpp.s
-.PHONY : MSOE2021Summer/Week7/ErraticAnts.cpp.s
+MSOE2021Summer/NAPCPracticeContest_Jul10/BrickWall.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BrickWall.dir/build.make CMakeFiles/BrickWall.dir/MSOE2021Summer/NAPCPracticeContest_Jul10/BrickWall.cpp.s
+.PHONY : MSOE2021Summer/NAPCPracticeContest_Jul10/BrickWall.cpp.s
 
-MSOE2021Summer/Week7/EvenUpSolitaire.o: MSOE2021Summer/Week7/EvenUpSolitaire.cpp.o
+MSOE2021Summer/NAPCPracticeContest_Jul10/DisastrousDoubling.o: MSOE2021Summer/NAPCPracticeContest_Jul10/DisastrousDoubling.cpp.o
 
-.PHONY : MSOE2021Summer/Week7/EvenUpSolitaire.o
+.PHONY : MSOE2021Summer/NAPCPracticeContest_Jul10/DisastrousDoubling.o
 
 # target to build an object file
-MSOE2021Summer/Week7/EvenUpSolitaire.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EvenUpSolitaire.dir/build.make CMakeFiles/EvenUpSolitaire.dir/MSOE2021Summer/Week7/EvenUpSolitaire.cpp.o
-.PHONY : MSOE2021Summer/Week7/EvenUpSolitaire.cpp.o
+MSOE2021Summer/NAPCPracticeContest_Jul10/DisastrousDoubling.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DisastrousDoubling.dir/build.make CMakeFiles/DisastrousDoubling.dir/MSOE2021Summer/NAPCPracticeContest_Jul10/DisastrousDoubling.cpp.o
+.PHONY : MSOE2021Summer/NAPCPracticeContest_Jul10/DisastrousDoubling.cpp.o
 
-MSOE2021Summer/Week7/EvenUpSolitaire.i: MSOE2021Summer/Week7/EvenUpSolitaire.cpp.i
+MSOE2021Summer/NAPCPracticeContest_Jul10/DisastrousDoubling.i: MSOE2021Summer/NAPCPracticeContest_Jul10/DisastrousDoubling.cpp.i
 
-.PHONY : MSOE2021Summer/Week7/EvenUpSolitaire.i
+.PHONY : MSOE2021Summer/NAPCPracticeContest_Jul10/DisastrousDoubling.i
 
 # target to preprocess a source file
-MSOE2021Summer/Week7/EvenUpSolitaire.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EvenUpSolitaire.dir/build.make CMakeFiles/EvenUpSolitaire.dir/MSOE2021Summer/Week7/EvenUpSolitaire.cpp.i
-.PHONY : MSOE2021Summer/Week7/EvenUpSolitaire.cpp.i
+MSOE2021Summer/NAPCPracticeContest_Jul10/DisastrousDoubling.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DisastrousDoubling.dir/build.make CMakeFiles/DisastrousDoubling.dir/MSOE2021Summer/NAPCPracticeContest_Jul10/DisastrousDoubling.cpp.i
+.PHONY : MSOE2021Summer/NAPCPracticeContest_Jul10/DisastrousDoubling.cpp.i
 
-MSOE2021Summer/Week7/EvenUpSolitaire.s: MSOE2021Summer/Week7/EvenUpSolitaire.cpp.s
+MSOE2021Summer/NAPCPracticeContest_Jul10/DisastrousDoubling.s: MSOE2021Summer/NAPCPracticeContest_Jul10/DisastrousDoubling.cpp.s
 
-.PHONY : MSOE2021Summer/Week7/EvenUpSolitaire.s
+.PHONY : MSOE2021Summer/NAPCPracticeContest_Jul10/DisastrousDoubling.s
 
 # target to generate assembly for a file
-MSOE2021Summer/Week7/EvenUpSolitaire.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/EvenUpSolitaire.dir/build.make CMakeFiles/EvenUpSolitaire.dir/MSOE2021Summer/Week7/EvenUpSolitaire.cpp.s
-.PHONY : MSOE2021Summer/Week7/EvenUpSolitaire.cpp.s
+MSOE2021Summer/NAPCPracticeContest_Jul10/DisastrousDoubling.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DisastrousDoubling.dir/build.make CMakeFiles/DisastrousDoubling.dir/MSOE2021Summer/NAPCPracticeContest_Jul10/DisastrousDoubling.cpp.s
+.PHONY : MSOE2021Summer/NAPCPracticeContest_Jul10/DisastrousDoubling.cpp.s
 
-MSOE2021Summer/Week7/GoldbachsConjecture.o: MSOE2021Summer/Week7/GoldbachsConjecture.cpp.o
+MSOE2021Summer/NAPCPracticeContest_Jul10/EatingOut.o: MSOE2021Summer/NAPCPracticeContest_Jul10/EatingOut.cpp.o
 
-.PHONY : MSOE2021Summer/Week7/GoldbachsConjecture.o
+.PHONY : MSOE2021Summer/NAPCPracticeContest_Jul10/EatingOut.o
 
 # target to build an object file
-MSOE2021Summer/Week7/GoldbachsConjecture.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GoldbachsConjecture.dir/build.make CMakeFiles/GoldbachsConjecture.dir/MSOE2021Summer/Week7/GoldbachsConjecture.cpp.o
-.PHONY : MSOE2021Summer/Week7/GoldbachsConjecture.cpp.o
+MSOE2021Summer/NAPCPracticeContest_Jul10/EatingOut.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EatingOut.dir/build.make CMakeFiles/EatingOut.dir/MSOE2021Summer/NAPCPracticeContest_Jul10/EatingOut.cpp.o
+.PHONY : MSOE2021Summer/NAPCPracticeContest_Jul10/EatingOut.cpp.o
 
-MSOE2021Summer/Week7/GoldbachsConjecture.i: MSOE2021Summer/Week7/GoldbachsConjecture.cpp.i
+MSOE2021Summer/NAPCPracticeContest_Jul10/EatingOut.i: MSOE2021Summer/NAPCPracticeContest_Jul10/EatingOut.cpp.i
 
-.PHONY : MSOE2021Summer/Week7/GoldbachsConjecture.i
+.PHONY : MSOE2021Summer/NAPCPracticeContest_Jul10/EatingOut.i
 
 # target to preprocess a source file
-MSOE2021Summer/Week7/GoldbachsConjecture.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GoldbachsConjecture.dir/build.make CMakeFiles/GoldbachsConjecture.dir/MSOE2021Summer/Week7/GoldbachsConjecture.cpp.i
-.PHONY : MSOE2021Summer/Week7/GoldbachsConjecture.cpp.i
+MSOE2021Summer/NAPCPracticeContest_Jul10/EatingOut.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EatingOut.dir/build.make CMakeFiles/EatingOut.dir/MSOE2021Summer/NAPCPracticeContest_Jul10/EatingOut.cpp.i
+.PHONY : MSOE2021Summer/NAPCPracticeContest_Jul10/EatingOut.cpp.i
 
-MSOE2021Summer/Week7/GoldbachsConjecture.s: MSOE2021Summer/Week7/GoldbachsConjecture.cpp.s
+MSOE2021Summer/NAPCPracticeContest_Jul10/EatingOut.s: MSOE2021Summer/NAPCPracticeContest_Jul10/EatingOut.cpp.s
 
-.PHONY : MSOE2021Summer/Week7/GoldbachsConjecture.s
+.PHONY : MSOE2021Summer/NAPCPracticeContest_Jul10/EatingOut.s
 
 # target to generate assembly for a file
-MSOE2021Summer/Week7/GoldbachsConjecture.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/GoldbachsConjecture.dir/build.make CMakeFiles/GoldbachsConjecture.dir/MSOE2021Summer/Week7/GoldbachsConjecture.cpp.s
-.PHONY : MSOE2021Summer/Week7/GoldbachsConjecture.cpp.s
+MSOE2021Summer/NAPCPracticeContest_Jul10/EatingOut.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EatingOut.dir/build.make CMakeFiles/EatingOut.dir/MSOE2021Summer/NAPCPracticeContest_Jul10/EatingOut.cpp.s
+.PHONY : MSOE2021Summer/NAPCPracticeContest_Jul10/EatingOut.cpp.s
 
-MSOE2021Summer/Week7/IslandBuses.o: MSOE2021Summer/Week7/IslandBuses.cpp.o
+MSOE2021Summer/NAPCPracticeContest_Jul10/FlightPlans.o: MSOE2021Summer/NAPCPracticeContest_Jul10/FlightPlans.cpp.o
 
-.PHONY : MSOE2021Summer/Week7/IslandBuses.o
+.PHONY : MSOE2021Summer/NAPCPracticeContest_Jul10/FlightPlans.o
 
 # target to build an object file
-MSOE2021Summer/Week7/IslandBuses.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/IslandBuses.dir/build.make CMakeFiles/IslandBuses.dir/MSOE2021Summer/Week7/IslandBuses.cpp.o
-.PHONY : MSOE2021Summer/Week7/IslandBuses.cpp.o
+MSOE2021Summer/NAPCPracticeContest_Jul10/FlightPlans.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FlightPlans.dir/build.make CMakeFiles/FlightPlans.dir/MSOE2021Summer/NAPCPracticeContest_Jul10/FlightPlans.cpp.o
+.PHONY : MSOE2021Summer/NAPCPracticeContest_Jul10/FlightPlans.cpp.o
 
-MSOE2021Summer/Week7/IslandBuses.i: MSOE2021Summer/Week7/IslandBuses.cpp.i
+MSOE2021Summer/NAPCPracticeContest_Jul10/FlightPlans.i: MSOE2021Summer/NAPCPracticeContest_Jul10/FlightPlans.cpp.i
 
-.PHONY : MSOE2021Summer/Week7/IslandBuses.i
+.PHONY : MSOE2021Summer/NAPCPracticeContest_Jul10/FlightPlans.i
 
 # target to preprocess a source file
-MSOE2021Summer/Week7/IslandBuses.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/IslandBuses.dir/build.make CMakeFiles/IslandBuses.dir/MSOE2021Summer/Week7/IslandBuses.cpp.i
-.PHONY : MSOE2021Summer/Week7/IslandBuses.cpp.i
+MSOE2021Summer/NAPCPracticeContest_Jul10/FlightPlans.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FlightPlans.dir/build.make CMakeFiles/FlightPlans.dir/MSOE2021Summer/NAPCPracticeContest_Jul10/FlightPlans.cpp.i
+.PHONY : MSOE2021Summer/NAPCPracticeContest_Jul10/FlightPlans.cpp.i
 
-MSOE2021Summer/Week7/IslandBuses.s: MSOE2021Summer/Week7/IslandBuses.cpp.s
+MSOE2021Summer/NAPCPracticeContest_Jul10/FlightPlans.s: MSOE2021Summer/NAPCPracticeContest_Jul10/FlightPlans.cpp.s
 
-.PHONY : MSOE2021Summer/Week7/IslandBuses.s
+.PHONY : MSOE2021Summer/NAPCPracticeContest_Jul10/FlightPlans.s
 
 # target to generate assembly for a file
-MSOE2021Summer/Week7/IslandBuses.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/IslandBuses.dir/build.make CMakeFiles/IslandBuses.dir/MSOE2021Summer/Week7/IslandBuses.cpp.s
-.PHONY : MSOE2021Summer/Week7/IslandBuses.cpp.s
+MSOE2021Summer/NAPCPracticeContest_Jul10/FlightPlans.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FlightPlans.dir/build.make CMakeFiles/FlightPlans.dir/MSOE2021Summer/NAPCPracticeContest_Jul10/FlightPlans.cpp.s
+.PHONY : MSOE2021Summer/NAPCPracticeContest_Jul10/FlightPlans.cpp.s
 
-MSOE2021Summer/Week7/Oddities.o: MSOE2021Summer/Week7/Oddities.cpp.o
+MSOE2021Summer/NAPCPracticeContest_Jul10/PrimalRepresentation.o: MSOE2021Summer/NAPCPracticeContest_Jul10/PrimalRepresentation.cpp.o
 
-.PHONY : MSOE2021Summer/Week7/Oddities.o
+.PHONY : MSOE2021Summer/NAPCPracticeContest_Jul10/PrimalRepresentation.o
 
 # target to build an object file
-MSOE2021Summer/Week7/Oddities.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Oddities.dir/build.make CMakeFiles/Oddities.dir/MSOE2021Summer/Week7/Oddities.cpp.o
-.PHONY : MSOE2021Summer/Week7/Oddities.cpp.o
+MSOE2021Summer/NAPCPracticeContest_Jul10/PrimalRepresentation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PrimalRepresentation.dir/build.make CMakeFiles/PrimalRepresentation.dir/MSOE2021Summer/NAPCPracticeContest_Jul10/PrimalRepresentation.cpp.o
+.PHONY : MSOE2021Summer/NAPCPracticeContest_Jul10/PrimalRepresentation.cpp.o
 
-MSOE2021Summer/Week7/Oddities.i: MSOE2021Summer/Week7/Oddities.cpp.i
+MSOE2021Summer/NAPCPracticeContest_Jul10/PrimalRepresentation.i: MSOE2021Summer/NAPCPracticeContest_Jul10/PrimalRepresentation.cpp.i
 
-.PHONY : MSOE2021Summer/Week7/Oddities.i
+.PHONY : MSOE2021Summer/NAPCPracticeContest_Jul10/PrimalRepresentation.i
 
 # target to preprocess a source file
-MSOE2021Summer/Week7/Oddities.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Oddities.dir/build.make CMakeFiles/Oddities.dir/MSOE2021Summer/Week7/Oddities.cpp.i
-.PHONY : MSOE2021Summer/Week7/Oddities.cpp.i
+MSOE2021Summer/NAPCPracticeContest_Jul10/PrimalRepresentation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PrimalRepresentation.dir/build.make CMakeFiles/PrimalRepresentation.dir/MSOE2021Summer/NAPCPracticeContest_Jul10/PrimalRepresentation.cpp.i
+.PHONY : MSOE2021Summer/NAPCPracticeContest_Jul10/PrimalRepresentation.cpp.i
 
-MSOE2021Summer/Week7/Oddities.s: MSOE2021Summer/Week7/Oddities.cpp.s
+MSOE2021Summer/NAPCPracticeContest_Jul10/PrimalRepresentation.s: MSOE2021Summer/NAPCPracticeContest_Jul10/PrimalRepresentation.cpp.s
 
-.PHONY : MSOE2021Summer/Week7/Oddities.s
+.PHONY : MSOE2021Summer/NAPCPracticeContest_Jul10/PrimalRepresentation.s
 
 # target to generate assembly for a file
-MSOE2021Summer/Week7/Oddities.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Oddities.dir/build.make CMakeFiles/Oddities.dir/MSOE2021Summer/Week7/Oddities.cpp.s
-.PHONY : MSOE2021Summer/Week7/Oddities.cpp.s
+MSOE2021Summer/NAPCPracticeContest_Jul10/PrimalRepresentation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PrimalRepresentation.dir/build.make CMakeFiles/PrimalRepresentation.dir/MSOE2021Summer/NAPCPracticeContest_Jul10/PrimalRepresentation.cpp.s
+.PHONY : MSOE2021Summer/NAPCPracticeContest_Jul10/PrimalRepresentation.cpp.s
 
-MSOE2021Summer/Week7/PlottingPolynomials.o: MSOE2021Summer/Week7/PlottingPolynomials.cpp.o
+MSOE2021Summer/Week7/ShotCube.o: MSOE2021Summer/Week7/ShotCube.cpp.o
 
-.PHONY : MSOE2021Summer/Week7/PlottingPolynomials.o
+.PHONY : MSOE2021Summer/Week7/ShotCube.o
 
 # target to build an object file
-MSOE2021Summer/Week7/PlottingPolynomials.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PlottingPolynomials.dir/build.make CMakeFiles/PlottingPolynomials.dir/MSOE2021Summer/Week7/PlottingPolynomials.cpp.o
-.PHONY : MSOE2021Summer/Week7/PlottingPolynomials.cpp.o
+MSOE2021Summer/Week7/ShotCube.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ShotCube.dir/build.make CMakeFiles/ShotCube.dir/MSOE2021Summer/Week7/ShotCube.cpp.o
+.PHONY : MSOE2021Summer/Week7/ShotCube.cpp.o
 
-MSOE2021Summer/Week7/PlottingPolynomials.i: MSOE2021Summer/Week7/PlottingPolynomials.cpp.i
+MSOE2021Summer/Week7/ShotCube.i: MSOE2021Summer/Week7/ShotCube.cpp.i
 
-.PHONY : MSOE2021Summer/Week7/PlottingPolynomials.i
-
-# target to preprocess a source file
-MSOE2021Summer/Week7/PlottingPolynomials.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PlottingPolynomials.dir/build.make CMakeFiles/PlottingPolynomials.dir/MSOE2021Summer/Week7/PlottingPolynomials.cpp.i
-.PHONY : MSOE2021Summer/Week7/PlottingPolynomials.cpp.i
-
-MSOE2021Summer/Week7/PlottingPolynomials.s: MSOE2021Summer/Week7/PlottingPolynomials.cpp.s
-
-.PHONY : MSOE2021Summer/Week7/PlottingPolynomials.s
-
-# target to generate assembly for a file
-MSOE2021Summer/Week7/PlottingPolynomials.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PlottingPolynomials.dir/build.make CMakeFiles/PlottingPolynomials.dir/MSOE2021Summer/Week7/PlottingPolynomials.cpp.s
-.PHONY : MSOE2021Summer/Week7/PlottingPolynomials.cpp.s
-
-MSOE2021Summer/Week7/TernarianWeights3.o: MSOE2021Summer/Week7/TernarianWeights3.cpp.o
-
-.PHONY : MSOE2021Summer/Week7/TernarianWeights3.o
-
-# target to build an object file
-MSOE2021Summer/Week7/TernarianWeights3.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TernarianWeights.dir/build.make CMakeFiles/TernarianWeights.dir/MSOE2021Summer/Week7/TernarianWeights3.cpp.o
-.PHONY : MSOE2021Summer/Week7/TernarianWeights3.cpp.o
-
-MSOE2021Summer/Week7/TernarianWeights3.i: MSOE2021Summer/Week7/TernarianWeights3.cpp.i
-
-.PHONY : MSOE2021Summer/Week7/TernarianWeights3.i
+.PHONY : MSOE2021Summer/Week7/ShotCube.i
 
 # target to preprocess a source file
-MSOE2021Summer/Week7/TernarianWeights3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TernarianWeights.dir/build.make CMakeFiles/TernarianWeights.dir/MSOE2021Summer/Week7/TernarianWeights3.cpp.i
-.PHONY : MSOE2021Summer/Week7/TernarianWeights3.cpp.i
+MSOE2021Summer/Week7/ShotCube.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ShotCube.dir/build.make CMakeFiles/ShotCube.dir/MSOE2021Summer/Week7/ShotCube.cpp.i
+.PHONY : MSOE2021Summer/Week7/ShotCube.cpp.i
 
-MSOE2021Summer/Week7/TernarianWeights3.s: MSOE2021Summer/Week7/TernarianWeights3.cpp.s
+MSOE2021Summer/Week7/ShotCube.s: MSOE2021Summer/Week7/ShotCube.cpp.s
 
-.PHONY : MSOE2021Summer/Week7/TernarianWeights3.s
-
-# target to generate assembly for a file
-MSOE2021Summer/Week7/TernarianWeights3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TernarianWeights.dir/build.make CMakeFiles/TernarianWeights.dir/MSOE2021Summer/Week7/TernarianWeights3.cpp.s
-.PHONY : MSOE2021Summer/Week7/TernarianWeights3.cpp.s
-
-MSOE2021Summer/Week7/TrapezoidWalkway.o: MSOE2021Summer/Week7/TrapezoidWalkway.cpp.o
-
-.PHONY : MSOE2021Summer/Week7/TrapezoidWalkway.o
-
-# target to build an object file
-MSOE2021Summer/Week7/TrapezoidWalkway.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TrapezoidWalkway.dir/build.make CMakeFiles/TrapezoidWalkway.dir/MSOE2021Summer/Week7/TrapezoidWalkway.cpp.o
-.PHONY : MSOE2021Summer/Week7/TrapezoidWalkway.cpp.o
-
-MSOE2021Summer/Week7/TrapezoidWalkway.i: MSOE2021Summer/Week7/TrapezoidWalkway.cpp.i
-
-.PHONY : MSOE2021Summer/Week7/TrapezoidWalkway.i
-
-# target to preprocess a source file
-MSOE2021Summer/Week7/TrapezoidWalkway.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TrapezoidWalkway.dir/build.make CMakeFiles/TrapezoidWalkway.dir/MSOE2021Summer/Week7/TrapezoidWalkway.cpp.i
-.PHONY : MSOE2021Summer/Week7/TrapezoidWalkway.cpp.i
-
-MSOE2021Summer/Week7/TrapezoidWalkway.s: MSOE2021Summer/Week7/TrapezoidWalkway.cpp.s
-
-.PHONY : MSOE2021Summer/Week7/TrapezoidWalkway.s
+.PHONY : MSOE2021Summer/Week7/ShotCube.s
 
 # target to generate assembly for a file
-MSOE2021Summer/Week7/TrapezoidWalkway.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TrapezoidWalkway.dir/build.make CMakeFiles/TrapezoidWalkway.dir/MSOE2021Summer/Week7/TrapezoidWalkway.cpp.s
-.PHONY : MSOE2021Summer/Week7/TrapezoidWalkway.cpp.s
+MSOE2021Summer/Week7/ShotCube.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ShotCube.dir/build.make CMakeFiles/ShotCube.dir/MSOE2021Summer/Week7/ShotCube.cpp.s
+.PHONY : MSOE2021Summer/Week7/ShotCube.cpp.s
 
 # Help Target
 help:
@@ -498,42 +418,34 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... 4Thought"
-	@echo "... ErraticAnts"
-	@echo "... EvenUpSolitaire"
-	@echo "... GoldbachsConjecture"
-	@echo "... IslandBuses"
-	@echo "... Oddities"
-	@echo "... PlottingPolynomials"
-	@echo "... TernarianWeights"
-	@echo "... TrapezoidWalkway"
-	@echo "... MSOE2021Summer/Week7/4Thought.o"
-	@echo "... MSOE2021Summer/Week7/4Thought.i"
-	@echo "... MSOE2021Summer/Week7/4Thought.s"
-	@echo "... MSOE2021Summer/Week7/ErraticAnts.o"
-	@echo "... MSOE2021Summer/Week7/ErraticAnts.i"
-	@echo "... MSOE2021Summer/Week7/ErraticAnts.s"
-	@echo "... MSOE2021Summer/Week7/EvenUpSolitaire.o"
-	@echo "... MSOE2021Summer/Week7/EvenUpSolitaire.i"
-	@echo "... MSOE2021Summer/Week7/EvenUpSolitaire.s"
-	@echo "... MSOE2021Summer/Week7/GoldbachsConjecture.o"
-	@echo "... MSOE2021Summer/Week7/GoldbachsConjecture.i"
-	@echo "... MSOE2021Summer/Week7/GoldbachsConjecture.s"
-	@echo "... MSOE2021Summer/Week7/IslandBuses.o"
-	@echo "... MSOE2021Summer/Week7/IslandBuses.i"
-	@echo "... MSOE2021Summer/Week7/IslandBuses.s"
-	@echo "... MSOE2021Summer/Week7/Oddities.o"
-	@echo "... MSOE2021Summer/Week7/Oddities.i"
-	@echo "... MSOE2021Summer/Week7/Oddities.s"
-	@echo "... MSOE2021Summer/Week7/PlottingPolynomials.o"
-	@echo "... MSOE2021Summer/Week7/PlottingPolynomials.i"
-	@echo "... MSOE2021Summer/Week7/PlottingPolynomials.s"
-	@echo "... MSOE2021Summer/Week7/TernarianWeights3.o"
-	@echo "... MSOE2021Summer/Week7/TernarianWeights3.i"
-	@echo "... MSOE2021Summer/Week7/TernarianWeights3.s"
-	@echo "... MSOE2021Summer/Week7/TrapezoidWalkway.o"
-	@echo "... MSOE2021Summer/Week7/TrapezoidWalkway.i"
-	@echo "... MSOE2021Summer/Week7/TrapezoidWalkway.s"
+	@echo "... BabelFisch"
+	@echo "... BrickWall"
+	@echo "... DisastrousDoubling"
+	@echo "... EatingOut"
+	@echo "... FlightPlans"
+	@echo "... PrimalRepresentation"
+	@echo "... ShotCube"
+	@echo "... MSOE2021Summer/NAPCPracticeContest_Jul10/BabelFisch.o"
+	@echo "... MSOE2021Summer/NAPCPracticeContest_Jul10/BabelFisch.i"
+	@echo "... MSOE2021Summer/NAPCPracticeContest_Jul10/BabelFisch.s"
+	@echo "... MSOE2021Summer/NAPCPracticeContest_Jul10/BrickWall.o"
+	@echo "... MSOE2021Summer/NAPCPracticeContest_Jul10/BrickWall.i"
+	@echo "... MSOE2021Summer/NAPCPracticeContest_Jul10/BrickWall.s"
+	@echo "... MSOE2021Summer/NAPCPracticeContest_Jul10/DisastrousDoubling.o"
+	@echo "... MSOE2021Summer/NAPCPracticeContest_Jul10/DisastrousDoubling.i"
+	@echo "... MSOE2021Summer/NAPCPracticeContest_Jul10/DisastrousDoubling.s"
+	@echo "... MSOE2021Summer/NAPCPracticeContest_Jul10/EatingOut.o"
+	@echo "... MSOE2021Summer/NAPCPracticeContest_Jul10/EatingOut.i"
+	@echo "... MSOE2021Summer/NAPCPracticeContest_Jul10/EatingOut.s"
+	@echo "... MSOE2021Summer/NAPCPracticeContest_Jul10/FlightPlans.o"
+	@echo "... MSOE2021Summer/NAPCPracticeContest_Jul10/FlightPlans.i"
+	@echo "... MSOE2021Summer/NAPCPracticeContest_Jul10/FlightPlans.s"
+	@echo "... MSOE2021Summer/NAPCPracticeContest_Jul10/PrimalRepresentation.o"
+	@echo "... MSOE2021Summer/NAPCPracticeContest_Jul10/PrimalRepresentation.i"
+	@echo "... MSOE2021Summer/NAPCPracticeContest_Jul10/PrimalRepresentation.s"
+	@echo "... MSOE2021Summer/Week7/ShotCube.o"
+	@echo "... MSOE2021Summer/Week7/ShotCube.i"
+	@echo "... MSOE2021Summer/Week7/ShotCube.s"
 .PHONY : help
 
 
