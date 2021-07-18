@@ -52,11 +52,15 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/JugglingTroupe.dir/DependInfo.cmake"
+  "CMakeFiles/TimeIsMoney.dir/DependInfo.cmake"
   "CMakeFiles/BrickWall.dir/DependInfo.cmake"
+  "CMakeFiles/Mathemagicians.dir/DependInfo.cmake"
   "CMakeFiles/DisastrousDoubling.dir/DependInfo.cmake"
   "CMakeFiles/FlightPlans.dir/DependInfo.cmake"
   "CMakeFiles/EatingOut.dir/DependInfo.cmake"
   "CMakeFiles/BabelFisch.dir/DependInfo.cmake"
   "CMakeFiles/PrimalRepresentation.dir/DependInfo.cmake"
+  "CMakeFiles/Tourists.dir/DependInfo.cmake"
   "CMakeFiles/ShotCube.dir/DependInfo.cmake"
   )

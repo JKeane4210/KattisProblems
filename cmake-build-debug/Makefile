@@ -131,6 +131,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named JugglingTroupe
+
+# Build rule for target.
+JugglingTroupe: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 JugglingTroupe
+.PHONY : JugglingTroupe
+
+# fast build rule for target.
+JugglingTroupe/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JugglingTroupe.dir/build.make CMakeFiles/JugglingTroupe.dir/build
+.PHONY : JugglingTroupe/fast
+
+#=============================================================================
+# Target rules for targets named TimeIsMoney
+
+# Build rule for target.
+TimeIsMoney: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TimeIsMoney
+.PHONY : TimeIsMoney
+
+# fast build rule for target.
+TimeIsMoney/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TimeIsMoney.dir/build.make CMakeFiles/TimeIsMoney.dir/build
+.PHONY : TimeIsMoney/fast
+
+#=============================================================================
 # Target rules for targets named BrickWall
 
 # Build rule for target.
@@ -142,6 +168,19 @@ BrickWall: cmake_check_build_system
 BrickWall/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BrickWall.dir/build.make CMakeFiles/BrickWall.dir/build
 .PHONY : BrickWall/fast
+
+#=============================================================================
+# Target rules for targets named Mathemagicians
+
+# Build rule for target.
+Mathemagicians: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Mathemagicians
+.PHONY : Mathemagicians
+
+# fast build rule for target.
+Mathemagicians/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mathemagicians.dir/build.make CMakeFiles/Mathemagicians.dir/build
+.PHONY : Mathemagicians/fast
 
 #=============================================================================
 # Target rules for targets named DisastrousDoubling
@@ -207,6 +246,19 @@ PrimalRepresentation: cmake_check_build_system
 PrimalRepresentation/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PrimalRepresentation.dir/build.make CMakeFiles/PrimalRepresentation.dir/build
 .PHONY : PrimalRepresentation/fast
+
+#=============================================================================
+# Target rules for targets named Tourists
+
+# Build rule for target.
+Tourists: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Tourists
+.PHONY : Tourists
+
+# fast build rule for target.
+Tourists/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tourists.dir/build.make CMakeFiles/Tourists.dir/build
+.PHONY : Tourists/fast
 
 #=============================================================================
 # Target rules for targets named ShotCube
@@ -383,6 +435,87 @@ MSOE2021Summer/NAPCPracticeContest_Jul10/PrimalRepresentation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PrimalRepresentation.dir/build.make CMakeFiles/PrimalRepresentation.dir/MSOE2021Summer/NAPCPracticeContest_Jul10/PrimalRepresentation.cpp.s
 .PHONY : MSOE2021Summer/NAPCPracticeContest_Jul10/PrimalRepresentation.cpp.s
 
+MSOE2021Summer/NAPCPracticeContest_Jul17/JugglingTroupe.o: MSOE2021Summer/NAPCPracticeContest_Jul17/JugglingTroupe.cpp.o
+
+.PHONY : MSOE2021Summer/NAPCPracticeContest_Jul17/JugglingTroupe.o
+
+# target to build an object file
+MSOE2021Summer/NAPCPracticeContest_Jul17/JugglingTroupe.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JugglingTroupe.dir/build.make CMakeFiles/JugglingTroupe.dir/MSOE2021Summer/NAPCPracticeContest_Jul17/JugglingTroupe.cpp.o
+.PHONY : MSOE2021Summer/NAPCPracticeContest_Jul17/JugglingTroupe.cpp.o
+
+MSOE2021Summer/NAPCPracticeContest_Jul17/JugglingTroupe.i: MSOE2021Summer/NAPCPracticeContest_Jul17/JugglingTroupe.cpp.i
+
+.PHONY : MSOE2021Summer/NAPCPracticeContest_Jul17/JugglingTroupe.i
+
+# target to preprocess a source file
+MSOE2021Summer/NAPCPracticeContest_Jul17/JugglingTroupe.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JugglingTroupe.dir/build.make CMakeFiles/JugglingTroupe.dir/MSOE2021Summer/NAPCPracticeContest_Jul17/JugglingTroupe.cpp.i
+.PHONY : MSOE2021Summer/NAPCPracticeContest_Jul17/JugglingTroupe.cpp.i
+
+MSOE2021Summer/NAPCPracticeContest_Jul17/JugglingTroupe.s: MSOE2021Summer/NAPCPracticeContest_Jul17/JugglingTroupe.cpp.s
+
+.PHONY : MSOE2021Summer/NAPCPracticeContest_Jul17/JugglingTroupe.s
+
+# target to generate assembly for a file
+MSOE2021Summer/NAPCPracticeContest_Jul17/JugglingTroupe.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/JugglingTroupe.dir/build.make CMakeFiles/JugglingTroupe.dir/MSOE2021Summer/NAPCPracticeContest_Jul17/JugglingTroupe.cpp.s
+.PHONY : MSOE2021Summer/NAPCPracticeContest_Jul17/JugglingTroupe.cpp.s
+
+MSOE2021Summer/NAPCPracticeContest_Jul17/Mathemagicians.o: MSOE2021Summer/NAPCPracticeContest_Jul17/Mathemagicians.cpp.o
+
+.PHONY : MSOE2021Summer/NAPCPracticeContest_Jul17/Mathemagicians.o
+
+# target to build an object file
+MSOE2021Summer/NAPCPracticeContest_Jul17/Mathemagicians.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mathemagicians.dir/build.make CMakeFiles/Mathemagicians.dir/MSOE2021Summer/NAPCPracticeContest_Jul17/Mathemagicians.cpp.o
+.PHONY : MSOE2021Summer/NAPCPracticeContest_Jul17/Mathemagicians.cpp.o
+
+MSOE2021Summer/NAPCPracticeContest_Jul17/Mathemagicians.i: MSOE2021Summer/NAPCPracticeContest_Jul17/Mathemagicians.cpp.i
+
+.PHONY : MSOE2021Summer/NAPCPracticeContest_Jul17/Mathemagicians.i
+
+# target to preprocess a source file
+MSOE2021Summer/NAPCPracticeContest_Jul17/Mathemagicians.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mathemagicians.dir/build.make CMakeFiles/Mathemagicians.dir/MSOE2021Summer/NAPCPracticeContest_Jul17/Mathemagicians.cpp.i
+.PHONY : MSOE2021Summer/NAPCPracticeContest_Jul17/Mathemagicians.cpp.i
+
+MSOE2021Summer/NAPCPracticeContest_Jul17/Mathemagicians.s: MSOE2021Summer/NAPCPracticeContest_Jul17/Mathemagicians.cpp.s
+
+.PHONY : MSOE2021Summer/NAPCPracticeContest_Jul17/Mathemagicians.s
+
+# target to generate assembly for a file
+MSOE2021Summer/NAPCPracticeContest_Jul17/Mathemagicians.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Mathemagicians.dir/build.make CMakeFiles/Mathemagicians.dir/MSOE2021Summer/NAPCPracticeContest_Jul17/Mathemagicians.cpp.s
+.PHONY : MSOE2021Summer/NAPCPracticeContest_Jul17/Mathemagicians.cpp.s
+
+MSOE2021Summer/NAPCPracticeContest_Jul17/TimeIsMoney.o: MSOE2021Summer/NAPCPracticeContest_Jul17/TimeIsMoney.cpp.o
+
+.PHONY : MSOE2021Summer/NAPCPracticeContest_Jul17/TimeIsMoney.o
+
+# target to build an object file
+MSOE2021Summer/NAPCPracticeContest_Jul17/TimeIsMoney.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TimeIsMoney.dir/build.make CMakeFiles/TimeIsMoney.dir/MSOE2021Summer/NAPCPracticeContest_Jul17/TimeIsMoney.cpp.o
+.PHONY : MSOE2021Summer/NAPCPracticeContest_Jul17/TimeIsMoney.cpp.o
+
+MSOE2021Summer/NAPCPracticeContest_Jul17/TimeIsMoney.i: MSOE2021Summer/NAPCPracticeContest_Jul17/TimeIsMoney.cpp.i
+
+.PHONY : MSOE2021Summer/NAPCPracticeContest_Jul17/TimeIsMoney.i
+
+# target to preprocess a source file
+MSOE2021Summer/NAPCPracticeContest_Jul17/TimeIsMoney.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TimeIsMoney.dir/build.make CMakeFiles/TimeIsMoney.dir/MSOE2021Summer/NAPCPracticeContest_Jul17/TimeIsMoney.cpp.i
+.PHONY : MSOE2021Summer/NAPCPracticeContest_Jul17/TimeIsMoney.cpp.i
+
+MSOE2021Summer/NAPCPracticeContest_Jul17/TimeIsMoney.s: MSOE2021Summer/NAPCPracticeContest_Jul17/TimeIsMoney.cpp.s
+
+.PHONY : MSOE2021Summer/NAPCPracticeContest_Jul17/TimeIsMoney.s
+
+# target to generate assembly for a file
+MSOE2021Summer/NAPCPracticeContest_Jul17/TimeIsMoney.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TimeIsMoney.dir/build.make CMakeFiles/TimeIsMoney.dir/MSOE2021Summer/NAPCPracticeContest_Jul17/TimeIsMoney.cpp.s
+.PHONY : MSOE2021Summer/NAPCPracticeContest_Jul17/TimeIsMoney.cpp.s
+
 MSOE2021Summer/Week7/ShotCube.o: MSOE2021Summer/Week7/ShotCube.cpp.o
 
 .PHONY : MSOE2021Summer/Week7/ShotCube.o
@@ -410,6 +543,33 @@ MSOE2021Summer/Week7/ShotCube.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ShotCube.dir/build.make CMakeFiles/ShotCube.dir/MSOE2021Summer/Week7/ShotCube.cpp.s
 .PHONY : MSOE2021Summer/Week7/ShotCube.cpp.s
 
+MSOE2021Summer/Week8/Tourists2.o: MSOE2021Summer/Week8/Tourists2.cpp.o
+
+.PHONY : MSOE2021Summer/Week8/Tourists2.o
+
+# target to build an object file
+MSOE2021Summer/Week8/Tourists2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tourists.dir/build.make CMakeFiles/Tourists.dir/MSOE2021Summer/Week8/Tourists2.cpp.o
+.PHONY : MSOE2021Summer/Week8/Tourists2.cpp.o
+
+MSOE2021Summer/Week8/Tourists2.i: MSOE2021Summer/Week8/Tourists2.cpp.i
+
+.PHONY : MSOE2021Summer/Week8/Tourists2.i
+
+# target to preprocess a source file
+MSOE2021Summer/Week8/Tourists2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tourists.dir/build.make CMakeFiles/Tourists.dir/MSOE2021Summer/Week8/Tourists2.cpp.i
+.PHONY : MSOE2021Summer/Week8/Tourists2.cpp.i
+
+MSOE2021Summer/Week8/Tourists2.s: MSOE2021Summer/Week8/Tourists2.cpp.s
+
+.PHONY : MSOE2021Summer/Week8/Tourists2.s
+
+# target to generate assembly for a file
+MSOE2021Summer/Week8/Tourists2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tourists.dir/build.make CMakeFiles/Tourists.dir/MSOE2021Summer/Week8/Tourists2.cpp.s
+.PHONY : MSOE2021Summer/Week8/Tourists2.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -423,8 +583,12 @@ help:
 	@echo "... DisastrousDoubling"
 	@echo "... EatingOut"
 	@echo "... FlightPlans"
+	@echo "... JugglingTroupe"
+	@echo "... Mathemagicians"
 	@echo "... PrimalRepresentation"
 	@echo "... ShotCube"
+	@echo "... TimeIsMoney"
+	@echo "... Tourists"
 	@echo "... MSOE2021Summer/NAPCPracticeContest_Jul10/BabelFisch.o"
 	@echo "... MSOE2021Summer/NAPCPracticeContest_Jul10/BabelFisch.i"
 	@echo "... MSOE2021Summer/NAPCPracticeContest_Jul10/BabelFisch.s"
@@ -443,9 +607,21 @@ help:
 	@echo "... MSOE2021Summer/NAPCPracticeContest_Jul10/PrimalRepresentation.o"
 	@echo "... MSOE2021Summer/NAPCPracticeContest_Jul10/PrimalRepresentation.i"
 	@echo "... MSOE2021Summer/NAPCPracticeContest_Jul10/PrimalRepresentation.s"
+	@echo "... MSOE2021Summer/NAPCPracticeContest_Jul17/JugglingTroupe.o"
+	@echo "... MSOE2021Summer/NAPCPracticeContest_Jul17/JugglingTroupe.i"
+	@echo "... MSOE2021Summer/NAPCPracticeContest_Jul17/JugglingTroupe.s"
+	@echo "... MSOE2021Summer/NAPCPracticeContest_Jul17/Mathemagicians.o"
+	@echo "... MSOE2021Summer/NAPCPracticeContest_Jul17/Mathemagicians.i"
+	@echo "... MSOE2021Summer/NAPCPracticeContest_Jul17/Mathemagicians.s"
+	@echo "... MSOE2021Summer/NAPCPracticeContest_Jul17/TimeIsMoney.o"
+	@echo "... MSOE2021Summer/NAPCPracticeContest_Jul17/TimeIsMoney.i"
+	@echo "... MSOE2021Summer/NAPCPracticeContest_Jul17/TimeIsMoney.s"
 	@echo "... MSOE2021Summer/Week7/ShotCube.o"
 	@echo "... MSOE2021Summer/Week7/ShotCube.i"
 	@echo "... MSOE2021Summer/Week7/ShotCube.s"
+	@echo "... MSOE2021Summer/Week8/Tourists2.o"
+	@echo "... MSOE2021Summer/Week8/Tourists2.i"
+	@echo "... MSOE2021Summer/Week8/Tourists2.s"
 .PHONY : help
 
 
