@@ -131,6 +131,97 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named CoinStacks
+
+# Build rule for target.
+CoinStacks: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CoinStacks
+.PHONY : CoinStacks
+
+# fast build rule for target.
+CoinStacks/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoinStacks.dir/build.make CMakeFiles/CoinStacks.dir/build
+.PHONY : CoinStacks/fast
+
+#=============================================================================
+# Target rules for targets named DamsInDistress
+
+# Build rule for target.
+DamsInDistress: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DamsInDistress
+.PHONY : DamsInDistress
+
+# fast build rule for target.
+DamsInDistress/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DamsInDistress.dir/build.make CMakeFiles/DamsInDistress.dir/build
+.PHONY : DamsInDistress/fast
+
+#=============================================================================
+# Target rules for targets named Totem
+
+# Build rule for target.
+Totem: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Totem
+.PHONY : Totem
+
+# fast build rule for target.
+Totem/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Totem.dir/build.make CMakeFiles/Totem.dir/build
+.PHONY : Totem/fast
+
+#=============================================================================
+# Target rules for targets named ProbeDroids
+
+# Build rule for target.
+ProbeDroids: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ProbeDroids
+.PHONY : ProbeDroids
+
+# fast build rule for target.
+ProbeDroids/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProbeDroids.dir/build.make CMakeFiles/ProbeDroids.dir/build
+.PHONY : ProbeDroids/fast
+
+#=============================================================================
+# Target rules for targets named MaximalSequences
+
+# Build rule for target.
+MaximalSequences: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MaximalSequences
+.PHONY : MaximalSequences
+
+# fast build rule for target.
+MaximalSequences/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MaximalSequences.dir/build.make CMakeFiles/MaximalSequences.dir/build
+.PHONY : MaximalSequences/fast
+
+#=============================================================================
+# Target rules for targets named ZoningHouses
+
+# Build rule for target.
+ZoningHouses: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ZoningHouses
+.PHONY : ZoningHouses
+
+# fast build rule for target.
+ZoningHouses/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZoningHouses.dir/build.make CMakeFiles/ZoningHouses.dir/build
+.PHONY : ZoningHouses/fast
+
+#=============================================================================
+# Target rules for targets named FlashingFluorescents
+
+# Build rule for target.
+FlashingFluorescents: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FlashingFluorescents
+.PHONY : FlashingFluorescents
+
+# fast build rule for target.
+FlashingFluorescents/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FlashingFluorescents.dir/build.make CMakeFiles/FlashingFluorescents.dir/build
+.PHONY : FlashingFluorescents/fast
+
+#=============================================================================
 # Target rules for targets named JugglingTroupe
 
 # Build rule for target.
@@ -155,6 +246,19 @@ TimeIsMoney: cmake_check_build_system
 TimeIsMoney/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TimeIsMoney.dir/build.make CMakeFiles/TimeIsMoney.dir/build
 .PHONY : TimeIsMoney/fast
+
+#=============================================================================
+# Target rules for targets named MissingGnomes
+
+# Build rule for target.
+MissingGnomes: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MissingGnomes
+.PHONY : MissingGnomes
+
+# fast build rule for target.
+MissingGnomes/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MissingGnomes.dir/build.make CMakeFiles/MissingGnomes.dir/build
+.PHONY : MissingGnomes/fast
 
 #=============================================================================
 # Target rules for targets named BrickWall
@@ -194,6 +298,19 @@ DisastrousDoubling: cmake_check_build_system
 DisastrousDoubling/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DisastrousDoubling.dir/build.make CMakeFiles/DisastrousDoubling.dir/build
 .PHONY : DisastrousDoubling/fast
+
+#=============================================================================
+# Target rules for targets named ArrayOfDiscord
+
+# Build rule for target.
+ArrayOfDiscord: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ArrayOfDiscord
+.PHONY : ArrayOfDiscord
+
+# fast build rule for target.
+ArrayOfDiscord/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ArrayOfDiscord.dir/build.make CMakeFiles/ArrayOfDiscord.dir/build
+.PHONY : ArrayOfDiscord/fast
 
 #=============================================================================
 # Target rules for targets named FlightPlans
@@ -516,6 +633,141 @@ MSOE2021Summer/NAPCPracticeContest_Jul17/TimeIsMoney.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TimeIsMoney.dir/build.make CMakeFiles/TimeIsMoney.dir/MSOE2021Summer/NAPCPracticeContest_Jul17/TimeIsMoney.cpp.s
 .PHONY : MSOE2021Summer/NAPCPracticeContest_Jul17/TimeIsMoney.cpp.s
 
+MSOE2021Summer/NAPCPracticeContest_Jul25/MaximalSequences2.o: MSOE2021Summer/NAPCPracticeContest_Jul25/MaximalSequences2.cpp.o
+
+.PHONY : MSOE2021Summer/NAPCPracticeContest_Jul25/MaximalSequences2.o
+
+# target to build an object file
+MSOE2021Summer/NAPCPracticeContest_Jul25/MaximalSequences2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MaximalSequences.dir/build.make CMakeFiles/MaximalSequences.dir/MSOE2021Summer/NAPCPracticeContest_Jul25/MaximalSequences2.cpp.o
+.PHONY : MSOE2021Summer/NAPCPracticeContest_Jul25/MaximalSequences2.cpp.o
+
+MSOE2021Summer/NAPCPracticeContest_Jul25/MaximalSequences2.i: MSOE2021Summer/NAPCPracticeContest_Jul25/MaximalSequences2.cpp.i
+
+.PHONY : MSOE2021Summer/NAPCPracticeContest_Jul25/MaximalSequences2.i
+
+# target to preprocess a source file
+MSOE2021Summer/NAPCPracticeContest_Jul25/MaximalSequences2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MaximalSequences.dir/build.make CMakeFiles/MaximalSequences.dir/MSOE2021Summer/NAPCPracticeContest_Jul25/MaximalSequences2.cpp.i
+.PHONY : MSOE2021Summer/NAPCPracticeContest_Jul25/MaximalSequences2.cpp.i
+
+MSOE2021Summer/NAPCPracticeContest_Jul25/MaximalSequences2.s: MSOE2021Summer/NAPCPracticeContest_Jul25/MaximalSequences2.cpp.s
+
+.PHONY : MSOE2021Summer/NAPCPracticeContest_Jul25/MaximalSequences2.s
+
+# target to generate assembly for a file
+MSOE2021Summer/NAPCPracticeContest_Jul25/MaximalSequences2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MaximalSequences.dir/build.make CMakeFiles/MaximalSequences.dir/MSOE2021Summer/NAPCPracticeContest_Jul25/MaximalSequences2.cpp.s
+.PHONY : MSOE2021Summer/NAPCPracticeContest_Jul25/MaximalSequences2.cpp.s
+
+MSOE2021Summer/NAPCPracticeContest_Jul25/Totem.o: MSOE2021Summer/NAPCPracticeContest_Jul25/Totem.cpp.o
+
+.PHONY : MSOE2021Summer/NAPCPracticeContest_Jul25/Totem.o
+
+# target to build an object file
+MSOE2021Summer/NAPCPracticeContest_Jul25/Totem.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Totem.dir/build.make CMakeFiles/Totem.dir/MSOE2021Summer/NAPCPracticeContest_Jul25/Totem.cpp.o
+.PHONY : MSOE2021Summer/NAPCPracticeContest_Jul25/Totem.cpp.o
+
+MSOE2021Summer/NAPCPracticeContest_Jul25/Totem.i: MSOE2021Summer/NAPCPracticeContest_Jul25/Totem.cpp.i
+
+.PHONY : MSOE2021Summer/NAPCPracticeContest_Jul25/Totem.i
+
+# target to preprocess a source file
+MSOE2021Summer/NAPCPracticeContest_Jul25/Totem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Totem.dir/build.make CMakeFiles/Totem.dir/MSOE2021Summer/NAPCPracticeContest_Jul25/Totem.cpp.i
+.PHONY : MSOE2021Summer/NAPCPracticeContest_Jul25/Totem.cpp.i
+
+MSOE2021Summer/NAPCPracticeContest_Jul25/Totem.s: MSOE2021Summer/NAPCPracticeContest_Jul25/Totem.cpp.s
+
+.PHONY : MSOE2021Summer/NAPCPracticeContest_Jul25/Totem.s
+
+# target to generate assembly for a file
+MSOE2021Summer/NAPCPracticeContest_Jul25/Totem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Totem.dir/build.make CMakeFiles/Totem.dir/MSOE2021Summer/NAPCPracticeContest_Jul25/Totem.cpp.s
+.PHONY : MSOE2021Summer/NAPCPracticeContest_Jul25/Totem.cpp.s
+
+MSOE2021Summer/Week10/ArrayOfDiscord.o: MSOE2021Summer/Week10/ArrayOfDiscord.cpp.o
+
+.PHONY : MSOE2021Summer/Week10/ArrayOfDiscord.o
+
+# target to build an object file
+MSOE2021Summer/Week10/ArrayOfDiscord.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ArrayOfDiscord.dir/build.make CMakeFiles/ArrayOfDiscord.dir/MSOE2021Summer/Week10/ArrayOfDiscord.cpp.o
+.PHONY : MSOE2021Summer/Week10/ArrayOfDiscord.cpp.o
+
+MSOE2021Summer/Week10/ArrayOfDiscord.i: MSOE2021Summer/Week10/ArrayOfDiscord.cpp.i
+
+.PHONY : MSOE2021Summer/Week10/ArrayOfDiscord.i
+
+# target to preprocess a source file
+MSOE2021Summer/Week10/ArrayOfDiscord.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ArrayOfDiscord.dir/build.make CMakeFiles/ArrayOfDiscord.dir/MSOE2021Summer/Week10/ArrayOfDiscord.cpp.i
+.PHONY : MSOE2021Summer/Week10/ArrayOfDiscord.cpp.i
+
+MSOE2021Summer/Week10/ArrayOfDiscord.s: MSOE2021Summer/Week10/ArrayOfDiscord.cpp.s
+
+.PHONY : MSOE2021Summer/Week10/ArrayOfDiscord.s
+
+# target to generate assembly for a file
+MSOE2021Summer/Week10/ArrayOfDiscord.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ArrayOfDiscord.dir/build.make CMakeFiles/ArrayOfDiscord.dir/MSOE2021Summer/Week10/ArrayOfDiscord.cpp.s
+.PHONY : MSOE2021Summer/Week10/ArrayOfDiscord.cpp.s
+
+MSOE2021Summer/Week10/CoinStacks.o: MSOE2021Summer/Week10/CoinStacks.cpp.o
+
+.PHONY : MSOE2021Summer/Week10/CoinStacks.o
+
+# target to build an object file
+MSOE2021Summer/Week10/CoinStacks.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoinStacks.dir/build.make CMakeFiles/CoinStacks.dir/MSOE2021Summer/Week10/CoinStacks.cpp.o
+.PHONY : MSOE2021Summer/Week10/CoinStacks.cpp.o
+
+MSOE2021Summer/Week10/CoinStacks.i: MSOE2021Summer/Week10/CoinStacks.cpp.i
+
+.PHONY : MSOE2021Summer/Week10/CoinStacks.i
+
+# target to preprocess a source file
+MSOE2021Summer/Week10/CoinStacks.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoinStacks.dir/build.make CMakeFiles/CoinStacks.dir/MSOE2021Summer/Week10/CoinStacks.cpp.i
+.PHONY : MSOE2021Summer/Week10/CoinStacks.cpp.i
+
+MSOE2021Summer/Week10/CoinStacks.s: MSOE2021Summer/Week10/CoinStacks.cpp.s
+
+.PHONY : MSOE2021Summer/Week10/CoinStacks.s
+
+# target to generate assembly for a file
+MSOE2021Summer/Week10/CoinStacks.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CoinStacks.dir/build.make CMakeFiles/CoinStacks.dir/MSOE2021Summer/Week10/CoinStacks.cpp.s
+.PHONY : MSOE2021Summer/Week10/CoinStacks.cpp.s
+
+MSOE2021Summer/Week10/DamsInDistress.o: MSOE2021Summer/Week10/DamsInDistress.cpp.o
+
+.PHONY : MSOE2021Summer/Week10/DamsInDistress.o
+
+# target to build an object file
+MSOE2021Summer/Week10/DamsInDistress.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DamsInDistress.dir/build.make CMakeFiles/DamsInDistress.dir/MSOE2021Summer/Week10/DamsInDistress.cpp.o
+.PHONY : MSOE2021Summer/Week10/DamsInDistress.cpp.o
+
+MSOE2021Summer/Week10/DamsInDistress.i: MSOE2021Summer/Week10/DamsInDistress.cpp.i
+
+.PHONY : MSOE2021Summer/Week10/DamsInDistress.i
+
+# target to preprocess a source file
+MSOE2021Summer/Week10/DamsInDistress.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DamsInDistress.dir/build.make CMakeFiles/DamsInDistress.dir/MSOE2021Summer/Week10/DamsInDistress.cpp.i
+.PHONY : MSOE2021Summer/Week10/DamsInDistress.cpp.i
+
+MSOE2021Summer/Week10/DamsInDistress.s: MSOE2021Summer/Week10/DamsInDistress.cpp.s
+
+.PHONY : MSOE2021Summer/Week10/DamsInDistress.s
+
+# target to generate assembly for a file
+MSOE2021Summer/Week10/DamsInDistress.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DamsInDistress.dir/build.make CMakeFiles/DamsInDistress.dir/MSOE2021Summer/Week10/DamsInDistress.cpp.s
+.PHONY : MSOE2021Summer/Week10/DamsInDistress.cpp.s
+
 MSOE2021Summer/Week7/ShotCube.o: MSOE2021Summer/Week7/ShotCube.cpp.o
 
 .PHONY : MSOE2021Summer/Week7/ShotCube.o
@@ -570,6 +822,114 @@ MSOE2021Summer/Week8/Tourists2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tourists.dir/build.make CMakeFiles/Tourists.dir/MSOE2021Summer/Week8/Tourists2.cpp.s
 .PHONY : MSOE2021Summer/Week8/Tourists2.cpp.s
 
+MSOE2021Summer/Week9/FlashingFluorescents.o: MSOE2021Summer/Week9/FlashingFluorescents.cpp.o
+
+.PHONY : MSOE2021Summer/Week9/FlashingFluorescents.o
+
+# target to build an object file
+MSOE2021Summer/Week9/FlashingFluorescents.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FlashingFluorescents.dir/build.make CMakeFiles/FlashingFluorescents.dir/MSOE2021Summer/Week9/FlashingFluorescents.cpp.o
+.PHONY : MSOE2021Summer/Week9/FlashingFluorescents.cpp.o
+
+MSOE2021Summer/Week9/FlashingFluorescents.i: MSOE2021Summer/Week9/FlashingFluorescents.cpp.i
+
+.PHONY : MSOE2021Summer/Week9/FlashingFluorescents.i
+
+# target to preprocess a source file
+MSOE2021Summer/Week9/FlashingFluorescents.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FlashingFluorescents.dir/build.make CMakeFiles/FlashingFluorescents.dir/MSOE2021Summer/Week9/FlashingFluorescents.cpp.i
+.PHONY : MSOE2021Summer/Week9/FlashingFluorescents.cpp.i
+
+MSOE2021Summer/Week9/FlashingFluorescents.s: MSOE2021Summer/Week9/FlashingFluorescents.cpp.s
+
+.PHONY : MSOE2021Summer/Week9/FlashingFluorescents.s
+
+# target to generate assembly for a file
+MSOE2021Summer/Week9/FlashingFluorescents.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FlashingFluorescents.dir/build.make CMakeFiles/FlashingFluorescents.dir/MSOE2021Summer/Week9/FlashingFluorescents.cpp.s
+.PHONY : MSOE2021Summer/Week9/FlashingFluorescents.cpp.s
+
+MSOE2021Summer/Week9/MissingGnomes2.o: MSOE2021Summer/Week9/MissingGnomes2.cpp.o
+
+.PHONY : MSOE2021Summer/Week9/MissingGnomes2.o
+
+# target to build an object file
+MSOE2021Summer/Week9/MissingGnomes2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MissingGnomes.dir/build.make CMakeFiles/MissingGnomes.dir/MSOE2021Summer/Week9/MissingGnomes2.cpp.o
+.PHONY : MSOE2021Summer/Week9/MissingGnomes2.cpp.o
+
+MSOE2021Summer/Week9/MissingGnomes2.i: MSOE2021Summer/Week9/MissingGnomes2.cpp.i
+
+.PHONY : MSOE2021Summer/Week9/MissingGnomes2.i
+
+# target to preprocess a source file
+MSOE2021Summer/Week9/MissingGnomes2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MissingGnomes.dir/build.make CMakeFiles/MissingGnomes.dir/MSOE2021Summer/Week9/MissingGnomes2.cpp.i
+.PHONY : MSOE2021Summer/Week9/MissingGnomes2.cpp.i
+
+MSOE2021Summer/Week9/MissingGnomes2.s: MSOE2021Summer/Week9/MissingGnomes2.cpp.s
+
+.PHONY : MSOE2021Summer/Week9/MissingGnomes2.s
+
+# target to generate assembly for a file
+MSOE2021Summer/Week9/MissingGnomes2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MissingGnomes.dir/build.make CMakeFiles/MissingGnomes.dir/MSOE2021Summer/Week9/MissingGnomes2.cpp.s
+.PHONY : MSOE2021Summer/Week9/MissingGnomes2.cpp.s
+
+MSOE2021Summer/Week9/ProbeDroids.o: MSOE2021Summer/Week9/ProbeDroids.cpp.o
+
+.PHONY : MSOE2021Summer/Week9/ProbeDroids.o
+
+# target to build an object file
+MSOE2021Summer/Week9/ProbeDroids.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProbeDroids.dir/build.make CMakeFiles/ProbeDroids.dir/MSOE2021Summer/Week9/ProbeDroids.cpp.o
+.PHONY : MSOE2021Summer/Week9/ProbeDroids.cpp.o
+
+MSOE2021Summer/Week9/ProbeDroids.i: MSOE2021Summer/Week9/ProbeDroids.cpp.i
+
+.PHONY : MSOE2021Summer/Week9/ProbeDroids.i
+
+# target to preprocess a source file
+MSOE2021Summer/Week9/ProbeDroids.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProbeDroids.dir/build.make CMakeFiles/ProbeDroids.dir/MSOE2021Summer/Week9/ProbeDroids.cpp.i
+.PHONY : MSOE2021Summer/Week9/ProbeDroids.cpp.i
+
+MSOE2021Summer/Week9/ProbeDroids.s: MSOE2021Summer/Week9/ProbeDroids.cpp.s
+
+.PHONY : MSOE2021Summer/Week9/ProbeDroids.s
+
+# target to generate assembly for a file
+MSOE2021Summer/Week9/ProbeDroids.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ProbeDroids.dir/build.make CMakeFiles/ProbeDroids.dir/MSOE2021Summer/Week9/ProbeDroids.cpp.s
+.PHONY : MSOE2021Summer/Week9/ProbeDroids.cpp.s
+
+MSOE2021Summer/Week9/ZoningHouses.o: MSOE2021Summer/Week9/ZoningHouses.cpp.o
+
+.PHONY : MSOE2021Summer/Week9/ZoningHouses.o
+
+# target to build an object file
+MSOE2021Summer/Week9/ZoningHouses.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZoningHouses.dir/build.make CMakeFiles/ZoningHouses.dir/MSOE2021Summer/Week9/ZoningHouses.cpp.o
+.PHONY : MSOE2021Summer/Week9/ZoningHouses.cpp.o
+
+MSOE2021Summer/Week9/ZoningHouses.i: MSOE2021Summer/Week9/ZoningHouses.cpp.i
+
+.PHONY : MSOE2021Summer/Week9/ZoningHouses.i
+
+# target to preprocess a source file
+MSOE2021Summer/Week9/ZoningHouses.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZoningHouses.dir/build.make CMakeFiles/ZoningHouses.dir/MSOE2021Summer/Week9/ZoningHouses.cpp.i
+.PHONY : MSOE2021Summer/Week9/ZoningHouses.cpp.i
+
+MSOE2021Summer/Week9/ZoningHouses.s: MSOE2021Summer/Week9/ZoningHouses.cpp.s
+
+.PHONY : MSOE2021Summer/Week9/ZoningHouses.s
+
+# target to generate assembly for a file
+MSOE2021Summer/Week9/ZoningHouses.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ZoningHouses.dir/build.make CMakeFiles/ZoningHouses.dir/MSOE2021Summer/Week9/ZoningHouses.cpp.s
+.PHONY : MSOE2021Summer/Week9/ZoningHouses.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -578,17 +938,26 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... ArrayOfDiscord"
 	@echo "... BabelFisch"
 	@echo "... BrickWall"
+	@echo "... CoinStacks"
+	@echo "... DamsInDistress"
 	@echo "... DisastrousDoubling"
 	@echo "... EatingOut"
+	@echo "... FlashingFluorescents"
 	@echo "... FlightPlans"
 	@echo "... JugglingTroupe"
 	@echo "... Mathemagicians"
+	@echo "... MaximalSequences"
+	@echo "... MissingGnomes"
 	@echo "... PrimalRepresentation"
+	@echo "... ProbeDroids"
 	@echo "... ShotCube"
 	@echo "... TimeIsMoney"
+	@echo "... Totem"
 	@echo "... Tourists"
+	@echo "... ZoningHouses"
 	@echo "... MSOE2021Summer/NAPCPracticeContest_Jul10/BabelFisch.o"
 	@echo "... MSOE2021Summer/NAPCPracticeContest_Jul10/BabelFisch.i"
 	@echo "... MSOE2021Summer/NAPCPracticeContest_Jul10/BabelFisch.s"
@@ -616,12 +985,39 @@ help:
 	@echo "... MSOE2021Summer/NAPCPracticeContest_Jul17/TimeIsMoney.o"
 	@echo "... MSOE2021Summer/NAPCPracticeContest_Jul17/TimeIsMoney.i"
 	@echo "... MSOE2021Summer/NAPCPracticeContest_Jul17/TimeIsMoney.s"
+	@echo "... MSOE2021Summer/NAPCPracticeContest_Jul25/MaximalSequences2.o"
+	@echo "... MSOE2021Summer/NAPCPracticeContest_Jul25/MaximalSequences2.i"
+	@echo "... MSOE2021Summer/NAPCPracticeContest_Jul25/MaximalSequences2.s"
+	@echo "... MSOE2021Summer/NAPCPracticeContest_Jul25/Totem.o"
+	@echo "... MSOE2021Summer/NAPCPracticeContest_Jul25/Totem.i"
+	@echo "... MSOE2021Summer/NAPCPracticeContest_Jul25/Totem.s"
+	@echo "... MSOE2021Summer/Week10/ArrayOfDiscord.o"
+	@echo "... MSOE2021Summer/Week10/ArrayOfDiscord.i"
+	@echo "... MSOE2021Summer/Week10/ArrayOfDiscord.s"
+	@echo "... MSOE2021Summer/Week10/CoinStacks.o"
+	@echo "... MSOE2021Summer/Week10/CoinStacks.i"
+	@echo "... MSOE2021Summer/Week10/CoinStacks.s"
+	@echo "... MSOE2021Summer/Week10/DamsInDistress.o"
+	@echo "... MSOE2021Summer/Week10/DamsInDistress.i"
+	@echo "... MSOE2021Summer/Week10/DamsInDistress.s"
 	@echo "... MSOE2021Summer/Week7/ShotCube.o"
 	@echo "... MSOE2021Summer/Week7/ShotCube.i"
 	@echo "... MSOE2021Summer/Week7/ShotCube.s"
 	@echo "... MSOE2021Summer/Week8/Tourists2.o"
 	@echo "... MSOE2021Summer/Week8/Tourists2.i"
 	@echo "... MSOE2021Summer/Week8/Tourists2.s"
+	@echo "... MSOE2021Summer/Week9/FlashingFluorescents.o"
+	@echo "... MSOE2021Summer/Week9/FlashingFluorescents.i"
+	@echo "... MSOE2021Summer/Week9/FlashingFluorescents.s"
+	@echo "... MSOE2021Summer/Week9/MissingGnomes2.o"
+	@echo "... MSOE2021Summer/Week9/MissingGnomes2.i"
+	@echo "... MSOE2021Summer/Week9/MissingGnomes2.s"
+	@echo "... MSOE2021Summer/Week9/ProbeDroids.o"
+	@echo "... MSOE2021Summer/Week9/ProbeDroids.i"
+	@echo "... MSOE2021Summer/Week9/ProbeDroids.s"
+	@echo "... MSOE2021Summer/Week9/ZoningHouses.o"
+	@echo "... MSOE2021Summer/Week9/ZoningHouses.i"
+	@echo "... MSOE2021Summer/Week9/ZoningHouses.s"
 .PHONY : help
 
 

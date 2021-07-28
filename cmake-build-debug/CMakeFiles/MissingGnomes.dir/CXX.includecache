@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/jkeane/CLionProjects/KattisProblems/MSOE2021Summer/Week9/MissingGnomes2.cpp
+bits/stdc++.h
+-
+utility
+-
+

@@ -52,11 +52,20 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/CoinStacks.dir/DependInfo.cmake"
+  "CMakeFiles/DamsInDistress.dir/DependInfo.cmake"
+  "CMakeFiles/Totem.dir/DependInfo.cmake"
+  "CMakeFiles/ProbeDroids.dir/DependInfo.cmake"
+  "CMakeFiles/MaximalSequences.dir/DependInfo.cmake"
+  "CMakeFiles/ZoningHouses.dir/DependInfo.cmake"
+  "CMakeFiles/FlashingFluorescents.dir/DependInfo.cmake"
   "CMakeFiles/JugglingTroupe.dir/DependInfo.cmake"
   "CMakeFiles/TimeIsMoney.dir/DependInfo.cmake"
+  "CMakeFiles/MissingGnomes.dir/DependInfo.cmake"
   "CMakeFiles/BrickWall.dir/DependInfo.cmake"
   "CMakeFiles/Mathemagicians.dir/DependInfo.cmake"
   "CMakeFiles/DisastrousDoubling.dir/DependInfo.cmake"
+  "CMakeFiles/ArrayOfDiscord.dir/DependInfo.cmake"
   "CMakeFiles/FlightPlans.dir/DependInfo.cmake"
   "CMakeFiles/EatingOut.dir/DependInfo.cmake"
   "CMakeFiles/BabelFisch.dir/DependInfo.cmake"
