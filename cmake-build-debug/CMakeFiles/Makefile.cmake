@@ -52,6 +52,10 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/L2.dir/DependInfo.cmake"
+  "CMakeFiles/AlphabetAnimals.dir/DependInfo.cmake"
+  "CMakeFiles/EenyMeeny.dir/DependInfo.cmake"
+  "CMakeFiles/Tourists.dir/DependInfo.cmake"
   "CMakeFiles/CoinStacks.dir/DependInfo.cmake"
   "CMakeFiles/DamsInDistress.dir/DependInfo.cmake"
   "CMakeFiles/Totem.dir/DependInfo.cmake"
@@ -60,16 +64,17 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/ZoningHouses.dir/DependInfo.cmake"
   "CMakeFiles/FlashingFluorescents.dir/DependInfo.cmake"
   "CMakeFiles/JugglingTroupe.dir/DependInfo.cmake"
+  "CMakeFiles/FlightPlans.dir/DependInfo.cmake"
   "CMakeFiles/TimeIsMoney.dir/DependInfo.cmake"
   "CMakeFiles/MissingGnomes.dir/DependInfo.cmake"
   "CMakeFiles/BrickWall.dir/DependInfo.cmake"
+  "CMakeFiles/InfectionEstimation.dir/DependInfo.cmake"
   "CMakeFiles/Mathemagicians.dir/DependInfo.cmake"
   "CMakeFiles/DisastrousDoubling.dir/DependInfo.cmake"
+  "CMakeFiles/Candyland.dir/DependInfo.cmake"
   "CMakeFiles/ArrayOfDiscord.dir/DependInfo.cmake"
-  "CMakeFiles/FlightPlans.dir/DependInfo.cmake"
+  "CMakeFiles/ShotCube.dir/DependInfo.cmake"
   "CMakeFiles/EatingOut.dir/DependInfo.cmake"
   "CMakeFiles/BabelFisch.dir/DependInfo.cmake"
   "CMakeFiles/PrimalRepresentation.dir/DependInfo.cmake"
-  "CMakeFiles/Tourists.dir/DependInfo.cmake"
-  "CMakeFiles/ShotCube.dir/DependInfo.cmake"
   )

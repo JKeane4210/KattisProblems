@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/jkeane/CLionProjects/KattisProblems/MSOE2021Summer/NSAChallenge/L2.cpp
+bits/stdc++.h
+-
+

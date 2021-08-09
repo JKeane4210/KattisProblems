@@ -76,17 +76,6 @@ CMAKE_BINARY_DIR = /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -97,6 +86,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -129,6 +129,58 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named L2
+
+# Build rule for target.
+L2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 L2
+.PHONY : L2
+
+# fast build rule for target.
+L2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/L2.dir/build.make CMakeFiles/L2.dir/build
+.PHONY : L2/fast
+
+#=============================================================================
+# Target rules for targets named AlphabetAnimals
+
+# Build rule for target.
+AlphabetAnimals: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 AlphabetAnimals
+.PHONY : AlphabetAnimals
+
+# fast build rule for target.
+AlphabetAnimals/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlphabetAnimals.dir/build.make CMakeFiles/AlphabetAnimals.dir/build
+.PHONY : AlphabetAnimals/fast
+
+#=============================================================================
+# Target rules for targets named EenyMeeny
+
+# Build rule for target.
+EenyMeeny: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 EenyMeeny
+.PHONY : EenyMeeny
+
+# fast build rule for target.
+EenyMeeny/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EenyMeeny.dir/build.make CMakeFiles/EenyMeeny.dir/build
+.PHONY : EenyMeeny/fast
+
+#=============================================================================
+# Target rules for targets named Tourists
+
+# Build rule for target.
+Tourists: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Tourists
+.PHONY : Tourists
+
+# fast build rule for target.
+Tourists/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tourists.dir/build.make CMakeFiles/Tourists.dir/build
+.PHONY : Tourists/fast
 
 #=============================================================================
 # Target rules for targets named CoinStacks
@@ -235,6 +287,19 @@ JugglingTroupe/fast:
 .PHONY : JugglingTroupe/fast
 
 #=============================================================================
+# Target rules for targets named FlightPlans
+
+# Build rule for target.
+FlightPlans: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FlightPlans
+.PHONY : FlightPlans
+
+# fast build rule for target.
+FlightPlans/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FlightPlans.dir/build.make CMakeFiles/FlightPlans.dir/build
+.PHONY : FlightPlans/fast
+
+#=============================================================================
 # Target rules for targets named TimeIsMoney
 
 # Build rule for target.
@@ -274,6 +339,19 @@ BrickWall/fast:
 .PHONY : BrickWall/fast
 
 #=============================================================================
+# Target rules for targets named InfectionEstimation
+
+# Build rule for target.
+InfectionEstimation: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 InfectionEstimation
+.PHONY : InfectionEstimation
+
+# fast build rule for target.
+InfectionEstimation/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/InfectionEstimation.dir/build.make CMakeFiles/InfectionEstimation.dir/build
+.PHONY : InfectionEstimation/fast
+
+#=============================================================================
 # Target rules for targets named Mathemagicians
 
 # Build rule for target.
@@ -300,6 +378,19 @@ DisastrousDoubling/fast:
 .PHONY : DisastrousDoubling/fast
 
 #=============================================================================
+# Target rules for targets named Candyland
+
+# Build rule for target.
+Candyland: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Candyland
+.PHONY : Candyland
+
+# fast build rule for target.
+Candyland/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Candyland.dir/build.make CMakeFiles/Candyland.dir/build
+.PHONY : Candyland/fast
+
+#=============================================================================
 # Target rules for targets named ArrayOfDiscord
 
 # Build rule for target.
@@ -313,17 +404,17 @@ ArrayOfDiscord/fast:
 .PHONY : ArrayOfDiscord/fast
 
 #=============================================================================
-# Target rules for targets named FlightPlans
+# Target rules for targets named ShotCube
 
 # Build rule for target.
-FlightPlans: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FlightPlans
-.PHONY : FlightPlans
+ShotCube: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ShotCube
+.PHONY : ShotCube
 
 # fast build rule for target.
-FlightPlans/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FlightPlans.dir/build.make CMakeFiles/FlightPlans.dir/build
-.PHONY : FlightPlans/fast
+ShotCube/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ShotCube.dir/build.make CMakeFiles/ShotCube.dir/build
+.PHONY : ShotCube/fast
 
 #=============================================================================
 # Target rules for targets named EatingOut
@@ -363,32 +454,6 @@ PrimalRepresentation: cmake_check_build_system
 PrimalRepresentation/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PrimalRepresentation.dir/build.make CMakeFiles/PrimalRepresentation.dir/build
 .PHONY : PrimalRepresentation/fast
-
-#=============================================================================
-# Target rules for targets named Tourists
-
-# Build rule for target.
-Tourists: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Tourists
-.PHONY : Tourists
-
-# fast build rule for target.
-Tourists/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tourists.dir/build.make CMakeFiles/Tourists.dir/build
-.PHONY : Tourists/fast
-
-#=============================================================================
-# Target rules for targets named ShotCube
-
-# Build rule for target.
-ShotCube: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ShotCube
-.PHONY : ShotCube
-
-# fast build rule for target.
-ShotCube/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ShotCube.dir/build.make CMakeFiles/ShotCube.dir/build
-.PHONY : ShotCube/fast
 
 MSOE2021Summer/NAPCPracticeContest_Jul10/BabelFisch.o: MSOE2021Summer/NAPCPracticeContest_Jul10/BabelFisch.cpp.o
 
@@ -687,6 +752,60 @@ MSOE2021Summer/NAPCPracticeContest_Jul25/Totem.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Totem.dir/build.make CMakeFiles/Totem.dir/MSOE2021Summer/NAPCPracticeContest_Jul25/Totem.cpp.s
 .PHONY : MSOE2021Summer/NAPCPracticeContest_Jul25/Totem.cpp.s
 
+MSOE2021Summer/NAPCPracticeContest_Jul31/Candyland.o: MSOE2021Summer/NAPCPracticeContest_Jul31/Candyland.cpp.o
+
+.PHONY : MSOE2021Summer/NAPCPracticeContest_Jul31/Candyland.o
+
+# target to build an object file
+MSOE2021Summer/NAPCPracticeContest_Jul31/Candyland.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Candyland.dir/build.make CMakeFiles/Candyland.dir/MSOE2021Summer/NAPCPracticeContest_Jul31/Candyland.cpp.o
+.PHONY : MSOE2021Summer/NAPCPracticeContest_Jul31/Candyland.cpp.o
+
+MSOE2021Summer/NAPCPracticeContest_Jul31/Candyland.i: MSOE2021Summer/NAPCPracticeContest_Jul31/Candyland.cpp.i
+
+.PHONY : MSOE2021Summer/NAPCPracticeContest_Jul31/Candyland.i
+
+# target to preprocess a source file
+MSOE2021Summer/NAPCPracticeContest_Jul31/Candyland.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Candyland.dir/build.make CMakeFiles/Candyland.dir/MSOE2021Summer/NAPCPracticeContest_Jul31/Candyland.cpp.i
+.PHONY : MSOE2021Summer/NAPCPracticeContest_Jul31/Candyland.cpp.i
+
+MSOE2021Summer/NAPCPracticeContest_Jul31/Candyland.s: MSOE2021Summer/NAPCPracticeContest_Jul31/Candyland.cpp.s
+
+.PHONY : MSOE2021Summer/NAPCPracticeContest_Jul31/Candyland.s
+
+# target to generate assembly for a file
+MSOE2021Summer/NAPCPracticeContest_Jul31/Candyland.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Candyland.dir/build.make CMakeFiles/Candyland.dir/MSOE2021Summer/NAPCPracticeContest_Jul31/Candyland.cpp.s
+.PHONY : MSOE2021Summer/NAPCPracticeContest_Jul31/Candyland.cpp.s
+
+MSOE2021Summer/NSAChallenge/L2.o: MSOE2021Summer/NSAChallenge/L2.cpp.o
+
+.PHONY : MSOE2021Summer/NSAChallenge/L2.o
+
+# target to build an object file
+MSOE2021Summer/NSAChallenge/L2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/L2.dir/build.make CMakeFiles/L2.dir/MSOE2021Summer/NSAChallenge/L2.cpp.o
+.PHONY : MSOE2021Summer/NSAChallenge/L2.cpp.o
+
+MSOE2021Summer/NSAChallenge/L2.i: MSOE2021Summer/NSAChallenge/L2.cpp.i
+
+.PHONY : MSOE2021Summer/NSAChallenge/L2.i
+
+# target to preprocess a source file
+MSOE2021Summer/NSAChallenge/L2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/L2.dir/build.make CMakeFiles/L2.dir/MSOE2021Summer/NSAChallenge/L2.cpp.i
+.PHONY : MSOE2021Summer/NSAChallenge/L2.cpp.i
+
+MSOE2021Summer/NSAChallenge/L2.s: MSOE2021Summer/NSAChallenge/L2.cpp.s
+
+.PHONY : MSOE2021Summer/NSAChallenge/L2.s
+
+# target to generate assembly for a file
+MSOE2021Summer/NSAChallenge/L2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/L2.dir/build.make CMakeFiles/L2.dir/MSOE2021Summer/NSAChallenge/L2.cpp.s
+.PHONY : MSOE2021Summer/NSAChallenge/L2.cpp.s
+
 MSOE2021Summer/Week10/ArrayOfDiscord.o: MSOE2021Summer/Week10/ArrayOfDiscord.cpp.o
 
 .PHONY : MSOE2021Summer/Week10/ArrayOfDiscord.o
@@ -767,6 +886,87 @@ MSOE2021Summer/Week10/DamsInDistress.s: MSOE2021Summer/Week10/DamsInDistress.cpp
 MSOE2021Summer/Week10/DamsInDistress.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DamsInDistress.dir/build.make CMakeFiles/DamsInDistress.dir/MSOE2021Summer/Week10/DamsInDistress.cpp.s
 .PHONY : MSOE2021Summer/Week10/DamsInDistress.cpp.s
+
+MSOE2021Summer/Week10/InfectionEstimation.o: MSOE2021Summer/Week10/InfectionEstimation.cpp.o
+
+.PHONY : MSOE2021Summer/Week10/InfectionEstimation.o
+
+# target to build an object file
+MSOE2021Summer/Week10/InfectionEstimation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/InfectionEstimation.dir/build.make CMakeFiles/InfectionEstimation.dir/MSOE2021Summer/Week10/InfectionEstimation.cpp.o
+.PHONY : MSOE2021Summer/Week10/InfectionEstimation.cpp.o
+
+MSOE2021Summer/Week10/InfectionEstimation.i: MSOE2021Summer/Week10/InfectionEstimation.cpp.i
+
+.PHONY : MSOE2021Summer/Week10/InfectionEstimation.i
+
+# target to preprocess a source file
+MSOE2021Summer/Week10/InfectionEstimation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/InfectionEstimation.dir/build.make CMakeFiles/InfectionEstimation.dir/MSOE2021Summer/Week10/InfectionEstimation.cpp.i
+.PHONY : MSOE2021Summer/Week10/InfectionEstimation.cpp.i
+
+MSOE2021Summer/Week10/InfectionEstimation.s: MSOE2021Summer/Week10/InfectionEstimation.cpp.s
+
+.PHONY : MSOE2021Summer/Week10/InfectionEstimation.s
+
+# target to generate assembly for a file
+MSOE2021Summer/Week10/InfectionEstimation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/InfectionEstimation.dir/build.make CMakeFiles/InfectionEstimation.dir/MSOE2021Summer/Week10/InfectionEstimation.cpp.s
+.PHONY : MSOE2021Summer/Week10/InfectionEstimation.cpp.s
+
+MSOE2021Summer/Week11/AlphabetAnimals.o: MSOE2021Summer/Week11/AlphabetAnimals.cpp.o
+
+.PHONY : MSOE2021Summer/Week11/AlphabetAnimals.o
+
+# target to build an object file
+MSOE2021Summer/Week11/AlphabetAnimals.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlphabetAnimals.dir/build.make CMakeFiles/AlphabetAnimals.dir/MSOE2021Summer/Week11/AlphabetAnimals.cpp.o
+.PHONY : MSOE2021Summer/Week11/AlphabetAnimals.cpp.o
+
+MSOE2021Summer/Week11/AlphabetAnimals.i: MSOE2021Summer/Week11/AlphabetAnimals.cpp.i
+
+.PHONY : MSOE2021Summer/Week11/AlphabetAnimals.i
+
+# target to preprocess a source file
+MSOE2021Summer/Week11/AlphabetAnimals.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlphabetAnimals.dir/build.make CMakeFiles/AlphabetAnimals.dir/MSOE2021Summer/Week11/AlphabetAnimals.cpp.i
+.PHONY : MSOE2021Summer/Week11/AlphabetAnimals.cpp.i
+
+MSOE2021Summer/Week11/AlphabetAnimals.s: MSOE2021Summer/Week11/AlphabetAnimals.cpp.s
+
+.PHONY : MSOE2021Summer/Week11/AlphabetAnimals.s
+
+# target to generate assembly for a file
+MSOE2021Summer/Week11/AlphabetAnimals.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/AlphabetAnimals.dir/build.make CMakeFiles/AlphabetAnimals.dir/MSOE2021Summer/Week11/AlphabetAnimals.cpp.s
+.PHONY : MSOE2021Summer/Week11/AlphabetAnimals.cpp.s
+
+MSOE2021Summer/Week11/EenyMeeny.o: MSOE2021Summer/Week11/EenyMeeny.cpp.o
+
+.PHONY : MSOE2021Summer/Week11/EenyMeeny.o
+
+# target to build an object file
+MSOE2021Summer/Week11/EenyMeeny.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EenyMeeny.dir/build.make CMakeFiles/EenyMeeny.dir/MSOE2021Summer/Week11/EenyMeeny.cpp.o
+.PHONY : MSOE2021Summer/Week11/EenyMeeny.cpp.o
+
+MSOE2021Summer/Week11/EenyMeeny.i: MSOE2021Summer/Week11/EenyMeeny.cpp.i
+
+.PHONY : MSOE2021Summer/Week11/EenyMeeny.i
+
+# target to preprocess a source file
+MSOE2021Summer/Week11/EenyMeeny.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EenyMeeny.dir/build.make CMakeFiles/EenyMeeny.dir/MSOE2021Summer/Week11/EenyMeeny.cpp.i
+.PHONY : MSOE2021Summer/Week11/EenyMeeny.cpp.i
+
+MSOE2021Summer/Week11/EenyMeeny.s: MSOE2021Summer/Week11/EenyMeeny.cpp.s
+
+.PHONY : MSOE2021Summer/Week11/EenyMeeny.s
+
+# target to generate assembly for a file
+MSOE2021Summer/Week11/EenyMeeny.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EenyMeeny.dir/build.make CMakeFiles/EenyMeeny.dir/MSOE2021Summer/Week11/EenyMeeny.cpp.s
+.PHONY : MSOE2021Summer/Week11/EenyMeeny.cpp.s
 
 MSOE2021Summer/Week7/ShotCube.o: MSOE2021Summer/Week7/ShotCube.cpp.o
 
@@ -938,16 +1138,21 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... AlphabetAnimals"
 	@echo "... ArrayOfDiscord"
 	@echo "... BabelFisch"
 	@echo "... BrickWall"
+	@echo "... Candyland"
 	@echo "... CoinStacks"
 	@echo "... DamsInDistress"
 	@echo "... DisastrousDoubling"
 	@echo "... EatingOut"
+	@echo "... EenyMeeny"
 	@echo "... FlashingFluorescents"
 	@echo "... FlightPlans"
+	@echo "... InfectionEstimation"
 	@echo "... JugglingTroupe"
+	@echo "... L2"
 	@echo "... Mathemagicians"
 	@echo "... MaximalSequences"
 	@echo "... MissingGnomes"
@@ -991,6 +1196,12 @@ help:
 	@echo "... MSOE2021Summer/NAPCPracticeContest_Jul25/Totem.o"
 	@echo "... MSOE2021Summer/NAPCPracticeContest_Jul25/Totem.i"
 	@echo "... MSOE2021Summer/NAPCPracticeContest_Jul25/Totem.s"
+	@echo "... MSOE2021Summer/NAPCPracticeContest_Jul31/Candyland.o"
+	@echo "... MSOE2021Summer/NAPCPracticeContest_Jul31/Candyland.i"
+	@echo "... MSOE2021Summer/NAPCPracticeContest_Jul31/Candyland.s"
+	@echo "... MSOE2021Summer/NSAChallenge/L2.o"
+	@echo "... MSOE2021Summer/NSAChallenge/L2.i"
+	@echo "... MSOE2021Summer/NSAChallenge/L2.s"
 	@echo "... MSOE2021Summer/Week10/ArrayOfDiscord.o"
 	@echo "... MSOE2021Summer/Week10/ArrayOfDiscord.i"
 	@echo "... MSOE2021Summer/Week10/ArrayOfDiscord.s"
@@ -1000,6 +1211,15 @@ help:
 	@echo "... MSOE2021Summer/Week10/DamsInDistress.o"
 	@echo "... MSOE2021Summer/Week10/DamsInDistress.i"
 	@echo "... MSOE2021Summer/Week10/DamsInDistress.s"
+	@echo "... MSOE2021Summer/Week10/InfectionEstimation.o"
+	@echo "... MSOE2021Summer/Week10/InfectionEstimation.i"
+	@echo "... MSOE2021Summer/Week10/InfectionEstimation.s"
+	@echo "... MSOE2021Summer/Week11/AlphabetAnimals.o"
+	@echo "... MSOE2021Summer/Week11/AlphabetAnimals.i"
+	@echo "... MSOE2021Summer/Week11/AlphabetAnimals.s"
+	@echo "... MSOE2021Summer/Week11/EenyMeeny.o"
+	@echo "... MSOE2021Summer/Week11/EenyMeeny.i"
+	@echo "... MSOE2021Summer/Week11/EenyMeeny.s"
 	@echo "... MSOE2021Summer/Week7/ShotCube.o"
 	@echo "... MSOE2021Summer/Week7/ShotCube.i"
 	@echo "... MSOE2021Summer/Week7/ShotCube.s"

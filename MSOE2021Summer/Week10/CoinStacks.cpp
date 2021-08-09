@@ -41,7 +41,9 @@ int main() {
     for (int i = 1; i <= n; ++i) {
         int val;
         cin >> val;
-        indVals.push(make_pair(val, i));
+        if (val != 0) {
+            indVals.push(make_pair(val, i));
+        }
     }
 
     vector<pair<int, int>> moves;
