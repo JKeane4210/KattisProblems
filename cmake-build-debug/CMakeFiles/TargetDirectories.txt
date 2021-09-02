@@ -6,6 +6,7 @@
 /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/CoinStacks.dir
 /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/DamsInDistress.dir
 /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/Totem.dir
+/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/MatrixInverse.dir
 /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/ProbeDroids.dir
 /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/MaximalSequences.dir
 /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/ZoningHouses.dir

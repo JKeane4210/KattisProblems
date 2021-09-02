@@ -96,5 +96,7 @@ add_executable(EenyMeeny MSOE2021Summer/Week11/EenyMeeny.cpp)
 add_executable(AlphabetAnimals MSOE2021Summer/Week11/AlphabetAnimals.cpp)
 add_executable(L2 MSOE2021Summer/NSAChallenge/L2.cpp)
 
+add_executable(MatrixInverse MSOE2020/MatrixInverse.cpp)
+
 #include_directories(/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++)
 #include_directories(/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1)

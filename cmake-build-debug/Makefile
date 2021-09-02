@@ -222,6 +222,19 @@ Totem/fast:
 .PHONY : Totem/fast
 
 #=============================================================================
+# Target rules for targets named MatrixInverse
+
+# Build rule for target.
+MatrixInverse: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MatrixInverse
+.PHONY : MatrixInverse
+
+# fast build rule for target.
+MatrixInverse/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MatrixInverse.dir/build.make CMakeFiles/MatrixInverse.dir/build
+.PHONY : MatrixInverse/fast
+
+#=============================================================================
 # Target rules for targets named ProbeDroids
 
 # Build rule for target.
@@ -454,6 +467,33 @@ PrimalRepresentation: cmake_check_build_system
 PrimalRepresentation/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PrimalRepresentation.dir/build.make CMakeFiles/PrimalRepresentation.dir/build
 .PHONY : PrimalRepresentation/fast
+
+MSOE2020/MatrixInverse.o: MSOE2020/MatrixInverse.cpp.o
+
+.PHONY : MSOE2020/MatrixInverse.o
+
+# target to build an object file
+MSOE2020/MatrixInverse.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MatrixInverse.dir/build.make CMakeFiles/MatrixInverse.dir/MSOE2020/MatrixInverse.cpp.o
+.PHONY : MSOE2020/MatrixInverse.cpp.o
+
+MSOE2020/MatrixInverse.i: MSOE2020/MatrixInverse.cpp.i
+
+.PHONY : MSOE2020/MatrixInverse.i
+
+# target to preprocess a source file
+MSOE2020/MatrixInverse.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MatrixInverse.dir/build.make CMakeFiles/MatrixInverse.dir/MSOE2020/MatrixInverse.cpp.i
+.PHONY : MSOE2020/MatrixInverse.cpp.i
+
+MSOE2020/MatrixInverse.s: MSOE2020/MatrixInverse.cpp.s
+
+.PHONY : MSOE2020/MatrixInverse.s
+
+# target to generate assembly for a file
+MSOE2020/MatrixInverse.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MatrixInverse.dir/build.make CMakeFiles/MatrixInverse.dir/MSOE2020/MatrixInverse.cpp.s
+.PHONY : MSOE2020/MatrixInverse.cpp.s
 
 MSOE2021Summer/NAPCPracticeContest_Jul10/BabelFisch.o: MSOE2021Summer/NAPCPracticeContest_Jul10/BabelFisch.cpp.o
 
@@ -1154,6 +1194,7 @@ help:
 	@echo "... JugglingTroupe"
 	@echo "... L2"
 	@echo "... Mathemagicians"
+	@echo "... MatrixInverse"
 	@echo "... MaximalSequences"
 	@echo "... MissingGnomes"
 	@echo "... PrimalRepresentation"
@@ -1163,6 +1204,9 @@ help:
 	@echo "... Totem"
 	@echo "... Tourists"
 	@echo "... ZoningHouses"
+	@echo "... MSOE2020/MatrixInverse.o"
+	@echo "... MSOE2020/MatrixInverse.i"
+	@echo "... MSOE2020/MatrixInverse.s"
 	@echo "... MSOE2021Summer/NAPCPracticeContest_Jul10/BabelFisch.o"
 	@echo "... MSOE2021Summer/NAPCPracticeContest_Jul10/BabelFisch.i"
 	@echo "... MSOE2021Summer/NAPCPracticeContest_Jul10/BabelFisch.s"
