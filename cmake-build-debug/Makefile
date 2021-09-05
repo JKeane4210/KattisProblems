@@ -131,6 +131,45 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named MatrixKeypad
+
+# Build rule for target.
+MatrixKeypad: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MatrixKeypad
+.PHONY : MatrixKeypad
+
+# fast build rule for target.
+MatrixKeypad/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MatrixKeypad.dir/build.make CMakeFiles/MatrixKeypad.dir/build
+.PHONY : MatrixKeypad/fast
+
+#=============================================================================
+# Target rules for targets named ScalingRecipes
+
+# Build rule for target.
+ScalingRecipes: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ScalingRecipes
+.PHONY : ScalingRecipes
+
+# fast build rule for target.
+ScalingRecipes/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ScalingRecipes.dir/build.make CMakeFiles/ScalingRecipes.dir/build
+.PHONY : ScalingRecipes/fast
+
+#=============================================================================
+# Target rules for targets named ClassyProblem
+
+# Build rule for target.
+ClassyProblem: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ClassyProblem
+.PHONY : ClassyProblem
+
+# fast build rule for target.
+ClassyProblem/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClassyProblem.dir/build.make CMakeFiles/ClassyProblem.dir/build
+.PHONY : ClassyProblem/fast
+
+#=============================================================================
 # Target rules for targets named L2
 
 # Build rule for target.
@@ -207,6 +246,19 @@ DamsInDistress: cmake_check_build_system
 DamsInDistress/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DamsInDistress.dir/build.make CMakeFiles/DamsInDistress.dir/build
 .PHONY : DamsInDistress/fast
+
+#=============================================================================
+# Target rules for targets named PopularVote
+
+# Build rule for target.
+PopularVote: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PopularVote
+.PHONY : PopularVote
+
+# fast build rule for target.
+PopularVote/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PopularVote.dir/build.make CMakeFiles/PopularVote.dir/build
+.PHONY : PopularVote/fast
 
 #=============================================================================
 # Target rules for targets named Totem
@@ -352,6 +404,19 @@ BrickWall/fast:
 .PHONY : BrickWall/fast
 
 #=============================================================================
+# Target rules for targets named TheMagical3
+
+# Build rule for target.
+TheMagical3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TheMagical3
+.PHONY : TheMagical3
+
+# fast build rule for target.
+TheMagical3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TheMagical3.dir/build.make CMakeFiles/TheMagical3.dir/build
+.PHONY : TheMagical3/fast
+
+#=============================================================================
 # Target rules for targets named InfectionEstimation
 
 # Build rule for target.
@@ -494,6 +559,141 @@ MSOE2020/MatrixInverse.s: MSOE2020/MatrixInverse.cpp.s
 MSOE2020/MatrixInverse.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MatrixInverse.dir/build.make CMakeFiles/MatrixInverse.dir/MSOE2020/MatrixInverse.cpp.s
 .PHONY : MSOE2020/MatrixInverse.cpp.s
+
+MSOE2021Fall/RMRC2015/ClassyProblem.o: MSOE2021Fall/RMRC2015/ClassyProblem.cpp.o
+
+.PHONY : MSOE2021Fall/RMRC2015/ClassyProblem.o
+
+# target to build an object file
+MSOE2021Fall/RMRC2015/ClassyProblem.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClassyProblem.dir/build.make CMakeFiles/ClassyProblem.dir/MSOE2021Fall/RMRC2015/ClassyProblem.cpp.o
+.PHONY : MSOE2021Fall/RMRC2015/ClassyProblem.cpp.o
+
+MSOE2021Fall/RMRC2015/ClassyProblem.i: MSOE2021Fall/RMRC2015/ClassyProblem.cpp.i
+
+.PHONY : MSOE2021Fall/RMRC2015/ClassyProblem.i
+
+# target to preprocess a source file
+MSOE2021Fall/RMRC2015/ClassyProblem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClassyProblem.dir/build.make CMakeFiles/ClassyProblem.dir/MSOE2021Fall/RMRC2015/ClassyProblem.cpp.i
+.PHONY : MSOE2021Fall/RMRC2015/ClassyProblem.cpp.i
+
+MSOE2021Fall/RMRC2015/ClassyProblem.s: MSOE2021Fall/RMRC2015/ClassyProblem.cpp.s
+
+.PHONY : MSOE2021Fall/RMRC2015/ClassyProblem.s
+
+# target to generate assembly for a file
+MSOE2021Fall/RMRC2015/ClassyProblem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClassyProblem.dir/build.make CMakeFiles/ClassyProblem.dir/MSOE2021Fall/RMRC2015/ClassyProblem.cpp.s
+.PHONY : MSOE2021Fall/RMRC2015/ClassyProblem.cpp.s
+
+MSOE2021Fall/RMRC2015/MatrixKeypad.o: MSOE2021Fall/RMRC2015/MatrixKeypad.cpp.o
+
+.PHONY : MSOE2021Fall/RMRC2015/MatrixKeypad.o
+
+# target to build an object file
+MSOE2021Fall/RMRC2015/MatrixKeypad.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MatrixKeypad.dir/build.make CMakeFiles/MatrixKeypad.dir/MSOE2021Fall/RMRC2015/MatrixKeypad.cpp.o
+.PHONY : MSOE2021Fall/RMRC2015/MatrixKeypad.cpp.o
+
+MSOE2021Fall/RMRC2015/MatrixKeypad.i: MSOE2021Fall/RMRC2015/MatrixKeypad.cpp.i
+
+.PHONY : MSOE2021Fall/RMRC2015/MatrixKeypad.i
+
+# target to preprocess a source file
+MSOE2021Fall/RMRC2015/MatrixKeypad.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MatrixKeypad.dir/build.make CMakeFiles/MatrixKeypad.dir/MSOE2021Fall/RMRC2015/MatrixKeypad.cpp.i
+.PHONY : MSOE2021Fall/RMRC2015/MatrixKeypad.cpp.i
+
+MSOE2021Fall/RMRC2015/MatrixKeypad.s: MSOE2021Fall/RMRC2015/MatrixKeypad.cpp.s
+
+.PHONY : MSOE2021Fall/RMRC2015/MatrixKeypad.s
+
+# target to generate assembly for a file
+MSOE2021Fall/RMRC2015/MatrixKeypad.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MatrixKeypad.dir/build.make CMakeFiles/MatrixKeypad.dir/MSOE2021Fall/RMRC2015/MatrixKeypad.cpp.s
+.PHONY : MSOE2021Fall/RMRC2015/MatrixKeypad.cpp.s
+
+MSOE2021Fall/RMRC2015/PopularVote.o: MSOE2021Fall/RMRC2015/PopularVote.cpp.o
+
+.PHONY : MSOE2021Fall/RMRC2015/PopularVote.o
+
+# target to build an object file
+MSOE2021Fall/RMRC2015/PopularVote.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PopularVote.dir/build.make CMakeFiles/PopularVote.dir/MSOE2021Fall/RMRC2015/PopularVote.cpp.o
+.PHONY : MSOE2021Fall/RMRC2015/PopularVote.cpp.o
+
+MSOE2021Fall/RMRC2015/PopularVote.i: MSOE2021Fall/RMRC2015/PopularVote.cpp.i
+
+.PHONY : MSOE2021Fall/RMRC2015/PopularVote.i
+
+# target to preprocess a source file
+MSOE2021Fall/RMRC2015/PopularVote.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PopularVote.dir/build.make CMakeFiles/PopularVote.dir/MSOE2021Fall/RMRC2015/PopularVote.cpp.i
+.PHONY : MSOE2021Fall/RMRC2015/PopularVote.cpp.i
+
+MSOE2021Fall/RMRC2015/PopularVote.s: MSOE2021Fall/RMRC2015/PopularVote.cpp.s
+
+.PHONY : MSOE2021Fall/RMRC2015/PopularVote.s
+
+# target to generate assembly for a file
+MSOE2021Fall/RMRC2015/PopularVote.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PopularVote.dir/build.make CMakeFiles/PopularVote.dir/MSOE2021Fall/RMRC2015/PopularVote.cpp.s
+.PHONY : MSOE2021Fall/RMRC2015/PopularVote.cpp.s
+
+MSOE2021Fall/RMRC2015/ScalingRecipes.o: MSOE2021Fall/RMRC2015/ScalingRecipes.cpp.o
+
+.PHONY : MSOE2021Fall/RMRC2015/ScalingRecipes.o
+
+# target to build an object file
+MSOE2021Fall/RMRC2015/ScalingRecipes.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ScalingRecipes.dir/build.make CMakeFiles/ScalingRecipes.dir/MSOE2021Fall/RMRC2015/ScalingRecipes.cpp.o
+.PHONY : MSOE2021Fall/RMRC2015/ScalingRecipes.cpp.o
+
+MSOE2021Fall/RMRC2015/ScalingRecipes.i: MSOE2021Fall/RMRC2015/ScalingRecipes.cpp.i
+
+.PHONY : MSOE2021Fall/RMRC2015/ScalingRecipes.i
+
+# target to preprocess a source file
+MSOE2021Fall/RMRC2015/ScalingRecipes.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ScalingRecipes.dir/build.make CMakeFiles/ScalingRecipes.dir/MSOE2021Fall/RMRC2015/ScalingRecipes.cpp.i
+.PHONY : MSOE2021Fall/RMRC2015/ScalingRecipes.cpp.i
+
+MSOE2021Fall/RMRC2015/ScalingRecipes.s: MSOE2021Fall/RMRC2015/ScalingRecipes.cpp.s
+
+.PHONY : MSOE2021Fall/RMRC2015/ScalingRecipes.s
+
+# target to generate assembly for a file
+MSOE2021Fall/RMRC2015/ScalingRecipes.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ScalingRecipes.dir/build.make CMakeFiles/ScalingRecipes.dir/MSOE2021Fall/RMRC2015/ScalingRecipes.cpp.s
+.PHONY : MSOE2021Fall/RMRC2015/ScalingRecipes.cpp.s
+
+MSOE2021Fall/RMRC2015/TheMagical3.o: MSOE2021Fall/RMRC2015/TheMagical3.cpp.o
+
+.PHONY : MSOE2021Fall/RMRC2015/TheMagical3.o
+
+# target to build an object file
+MSOE2021Fall/RMRC2015/TheMagical3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TheMagical3.dir/build.make CMakeFiles/TheMagical3.dir/MSOE2021Fall/RMRC2015/TheMagical3.cpp.o
+.PHONY : MSOE2021Fall/RMRC2015/TheMagical3.cpp.o
+
+MSOE2021Fall/RMRC2015/TheMagical3.i: MSOE2021Fall/RMRC2015/TheMagical3.cpp.i
+
+.PHONY : MSOE2021Fall/RMRC2015/TheMagical3.i
+
+# target to preprocess a source file
+MSOE2021Fall/RMRC2015/TheMagical3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TheMagical3.dir/build.make CMakeFiles/TheMagical3.dir/MSOE2021Fall/RMRC2015/TheMagical3.cpp.i
+.PHONY : MSOE2021Fall/RMRC2015/TheMagical3.cpp.i
+
+MSOE2021Fall/RMRC2015/TheMagical3.s: MSOE2021Fall/RMRC2015/TheMagical3.cpp.s
+
+.PHONY : MSOE2021Fall/RMRC2015/TheMagical3.s
+
+# target to generate assembly for a file
+MSOE2021Fall/RMRC2015/TheMagical3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TheMagical3.dir/build.make CMakeFiles/TheMagical3.dir/MSOE2021Fall/RMRC2015/TheMagical3.cpp.s
+.PHONY : MSOE2021Fall/RMRC2015/TheMagical3.cpp.s
 
 MSOE2021Summer/NAPCPracticeContest_Jul10/BabelFisch.o: MSOE2021Summer/NAPCPracticeContest_Jul10/BabelFisch.cpp.o
 
@@ -1183,6 +1383,7 @@ help:
 	@echo "... BabelFisch"
 	@echo "... BrickWall"
 	@echo "... Candyland"
+	@echo "... ClassyProblem"
 	@echo "... CoinStacks"
 	@echo "... DamsInDistress"
 	@echo "... DisastrousDoubling"
@@ -1195,11 +1396,15 @@ help:
 	@echo "... L2"
 	@echo "... Mathemagicians"
 	@echo "... MatrixInverse"
+	@echo "... MatrixKeypad"
 	@echo "... MaximalSequences"
 	@echo "... MissingGnomes"
+	@echo "... PopularVote"
 	@echo "... PrimalRepresentation"
 	@echo "... ProbeDroids"
+	@echo "... ScalingRecipes"
 	@echo "... ShotCube"
+	@echo "... TheMagical3"
 	@echo "... TimeIsMoney"
 	@echo "... Totem"
 	@echo "... Tourists"
@@ -1207,6 +1412,21 @@ help:
 	@echo "... MSOE2020/MatrixInverse.o"
 	@echo "... MSOE2020/MatrixInverse.i"
 	@echo "... MSOE2020/MatrixInverse.s"
+	@echo "... MSOE2021Fall/RMRC2015/ClassyProblem.o"
+	@echo "... MSOE2021Fall/RMRC2015/ClassyProblem.i"
+	@echo "... MSOE2021Fall/RMRC2015/ClassyProblem.s"
+	@echo "... MSOE2021Fall/RMRC2015/MatrixKeypad.o"
+	@echo "... MSOE2021Fall/RMRC2015/MatrixKeypad.i"
+	@echo "... MSOE2021Fall/RMRC2015/MatrixKeypad.s"
+	@echo "... MSOE2021Fall/RMRC2015/PopularVote.o"
+	@echo "... MSOE2021Fall/RMRC2015/PopularVote.i"
+	@echo "... MSOE2021Fall/RMRC2015/PopularVote.s"
+	@echo "... MSOE2021Fall/RMRC2015/ScalingRecipes.o"
+	@echo "... MSOE2021Fall/RMRC2015/ScalingRecipes.i"
+	@echo "... MSOE2021Fall/RMRC2015/ScalingRecipes.s"
+	@echo "... MSOE2021Fall/RMRC2015/TheMagical3.o"
+	@echo "... MSOE2021Fall/RMRC2015/TheMagical3.i"
+	@echo "... MSOE2021Fall/RMRC2015/TheMagical3.s"
 	@echo "... MSOE2021Summer/NAPCPracticeContest_Jul10/BabelFisch.o"
 	@echo "... MSOE2021Summer/NAPCPracticeContest_Jul10/BabelFisch.i"
 	@echo "... MSOE2021Summer/NAPCPracticeContest_Jul10/BabelFisch.s"

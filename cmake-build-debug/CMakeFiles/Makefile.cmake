@@ -52,12 +52,16 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/MatrixKeypad.dir/DependInfo.cmake"
+  "CMakeFiles/ScalingRecipes.dir/DependInfo.cmake"
+  "CMakeFiles/ClassyProblem.dir/DependInfo.cmake"
   "CMakeFiles/L2.dir/DependInfo.cmake"
   "CMakeFiles/AlphabetAnimals.dir/DependInfo.cmake"
   "CMakeFiles/EenyMeeny.dir/DependInfo.cmake"
   "CMakeFiles/Tourists.dir/DependInfo.cmake"
   "CMakeFiles/CoinStacks.dir/DependInfo.cmake"
   "CMakeFiles/DamsInDistress.dir/DependInfo.cmake"
+  "CMakeFiles/PopularVote.dir/DependInfo.cmake"
   "CMakeFiles/Totem.dir/DependInfo.cmake"
   "CMakeFiles/MatrixInverse.dir/DependInfo.cmake"
   "CMakeFiles/ProbeDroids.dir/DependInfo.cmake"
@@ -69,6 +73,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/TimeIsMoney.dir/DependInfo.cmake"
   "CMakeFiles/MissingGnomes.dir/DependInfo.cmake"
   "CMakeFiles/BrickWall.dir/DependInfo.cmake"
+  "CMakeFiles/TheMagical3.dir/DependInfo.cmake"
   "CMakeFiles/InfectionEstimation.dir/DependInfo.cmake"
   "CMakeFiles/Mathemagicians.dir/DependInfo.cmake"
   "CMakeFiles/DisastrousDoubling.dir/DependInfo.cmake"

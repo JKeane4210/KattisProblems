@@ -97,6 +97,11 @@ add_executable(AlphabetAnimals MSOE2021Summer/Week11/AlphabetAnimals.cpp)
 add_executable(L2 MSOE2021Summer/NSAChallenge/L2.cpp)
 
 add_executable(MatrixInverse MSOE2020/MatrixInverse.cpp)
+add_executable(ClassyProblem MSOE2021Fall/RMRC2015/ClassyProblem.cpp)
+add_executable(ScalingRecipes MSOE2021Fall/RMRC2015/ScalingRecipes.cpp)
+add_executable(PopularVote MSOE2021Fall/RMRC2015/PopularVote.cpp)
+add_executable(MatrixKeypad MSOE2021Fall/RMRC2015/MatrixKeypad.cpp)
+add_executable(TheMagical3 MSOE2021Fall/RMRC2015/TheMagical3.cpp)
 
 #include_directories(/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++)
 #include_directories(/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1)

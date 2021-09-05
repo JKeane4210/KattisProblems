@@ -1,10 +1,14 @@
 /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/MatrixKeypad.dir
+/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/ScalingRecipes.dir
+/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/ClassyProblem.dir
 /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/L2.dir
 /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/AlphabetAnimals.dir
 /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/EenyMeeny.dir
 /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/Tourists.dir
 /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/CoinStacks.dir
 /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/DamsInDistress.dir
+/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/PopularVote.dir
 /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/Totem.dir
 /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/MatrixInverse.dir
 /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/ProbeDroids.dir
@@ -16,6 +20,7 @@
 /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/TimeIsMoney.dir
 /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/MissingGnomes.dir
 /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/BrickWall.dir
+/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/TheMagical3.dir
 /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/InfectionEstimation.dir
 /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/Mathemagicians.dir
 /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/DisastrousDoubling.dir
