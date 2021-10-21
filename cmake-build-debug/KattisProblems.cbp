@@ -17,6 +17,100 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Hogwarts">
+				<Option output="/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Hogwarts" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hogwarts"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Hogwarts/fast">
+				<Option output="/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Hogwarts" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hogwarts/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FoldingACube">
+				<Option output="/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/FoldingACube" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 FoldingACube"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FoldingACube/fast">
+				<Option output="/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/FoldingACube" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 FoldingACube/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug"/>
 				<Option type="4"/>
@@ -27,11 +121,43 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="edit_cache">
+			<Target title="FantasyDraft">
+				<Option output="/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/FantasyDraft" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug"/>
-				<Option type="4"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 FantasyDraft"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="FantasyDraft/fast">
+				<Option output="/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/FantasyDraft" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 FantasyDraft/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -247,6 +373,48 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="PieceOfCake">
+				<Option output="/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/PieceOfCake" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 PieceOfCake"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PieceOfCake/fast">
+				<Option output="/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/PieceOfCake" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 PieceOfCake/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="ScalingRecipes">
 				<Option output="/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/ScalingRecipes" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug"/>
@@ -284,6 +452,48 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 ScalingRecipes/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="QualityAdjustedLifeYear">
+				<Option output="/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/QualityAdjustedLifeYear" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 QualityAdjustedLifeYear"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="QualityAdjustedLifeYear/fast">
+				<Option output="/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/QualityAdjustedLifeYear" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 QualityAdjustedLifeYear/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -457,6 +667,48 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="TheBiggestTriangle">
+				<Option output="/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/TheBiggestTriangle" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 TheBiggestTriangle"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TheBiggestTriangle/fast">
+				<Option output="/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/TheBiggestTriangle" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 TheBiggestTriangle/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="L2">
 				<Option output="/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/L2" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug"/>
@@ -494,6 +746,48 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 L2/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="IntegerDivision">
+				<Option output="/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/IntegerDivision" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 IntegerDivision"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="IntegerDivision/fast">
+				<Option output="/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/IntegerDivision" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 IntegerDivision/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -578,6 +872,48 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 Candyland/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LostLineup">
+				<Option output="/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/LostLineup" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 LostLineup"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LostLineup/fast">
+				<Option output="/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/LostLineup" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 LostLineup/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -872,6 +1208,48 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 DamsInDistress/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TiredTerry">
+				<Option output="/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/TiredTerry" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 TiredTerry"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TiredTerry/fast">
+				<Option output="/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/TiredTerry" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 TiredTerry/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -1177,6 +1555,33 @@
 		</Unit>
 		<Unit filename="/Users/jkeane/CLionProjects/KattisProblems/MSOE2021Fall/Week5/Stopwatch.cpp">
 			<Option target="Stopwatch"/>
+		</Unit>
+		<Unit filename="/Users/jkeane/CLionProjects/KattisProblems/MSOE2021Fall/Week6/FantasyDraft.cpp">
+			<Option target="FantasyDraft"/>
+		</Unit>
+		<Unit filename="/Users/jkeane/CLionProjects/KattisProblems/MSOE2021Fall/Week6/FoldingACube.cpp">
+			<Option target="FoldingACube"/>
+		</Unit>
+		<Unit filename="/Users/jkeane/CLionProjects/KattisProblems/MSOE2021Fall/Week6/Hogwarts.cpp">
+			<Option target="Hogwarts"/>
+		</Unit>
+		<Unit filename="/Users/jkeane/CLionProjects/KattisProblems/MSOE2021Fall/Week6/IntegerDivision.cpp">
+			<Option target="IntegerDivision"/>
+		</Unit>
+		<Unit filename="/Users/jkeane/CLionProjects/KattisProblems/MSOE2021Fall/Week6/LostLineup.cpp">
+			<Option target="LostLineup"/>
+		</Unit>
+		<Unit filename="/Users/jkeane/CLionProjects/KattisProblems/MSOE2021Fall/Week6/PieceOfCake.cpp">
+			<Option target="PieceOfCake"/>
+		</Unit>
+		<Unit filename="/Users/jkeane/CLionProjects/KattisProblems/MSOE2021Fall/Week6/TheBiggestTriangle.cpp">
+			<Option target="TheBiggestTriangle"/>
+		</Unit>
+		<Unit filename="/Users/jkeane/CLionProjects/KattisProblems/MSOE2021Fall/Week6/TiredTerry.cpp">
+			<Option target="TiredTerry"/>
+		</Unit>
+		<Unit filename="/Users/jkeane/CLionProjects/KattisProblems/MSOE2021Fall/Week7/QualityAdjustedLifeYear.cpp">
+			<Option target="QualityAdjustedLifeYear"/>
 		</Unit>
 		<Unit filename="/Users/jkeane/CLionProjects/KattisProblems/MSOE2021Summer/NAPCPracticeContest_Jul25/MaximalSequences2.cpp">
 			<Option target="MaximalSequences"/>

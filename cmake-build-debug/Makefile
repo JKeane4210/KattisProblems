@@ -76,17 +76,6 @@ CMAKE_BINARY_DIR = /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -97,6 +86,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -129,6 +129,45 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named Hogwarts
+
+# Build rule for target.
+Hogwarts: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Hogwarts
+.PHONY : Hogwarts
+
+# fast build rule for target.
+Hogwarts/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hogwarts.dir/build.make CMakeFiles/Hogwarts.dir/build
+.PHONY : Hogwarts/fast
+
+#=============================================================================
+# Target rules for targets named FoldingACube
+
+# Build rule for target.
+FoldingACube: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FoldingACube
+.PHONY : FoldingACube
+
+# fast build rule for target.
+FoldingACube/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FoldingACube.dir/build.make CMakeFiles/FoldingACube.dir/build
+.PHONY : FoldingACube/fast
+
+#=============================================================================
+# Target rules for targets named FantasyDraft
+
+# Build rule for target.
+FantasyDraft: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FantasyDraft
+.PHONY : FantasyDraft
+
+# fast build rule for target.
+FantasyDraft/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FantasyDraft.dir/build.make CMakeFiles/FantasyDraft.dir/build
+.PHONY : FantasyDraft/fast
 
 #=============================================================================
 # Target rules for targets named TriangularCollection
@@ -196,6 +235,19 @@ BadPacking/fast:
 .PHONY : BadPacking/fast
 
 #=============================================================================
+# Target rules for targets named PieceOfCake
+
+# Build rule for target.
+PieceOfCake: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PieceOfCake
+.PHONY : PieceOfCake
+
+# fast build rule for target.
+PieceOfCake/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PieceOfCake.dir/build.make CMakeFiles/PieceOfCake.dir/build
+.PHONY : PieceOfCake/fast
+
+#=============================================================================
 # Target rules for targets named ScalingRecipes
 
 # Build rule for target.
@@ -207,6 +259,19 @@ ScalingRecipes: cmake_check_build_system
 ScalingRecipes/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ScalingRecipes.dir/build.make CMakeFiles/ScalingRecipes.dir/build
 .PHONY : ScalingRecipes/fast
+
+#=============================================================================
+# Target rules for targets named QualityAdjustedLifeYear
+
+# Build rule for target.
+QualityAdjustedLifeYear: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 QualityAdjustedLifeYear
+.PHONY : QualityAdjustedLifeYear
+
+# fast build rule for target.
+QualityAdjustedLifeYear/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QualityAdjustedLifeYear.dir/build.make CMakeFiles/QualityAdjustedLifeYear.dir/build
+.PHONY : QualityAdjustedLifeYear/fast
 
 #=============================================================================
 # Target rules for targets named DominatingDUos
@@ -261,6 +326,19 @@ MatrixInverse/fast:
 .PHONY : MatrixInverse/fast
 
 #=============================================================================
+# Target rules for targets named TheBiggestTriangle
+
+# Build rule for target.
+TheBiggestTriangle: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TheBiggestTriangle
+.PHONY : TheBiggestTriangle
+
+# fast build rule for target.
+TheBiggestTriangle/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TheBiggestTriangle.dir/build.make CMakeFiles/TheBiggestTriangle.dir/build
+.PHONY : TheBiggestTriangle/fast
+
+#=============================================================================
 # Target rules for targets named L2
 
 # Build rule for target.
@@ -272,6 +350,19 @@ L2: cmake_check_build_system
 L2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/L2.dir/build.make CMakeFiles/L2.dir/build
 .PHONY : L2/fast
+
+#=============================================================================
+# Target rules for targets named IntegerDivision
+
+# Build rule for target.
+IntegerDivision: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 IntegerDivision
+.PHONY : IntegerDivision
+
+# fast build rule for target.
+IntegerDivision/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/IntegerDivision.dir/build.make CMakeFiles/IntegerDivision.dir/build
+.PHONY : IntegerDivision/fast
 
 #=============================================================================
 # Target rules for targets named ArrayOfDiscord
@@ -298,6 +389,19 @@ Candyland: cmake_check_build_system
 Candyland/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Candyland.dir/build.make CMakeFiles/Candyland.dir/build
 .PHONY : Candyland/fast
+
+#=============================================================================
+# Target rules for targets named LostLineup
+
+# Build rule for target.
+LostLineup: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 LostLineup
+.PHONY : LostLineup
+
+# fast build rule for target.
+LostLineup/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LostLineup.dir/build.make CMakeFiles/LostLineup.dir/build
+.PHONY : LostLineup/fast
 
 #=============================================================================
 # Target rules for targets named Totem
@@ -389,6 +493,19 @@ DamsInDistress: cmake_check_build_system
 DamsInDistress/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DamsInDistress.dir/build.make CMakeFiles/DamsInDistress.dir/build
 .PHONY : DamsInDistress/fast
+
+#=============================================================================
+# Target rules for targets named TiredTerry
+
+# Build rule for target.
+TiredTerry: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TiredTerry
+.PHONY : TiredTerry
+
+# fast build rule for target.
+TiredTerry/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TiredTerry.dir/build.make CMakeFiles/TiredTerry.dir/build
+.PHONY : TiredTerry/fast
 
 #=============================================================================
 # Target rules for targets named MissingNumber
@@ -900,6 +1017,249 @@ MSOE2021Fall/Week5/Stopwatch.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Stopwatch.dir/build.make CMakeFiles/Stopwatch.dir/MSOE2021Fall/Week5/Stopwatch.cpp.s
 .PHONY : MSOE2021Fall/Week5/Stopwatch.cpp.s
 
+MSOE2021Fall/Week6/FantasyDraft.o: MSOE2021Fall/Week6/FantasyDraft.cpp.o
+
+.PHONY : MSOE2021Fall/Week6/FantasyDraft.o
+
+# target to build an object file
+MSOE2021Fall/Week6/FantasyDraft.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FantasyDraft.dir/build.make CMakeFiles/FantasyDraft.dir/MSOE2021Fall/Week6/FantasyDraft.cpp.o
+.PHONY : MSOE2021Fall/Week6/FantasyDraft.cpp.o
+
+MSOE2021Fall/Week6/FantasyDraft.i: MSOE2021Fall/Week6/FantasyDraft.cpp.i
+
+.PHONY : MSOE2021Fall/Week6/FantasyDraft.i
+
+# target to preprocess a source file
+MSOE2021Fall/Week6/FantasyDraft.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FantasyDraft.dir/build.make CMakeFiles/FantasyDraft.dir/MSOE2021Fall/Week6/FantasyDraft.cpp.i
+.PHONY : MSOE2021Fall/Week6/FantasyDraft.cpp.i
+
+MSOE2021Fall/Week6/FantasyDraft.s: MSOE2021Fall/Week6/FantasyDraft.cpp.s
+
+.PHONY : MSOE2021Fall/Week6/FantasyDraft.s
+
+# target to generate assembly for a file
+MSOE2021Fall/Week6/FantasyDraft.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FantasyDraft.dir/build.make CMakeFiles/FantasyDraft.dir/MSOE2021Fall/Week6/FantasyDraft.cpp.s
+.PHONY : MSOE2021Fall/Week6/FantasyDraft.cpp.s
+
+MSOE2021Fall/Week6/FoldingACube.o: MSOE2021Fall/Week6/FoldingACube.cpp.o
+
+.PHONY : MSOE2021Fall/Week6/FoldingACube.o
+
+# target to build an object file
+MSOE2021Fall/Week6/FoldingACube.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FoldingACube.dir/build.make CMakeFiles/FoldingACube.dir/MSOE2021Fall/Week6/FoldingACube.cpp.o
+.PHONY : MSOE2021Fall/Week6/FoldingACube.cpp.o
+
+MSOE2021Fall/Week6/FoldingACube.i: MSOE2021Fall/Week6/FoldingACube.cpp.i
+
+.PHONY : MSOE2021Fall/Week6/FoldingACube.i
+
+# target to preprocess a source file
+MSOE2021Fall/Week6/FoldingACube.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FoldingACube.dir/build.make CMakeFiles/FoldingACube.dir/MSOE2021Fall/Week6/FoldingACube.cpp.i
+.PHONY : MSOE2021Fall/Week6/FoldingACube.cpp.i
+
+MSOE2021Fall/Week6/FoldingACube.s: MSOE2021Fall/Week6/FoldingACube.cpp.s
+
+.PHONY : MSOE2021Fall/Week6/FoldingACube.s
+
+# target to generate assembly for a file
+MSOE2021Fall/Week6/FoldingACube.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FoldingACube.dir/build.make CMakeFiles/FoldingACube.dir/MSOE2021Fall/Week6/FoldingACube.cpp.s
+.PHONY : MSOE2021Fall/Week6/FoldingACube.cpp.s
+
+MSOE2021Fall/Week6/Hogwarts.o: MSOE2021Fall/Week6/Hogwarts.cpp.o
+
+.PHONY : MSOE2021Fall/Week6/Hogwarts.o
+
+# target to build an object file
+MSOE2021Fall/Week6/Hogwarts.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hogwarts.dir/build.make CMakeFiles/Hogwarts.dir/MSOE2021Fall/Week6/Hogwarts.cpp.o
+.PHONY : MSOE2021Fall/Week6/Hogwarts.cpp.o
+
+MSOE2021Fall/Week6/Hogwarts.i: MSOE2021Fall/Week6/Hogwarts.cpp.i
+
+.PHONY : MSOE2021Fall/Week6/Hogwarts.i
+
+# target to preprocess a source file
+MSOE2021Fall/Week6/Hogwarts.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hogwarts.dir/build.make CMakeFiles/Hogwarts.dir/MSOE2021Fall/Week6/Hogwarts.cpp.i
+.PHONY : MSOE2021Fall/Week6/Hogwarts.cpp.i
+
+MSOE2021Fall/Week6/Hogwarts.s: MSOE2021Fall/Week6/Hogwarts.cpp.s
+
+.PHONY : MSOE2021Fall/Week6/Hogwarts.s
+
+# target to generate assembly for a file
+MSOE2021Fall/Week6/Hogwarts.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hogwarts.dir/build.make CMakeFiles/Hogwarts.dir/MSOE2021Fall/Week6/Hogwarts.cpp.s
+.PHONY : MSOE2021Fall/Week6/Hogwarts.cpp.s
+
+MSOE2021Fall/Week6/IntegerDivision.o: MSOE2021Fall/Week6/IntegerDivision.cpp.o
+
+.PHONY : MSOE2021Fall/Week6/IntegerDivision.o
+
+# target to build an object file
+MSOE2021Fall/Week6/IntegerDivision.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/IntegerDivision.dir/build.make CMakeFiles/IntegerDivision.dir/MSOE2021Fall/Week6/IntegerDivision.cpp.o
+.PHONY : MSOE2021Fall/Week6/IntegerDivision.cpp.o
+
+MSOE2021Fall/Week6/IntegerDivision.i: MSOE2021Fall/Week6/IntegerDivision.cpp.i
+
+.PHONY : MSOE2021Fall/Week6/IntegerDivision.i
+
+# target to preprocess a source file
+MSOE2021Fall/Week6/IntegerDivision.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/IntegerDivision.dir/build.make CMakeFiles/IntegerDivision.dir/MSOE2021Fall/Week6/IntegerDivision.cpp.i
+.PHONY : MSOE2021Fall/Week6/IntegerDivision.cpp.i
+
+MSOE2021Fall/Week6/IntegerDivision.s: MSOE2021Fall/Week6/IntegerDivision.cpp.s
+
+.PHONY : MSOE2021Fall/Week6/IntegerDivision.s
+
+# target to generate assembly for a file
+MSOE2021Fall/Week6/IntegerDivision.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/IntegerDivision.dir/build.make CMakeFiles/IntegerDivision.dir/MSOE2021Fall/Week6/IntegerDivision.cpp.s
+.PHONY : MSOE2021Fall/Week6/IntegerDivision.cpp.s
+
+MSOE2021Fall/Week6/LostLineup.o: MSOE2021Fall/Week6/LostLineup.cpp.o
+
+.PHONY : MSOE2021Fall/Week6/LostLineup.o
+
+# target to build an object file
+MSOE2021Fall/Week6/LostLineup.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LostLineup.dir/build.make CMakeFiles/LostLineup.dir/MSOE2021Fall/Week6/LostLineup.cpp.o
+.PHONY : MSOE2021Fall/Week6/LostLineup.cpp.o
+
+MSOE2021Fall/Week6/LostLineup.i: MSOE2021Fall/Week6/LostLineup.cpp.i
+
+.PHONY : MSOE2021Fall/Week6/LostLineup.i
+
+# target to preprocess a source file
+MSOE2021Fall/Week6/LostLineup.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LostLineup.dir/build.make CMakeFiles/LostLineup.dir/MSOE2021Fall/Week6/LostLineup.cpp.i
+.PHONY : MSOE2021Fall/Week6/LostLineup.cpp.i
+
+MSOE2021Fall/Week6/LostLineup.s: MSOE2021Fall/Week6/LostLineup.cpp.s
+
+.PHONY : MSOE2021Fall/Week6/LostLineup.s
+
+# target to generate assembly for a file
+MSOE2021Fall/Week6/LostLineup.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LostLineup.dir/build.make CMakeFiles/LostLineup.dir/MSOE2021Fall/Week6/LostLineup.cpp.s
+.PHONY : MSOE2021Fall/Week6/LostLineup.cpp.s
+
+MSOE2021Fall/Week6/PieceOfCake.o: MSOE2021Fall/Week6/PieceOfCake.cpp.o
+
+.PHONY : MSOE2021Fall/Week6/PieceOfCake.o
+
+# target to build an object file
+MSOE2021Fall/Week6/PieceOfCake.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PieceOfCake.dir/build.make CMakeFiles/PieceOfCake.dir/MSOE2021Fall/Week6/PieceOfCake.cpp.o
+.PHONY : MSOE2021Fall/Week6/PieceOfCake.cpp.o
+
+MSOE2021Fall/Week6/PieceOfCake.i: MSOE2021Fall/Week6/PieceOfCake.cpp.i
+
+.PHONY : MSOE2021Fall/Week6/PieceOfCake.i
+
+# target to preprocess a source file
+MSOE2021Fall/Week6/PieceOfCake.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PieceOfCake.dir/build.make CMakeFiles/PieceOfCake.dir/MSOE2021Fall/Week6/PieceOfCake.cpp.i
+.PHONY : MSOE2021Fall/Week6/PieceOfCake.cpp.i
+
+MSOE2021Fall/Week6/PieceOfCake.s: MSOE2021Fall/Week6/PieceOfCake.cpp.s
+
+.PHONY : MSOE2021Fall/Week6/PieceOfCake.s
+
+# target to generate assembly for a file
+MSOE2021Fall/Week6/PieceOfCake.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PieceOfCake.dir/build.make CMakeFiles/PieceOfCake.dir/MSOE2021Fall/Week6/PieceOfCake.cpp.s
+.PHONY : MSOE2021Fall/Week6/PieceOfCake.cpp.s
+
+MSOE2021Fall/Week6/TheBiggestTriangle.o: MSOE2021Fall/Week6/TheBiggestTriangle.cpp.o
+
+.PHONY : MSOE2021Fall/Week6/TheBiggestTriangle.o
+
+# target to build an object file
+MSOE2021Fall/Week6/TheBiggestTriangle.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TheBiggestTriangle.dir/build.make CMakeFiles/TheBiggestTriangle.dir/MSOE2021Fall/Week6/TheBiggestTriangle.cpp.o
+.PHONY : MSOE2021Fall/Week6/TheBiggestTriangle.cpp.o
+
+MSOE2021Fall/Week6/TheBiggestTriangle.i: MSOE2021Fall/Week6/TheBiggestTriangle.cpp.i
+
+.PHONY : MSOE2021Fall/Week6/TheBiggestTriangle.i
+
+# target to preprocess a source file
+MSOE2021Fall/Week6/TheBiggestTriangle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TheBiggestTriangle.dir/build.make CMakeFiles/TheBiggestTriangle.dir/MSOE2021Fall/Week6/TheBiggestTriangle.cpp.i
+.PHONY : MSOE2021Fall/Week6/TheBiggestTriangle.cpp.i
+
+MSOE2021Fall/Week6/TheBiggestTriangle.s: MSOE2021Fall/Week6/TheBiggestTriangle.cpp.s
+
+.PHONY : MSOE2021Fall/Week6/TheBiggestTriangle.s
+
+# target to generate assembly for a file
+MSOE2021Fall/Week6/TheBiggestTriangle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TheBiggestTriangle.dir/build.make CMakeFiles/TheBiggestTriangle.dir/MSOE2021Fall/Week6/TheBiggestTriangle.cpp.s
+.PHONY : MSOE2021Fall/Week6/TheBiggestTriangle.cpp.s
+
+MSOE2021Fall/Week6/TiredTerry.o: MSOE2021Fall/Week6/TiredTerry.cpp.o
+
+.PHONY : MSOE2021Fall/Week6/TiredTerry.o
+
+# target to build an object file
+MSOE2021Fall/Week6/TiredTerry.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TiredTerry.dir/build.make CMakeFiles/TiredTerry.dir/MSOE2021Fall/Week6/TiredTerry.cpp.o
+.PHONY : MSOE2021Fall/Week6/TiredTerry.cpp.o
+
+MSOE2021Fall/Week6/TiredTerry.i: MSOE2021Fall/Week6/TiredTerry.cpp.i
+
+.PHONY : MSOE2021Fall/Week6/TiredTerry.i
+
+# target to preprocess a source file
+MSOE2021Fall/Week6/TiredTerry.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TiredTerry.dir/build.make CMakeFiles/TiredTerry.dir/MSOE2021Fall/Week6/TiredTerry.cpp.i
+.PHONY : MSOE2021Fall/Week6/TiredTerry.cpp.i
+
+MSOE2021Fall/Week6/TiredTerry.s: MSOE2021Fall/Week6/TiredTerry.cpp.s
+
+.PHONY : MSOE2021Fall/Week6/TiredTerry.s
+
+# target to generate assembly for a file
+MSOE2021Fall/Week6/TiredTerry.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TiredTerry.dir/build.make CMakeFiles/TiredTerry.dir/MSOE2021Fall/Week6/TiredTerry.cpp.s
+.PHONY : MSOE2021Fall/Week6/TiredTerry.cpp.s
+
+MSOE2021Fall/Week7/QualityAdjustedLifeYear.o: MSOE2021Fall/Week7/QualityAdjustedLifeYear.cpp.o
+
+.PHONY : MSOE2021Fall/Week7/QualityAdjustedLifeYear.o
+
+# target to build an object file
+MSOE2021Fall/Week7/QualityAdjustedLifeYear.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QualityAdjustedLifeYear.dir/build.make CMakeFiles/QualityAdjustedLifeYear.dir/MSOE2021Fall/Week7/QualityAdjustedLifeYear.cpp.o
+.PHONY : MSOE2021Fall/Week7/QualityAdjustedLifeYear.cpp.o
+
+MSOE2021Fall/Week7/QualityAdjustedLifeYear.i: MSOE2021Fall/Week7/QualityAdjustedLifeYear.cpp.i
+
+.PHONY : MSOE2021Fall/Week7/QualityAdjustedLifeYear.i
+
+# target to preprocess a source file
+MSOE2021Fall/Week7/QualityAdjustedLifeYear.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QualityAdjustedLifeYear.dir/build.make CMakeFiles/QualityAdjustedLifeYear.dir/MSOE2021Fall/Week7/QualityAdjustedLifeYear.cpp.i
+.PHONY : MSOE2021Fall/Week7/QualityAdjustedLifeYear.cpp.i
+
+MSOE2021Fall/Week7/QualityAdjustedLifeYear.s: MSOE2021Fall/Week7/QualityAdjustedLifeYear.cpp.s
+
+.PHONY : MSOE2021Fall/Week7/QualityAdjustedLifeYear.s
+
+# target to generate assembly for a file
+MSOE2021Fall/Week7/QualityAdjustedLifeYear.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QualityAdjustedLifeYear.dir/build.make CMakeFiles/QualityAdjustedLifeYear.dir/MSOE2021Fall/Week7/QualityAdjustedLifeYear.cpp.s
+.PHONY : MSOE2021Fall/Week7/QualityAdjustedLifeYear.cpp.s
+
 MSOE2021Summer/NAPCPracticeContest_Jul25/MaximalSequences2.o: MSOE2021Summer/NAPCPracticeContest_Jul25/MaximalSequences2.cpp.o
 
 .PHONY : MSOE2021Summer/NAPCPracticeContest_Jul25/MaximalSequences2.o
@@ -1187,20 +1547,29 @@ help:
 	@echo "... DamsInDistress"
 	@echo "... DominatingDUos"
 	@echo "... EenyMeeny"
+	@echo "... FantasyDraft"
+	@echo "... FoldingACube"
+	@echo "... Hogwarts"
 	@echo "... InfectionEstimation"
+	@echo "... IntegerDivision"
 	@echo "... L2"
+	@echo "... LostLineup"
 	@echo "... MagicTrick"
 	@echo "... MatrixInverse"
 	@echo "... MatrixKeypad"
 	@echo "... MaximalSequences"
 	@echo "... MissingNumber"
 	@echo "... NoThanks"
+	@echo "... PieceOfCake"
 	@echo "... PopularVote"
+	@echo "... QualityAdjustedLifeYear"
 	@echo "... RatingProblems"
 	@echo "... ScalingRecipes"
 	@echo "... SmoothieStand"
 	@echo "... Stopwatch"
+	@echo "... TheBiggestTriangle"
 	@echo "... TheMagical3"
+	@echo "... TiredTerry"
 	@echo "... Totem"
 	@echo "... TriangularCollection"
 	@echo "... UnreadMessages"
@@ -1252,6 +1621,33 @@ help:
 	@echo "... MSOE2021Fall/Week5/Stopwatch.o"
 	@echo "... MSOE2021Fall/Week5/Stopwatch.i"
 	@echo "... MSOE2021Fall/Week5/Stopwatch.s"
+	@echo "... MSOE2021Fall/Week6/FantasyDraft.o"
+	@echo "... MSOE2021Fall/Week6/FantasyDraft.i"
+	@echo "... MSOE2021Fall/Week6/FantasyDraft.s"
+	@echo "... MSOE2021Fall/Week6/FoldingACube.o"
+	@echo "... MSOE2021Fall/Week6/FoldingACube.i"
+	@echo "... MSOE2021Fall/Week6/FoldingACube.s"
+	@echo "... MSOE2021Fall/Week6/Hogwarts.o"
+	@echo "... MSOE2021Fall/Week6/Hogwarts.i"
+	@echo "... MSOE2021Fall/Week6/Hogwarts.s"
+	@echo "... MSOE2021Fall/Week6/IntegerDivision.o"
+	@echo "... MSOE2021Fall/Week6/IntegerDivision.i"
+	@echo "... MSOE2021Fall/Week6/IntegerDivision.s"
+	@echo "... MSOE2021Fall/Week6/LostLineup.o"
+	@echo "... MSOE2021Fall/Week6/LostLineup.i"
+	@echo "... MSOE2021Fall/Week6/LostLineup.s"
+	@echo "... MSOE2021Fall/Week6/PieceOfCake.o"
+	@echo "... MSOE2021Fall/Week6/PieceOfCake.i"
+	@echo "... MSOE2021Fall/Week6/PieceOfCake.s"
+	@echo "... MSOE2021Fall/Week6/TheBiggestTriangle.o"
+	@echo "... MSOE2021Fall/Week6/TheBiggestTriangle.i"
+	@echo "... MSOE2021Fall/Week6/TheBiggestTriangle.s"
+	@echo "... MSOE2021Fall/Week6/TiredTerry.o"
+	@echo "... MSOE2021Fall/Week6/TiredTerry.i"
+	@echo "... MSOE2021Fall/Week6/TiredTerry.s"
+	@echo "... MSOE2021Fall/Week7/QualityAdjustedLifeYear.o"
+	@echo "... MSOE2021Fall/Week7/QualityAdjustedLifeYear.i"
+	@echo "... MSOE2021Fall/Week7/QualityAdjustedLifeYear.s"
 	@echo "... MSOE2021Summer/NAPCPracticeContest_Jul25/MaximalSequences2.o"
 	@echo "... MSOE2021Summer/NAPCPracticeContest_Jul25/MaximalSequences2.i"
 	@echo "... MSOE2021Summer/NAPCPracticeContest_Jul25/MaximalSequences2.s"
