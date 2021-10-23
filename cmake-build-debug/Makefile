@@ -131,6 +131,45 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named SmallSchedule
+
+# Build rule for target.
+SmallSchedule: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SmallSchedule
+.PHONY : SmallSchedule
+
+# fast build rule for target.
+SmallSchedule/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SmallSchedule.dir/build.make CMakeFiles/SmallSchedule.dir/build
+.PHONY : SmallSchedule/fast
+
+#=============================================================================
+# Target rules for targets named NeighborhoodWatch
+
+# Build rule for target.
+NeighborhoodWatch: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 NeighborhoodWatch
+.PHONY : NeighborhoodWatch
+
+# fast build rule for target.
+NeighborhoodWatch/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeighborhoodWatch.dir/build.make CMakeFiles/NeighborhoodWatch.dir/build
+.PHONY : NeighborhoodWatch/fast
+
+#=============================================================================
+# Target rules for targets named HIndex
+
+# Build rule for target.
+HIndex: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 HIndex
+.PHONY : HIndex
+
+# fast build rule for target.
+HIndex/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HIndex.dir/build.make CMakeFiles/HIndex.dir/build
+.PHONY : HIndex/fast
+
+#=============================================================================
 # Target rules for targets named Hogwarts
 
 # Build rule for target.
@@ -1233,6 +1272,60 @@ MSOE2021Fall/Week6/TiredTerry.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TiredTerry.dir/build.make CMakeFiles/TiredTerry.dir/MSOE2021Fall/Week6/TiredTerry.cpp.s
 .PHONY : MSOE2021Fall/Week6/TiredTerry.cpp.s
 
+MSOE2021Fall/Week7/HIndex.o: MSOE2021Fall/Week7/HIndex.cpp.o
+
+.PHONY : MSOE2021Fall/Week7/HIndex.o
+
+# target to build an object file
+MSOE2021Fall/Week7/HIndex.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HIndex.dir/build.make CMakeFiles/HIndex.dir/MSOE2021Fall/Week7/HIndex.cpp.o
+.PHONY : MSOE2021Fall/Week7/HIndex.cpp.o
+
+MSOE2021Fall/Week7/HIndex.i: MSOE2021Fall/Week7/HIndex.cpp.i
+
+.PHONY : MSOE2021Fall/Week7/HIndex.i
+
+# target to preprocess a source file
+MSOE2021Fall/Week7/HIndex.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HIndex.dir/build.make CMakeFiles/HIndex.dir/MSOE2021Fall/Week7/HIndex.cpp.i
+.PHONY : MSOE2021Fall/Week7/HIndex.cpp.i
+
+MSOE2021Fall/Week7/HIndex.s: MSOE2021Fall/Week7/HIndex.cpp.s
+
+.PHONY : MSOE2021Fall/Week7/HIndex.s
+
+# target to generate assembly for a file
+MSOE2021Fall/Week7/HIndex.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/HIndex.dir/build.make CMakeFiles/HIndex.dir/MSOE2021Fall/Week7/HIndex.cpp.s
+.PHONY : MSOE2021Fall/Week7/HIndex.cpp.s
+
+MSOE2021Fall/Week7/NeighborhoodWatch.o: MSOE2021Fall/Week7/NeighborhoodWatch.cpp.o
+
+.PHONY : MSOE2021Fall/Week7/NeighborhoodWatch.o
+
+# target to build an object file
+MSOE2021Fall/Week7/NeighborhoodWatch.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeighborhoodWatch.dir/build.make CMakeFiles/NeighborhoodWatch.dir/MSOE2021Fall/Week7/NeighborhoodWatch.cpp.o
+.PHONY : MSOE2021Fall/Week7/NeighborhoodWatch.cpp.o
+
+MSOE2021Fall/Week7/NeighborhoodWatch.i: MSOE2021Fall/Week7/NeighborhoodWatch.cpp.i
+
+.PHONY : MSOE2021Fall/Week7/NeighborhoodWatch.i
+
+# target to preprocess a source file
+MSOE2021Fall/Week7/NeighborhoodWatch.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeighborhoodWatch.dir/build.make CMakeFiles/NeighborhoodWatch.dir/MSOE2021Fall/Week7/NeighborhoodWatch.cpp.i
+.PHONY : MSOE2021Fall/Week7/NeighborhoodWatch.cpp.i
+
+MSOE2021Fall/Week7/NeighborhoodWatch.s: MSOE2021Fall/Week7/NeighborhoodWatch.cpp.s
+
+.PHONY : MSOE2021Fall/Week7/NeighborhoodWatch.s
+
+# target to generate assembly for a file
+MSOE2021Fall/Week7/NeighborhoodWatch.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeighborhoodWatch.dir/build.make CMakeFiles/NeighborhoodWatch.dir/MSOE2021Fall/Week7/NeighborhoodWatch.cpp.s
+.PHONY : MSOE2021Fall/Week7/NeighborhoodWatch.cpp.s
+
 MSOE2021Fall/Week7/QualityAdjustedLifeYear.o: MSOE2021Fall/Week7/QualityAdjustedLifeYear.cpp.o
 
 .PHONY : MSOE2021Fall/Week7/QualityAdjustedLifeYear.o
@@ -1259,6 +1352,33 @@ MSOE2021Fall/Week7/QualityAdjustedLifeYear.s: MSOE2021Fall/Week7/QualityAdjusted
 MSOE2021Fall/Week7/QualityAdjustedLifeYear.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/QualityAdjustedLifeYear.dir/build.make CMakeFiles/QualityAdjustedLifeYear.dir/MSOE2021Fall/Week7/QualityAdjustedLifeYear.cpp.s
 .PHONY : MSOE2021Fall/Week7/QualityAdjustedLifeYear.cpp.s
+
+MSOE2021Fall/Week7/SmallSchedule.o: MSOE2021Fall/Week7/SmallSchedule.cpp.o
+
+.PHONY : MSOE2021Fall/Week7/SmallSchedule.o
+
+# target to build an object file
+MSOE2021Fall/Week7/SmallSchedule.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SmallSchedule.dir/build.make CMakeFiles/SmallSchedule.dir/MSOE2021Fall/Week7/SmallSchedule.cpp.o
+.PHONY : MSOE2021Fall/Week7/SmallSchedule.cpp.o
+
+MSOE2021Fall/Week7/SmallSchedule.i: MSOE2021Fall/Week7/SmallSchedule.cpp.i
+
+.PHONY : MSOE2021Fall/Week7/SmallSchedule.i
+
+# target to preprocess a source file
+MSOE2021Fall/Week7/SmallSchedule.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SmallSchedule.dir/build.make CMakeFiles/SmallSchedule.dir/MSOE2021Fall/Week7/SmallSchedule.cpp.i
+.PHONY : MSOE2021Fall/Week7/SmallSchedule.cpp.i
+
+MSOE2021Fall/Week7/SmallSchedule.s: MSOE2021Fall/Week7/SmallSchedule.cpp.s
+
+.PHONY : MSOE2021Fall/Week7/SmallSchedule.s
+
+# target to generate assembly for a file
+MSOE2021Fall/Week7/SmallSchedule.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SmallSchedule.dir/build.make CMakeFiles/SmallSchedule.dir/MSOE2021Fall/Week7/SmallSchedule.cpp.s
+.PHONY : MSOE2021Fall/Week7/SmallSchedule.cpp.s
 
 MSOE2021Summer/NAPCPracticeContest_Jul25/MaximalSequences2.o: MSOE2021Summer/NAPCPracticeContest_Jul25/MaximalSequences2.cpp.o
 
@@ -1549,6 +1669,7 @@ help:
 	@echo "... EenyMeeny"
 	@echo "... FantasyDraft"
 	@echo "... FoldingACube"
+	@echo "... HIndex"
 	@echo "... Hogwarts"
 	@echo "... InfectionEstimation"
 	@echo "... IntegerDivision"
@@ -1559,12 +1680,14 @@ help:
 	@echo "... MatrixKeypad"
 	@echo "... MaximalSequences"
 	@echo "... MissingNumber"
+	@echo "... NeighborhoodWatch"
 	@echo "... NoThanks"
 	@echo "... PieceOfCake"
 	@echo "... PopularVote"
 	@echo "... QualityAdjustedLifeYear"
 	@echo "... RatingProblems"
 	@echo "... ScalingRecipes"
+	@echo "... SmallSchedule"
 	@echo "... SmoothieStand"
 	@echo "... Stopwatch"
 	@echo "... TheBiggestTriangle"
@@ -1645,9 +1768,18 @@ help:
 	@echo "... MSOE2021Fall/Week6/TiredTerry.o"
 	@echo "... MSOE2021Fall/Week6/TiredTerry.i"
 	@echo "... MSOE2021Fall/Week6/TiredTerry.s"
+	@echo "... MSOE2021Fall/Week7/HIndex.o"
+	@echo "... MSOE2021Fall/Week7/HIndex.i"
+	@echo "... MSOE2021Fall/Week7/HIndex.s"
+	@echo "... MSOE2021Fall/Week7/NeighborhoodWatch.o"
+	@echo "... MSOE2021Fall/Week7/NeighborhoodWatch.i"
+	@echo "... MSOE2021Fall/Week7/NeighborhoodWatch.s"
 	@echo "... MSOE2021Fall/Week7/QualityAdjustedLifeYear.o"
 	@echo "... MSOE2021Fall/Week7/QualityAdjustedLifeYear.i"
 	@echo "... MSOE2021Fall/Week7/QualityAdjustedLifeYear.s"
+	@echo "... MSOE2021Fall/Week7/SmallSchedule.o"
+	@echo "... MSOE2021Fall/Week7/SmallSchedule.i"
+	@echo "... MSOE2021Fall/Week7/SmallSchedule.s"
 	@echo "... MSOE2021Summer/NAPCPracticeContest_Jul25/MaximalSequences2.o"
 	@echo "... MSOE2021Summer/NAPCPracticeContest_Jul25/MaximalSequences2.i"
 	@echo "... MSOE2021Summer/NAPCPracticeContest_Jul25/MaximalSequences2.s"

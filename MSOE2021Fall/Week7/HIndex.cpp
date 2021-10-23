@@ -31,19 +31,37 @@
 
 using namespace std;
 
+bool hGreater(const vector<long>& v, int h) {
+    int count = 0;
+    for (long l: v) {
+        if (l >= h) {
+            ++count;
+        }
+    }
+    return count >= h;
+}
+
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(0);
 
     int n;
     cin >> n;
-    double res = 0;
+    int left = 0, right = n;
+    vector<long> v(n);
     for (int i = 0; i < n; ++i) {
-        double a, b;
-        cin >> a >> b;
-        res += a * b;
+        cin >> v[i];
     }
-    cout.precision(8);
-    cout << res << endl;
+    while (left != right) {
+        int center = (left + right + 1) / 2;
+        if (hGreater(v, center)) {
+            left = center;
+        } else {
+            right = center - 1;
+        }
+//        cout << left << " " << right << endl;
+    }
+    cout << left << endl;
+
     return 0;
 }

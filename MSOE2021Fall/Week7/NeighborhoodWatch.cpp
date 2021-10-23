@@ -35,15 +35,24 @@ int main() {
     ios::sync_with_stdio(false);
     cin.tie(0);
 
-    int n;
-    cin >> n;
-    double res = 0;
-    for (int i = 0; i < n; ++i) {
-        double a, b;
-        cin >> a >> b;
-        res += a * b;
+    int n, m;
+    cin >> n >> m;
+    int safes[n];
+    for (int i = 0; i < m; ++i) {
+        cin >> safes[i];
     }
-    cout.precision(8);
+    long res = 0;
+    int next_safe = 0;
+    for (int start = 1; start <= n; ++start) {
+        if (next_safe != m) {
+            res += n + 1 - safes[next_safe];
+//            cout << start << " " << n + 1 - safes[next_safe] << endl;
+        }
+        if (start == safes[next_safe]) {
+            ++next_safe;
+        }
+    }
     cout << res << endl;
+
     return 0;
 }

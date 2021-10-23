@@ -1,5 +1,5 @@
 //
-// Created by Jonny Keane on 10/21/21.
+// Created by Jonny Keane on 10/23/21.
 //
 
 #include <bits/stdc++.h>
@@ -35,15 +35,31 @@ int main() {
     ios::sync_with_stdio(false);
     cin.tie(0);
 
-    int n;
-    cin >> n;
-    double res = 0;
-    for (int i = 0; i < n; ++i) {
-        double a, b;
-        cin >> a >> b;
-        res += a * b;
+    int Q, M, S, L;
+    cin >> Q >> M >> S >> L;
+
+    priority_queue<int, vector<int>, greater<int> > pq;
+    int big_div = L / M;
+    L -= big_div * M;
+    for (int i = 0; i < M; ++i) {
+        pq.push(big_div * Q);
     }
-    cout.precision(8);
-    cout << res << endl;
+    for (int i = 0; i < L; ++i) {
+        int top = pq.top();
+        pq.pop();
+        pq.push(top + Q);
+    }
+    for (int i = 0; i < S; ++i) {
+        int top = pq.top();
+        pq.pop();
+        pq.push(top + 1);
+    }
+    int max_ = 0;
+    while (!pq.empty()) {
+        max_ = max(max_, pq.top());
+        pq.pop();
+    }
+    cout << max_ << endl;
+
     return 0;
 }

@@ -52,6 +52,9 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/SmallSchedule.dir/DependInfo.cmake"
+  "CMakeFiles/NeighborhoodWatch.dir/DependInfo.cmake"
+  "CMakeFiles/HIndex.dir/DependInfo.cmake"
   "CMakeFiles/Hogwarts.dir/DependInfo.cmake"
   "CMakeFiles/FoldingACube.dir/DependInfo.cmake"
   "CMakeFiles/FantasyDraft.dir/DependInfo.cmake"
