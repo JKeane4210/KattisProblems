@@ -131,6 +131,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named QuiteAProblem
+
+# Build rule for target.
+QuiteAProblem: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 QuiteAProblem
+.PHONY : QuiteAProblem
+
+# fast build rule for target.
+QuiteAProblem/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QuiteAProblem.dir/build.make CMakeFiles/QuiteAProblem.dir/build
+.PHONY : QuiteAProblem/fast
+
+#=============================================================================
 # Target rules for targets named SmallSchedule
 
 # Build rule for target.
@@ -1380,6 +1393,33 @@ MSOE2021Fall/Week7/SmallSchedule.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SmallSchedule.dir/build.make CMakeFiles/SmallSchedule.dir/MSOE2021Fall/Week7/SmallSchedule.cpp.s
 .PHONY : MSOE2021Fall/Week7/SmallSchedule.cpp.s
 
+MSOE2021Fall/Week8/QuiteAProblem.o: MSOE2021Fall/Week8/QuiteAProblem.cpp.o
+
+.PHONY : MSOE2021Fall/Week8/QuiteAProblem.o
+
+# target to build an object file
+MSOE2021Fall/Week8/QuiteAProblem.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QuiteAProblem.dir/build.make CMakeFiles/QuiteAProblem.dir/MSOE2021Fall/Week8/QuiteAProblem.cpp.o
+.PHONY : MSOE2021Fall/Week8/QuiteAProblem.cpp.o
+
+MSOE2021Fall/Week8/QuiteAProblem.i: MSOE2021Fall/Week8/QuiteAProblem.cpp.i
+
+.PHONY : MSOE2021Fall/Week8/QuiteAProblem.i
+
+# target to preprocess a source file
+MSOE2021Fall/Week8/QuiteAProblem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QuiteAProblem.dir/build.make CMakeFiles/QuiteAProblem.dir/MSOE2021Fall/Week8/QuiteAProblem.cpp.i
+.PHONY : MSOE2021Fall/Week8/QuiteAProblem.cpp.i
+
+MSOE2021Fall/Week8/QuiteAProblem.s: MSOE2021Fall/Week8/QuiteAProblem.cpp.s
+
+.PHONY : MSOE2021Fall/Week8/QuiteAProblem.s
+
+# target to generate assembly for a file
+MSOE2021Fall/Week8/QuiteAProblem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/QuiteAProblem.dir/build.make CMakeFiles/QuiteAProblem.dir/MSOE2021Fall/Week8/QuiteAProblem.cpp.s
+.PHONY : MSOE2021Fall/Week8/QuiteAProblem.cpp.s
+
 MSOE2021Summer/NAPCPracticeContest_Jul25/MaximalSequences2.o: MSOE2021Summer/NAPCPracticeContest_Jul25/MaximalSequences2.cpp.o
 
 .PHONY : MSOE2021Summer/NAPCPracticeContest_Jul25/MaximalSequences2.o
@@ -1685,6 +1725,7 @@ help:
 	@echo "... PieceOfCake"
 	@echo "... PopularVote"
 	@echo "... QualityAdjustedLifeYear"
+	@echo "... QuiteAProblem"
 	@echo "... RatingProblems"
 	@echo "... ScalingRecipes"
 	@echo "... SmallSchedule"
@@ -1780,6 +1821,9 @@ help:
 	@echo "... MSOE2021Fall/Week7/SmallSchedule.o"
 	@echo "... MSOE2021Fall/Week7/SmallSchedule.i"
 	@echo "... MSOE2021Fall/Week7/SmallSchedule.s"
+	@echo "... MSOE2021Fall/Week8/QuiteAProblem.o"
+	@echo "... MSOE2021Fall/Week8/QuiteAProblem.i"
+	@echo "... MSOE2021Fall/Week8/QuiteAProblem.s"
 	@echo "... MSOE2021Summer/NAPCPracticeContest_Jul25/MaximalSequences2.o"
 	@echo "... MSOE2021Summer/NAPCPracticeContest_Jul25/MaximalSequences2.i"
 	@echo "... MSOE2021Summer/NAPCPracticeContest_Jul25/MaximalSequences2.s"

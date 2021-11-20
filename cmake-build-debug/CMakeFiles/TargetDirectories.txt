@@ -1,3 +1,4 @@
+/Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/QuiteAProblem.dir
 /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/SmallSchedule.dir
 /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/NeighborhoodWatch.dir
 /Users/jkeane/CLionProjects/KattisProblems/cmake-build-debug/CMakeFiles/edit_cache.dir

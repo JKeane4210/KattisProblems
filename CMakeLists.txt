@@ -125,6 +125,7 @@ add_executable(QualityAdjustedLifeYear MSOE2021Fall/Week7/QualityAdjustedLifeYea
 add_executable(HIndex MSOE2021Fall/Week7/HIndex.cpp)
 add_executable(NeighborhoodWatch MSOE2021Fall/Week7/NeighborhoodWatch.cpp)
 add_executable(SmallSchedule MSOE2021Fall/Week7/SmallSchedule.cpp)
+add_executable(QuiteAProblem MSOE2021Fall/Week8/QuiteAProblem.cpp)
 
 #include_directories(/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++)
 #include_directories(/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1)
