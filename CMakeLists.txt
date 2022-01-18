@@ -127,5 +127,10 @@ add_executable(NeighborhoodWatch MSOE2021Fall/Week7/NeighborhoodWatch.cpp)
 add_executable(SmallSchedule MSOE2021Fall/Week7/SmallSchedule.cpp)
 add_executable(QuiteAProblem MSOE2021Fall/Week8/QuiteAProblem.cpp)
 
+# NAQ 2019
+add_executable(CircuitMath MSOE2022Winter/NAQ2019/CircuitMath.cpp)
+add_executable(MissingNumbers MSOE2022Winter/NAQ2019/MissingNumbers.cpp)
+add_executable(Gerrymandering MSOE2022Winter/NAQ2019/Gerrymandering.cpp)
+
 #include_directories(/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++)
 #include_directories(/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1)
