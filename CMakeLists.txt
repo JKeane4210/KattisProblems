@@ -137,29 +137,41 @@ set(CMAKE_CXX_STANDARD 14)
 #add_executable(SummerTrip MSOE2022Winter/NAQ2019/SummerTrip.cpp)
 #add_executable(ResearchProductivityIndex MSOE2022Winter/NAQ2019/ResearchProductivityIndex.cpp)
 
-# --- NAQ 2021 ---
-add_executable(E_NAQ2021 MSOE2022Winter/NAQ2021/E_NAQ2021.cpp)
-add_executable(F_NAQ2021 MSOE2022Winter/NAQ2021/F_NAQ2021.cpp)
-add_executable(G_NAQ2021 MSOE2022Winter/NAQ2021/G_NAQ2021.cpp)
-add_executable(H_NAQ2021 MSOE2022Winter/NAQ2021/H_NAQ2021.cpp)
-add_executable(C_NAQ2021 MSOE2022Winter/NAQ2021/C_NAQ2021.cpp)
-add_executable(C2_NAQ2021 MSOE2022Winter/NAQ2021/C2_NAQ2021.cpp)
-add_executable(L_NAQ2021 MSOE2022Winter/NAQ2021/L_NAQ2021.cpp)
+## --- NAQ 2021 ---
+#add_executable(E_NAQ2021 MSOE2022Winter/NAQ2021/E_NAQ2021.cpp)
+#add_executable(F_NAQ2021 MSOE2022Winter/NAQ2021/F_NAQ2021.cpp)
+#add_executable(G_NAQ2021 MSOE2022Winter/NAQ2021/G_NAQ2021.cpp)
+#add_executable(H_NAQ2021 MSOE2022Winter/NAQ2021/H_NAQ2021.cpp)
+#add_executable(C_NAQ2021 MSOE2022Winter/NAQ2021/C_NAQ2021.cpp)
+#add_executable(C2_NAQ2021 MSOE2022Winter/NAQ2021/C2_NAQ2021.cpp)
+#add_executable(L_NAQ2021 MSOE2022Winter/NAQ2021/L_NAQ2021.cpp)
+#
+## --- Kotlinaughts Practice 1 ---
+#add_executable(Practice1_D MSOE2022Winter/Practice1/Practice1_D.cpp)
+#add_executable(Practice1_C MSOE2022Winter/Practice1/Practice1_C.cpp)
+#add_executable(Practice1_B MSOE2022Winter/Practice1/Practice1_B.cpp)
+#add_executable(Practice1_E MSOE2022Winter/Practice1/Practice1_E.cpp)
+#add_executable(Practice1_F MSOE2022Winter/Practice1/Practice1_F.cpp)
+#add_executable(Practice1_K MSOE2022Winter/Practice1/Practice1_K.cpp)
+#
+## --- Kotlinaughts Practice 2 ---
+#add_executable(Practice2_C MSOE2022Winter/Practice2/Practice2_C.cpp)
+#add_executable(Practice2_A MSOE2022Winter/Practice2/Practice2_A.cpp)
+#add_executable(Practice2_B MSOE2022Winter/Practice2/Practice2_B.cpp)
+#add_executable(Practice2_H MSOE2022Winter/Practice2/Practice2_H.cpp)
+#add_executable(Practice2_G MSOE2022Winter/Practice2/Practice2_G.cpp)
 
-# --- Kotlinaughts Practice 1 ---
-add_executable(Practice1_D MSOE2022Winter/Practice1/Practice1_D.cpp)
-add_executable(Practice1_C MSOE2022Winter/Practice1/Practice1_C.cpp)
-add_executable(Practice1_B MSOE2022Winter/Practice1/Practice1_B.cpp)
-add_executable(Practice1_E MSOE2022Winter/Practice1/Practice1_E.cpp)
-add_executable(Practice1_F MSOE2022Winter/Practice1/Practice1_F.cpp)
-add_executable(Practice1_K MSOE2022Winter/Practice1/Practice1_K.cpp)
-
-# --- Kotlinaughts Practice 2 ---
-add_executable(Practice2_C MSOE2022Winter/Practice2/Practice2_C.cpp)
-add_executable(Practice2_A MSOE2022Winter/Practice2/Practice2_A.cpp)
-add_executable(Practice2_B MSOE2022Winter/Practice2/Practice2_B.cpp)
-add_executable(Practice2_H MSOE2022Winter/Practice2/Practice2_H.cpp)
-add_executable(Practice2_G MSOE2022Winter/Practice2/Practice2_G.cpp)
+# --- NCPC 2021 ---
+add_executable(NCPC2021_A MSOE2022Winter/NCPC_2021/NCPC2021_A.cpp)
+add_executable(NCPC2021_K MSOE2022Winter/NCPC_2021/NCPC2021_K.cpp)
+add_executable(NCPC2021_L MSOE2022Winter/NCPC_2021/NCPC2021_L.cpp)
+add_executable(NCPC2021_J MSOE2022Winter/NCPC_2021/NCPC2021_J.cpp)
+add_executable(NCPC2021_G MSOE2022Winter/NCPC_2021/NCPC2021_G.cpp)
+add_executable(NCPC2021_F MSOE2022Winter/NCPC_2021/NCPC2021_F.cpp)
+add_executable(NCPC2021_D MSOE2022Winter/NCPC_2021/NCPC2021_D.cpp)
+add_executable(NCPC2021_H MSOE2022Winter/NCPC_2021/NCPC2021_H.cpp)
+add_executable(NCPC2021_C MSOE2022Winter/NCPC_2021/NCPC2021_C2.cpp)
+add_executable(_topological_sort MSOE2022Winter/NCPC_2021/_topological_sort.cpp)
 
 #include_directories(/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++)
 #include_directories(/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1)
