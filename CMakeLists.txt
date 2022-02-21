@@ -111,7 +111,7 @@ set(CMAKE_CXX_STANDARD 14)
 #add_executable(RatingProblems MSOE2021Fall/Week1/RatingProblems.cpp)
 #add_executable(SmoothieStand MSOE2021Fall/Week1/SmoothieStand.cpp)
 #add_executable(TriangularCollection MSOE2021Fall/Week1/TriangularCollection.cpp)
-#add_executable(UnreadMessages MSOE2021Fall/Week1/UnreadMessages2.cpp)
+add_executable(UnreadMessages MSOE2021Fall/Week1/UnreadMessages.cpp)
 #add_executable(Stopwatch MSOE2021Fall/Week5/Stopwatch.cpp)
 #add_executable(IntegerDivision MSOE2021Fall/Week6/IntegerDivision.cpp)
 #add_executable(FantasyDraft MSOE2021Fall/Week6/FantasyDraft.cpp)
@@ -172,6 +172,16 @@ add_executable(NCPC2021_D MSOE2022Winter/NCPC_2021/NCPC2021_D.cpp)
 add_executable(NCPC2021_H MSOE2022Winter/NCPC_2021/NCPC2021_H.cpp)
 add_executable(NCPC2021_C MSOE2022Winter/NCPC_2021/NCPC2021_C2.cpp)
 add_executable(_topological_sort MSOE2022Winter/NCPC_2021/_topological_sort.cpp)
+
+# --- NCPC 2018 ---
+add_executable(NCPC2018_B MSOE2022Winter/NCPC_2018/NCPC2018_B.cpp)
+add_executable(NCPC2018_C MSOE2022Winter/NCPC_2018/NCPC2018_C.cpp)
+add_executable(NCPC2018_H MSOE2022Winter/NCPC_2018/NCPC2018_H.cpp)
+add_executable(NCPC2018_I MSOE2022Winter/NCPC_2018/NCPC2018_I.cpp)
+
+# --- Kotlinaughts Practice 3 ---
+add_executable(Practice3_G MSOE2022Winter/Practice3/Practice3_G.cpp)
+add_executable(Practice3_G2 MSOE2022Winter/Practice3/Practice3_G3.cpp)
 
 #include_directories(/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++)
 #include_directories(/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1)
