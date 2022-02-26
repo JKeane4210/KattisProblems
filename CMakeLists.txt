@@ -183,5 +183,12 @@ add_executable(NCPC2018_I MSOE2022Winter/NCPC_2018/NCPC2018_I.cpp)
 add_executable(Practice3_G MSOE2022Winter/Practice3/Practice3_G.cpp)
 add_executable(Practice3_G2 MSOE2022Winter/Practice3/Practice3_G3.cpp)
 
+# --- BAPC 2021 ---
+add_executable(BAPC2021_A MSOE2022Winter/BAPC2021/BAPC2021_A.cpp)
+add_executable(BAPC2021_I MSOE2022Winter/BAPC2021/BAPC2021_I.cpp)
+add_executable(BAPC2021_F MSOE2022Winter/BAPC2021/BAPC2021_F.cpp)
+add_executable(BAPC2021_C MSOE2022Winter/BAPC2021/BAPC2021_C.cpp)
+add_executable(BAPC2021_B MSOE2022Winter/BAPC2021/BAPC2021_B.cpp)
+
 #include_directories(/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++)
 #include_directories(/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1)
