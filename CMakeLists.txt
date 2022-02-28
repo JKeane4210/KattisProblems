@@ -190,5 +190,8 @@ add_executable(BAPC2021_F MSOE2022Winter/BAPC2021/BAPC2021_F.cpp)
 add_executable(BAPC2021_C MSOE2022Winter/BAPC2021/BAPC2021_C.cpp)
 add_executable(BAPC2021_B MSOE2022Winter/BAPC2021/BAPC2021_B.cpp)
 
+# --- NCNA 2021 ---
+add_executable(NCNA_2021_I MSOE2022Winter/NCNA_2021/NCNA_2021_I.cpp)
+
 #include_directories(/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++)
 #include_directories(/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1)
