@@ -192,6 +192,15 @@ add_executable(BAPC2021_B MSOE2022Winter/BAPC2021/BAPC2021_B.cpp)
 
 # --- NCNA 2021 ---
 add_executable(NCNA_2021_I MSOE2022Winter/NCNA_2021/NCNA_2021_I.cpp)
+add_executable(NCNA_2021_G MSOE2022Winter/NCNA_2021/NCNA_2021_G.cpp)
+add_executable(NCNA_2021_L MSOE2022Winter/NCNA_2021/NCNA_2021_L.cpp)
+add_executable(NCNA_2021_D MSOE2022Winter/NCNA_2021/NCNA_2021_D.cpp)
+add_executable(NCNA_2021_E MSOE2022Winter/NCNA_2021/NCNA_2021_E.cpp)
+add_executable(NCNA_2021_C MSOE2022Winter/NCNA_2021/NCNA_2021_C.cpp)
+add_executable(NCNA_2021_J MSOE2022Winter/NCNA_2021/NCNA_2021_J.cpp)
+add_executable(NCNA_2021_F MSOE2022Winter/NCNA_2021/NCNA_2021_F.cpp)
+add_executable(NCNA_2021_M MSOE2022Winter/NCNA_2021/NCNA_2021_M.cpp)
+
 
 #include_directories(/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++)
 #include_directories(/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1)
