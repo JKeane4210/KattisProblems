@@ -90,10 +90,11 @@ int main() {
         }
     }
     // BFS with heuristic
-    priority_queue<pii, vector<pii>, Compare> q;
+//    priority_queue<pii, vector<pii>, Compare> q;
+    queue<pii> q;
     q.push(R);
     while (!q.empty()) {
-        auto front = q.top();
+        auto front = q.front();
         q.pop();
         if (front == T) {
             cout << "yes" << endl;
