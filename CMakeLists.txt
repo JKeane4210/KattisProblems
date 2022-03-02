@@ -200,6 +200,8 @@ add_executable(NCNA_2021_C MSOE2022Winter/NCNA_2021/NCNA_2021_C.cpp)
 add_executable(NCNA_2021_J MSOE2022Winter/NCNA_2021/NCNA_2021_J.cpp)
 add_executable(NCNA_2021_F MSOE2022Winter/NCNA_2021/NCNA_2021_F.cpp)
 add_executable(NCNA_2021_M MSOE2022Winter/NCNA_2021/NCNA_2021_M.cpp)
+add_executable(NCNA_2021_A MSOE2022Winter/NCNA_2021/NCNA_2021_A.cpp)
+add_executable(NCNA_2021_H MSOE2022Winter/NCNA_2021/NCNA_2021_H.cpp)
 
 
 #include_directories(/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++)
