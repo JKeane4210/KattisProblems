@@ -32,15 +32,53 @@
 
 using namespace std;
 
-bool is_even(const string & s) {
-//    cout << s << endl;
-    int counts[6];
-    for (int & count : counts) { count = 0; }
-    for (char c: s) {
-        counts[c - 'a']++;
+int highestOneBit(int i) {
+    i |= (i >>  1);
+    i |= (i >>  2);
+    i |= (i >>  4);
+    i |= (i >>  8);
+    i |= (i >> 16);
+    return i - (((unsigned int)i) >> 1);
+}
+
+struct FenwickTree{
+    vector<int> arr;
+    int n;
+
+    FenwickTree(int size) {
+        int hob = highestOneBit(size);
+        n = (hob == size) ? hob : (hob << 1);
+        arr.assign(n,0);
     }
-    for (int count: counts) {
-        if (count % 2 == 1) {
+
+    int sum(int k){
+        int s = 0;
+        int ik = k+1;
+        while(ik>=1){
+            s+=arr[ik-1];
+            ik-= ik & -ik;
+        }
+        return s;
+    }
+
+    int sum(int l, int r){
+        return sum(r) - sum(l-1);
+    }
+
+    void update(int k, int x){
+        int ik = k+1;
+        while(ik <= n){
+            arr[ik-1]+=x;
+            ik+= ik & -ik;
+        }
+    }
+};
+
+vector<FenwickTree> trees;
+
+bool is_even(int a, int b) {
+    for (auto tree: trees) {
+        if ((tree.sum(a, b) & 1) == 1) {
             return false;
         }
     }
@@ -55,6 +93,14 @@ int main() {
     cin >> s;
     int q;
     cin >> q;
+
+    for (int i = 0; i < 6; ++i) {
+        trees.emplace_back(FenwickTree(s.size()));
+    }
+    for (int i = 0; i < s.size(); ++i) {
+        trees[s[i] - 'a'].update(i, 1);
+    }
+
     for (int k = 0; k < q; ++k) {
         int t;
         cin >> t;
@@ -64,8 +110,8 @@ int main() {
             --l; --r;
             int res = 0;
             for (int i = l; i <= r; ++i) {
-                for (int len = 1; len <= r - i + 1; ++len) {
-                    if (is_even(s.substr(i, len))) {
+                for (int j = i; j <= r; ++j) {
+                    if (is_even(i, j)) {
                         ++res;
                     }
                 }
@@ -76,7 +122,14 @@ int main() {
             string x;
             cin >> i >> x;
             --i;
+            trees[s[i] - 'a'].update(i, -1);
+            trees[x[0] - 'a'].update(i, 1);
             s[i] = x[0];
+//            cout << i << "->" << x << endl;
+//            for (auto tree: trees) {
+//                cout << tree.sum(0, s.size() - 1) << endl;
+//            }
+//            cout << "*" << endl;
         }
     }
 

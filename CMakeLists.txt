@@ -161,34 +161,34 @@ add_executable(UnreadMessages MSOE2021Fall/Week1/UnreadMessages.cpp)
 #add_executable(Practice2_H MSOE2022Winter/Practice2/Practice2_H.cpp)
 #add_executable(Practice2_G MSOE2022Winter/Practice2/Practice2_G.cpp)
 
-# --- NCPC 2021 ---
-add_executable(NCPC2021_A MSOE2022Winter/NCPC_2021/NCPC2021_A.cpp)
-add_executable(NCPC2021_K MSOE2022Winter/NCPC_2021/NCPC2021_K.cpp)
-add_executable(NCPC2021_L MSOE2022Winter/NCPC_2021/NCPC2021_L.cpp)
-add_executable(NCPC2021_J MSOE2022Winter/NCPC_2021/NCPC2021_J.cpp)
-add_executable(NCPC2021_G MSOE2022Winter/NCPC_2021/NCPC2021_G.cpp)
-add_executable(NCPC2021_F MSOE2022Winter/NCPC_2021/NCPC2021_F.cpp)
-add_executable(NCPC2021_D MSOE2022Winter/NCPC_2021/NCPC2021_D.cpp)
-add_executable(NCPC2021_H MSOE2022Winter/NCPC_2021/NCPC2021_H.cpp)
-add_executable(NCPC2021_C MSOE2022Winter/NCPC_2021/NCPC2021_C2.cpp)
-add_executable(_topological_sort MSOE2022Winter/NCPC_2021/_topological_sort.cpp)
-
-# --- NCPC 2018 ---
-add_executable(NCPC2018_B MSOE2022Winter/NCPC_2018/NCPC2018_B.cpp)
-add_executable(NCPC2018_C MSOE2022Winter/NCPC_2018/NCPC2018_C.cpp)
-add_executable(NCPC2018_H MSOE2022Winter/NCPC_2018/NCPC2018_H.cpp)
-add_executable(NCPC2018_I MSOE2022Winter/NCPC_2018/NCPC2018_I.cpp)
-
-# --- Kotlinaughts Practice 3 ---
-add_executable(Practice3_G MSOE2022Winter/Practice3/Practice3_G.cpp)
-add_executable(Practice3_G2 MSOE2022Winter/Practice3/Practice3_G3.cpp)
-
-# --- BAPC 2021 ---
-add_executable(BAPC2021_A MSOE2022Winter/BAPC2021/BAPC2021_A.cpp)
-add_executable(BAPC2021_I MSOE2022Winter/BAPC2021/BAPC2021_I.cpp)
-add_executable(BAPC2021_F MSOE2022Winter/BAPC2021/BAPC2021_F.cpp)
-add_executable(BAPC2021_C MSOE2022Winter/BAPC2021/BAPC2021_C.cpp)
-add_executable(BAPC2021_B MSOE2022Winter/BAPC2021/BAPC2021_B.cpp)
+## --- NCPC 2021 ---
+#add_executable(NCPC2021_A MSOE2022Winter/NCPC_2021/NCPC2021_A.cpp)
+#add_executable(NCPC2021_K MSOE2022Winter/NCPC_2021/NCPC2021_K.cpp)
+#add_executable(NCPC2021_L MSOE2022Winter/NCPC_2021/NCPC2021_L.cpp)
+#add_executable(NCPC2021_J MSOE2022Winter/NCPC_2021/NCPC2021_J.cpp)
+#add_executable(NCPC2021_G MSOE2022Winter/NCPC_2021/NCPC2021_G.cpp)
+#add_executable(NCPC2021_F MSOE2022Winter/NCPC_2021/NCPC2021_F.cpp)
+#add_executable(NCPC2021_D MSOE2022Winter/NCPC_2021/NCPC2021_D.cpp)
+#add_executable(NCPC2021_H MSOE2022Winter/NCPC_2021/NCPC2021_H.cpp)
+#add_executable(NCPC2021_C MSOE2022Winter/NCPC_2021/NCPC2021_C2.cpp)
+#add_executable(_topological_sort MSOE2022Winter/NCPC_2021/_topological_sort.cpp)
+#
+## --- NCPC 2018 ---
+#add_executable(NCPC2018_B MSOE2022Winter/NCPC_2018/NCPC2018_B.cpp)
+#add_executable(NCPC2018_C MSOE2022Winter/NCPC_2018/NCPC2018_C.cpp)
+#add_executable(NCPC2018_H MSOE2022Winter/NCPC_2018/NCPC2018_H.cpp)
+#add_executable(NCPC2018_I MSOE2022Winter/NCPC_2018/NCPC2018_I.cpp)
+#
+## --- Kotlinaughts Practice 3 ---
+#add_executable(Practice3_G MSOE2022Winter/Practice3/Practice3_G.cpp)
+#add_executable(Practice3_G2 MSOE2022Winter/Practice3/Practice3_G3.cpp)
+#
+## --- BAPC 2021 ---
+#add_executable(BAPC2021_A MSOE2022Winter/BAPC2021/BAPC2021_A.cpp)
+#add_executable(BAPC2021_I MSOE2022Winter/BAPC2021/BAPC2021_I.cpp)
+#add_executable(BAPC2021_F MSOE2022Winter/BAPC2021/BAPC2021_F.cpp)
+#add_executable(BAPC2021_C MSOE2022Winter/BAPC2021/BAPC2021_C.cpp)
+#add_executable(BAPC2021_B MSOE2022Winter/BAPC2021/BAPC2021_B.cpp)
 
 # --- NCNA 2021 ---
 add_executable(NCNA_2021_I MSOE2022Winter/NCNA_2021/NCNA_2021_I.cpp)
@@ -202,6 +202,9 @@ add_executable(NCNA_2021_F MSOE2022Winter/NCNA_2021/NCNA_2021_F.cpp)
 add_executable(NCNA_2021_M MSOE2022Winter/NCNA_2021/NCNA_2021_M.cpp)
 add_executable(NCNA_2021_A MSOE2022Winter/NCNA_2021/NCNA_2021_A.cpp)
 add_executable(NCNA_2021_H MSOE2022Winter/NCNA_2021/NCNA_2021_H.cpp)
+add_executable(NCNA_2021_B MSOE2022Winter/NCNA_2021/NCNA_2021_B.cpp)
+add_executable(NCNA_2021_BSlow MSOE2022Winter/NCNA_2021/NCNA_2021_BSlow.cpp)
+add_executable(NCNA_2021_K MSOE2022Winter/NCNA_2021/NCNA_2021_K.cpp)
 
 
 #include_directories(/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++)
