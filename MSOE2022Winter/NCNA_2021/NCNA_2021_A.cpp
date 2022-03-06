@@ -100,6 +100,10 @@ int main() {
     for (int i = 0; i < s.size(); ++i) {
         trees[s[i] - 'a'].update(i, 1);
     }
+    // track even/odd -> don't match == even
+    // a:1110
+    // b:0100
+    //   abba
 
     for (int k = 0; k < q; ++k) {
         int t;
