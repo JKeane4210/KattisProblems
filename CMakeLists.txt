@@ -214,5 +214,20 @@ add_executable(BAPC2013_C MSOE2022Winter/BAPC2013/BAPC2013_C.cpp)
 add_executable(BAPC2013_D MSOE2022Winter/BAPC2013/BAPC2013_D.cpp)
 add_executable(BAPC2013_B MSOE2022Winter/BAPC2013/BAPC2013_B.cpp)
 
+
+add_executable(NWERC_2020_C MSOE2022Spring/NWERC_2020/C.cpp)
+add_executable(NWERC_2020_K MSOE2022Spring/NWERC_2020/K.cpp)
+add_executable(NWERC_2020_H MSOE2022Spring/NWERC_2020/H.cpp)
+add_executable(NWERC_2020_D MSOE2022Spring/NWERC_2020/D.cpp)
+
+add_executable(MSOE_DP_A MSOE2022Spring/MSOE_CP_DP/A.cpp)
+add_executable(MSOE_DP_B MSOE2022Spring/MSOE_CP_DP/B.cpp)
+add_executable(MSOE_DP_C MSOE2022Spring/MSOE_CP_DP/C.cpp)
+add_executable(MSOE_DP_D MSOE2022Spring/MSOE_CP_DP/D.cpp)
+
+
+
+
+
 #include_directories(/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++)
 #include_directories(/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1)
