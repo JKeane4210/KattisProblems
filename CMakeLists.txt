@@ -219,6 +219,8 @@ add_executable(NWERC_2020_C MSOE2022Spring/NWERC_2020/C.cpp)
 add_executable(NWERC_2020_K MSOE2022Spring/NWERC_2020/K.cpp)
 add_executable(NWERC_2020_H MSOE2022Spring/NWERC_2020/H.cpp)
 add_executable(NWERC_2020_D MSOE2022Spring/NWERC_2020/D.cpp)
+add_executable(NWERC_2020_E MSOE2022Spring/NWERC_2020/E.cpp)
+add_executable(NWERC_2020_I MSOE2022Spring/NWERC_2020/I.cpp)
 
 add_executable(MSOE_DP_A MSOE2022Spring/MSOE_CP_DP/A.cpp)
 add_executable(MSOE_DP_B MSOE2022Spring/MSOE_CP_DP/B.cpp)
