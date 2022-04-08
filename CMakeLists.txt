@@ -227,6 +227,16 @@ add_executable(MSOE_DP_B MSOE2022Spring/MSOE_CP_DP/B.cpp)
 add_executable(MSOE_DP_C MSOE2022Spring/MSOE_CP_DP/C.cpp)
 add_executable(MSOE_DP_D MSOE2022Spring/MSOE_CP_DP/D.cpp)
 
+add_executable(DisjointMinTable MSOE2022Spring/MCPC21/DisjointMinTable.cpp)
+add_executable(DoublePassword MSOE2022Spring/MCPC21/DoublePassword.cpp)
+add_executable(WhoGoesThere MSOE2022Spring/MCPC21/WhoGoesThere.cpp)
+
+add_executable(MiniBattleship MSOE2022Spring/NAC_2020/MiniBattleship.cpp)
+add_executable(Hopscotch50 MSOE2022Spring/NAC_2020/Hopscotch50.cpp)
+add_executable(LetterWheels MSOE2022Spring/NAC_2020/LetterWheels.cpp)
+add_executable(PunchCard MSOE2022Spring/CodeJam/Qualifying/PunchCard.cpp)
+add_executable(3DPrinting MSOE2022Spring/CodeJam/Qualifying/3DPrinting.cpp)
+add_executable(dn MSOE2022Spring/CodeJam/Qualifying/dn.cpp)
 
 
 
