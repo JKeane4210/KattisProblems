@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.17)
 project(KattisProblems)
 
-set(CMAKE_CXX_STANDARD 14)
+#set(CMAKE_CXX_STANDARD 14)
 
 #add_executable(SingleSourceNegativeWeights singleSourceNegativeWeights.cpp)
 #add_executable(WaifUntilDark WaifUntilDark.cpp)
@@ -191,55 +191,58 @@ add_executable(UnreadMessages MSOE2021Fall/Week1/UnreadMessages.cpp)
 #add_executable(BAPC2021_B MSOE2022Winter/BAPC2021/BAPC2021_B.cpp)
 
 # --- NCNA 2021 ---
-add_executable(NCNA_2021_I MSOE2022Winter/NCNA_2021/NCNA_2021_I.cpp)
-add_executable(NCNA_2021_G MSOE2022Winter/NCNA_2021/NCNA_2021_G.cpp)
-add_executable(NCNA_2021_L MSOE2022Winter/NCNA_2021/NCNA_2021_L.cpp)
-add_executable(NCNA_2021_D MSOE2022Winter/NCNA_2021/NCNA_2021_D.cpp)
-add_executable(NCNA_2021_E MSOE2022Winter/NCNA_2021/NCNA_2021_E.cpp)
-add_executable(NCNA_2021_C MSOE2022Winter/NCNA_2021/NCNA_2021_C.cpp)
-add_executable(NCNA_2021_J MSOE2022Winter/NCNA_2021/NCNA_2021_J.cpp)
-add_executable(NCNA_2021_F MSOE2022Winter/NCNA_2021/NCNA_2021_F.cpp)
-add_executable(NCNA_2021_M MSOE2022Winter/NCNA_2021/NCNA_2021_M.cpp)
-add_executable(NCNA_2021_A MSOE2022Winter/NCNA_2021/NCNA_2021_A.cpp)
-add_executable(NCNA_2021_H MSOE2022Winter/NCNA_2021/NCNA_2021_H.cpp)
-add_executable(NCNA_2021_B MSOE2022Winter/NCNA_2021/NCNA_2021_B.cpp)
-add_executable(NCNA_2021_BSlow MSOE2022Winter/NCNA_2021/NCNA_2021_BSlow.cpp)
-add_executable(NCNA_2021_K MSOE2022Winter/NCNA_2021/NCNA_2021_K.cpp)
+#add_executable(NCNA_2021_I MSOE2022Winter/NCNA_2021/NCNA_2021_I.cpp)
+#add_executable(NCNA_2021_G MSOE2022Winter/NCNA_2021/NCNA_2021_G.cpp)
+#add_executable(NCNA_2021_L MSOE2022Winter/NCNA_2021/NCNA_2021_L.cpp)
+#add_executable(NCNA_2021_D MSOE2022Winter/NCNA_2021/NCNA_2021_D.cpp)
+#add_executable(NCNA_2021_E MSOE2022Winter/NCNA_2021/NCNA_2021_E.cpp)
+#add_executable(NCNA_2021_C MSOE2022Winter/NCNA_2021/NCNA_2021_C.cpp)
+#add_executable(NCNA_2021_J MSOE2022Winter/NCNA_2021/NCNA_2021_J.cpp)
+#add_executable(NCNA_2021_F MSOE2022Winter/NCNA_2021/NCNA_2021_F.cpp)
+#add_executable(NCNA_2021_M MSOE2022Winter/NCNA_2021/NCNA_2021_M.cpp)
+#add_executable(NCNA_2021_A MSOE2022Winter/NCNA_2021/NCNA_2021_A.cpp)
+#add_executable(NCNA_2021_H MSOE2022Winter/NCNA_2021/NCNA_2021_H.cpp)
+#add_executable(NCNA_2021_B MSOE2022Winter/NCNA_2021/NCNA_2021_B.cpp)
+#add_executable(NCNA_2021_BSlow MSOE2022Winter/NCNA_2021/NCNA_2021_BSlow.cpp)
+#add_executable(NCNA_2021_K MSOE2022Winter/NCNA_2021/NCNA_2021_K.cpp)
+#
+## --- BAPC 2013 ---
+#add_executable(BAPC2013_A MSOE2022Winter/BAPC2013/BAPC2013_A.cpp)
+#add_executable(BAPC2013_I MSOE2022Winter/BAPC2013/BAPC2013_I.cpp)
+#add_executable(BAPC2013_F MSOE2022Winter/BAPC2013/BAPC2013_F.cpp)
+#add_executable(BAPC2013_C MSOE2022Winter/BAPC2013/BAPC2013_C.cpp)
+#add_executable(BAPC2013_D MSOE2022Winter/BAPC2013/BAPC2013_D.cpp)
+#add_executable(BAPC2013_B MSOE2022Winter/BAPC2013/BAPC2013_B.cpp)
+#
+#
+#add_executable(NWERC_2020_C MSOE2022Spring/NWERC_2020/C.cpp)
+#add_executable(NWERC_2020_K MSOE2022Spring/NWERC_2020/K.cpp)
+#add_executable(NWERC_2020_H MSOE2022Spring/NWERC_2020/H.cpp)
+#add_executable(NWERC_2020_D MSOE2022Spring/NWERC_2020/D.cpp)
+#add_executable(NWERC_2020_E MSOE2022Spring/NWERC_2020/E.cpp)
+#add_executable(NWERC_2020_I MSOE2022Spring/NWERC_2020/I.cpp)
+#
+#add_executable(MSOE_DP_A MSOE2022Spring/MSOE_CP_DP/A.cpp)
+#add_executable(MSOE_DP_B MSOE2022Spring/MSOE_CP_DP/B.cpp)
+#add_executable(MSOE_DP_C MSOE2022Spring/MSOE_CP_DP/C.cpp)
+#add_executable(MSOE_DP_D MSOE2022Spring/MSOE_CP_DP/D.cpp)
+#
+#add_executable(DisjointMinTable MSOE2022Spring/MCPC21/DisjointMinTable.cpp)
+#add_executable(DoublePassword MSOE2022Spring/MCPC21/DoublePassword.cpp)
+#add_executable(WhoGoesThere MSOE2022Spring/MCPC21/WhoGoesThere.cpp)
+#
+#add_executable(MiniBattleship MSOE2022Spring/NAC_2020/MiniBattleship.cpp)
+#add_executable(Hopscotch50 MSOE2022Spring/NAC_2020/Hopscotch50.cpp)
+#add_executable(LetterWheels MSOE2022Spring/NAC_2020/LetterWheels.cpp)
+#add_executable(PunchCard MSOE2022Spring/CodeJam/Qualifying/PunchCard.cpp)
+#add_executable(3DPrinting MSOE2022Spring/CodeJam/Qualifying/3DPrinting.cpp)
+#add_executable(dn MSOE2022Spring/CodeJam/Qualifying/dn.cpp)
 
-# --- BAPC 2013 ---
-add_executable(BAPC2013_A MSOE2022Winter/BAPC2013/BAPC2013_A.cpp)
-add_executable(BAPC2013_I MSOE2022Winter/BAPC2013/BAPC2013_I.cpp)
-add_executable(BAPC2013_F MSOE2022Winter/BAPC2013/BAPC2013_F.cpp)
-add_executable(BAPC2013_C MSOE2022Winter/BAPC2013/BAPC2013_C.cpp)
-add_executable(BAPC2013_D MSOE2022Winter/BAPC2013/BAPC2013_D.cpp)
-add_executable(BAPC2013_B MSOE2022Winter/BAPC2013/BAPC2013_B.cpp)
+add_executable(DoubleOrOneThing MSOE2022Spring/CodeJam/1A/DoubleOrOneThing.cpp)
+add_executable(EqualSum MSOE2022Spring/CodeJam/1A/EqualSum.cpp)
+add_executable(WeightLifting MSOE2022Spring/CodeJam/1A/WeightLifting.cpp)
 
-
-add_executable(NWERC_2020_C MSOE2022Spring/NWERC_2020/C.cpp)
-add_executable(NWERC_2020_K MSOE2022Spring/NWERC_2020/K.cpp)
-add_executable(NWERC_2020_H MSOE2022Spring/NWERC_2020/H.cpp)
-add_executable(NWERC_2020_D MSOE2022Spring/NWERC_2020/D.cpp)
-add_executable(NWERC_2020_E MSOE2022Spring/NWERC_2020/E.cpp)
-add_executable(NWERC_2020_I MSOE2022Spring/NWERC_2020/I.cpp)
-
-add_executable(MSOE_DP_A MSOE2022Spring/MSOE_CP_DP/A.cpp)
-add_executable(MSOE_DP_B MSOE2022Spring/MSOE_CP_DP/B.cpp)
-add_executable(MSOE_DP_C MSOE2022Spring/MSOE_CP_DP/C.cpp)
-add_executable(MSOE_DP_D MSOE2022Spring/MSOE_CP_DP/D.cpp)
-
-add_executable(DisjointMinTable MSOE2022Spring/MCPC21/DisjointMinTable.cpp)
-add_executable(DoublePassword MSOE2022Spring/MCPC21/DoublePassword.cpp)
-add_executable(WhoGoesThere MSOE2022Spring/MCPC21/WhoGoesThere.cpp)
-
-add_executable(MiniBattleship MSOE2022Spring/NAC_2020/MiniBattleship.cpp)
-add_executable(Hopscotch50 MSOE2022Spring/NAC_2020/Hopscotch50.cpp)
-add_executable(LetterWheels MSOE2022Spring/NAC_2020/LetterWheels.cpp)
-add_executable(PunchCard MSOE2022Spring/CodeJam/Qualifying/PunchCard.cpp)
-add_executable(3DPrinting MSOE2022Spring/CodeJam/Qualifying/3DPrinting.cpp)
-add_executable(dn MSOE2022Spring/CodeJam/Qualifying/dn.cpp)
-
-
-
+add_executable(PancakeDeque  MSOE2022Spring/CodeJam/1B/PancakeDeque.cpp)
 
 #include_directories(/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++)
 #include_directories(/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1)

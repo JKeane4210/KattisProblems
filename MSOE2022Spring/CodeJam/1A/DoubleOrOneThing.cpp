@@ -1,3 +1,7 @@
+//
+// Created by Jonny Keane on 4/8/22.
+//
+
 #include <bits/stdc++.h>
 
 #define ll long long
@@ -29,11 +33,34 @@
 
 using namespace std;
 
+void solve(int num) {
+    string s;
+    cin >> s;
+    string res;
+    for (int i = 0; i < s.length() - 1; ++i) {
+        int j = i + 1;
+        while (s[i] == s[j] && j < s.length()) {
+            ++j;
+        }
+        if (j != s.length() && s[i] < s[j]) {
+            res += string(2, s[i]);
+        } else {
+            res += string(1, s[i]);
+        }
+    }
+    res += string(1, s[s.length() - 1]);
+    cout << "Case #" << num << ": " << res << endl;
+}
+
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(0);
 
-    // code here
+    int n;
+    cin >> n;
+    for (int i = 1; i <= n; ++i) {
+        solve(i);
+    }
 
     return 0;
 }
