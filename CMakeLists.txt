@@ -244,5 +244,7 @@ add_executable(WeightLifting MSOE2022Spring/CodeJam/1A/WeightLifting.cpp)
 
 add_executable(PancakeDeque  MSOE2022Spring/CodeJam/1B/PancakeDeque.cpp)
 
+add_executable(SpiralingIntoControl MSOE2022Spring/CodeJam/2/SpiralingIntoControl.cpp)
+
 #include_directories(/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++)
 #include_directories(/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1)
