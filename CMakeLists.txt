@@ -247,5 +247,12 @@ add_executable(PancakeDeque  MSOE2022Spring/CodeJam/1B/PancakeDeque.cpp)
 add_executable(SpiralingIntoControl MSOE2022Spring/CodeJam/2/SpiralingIntoControl.cpp)
 add_executable(PixelatedCircle MSOE2022Spring/CodeJam/2/PixelatedCircle.cpp)
 
+add_executable(DiceGame MSOE2022Spring/NAC2022_Practice5/DiceGame.cpp)
+add_executable(OpeningCeremony MSOE2022Spring/NAC2022_Practice5/OpeningCeremony.cpp)
+add_executable(TrainPassengers MSOE2022Spring/NAC2022_Practice5/TrainPassengers.cpp)
+add_executable(ClockPictures MSOE2022Spring/NAC2022_Practice5/ClockPictures.cpp)
+add_executable(Outing MSOE2022Spring/NAC2022_Practice5/Outing.cpp)
+add_executable(HowManySquares MSOE2022Spring/NAC2022_Practice5/HowManySquares.cpp)
+
 #include_directories(/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++)
 #include_directories(/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1)
