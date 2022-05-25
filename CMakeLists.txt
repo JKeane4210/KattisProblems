@@ -254,5 +254,7 @@ add_executable(ClockPictures MSOE2022Spring/NAC2022_Practice5/ClockPictures.cpp)
 add_executable(Outing MSOE2022Spring/NAC2022_Practice5/Outing.cpp)
 add_executable(HowManySquares MSOE2022Spring/NAC2022_Practice5/HowManySquares.cpp)
 
+add_executable(TBOB MSOE2022Spring/Other/ThreeBlueOneBrownVid.cpp)
+
 #include_directories(/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++)
 #include_directories(/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1)
