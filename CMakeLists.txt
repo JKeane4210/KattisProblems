@@ -242,7 +242,13 @@ add_executable(DoubleOrOneThing MSOE2022Spring/CodeJam/1A/DoubleOrOneThing.cpp)
 add_executable(EqualSum MSOE2022Spring/CodeJam/1A/EqualSum.cpp)
 add_executable(WeightLifting MSOE2022Spring/CodeJam/1A/WeightLifting.cpp)
 
-add_executable(PancakeDeque  MSOE2022Spring/CodeJam/1B/PancakeDeque.cpp)
+add_executable(PancakeDeque MSOE2022Spring/CodeJam/1B/PancakeDeque.cpp)
+
+add_executable(ConquestCampaign MSOE2022Spring/NAC2022_Practice3/ConquestCampaign.cpp)
+add_executable(HydraHeads MSOE2022Spring/NAC2022_Practice3/HydraHeads.cpp)
+
+add_executable(HowManySquares MSOE2022Spring/NAC2022_Practice5_Plane/HowManySquares.cpp)
+#add_executable(HowManySquaresTLE MSOE2022Spring/NAC2022_Practice5_Plane/HowManySquaresTLE.cpp)
 
 #include_directories(/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++)
 #include_directories(/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1)
