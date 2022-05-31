@@ -256,11 +256,28 @@ add_executable(PixelatedCircle MSOE2022Spring/CodeJam/2/PixelatedCircle.cpp)
 add_executable(DiceGame MSOE2022Spring/NAC2022_Practice5/DiceGame.cpp)
 add_executable(OpeningCeremony MSOE2022Spring/NAC2022_Practice5/OpeningCeremony.cpp)
 add_executable(TrainPassengers MSOE2022Spring/NAC2022_Practice5/TrainPassengers.cpp)
-add_executable(ClockPictures MSOE2022Spring/NAC2022_Practice5/ClockPictures.cpp)
+add_executable(ClockPictures MSOE2022Spring/NAC2022_Practice5/ClockPictures.cpp MSOE2022Spring/NAPC2022/Day1/Pinfall.cpp MSOE2022Spring/NAPC2022/Day2/CantStopPlaying.cpp)
 add_executable(Outing MSOE2022Spring/NAC2022_Practice5/Outing.cpp)
-add_executable(HowManySquares MSOE2022Spring/NAC2022_Practice5/HowManySquares.cpp)
+#add_executable(HowManySquares MSOE2022Spring/NAC2022_Practice5/HowManySquares.cpp)
 
 add_executable(TBOB MSOE2022Spring/Other/ThreeBlueOneBrownVid.cpp)
+add_executable(Pinfall MSOE2022Spring/NAPC2022/Day1/Pinfall.cpp)
 
+add_executable(CantStopPlaying MSOE2022Spring/NAPC2022/Day2/CantStopPlaying.cpp)
+add_executable(AnimalClass MSOE2022Spring/NAPC2022/Day2/AnimalClassification.cpp)
+
+# ------------------------------ NAC 2022 ------------------------------
+
+add_executable(WordLadder MSOE2022Spring/NAC22/WordLadder.cpp)
+add_executable(TicTacToeCounting MSOE2022Spring/NAC22/TicTacToeCounting.cpp)
+add_executable(ContactTracing MSOE2022Spring/NAC22/ContactTracing.cpp)
+
+#add_executable(EnergyDrinks MSOE2022Spring/NAPC2022/Lockout/EnergyDrinks.cpp)
+#add_executable(CurrencySys MSOE2022Spring/NAPC2022/Lockout/CurrencySys.cpp)
+
+#add_executable(Uglinees MSOE2022Spring/NAPC2022/Lockout/Uglinesss.cpp)
+#add_executable(Books MSOE2022Spring/NAPC2022/Lockout/A.cpp)
+#add_executable(Grid MSOE2022Spring/NAPC2022/Lockout/C.cpp)
+#add_executable(Tens MSOE2022Spring/NAPC2022/Lockout/D.cpp)
 #include_directories(/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++)
 #include_directories(/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1)
