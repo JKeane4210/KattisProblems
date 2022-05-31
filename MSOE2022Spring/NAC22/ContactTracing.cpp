@@ -56,8 +56,8 @@ int main() {
     }
 
     set<int> quarantine;
-
     queue<pii> q;
+
     for (int i = 0; i < n; ++i) {
         if (latest_contact[i] == 1) {
             q.push(mp(i, 1));
