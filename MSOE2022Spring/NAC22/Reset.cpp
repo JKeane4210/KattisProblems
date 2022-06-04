@@ -64,7 +64,7 @@ int main() {
     }
     // in order of value, try spending a second to research
     int time_before_reset = c;
-    while (!pq0.empty()) {
+    while (!pq0.empty() && time_before_reset != 0) {
         int top = pq0.top();
         pq0.pop();
         --time_before_reset;
@@ -89,7 +89,7 @@ int main() {
     ll min_resets = right;
     while (left <= right) {
         ll research_resets = left + (right - left) / 2ll;
-        cerr << "Research Resets: " << research_resets << " (" << left << " " << right << ")" << endl;
+//        cerr << "Research Resets: " << research_resets << " (" << left << " " << right << ")" << endl;
 
         curr_time_needed = time_needed;
         priority_queue<tuple<int, int, int>> pq; // {value, number of resets}
@@ -107,7 +107,7 @@ int main() {
             else {
                 pq.push(make_tuple(times[i][1], researches, i));
 //                cerr << i << ": " << researches << endl;
-                // if you have another day to remove, do it
+                // if you have another day to remove the remainder, put in queue
                 if (times[i][0] % times[i][1] != 0 && research_resets - researches >= 1) {
                     pq.push(make_tuple(times[i][0] % times[i][1], 1, i));
 //                    cerr << i << ": " << 1 << endl;
@@ -167,7 +167,7 @@ int main() {
         // in order of value, try spending a second to research
         bool solution_found = false;
         time_before_reset = c;
-        while (!pq2.empty()) {
+        while (!pq2.empty() && time_before_reset != 0) {
             int top = pq2.top();
             pq2.pop();
             --time_before_reset;
