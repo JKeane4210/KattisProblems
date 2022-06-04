@@ -272,6 +272,7 @@ add_executable(WordLadder MSOE2022Spring/NAC22/WordLadder.cpp)
 add_executable(TicTacToeCounting MSOE2022Spring/NAC22/TicTacToeCounting.cpp)
 add_executable(ContactTracing MSOE2022Spring/NAC22/ContactTracing.cpp)
 add_executable(RaftingTrip MSOE2022Spring/NAC22/RaftingTrip.cpp)
+add_executable(Reset MSOE2022Spring/NAC22/Reset.cpp)
 
 #add_executable(EnergyDrinks MSOE2022Spring/NAPC2022/Lockout/EnergyDrinks.cpp)
 #add_executable(CurrencySys MSOE2022Spring/NAPC2022/Lockout/CurrencySys.cpp)
