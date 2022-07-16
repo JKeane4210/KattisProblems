@@ -277,6 +277,9 @@ add_executable(Reset MSOE2022Spring/NAC22/Reset.cpp)
 #add_executable(EnergyDrinks MSOE2022Spring/NAPC2022/Lockout/EnergyDrinks.cpp)
 #add_executable(CurrencySys MSOE2022Spring/NAPC2022/Lockout/CurrencySys.cpp)
 
+add_executable(Accounting MSOE2022Summer/RandomProblems/Accounting.cpp)
+add_executable(EightQueens MSOE2022Summer/RandomProblems/EightQueens.cpp)
+
 #add_executable(Uglinees MSOE2022Spring/NAPC2022/Lockout/Uglinesss.cpp)
 #add_executable(Books MSOE2022Spring/NAPC2022/Lockout/A.cpp)
 #add_executable(Grid MSOE2022Spring/NAPC2022/Lockout/C.cpp)
