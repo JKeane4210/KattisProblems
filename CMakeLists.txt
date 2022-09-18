@@ -281,6 +281,7 @@ add_executable(Accounting MSOE2022Summer/RandomProblems/Accounting.cpp)
 add_executable(EightQueens MSOE2022Summer/RandomProblems/EightQueens.cpp)
 add_executable(zipflaw MSOE2022Summer/RandomProblems/zipflaw.cpp)
 add_executable(cuttingcorners MSOE2022Summer/RandomProblems/cuttingcorners.cpp)
+add_executable(savingtheuniverse MSOE2022Summer/RandomProblems/savingtheuniverse.cpp)
 
 #add_executable(Uglinees MSOE2022Spring/NAPC2022/Lockout/Uglinesss.cpp)
 #add_executable(Books MSOE2022Spring/NAPC2022/Lockout/A.cpp)
