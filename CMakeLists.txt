@@ -282,6 +282,8 @@ add_executable(EightQueens MSOE2022Summer/RandomProblems/EightQueens.cpp)
 add_executable(zipflaw MSOE2022Fall/W2/zipflaw.cpp)
 add_executable(cuttingcorners MSOE2022Fall/W2/cuttingcorners.cpp)
 add_executable(savingtheuniverse MSOE2022Fall/W2/savingtheuniverse.cpp)
+add_executable(numbersonatree MSOE2022Fall/W3/numbersonatree.cpp)
+add_executable(chewbacca MSOE2022Fall/W3/chewbacca.cpp)
 
 #add_executable(Uglinees MSOE2022Spring/NAPC2022/Lockout/Uglinesss.cpp)
 #add_executable(Books MSOE2022Spring/NAPC2022/Lockout/A.cpp)

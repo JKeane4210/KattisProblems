@@ -1,3 +1,7 @@
+//
+// Created by keanej on 9/27/2022.
+//
+
 #include <bits/stdc++.h>
 
 #define ll long long
@@ -32,6 +36,25 @@ using namespace std;
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(0);
+
+    int n;
+    cin >> n;
+    int start = (1 << (n + 1)) - 1;
+    string s;
+    getline(cin, s);
+    int remove = 1;
+    int val = 0;
+    for (char c: s) {
+        if (c != 'L' && c != 'R') continue;
+        if (c == 'L') {
+            val |= 1;
+        }
+        remove <<= 1;
+        start -= remove;
+        val <<= 1;
+    }
+    val >>= 1;
+    cout << val + start << endl;
 
     return 0;
 }
