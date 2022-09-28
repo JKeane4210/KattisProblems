@@ -284,6 +284,7 @@ add_executable(cuttingcorners MSOE2022Fall/W2/cuttingcorners.cpp)
 add_executable(savingtheuniverse MSOE2022Fall/W2/savingtheuniverse.cpp)
 add_executable(numbersonatree MSOE2022Fall/W3/numbersonatree.cpp)
 add_executable(chewbacca MSOE2022Fall/W3/chewbacca.cpp)
+add_executable(marblesonatree MSOE2022Fall/W3/marblesonatree.cpp)
 
 #add_executable(Uglinees MSOE2022Spring/NAPC2022/Lockout/Uglinesss.cpp)
 #add_executable(Books MSOE2022Spring/NAPC2022/Lockout/A.cpp)
