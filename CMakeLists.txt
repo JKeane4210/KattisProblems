@@ -288,6 +288,7 @@ add_executable(marblesonatree MSOE2022Fall/W3/marblesonatree.cpp)
 add_executable(grid MSOE2022Fall/W4/grid.cpp)
 add_executable(wheresmyinternet MSOE2022Fall/W4/wheresmyinternet.cpp)
 add_executable(weakvertices MSOE2022Fall/W4/weakvertices.cpp)
+add_executable(dungeonmaster MSOE2022Fall/W4/dungeonmaster.cpp)
 
 #add_executable(Uglinees MSOE2022Spring/NAPC2022/Lockout/Uglinesss.cpp)
 #add_executable(Books MSOE2022Spring/NAPC2022/Lockout/A.cpp)
