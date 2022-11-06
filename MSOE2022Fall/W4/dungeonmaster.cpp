@@ -71,6 +71,7 @@ void solve(int l, int r, int c) {
             }
         }
     }
+    
 
     queue<tuple<int, int, int, int>> q;
     q.push(start);
