@@ -293,9 +293,9 @@ add_executable(dungeonmaster MSOE2022Fall/W4/dungeonmaster.cpp)
 
 add_executable(8BitTollRoad MSOE2022Fall/BuckeyeProgrammingComp/EightBitTollRoad.cpp)
 
-add_executable(A MSOE2022Fall/CodeTON3/A.cpp)
-add_executable(B MSOE2022Fall/CodeTON3/B.cpp)
-add_executable(C MSOE2022Fall/CodeTON3/C.cpp)
+add_executable(A MSOE2022Fall/Codeforces833/A.cpp)
+add_executable(B MSOE2022Fall/Codeforces833/B.cpp)
+add_executable(C MSOE2022Fall/Codeforces833/C.cpp)
 add_executable(D MSOE2022Fall/CodeTON3/D.cpp)
 
 #add_executable(Uglinees MSOE2022Spring/NAPC2022/Lockout/Uglinesss.cpp)
