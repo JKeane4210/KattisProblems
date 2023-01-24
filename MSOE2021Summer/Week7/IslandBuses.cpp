@@ -40,7 +40,6 @@ int main() {
     vector<string> currMap;
     vector<vector<int>> islands;
     vector<vector<int>> bridges;
-    vector<vector<int>> buses;
     string line;
     int rows = 0;
     int mapNum = 1;
@@ -57,7 +56,6 @@ int main() {
                 for (int j = 0; j < columns; ++j) {
                     islands[i][j] = currMap[i][j] == 'X' || currMap[i][j] == '#' ? 0 : -1;
                     bridges[i][j] = currMap[i][j] == 'B' ? 0 : -1;
-                    buses[i][j] = islands[i][j] == 0 || bridges[i][j] == 0 ? 0 : -1;
                 }
             }
             // islands
@@ -94,11 +92,11 @@ int main() {
                         ++bridgeNum;
                         int delta[2];
                         int a;
-                        if (i > 0 && currMap[i - 1][j] == 'X') {
+                        if (i > 0 && currMap[i - 1][j] == 'X') { // going horizontal
                             delta[0] = 1;
                             delta[1] = 0;
                             a = islands[i - 1][j];
-                        } else {
+                        } else { // going vertical
                             delta[0] = 0;
                             delta[1] = 1;
                             a = islands[i][j - 1];
@@ -116,15 +114,16 @@ int main() {
                     }
                 }
             }
+            // buses
             set<int> visited;
             int curr = 0;
             while (visited.size() != islandNum) {
-                ++curr;
-                if (visited.count(curr) != 0) continue;
-                ++busNum;
+                ++curr; // get the next island
+                if (visited.count(curr) != 0) continue; // if already have bus for this island, continue
+                ++busNum; // otherwise, add another bus
                 queue<int> q;
                 q.push(curr);
-                while (!q.empty()) {
+                while (!q.empty()) { // add all connecting islands (BFS)
                     int top = q.front();
                     q.pop();
                     if (visited.count(top) != 0) continue;
@@ -142,14 +141,12 @@ int main() {
             currMap.clear();
             islands.clear();
             bridges.clear();
-            buses.clear();
             ++mapNum;
         } else {
             columns = line.size();
             currMap.emplace_back(line);
             islands.emplace_back(vector<int>(line.size()));
             bridges.emplace_back(vector<int>(line.size()));
-            buses.emplace_back(vector<int>(line.size()));
         }
     }
 
@@ -162,7 +159,6 @@ int main() {
         for (int j = 0; j < columns; ++j) {
             islands[i][j] = currMap[i][j] == 'X' || currMap[i][j] == '#' ? 0 : -1;
             bridges[i][j] = currMap[i][j] == 'B' ? 0 : -1;
-            buses[i][j] = islands[i][j] == 0 || bridges[i][j] == 0 ? 0 : -1;
         }
     }
     // islands

@@ -298,6 +298,8 @@ add_executable(B MSOE2022Fall/Codeforces833/B.cpp)
 add_executable(C MSOE2022Fall/Codeforces833/C.cpp)
 add_executable(D MSOE2022Fall/CodeTON3/D.cpp)
 
+add_executable(EvenUpSolitaire MSOE2023Winter/EvenUpSolitaire.cpp)
+
 #add_executable(Uglinees MSOE2022Spring/NAPC2022/Lockout/Uglinesss.cpp)
 #add_executable(Books MSOE2022Spring/NAPC2022/Lockout/A.cpp)
 #add_executable(Grid MSOE2022Spring/NAPC2022/Lockout/C.cpp)

@@ -36,7 +36,7 @@ int powSum(int num) {
     if (num == 1) {
         return 1;
     } else {
-        return num + powSum(num / 3);
+        return num + (num / 2);
     }
 }
 
@@ -47,10 +47,19 @@ void ternarianWeights() {
     vector<int> left;
     vector<int> right;
     while (x != 0) {
-        if (x < 0 && -x + powSum(pow / 3) >= pow) {
+        // check which side of the balance you are on because always
+        // want to go in the direction of bringing closer to 0
+
+        // if adding current weight to the left pan can be matched
+        // or exceeded by all remaining weights, add this weight to
+        // the left pan and solve the problems towards new weight separation
+        if (x < 0 && powSum(pow / 3) >= x + pow) {
             left.push_back(pow);
             x += pow;
         }
+        // if current left weight + all potential remaining weights
+        // can match or exceed adding this weight to the right pan,
+        // add it and solve the problem towards new weight separation
         if (x > 0 && x + powSum(pow / 3) >= pow) {
             right.push_back(pow);
             x -= pow;
