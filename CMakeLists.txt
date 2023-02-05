@@ -299,6 +299,12 @@ add_executable(C MSOE2022Fall/Codeforces833/C.cpp)
 add_executable(D MSOE2022Fall/CodeTON3/D.cpp)
 
 add_executable(EvenUpSolitaire MSOE2023Winter/EvenUpSolitaire.cpp)
+add_executable(01Seq MSOE2023Winter/01Sequences.cpp)
+add_executable(BeastBullies MSOE2023Winter/NAQ/BeastBullies.cpp)
+add_executable(SpideyDistance MSOE2023Winter/NAQ/SpideyDistance.cpp)
+
+add_executable(ClassFieldTrip MSOE2023Winter/NAQ/ClassFieldTrip.cpp)
+add_executable(GhostLeg MSOE2023Winter/NAQ/GhostLeg.cpp)
 
 #add_executable(Uglinees MSOE2022Spring/NAPC2022/Lockout/Uglinesss.cpp)
 #add_executable(Books MSOE2022Spring/NAPC2022/Lockout/A.cpp)
