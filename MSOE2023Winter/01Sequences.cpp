@@ -35,16 +35,32 @@ using namespace std;
 
 ll MOD = 1000000007;
 
-// idea handle it reversed (mentality of pushing 0's left)
-ll seqs(const string & s, int i, int ones) {
-    if (i == s.length()) return 0;
-    if (s[i] == '0') {
-        return ones + seqs(s, i + 1, ones); // ned some way of handling how many times this happens
-    } else if (s[i] == '1') {
-        return seqs(s, i + 1, ones + 1);
-    } else { // '?'
-       return ones + seqs(s, i + 1, ones) + seqs(s, i + 1, ones + 1);
+ll seqs(const string & s) {
+    int n = (int)s.length();
+    vll poss_pow = vll();
+    poss_pow.pb(0);
+    poss_pow.pb(1);
+    for (int i = 0; i < n; ++i) {
+        if (s[i] == '?') {
+            poss_pow.pb((poss_pow[poss_pow.size() - 1] * 2) % MOD);
+        }
     }
+    ll ones = 0;
+    ll ones_div_2 = 0;
+    ll shifts = 0;
+    for (int i = 0; i < n; ++i) {
+        if (s[i] == '1') {
+            ones = (ones + poss_pow[poss_pow.size() - 1]) % MOD;
+            ones_div_2 = (ones_div_2 + poss_pow[poss_pow.size() - 2]) % MOD;
+        } else if (s[i] == '0') {
+            shifts = (shifts + ones) % MOD;
+        } else if (s[i] == '?') {
+            shifts = (shifts + ones_div_2) % MOD;
+            ones = (ones + poss_pow[poss_pow.size() - 2]) % MOD;
+            ones_div_2 = (ones_div_2 + poss_pow[poss_pow.size() - 3]) % MOD;
+        }
+    }
+    return shifts;
 }
 
 int main() {
@@ -53,7 +69,7 @@ int main() {
 
     string s;
     cin >> s;
-    cout << seqs(s, 0, 0) << endl;
+    cout << seqs(s) << endl;
 
     return 0;
 }

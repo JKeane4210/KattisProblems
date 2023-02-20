@@ -305,6 +305,7 @@ add_executable(SpideyDistance MSOE2023Winter/NAQ/SpideyDistance.cpp)
 
 add_executable(ClassFieldTrip MSOE2023Winter/NAQ/ClassFieldTrip.cpp)
 add_executable(GhostLeg MSOE2023Winter/NAQ/GhostLeg.cpp)
+add_executable(TollRoads MSOE2023Winter/NAQ/TollRoads.cpp)
 
 #add_executable(Uglinees MSOE2022Spring/NAPC2022/Lockout/Uglinesss.cpp)
 #add_executable(Books MSOE2022Spring/NAPC2022/Lockout/A.cpp)
