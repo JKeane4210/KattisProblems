@@ -33,8 +33,6 @@
 
 using namespace std;
 
-// idea: can we keep track of the size at each fork => it's hard to say where to stop tho
-
 struct UF {
     vi e;
     UF(int n) : e(n, -1) {}
@@ -56,9 +54,8 @@ int main() {
 
     int n, m, q;
     cin >> n >> m >> q;
-    V<pair<int, pii>> edges;
     priority_queue<pair<int, pii>, vector<pair<int, pii>>, greater<>> pq;
-    V<set<int>> queries(n, set<int>());
+    V<unordered_set<int>> queries(n, unordered_set<int>());
     vpii sols(q, {0, 0}); // {min_dist, num_cities}
     for (int i = 0; i < m; ++i) {
         int a, b, t;
@@ -76,70 +73,58 @@ int main() {
     }
 
     // perform Kruskal's to get MST edges
-    UF kruskalUnionFind(n);
+    UF unionFind(n);
     int connectionsMade = 0;
+    int curr_w = pq.top().first;
+    vpii w_sols;
     while(connectionsMade < n - 1) {
         auto top = pq.top();
         pq.pop();
         int a = top.second.first, b = top.second.second;
-        if (!kruskalUnionFind.same(a, b)) {
-            kruskalUnionFind.join(a, b);
-            edges.pb(top);
-            ++connectionsMade;
-        }
-    }
-
-    // union find for combining them
-    UF unionFind(n);
-    sort(edges.begin(), edges.end());
-
-    int curr_w = edges[0].first;
-    vpii w_sols;
-    // processes edges in sorted order
-    for (int i = 0; i < edges.size(); ++i) {
-        if (q == 0) break;
-        int rep_a = unionFind.find(edges[i].second.first);
-        int rep_b = unionFind.find(edges[i].second.second);
-        // if not together, merge them
+        int rep_a = unionFind.find(a); // logq
+        int rep_b = unionFind.find(b); // logq
         if (rep_a != rep_b) {
-            // want |rep_a| to be >= |rep_b|
-            if (unionFind.size(rep_a) < unionFind.size(rep_b)) swap(rep_a, rep_b);
-            auto ap = queries[rep_a].begin();
-            auto bp = queries[rep_b].begin();
-            // add any queries that are satisfied
-            while (ap != queries[rep_a].end() && bp != queries[rep_b].end()) {
-                if (*ap > *bp) bp++; // b has smaller query index
-                else if (*ap < *bp) ap++; // b has smaller query index
-                else { // equal (shared query)
-                    w_sols.pb({*ap, rep_a});
-                    queries[rep_a].erase(ap++); // logn
-                    queries[rep_b].erase(bp++); // logn
+            if (unionFind.size(rep_a) < unionFind.size(rep_b)) swap(rep_a, rep_b); // logq
+            if (top.first != curr_w) {
+                for (auto sol: w_sols) { // overall this will happen q times
+                    sols[sol.first] = {curr_w, unionFind.size(sol.second)};
                 }
+                w_sols.clear();
+                curr_w = top.first;
             }
-            // unite components
             unionFind.join(rep_a, rep_b);
-            // update annotated queries: merge smaller to larger
+
             if (queries[rep_a].size() > queries[rep_b].size()) {
-                queries[rep_a].insert(queries[rep_b].begin(), queries[rep_b].end());
+                for (int query: queries[rep_b]) {
+                    if (queries[rep_a].find(query) == queries[rep_a].end()) {
+                        queries[rep_a].insert(query);
+                    } else {
+                        queries[rep_a].erase(query);
+                        w_sols.pb({query, rep_a});
+                    }
+                }
             } else {
-                queries[rep_b].insert(queries[rep_a].begin(), queries[rep_a].end());
+                for (int query: queries[rep_a]) {
+                    if (queries[rep_b].find(query) == queries[rep_b].end()) {
+                        queries[rep_b].insert(query);
+                    } else {
+                        queries[rep_b].erase(query);
+                        w_sols.pb({query, rep_a});
+                    }
+                }
                 queries[rep_a] = queries[rep_b];
             }
-        }
-        // if you have processed all of a certain weight, solve solutions you can
-        if (i == edges.size() - 1 || curr_w != edges[i + 1].first) {
-            // update all solutions that pertain
-            for (auto sol: w_sols) {
-                sols[sol.first] = {curr_w, unionFind.size(sol.second)};
-                q--;
+
+            ++connectionsMade;
+            if (connectionsMade == n - 1) {
+                for (auto sol: w_sols) { // overall this will happen q times
+                    sols[sol.first] = {curr_w, unionFind.size(sol.second)};
+                }
             }
-            w_sols.clear();
-            if (curr_w != edges[i + 1].first)
-                curr_w = edges[i + 1].first;
         }
     }
 
-    for (auto sol: sols) {
+    for (auto sol: sols) { // q
         cout << sol.first << " " << sol.second << endl;
     }
 
