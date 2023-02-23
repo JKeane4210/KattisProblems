@@ -310,6 +310,7 @@ add_executable(PlatformPlacing MSOE2023Winter/NAQ/PlatformPlacing.cpp)
 add_executable(MazeMan MSOE2023Winter/NAQ/MazeMan.cpp)
 add_executable(MovieNight MSOE2023Winter/NAQ/MovieNight.cpp)
 add_executable(RoomEvacuation MSOE2023Winter/NAQ/RoomEvacuation.cpp)
+add_executable(BirthdayGift MSOE2023Winter/NAQ/BirthdayGift.cpp)
 
 #add_executable(Uglinees MSOE2022Spring/NAPC2022/Lockout/Uglinesss.cpp)
 #add_executable(Books MSOE2022Spring/NAPC2022/Lockout/A.cpp)
