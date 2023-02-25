@@ -316,6 +316,7 @@ add_executable(LostLineup MSOE2023Winter/LostLineup.cpp)
 add_executable(IntegerDivision MSOE2023Winter/IntegerDivision.cpp)
 add_executable(NoThanks MSOE2023Winter/NoThanks.cpp)
 add_executable(PieceOfCake MSOE2023Winter/PieceOfCake.cpp)
+add_executable(ChainReactions MSOE2023Winter/ChainReactions.cpp)
 
 #add_executable(Uglinees MSOE2022Spring/NAPC2022/Lockout/Uglinesss.cpp)
 #add_executable(Books MSOE2022Spring/NAPC2022/Lockout/A.cpp)
