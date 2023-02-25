@@ -33,15 +33,16 @@
 
 using namespace std;
 
-int calc_leafs(int curr, int * leafs, const V<vi> & conns) {
-    if (conns[curr].empty()) { leafs[curr] = 1; return 1; }
-    int num_leaves = 0;
-    for (auto child: conns[curr]) {
-        num_leaves += calc_leafs(child, leafs, conns);
-    }
-    leafs[curr] = num_leaves;
-    return leafs[curr];
-}
+// [UNUSED IN FINAL IMPLEMENTATION]
+//int calc_leafs(int curr, int * leafs, const V<vi> & conns) {
+//    if (conns[curr].empty()) { leafs[curr] = 1; return 1; }
+//    int num_leaves = 0;
+//    for (auto child: conns[curr]) {
+//        num_leaves += calc_leafs(child, leafs, conns);
+//    }
+//    leafs[curr] = num_leaves;
+//    return leafs[curr];
+//}
 
 void solve(int c) {
     int n;
@@ -73,9 +74,9 @@ void solve(int c) {
     // tracking of sets of numbers set up
     V<multiset<ll>> vs(n + 1, multiset<ll>());
 
-    // calculate the number of leafs under a node
-    int * leafs = (int *)calloc(n + 1, sizeof(int));
-    calc_leafs(0, leafs, conns);
+    // calculate the number of leafs under a node [UNUSED IN FINAL IMPLEMENTATION]
+//    int * leafs = (int *)calloc(n + 1, sizeof(int));
+//    calc_leafs(0, leafs, conns);
 
     queue<int> q;
     for (int i = 1; i <= n; ++i) {
