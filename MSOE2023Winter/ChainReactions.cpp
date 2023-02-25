@@ -72,9 +72,6 @@ void solve(int c) {
 
     // tracking of sets of numbers set up
     V<multiset<ll>> vs(n + 1, multiset<ll>());
-    for (int i = 1; i <= n; ++i) {
-        vs[i].insert(fun[i]);
-    }
 
     // calculate the number of leafs under a node
     int * leafs = (int *)calloc(n + 1, sizeof(int));
@@ -86,27 +83,28 @@ void solve(int c) {
             q.push(i);
         }
     }
+    ll res = 0;
     // fill results from root up
     while (!q.empty()) {
         auto top = q.front(); q.pop();
         if (top == 0) continue;
         // remove the smallest element (can I do this?)
-        if (indeg[top] != 0) vs[top].erase(vs[top].begin());
+        ll next = fun[top];
+        if (indeg[top] != 0) {
+            next = max(next, *vs[top].begin());
+            vs[top].erase(vs[top].begin());
+        }
         // merge smaller to larger
-        if (vs[top].size() < vs[conn[top]].size()) {
-            vs[conn[top]].insert(vs[top].begin(), vs[top].end());
-        } else {
-            vs[top].insert(vs[conn[top]].begin(), vs[conn[top]].end());
-            vs[conn[top]] = vs[top];
+        vs[conn[top]].insert(next);
+        for (auto v: vs[top]) {
+            res += v;
         }
         // need to check if you have something from each leaf plus the parent
-        if (vs[conn[top]].size() == leafs[conn[top]] + 1) {
+        if (vs[conn[top]].size() == indeg[conn[top]]) {
             q.push(conn[top]);
         }
     }
-
-    // calculate chain reaction that got to the end
-    ll res = 0;
+    // get final pieces from root
     for (auto v: vs[0]) {
         res += v;
     }
