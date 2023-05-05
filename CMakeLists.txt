@@ -318,6 +318,11 @@ add_executable(NoThanks MSOE2023Winter/NoThanks.cpp)
 add_executable(PieceOfCake MSOE2023Winter/PieceOfCake.cpp)
 add_executable(ChainReactions MSOE2023Winter/ChainReactions.cpp)
 
+
+add_executable(LastGuess MSOE2023Spring/NWERC22/LastGuess.cpp)
+add_executable(InterviewQuestion MSOE2023Spring/NWERC22/InterviewQuestion.cpp)
+add_executable(NatureReserve MSOE2023Spring/NatureReserve.cpp)
+add_executable(JusticeServed MSOE2023Spring/NWERC22/JusticeServed.cpp)
 #add_executable(Uglinees MSOE2022Spring/NAPC2022/Lockout/Uglinesss.cpp)
 #add_executable(Books MSOE2022Spring/NAPC2022/Lockout/A.cpp)
 #add_executable(Grid MSOE2022Spring/NAPC2022/Lockout/C.cpp)
