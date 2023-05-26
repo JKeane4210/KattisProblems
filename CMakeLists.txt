@@ -238,41 +238,41 @@ add_executable(UnreadMessages MSOE2021Fall/Week1/UnreadMessages.cpp)
 #add_executable(3DPrinting MSOE2022Spring/CodeJam/Qualifying/3DPrinting.cpp)
 #add_executable(dn MSOE2022Spring/CodeJam/Qualifying/dn.cpp)
 
-add_executable(DoubleOrOneThing MSOE2022Spring/CodeJam/1A/DoubleOrOneThing.cpp)
-add_executable(EqualSum MSOE2022Spring/CodeJam/1A/EqualSum.cpp)
-add_executable(WeightLifting MSOE2022Spring/CodeJam/1A/WeightLifting.cpp)
-
-add_executable(PancakeDeque MSOE2022Spring/CodeJam/1B/PancakeDeque.cpp)
-
-add_executable(ConquestCampaign MSOE2022Spring/NAC2022_Practice3/ConquestCampaign.cpp)
-add_executable(HydraHeads MSOE2022Spring/NAC2022_Practice3/HydraHeads.cpp)
-
-add_executable(HowManySquares MSOE2022Spring/NAC2022_Practice5_Plane/HowManySquares.cpp)
-#add_executable(HowManySquaresTLE MSOE2022Spring/NAC2022_Practice5_Plane/HowManySquaresTLE.cpp)
-
-add_executable(SpiralingIntoControl MSOE2022Spring/CodeJam/2/SpiralingIntoControl.cpp)
-add_executable(PixelatedCircle MSOE2022Spring/CodeJam/2/PixelatedCircle.cpp)
-
-add_executable(DiceGame MSOE2022Spring/NAC2022_Practice5/DiceGame.cpp)
-add_executable(OpeningCeremony MSOE2022Spring/NAC2022_Practice5/OpeningCeremony.cpp)
-add_executable(TrainPassengers MSOE2022Spring/NAC2022_Practice5/TrainPassengers.cpp)
-add_executable(ClockPictures MSOE2022Spring/NAC2022_Practice5/ClockPictures.cpp MSOE2022Spring/NAPC2022/Day1/Pinfall.cpp MSOE2022Spring/NAPC2022/Day2/CantStopPlaying.cpp)
-add_executable(Outing MSOE2022Spring/NAC2022_Practice5/Outing.cpp)
-#add_executable(HowManySquares MSOE2022Spring/NAC2022_Practice5/HowManySquares.cpp)
-
-add_executable(TBOB MSOE2022Spring/Other/ThreeBlueOneBrownVid.cpp)
-add_executable(Pinfall MSOE2022Spring/NAPC2022/Day1/Pinfall.cpp)
-
-add_executable(CantStopPlaying MSOE2022Spring/NAPC2022/Day2/CantStopPlaying.cpp)
-add_executable(AnimalClass MSOE2022Spring/NAPC2022/Day2/AnimalClassification.cpp)
-
-# ------------------------------ NAC 2022 ------------------------------
-
-add_executable(WordLadder MSOE2022Spring/NAC22/WordLadder.cpp)
-add_executable(TicTacToeCounting MSOE2022Spring/NAC22/TicTacToeCounting.cpp)
-add_executable(ContactTracing MSOE2022Spring/NAC22/ContactTracing.cpp)
-add_executable(RaftingTrip MSOE2022Spring/NAC22/RaftingTrip.cpp)
-add_executable(Reset MSOE2022Spring/NAC22/Reset.cpp)
+#add_executable(DoubleOrOneThing MSOE2022Spring/CodeJam/1A/DoubleOrOneThing.cpp)
+#add_executable(EqualSum MSOE2022Spring/CodeJam/1A/EqualSum.cpp)
+#add_executable(WeightLifting MSOE2022Spring/CodeJam/1A/WeightLifting.cpp)
+#
+#add_executable(PancakeDeque MSOE2022Spring/CodeJam/1B/PancakeDeque.cpp)
+#
+#add_executable(ConquestCampaign MSOE2022Spring/NAC2022_Practice3/ConquestCampaign.cpp)
+#add_executable(HydraHeads MSOE2022Spring/NAC2022_Practice3/HydraHeads.cpp)
+#
+#add_executable(HowManySquares MSOE2022Spring/NAC2022_Practice5_Plane/HowManySquares.cpp)
+##add_executable(HowManySquaresTLE MSOE2022Spring/NAC2022_Practice5_Plane/HowManySquaresTLE.cpp)
+#
+#add_executable(SpiralingIntoControl MSOE2022Spring/CodeJam/2/SpiralingIntoControl.cpp)
+#add_executable(PixelatedCircle MSOE2022Spring/CodeJam/2/PixelatedCircle.cpp)
+#
+#add_executable(DiceGame MSOE2022Spring/NAC2022_Practice5/DiceGame.cpp)
+#add_executable(OpeningCeremony MSOE2022Spring/NAC2022_Practice5/OpeningCeremony.cpp)
+#add_executable(TrainPassengers MSOE2022Spring/NAC2022_Practice5/TrainPassengers.cpp)
+#add_executable(ClockPictures MSOE2022Spring/NAC2022_Practice5/ClockPictures.cpp MSOE2022Spring/NAPC2022/Day1/Pinfall.cpp MSOE2022Spring/NAPC2022/Day2/CantStopPlaying.cpp)
+#add_executable(Outing MSOE2022Spring/NAC2022_Practice5/Outing.cpp)
+##add_executable(HowManySquares MSOE2022Spring/NAC2022_Practice5/HowManySquares.cpp)
+#
+#add_executable(TBOB MSOE2022Spring/Other/ThreeBlueOneBrownVid.cpp)
+#add_executable(Pinfall MSOE2022Spring/NAPC2022/Day1/Pinfall.cpp)
+#
+#add_executable(CantStopPlaying MSOE2022Spring/NAPC2022/Day2/CantStopPlaying.cpp)
+#add_executable(AnimalClass MSOE2022Spring/NAPC2022/Day2/AnimalClassification.cpp)
+#
+## ------------------------------ NAC 2022 ------------------------------
+#
+#add_executable(WordLadder MSOE2022Spring/NAC22/WordLadder.cpp)
+#add_executable(TicTacToeCounting MSOE2022Spring/NAC22/TicTacToeCounting.cpp)
+#add_executable(ContactTracing MSOE2022Spring/NAC22/ContactTracing.cpp)
+#add_executable(RaftingTrip MSOE2022Spring/NAC22/RaftingTrip.cpp)
+#add_executable(Reset MSOE2022Spring/NAC22/Reset.cpp)
 
 #add_executable(EnergyDrinks MSOE2022Spring/NAPC2022/Lockout/EnergyDrinks.cpp)
 #add_executable(CurrencySys MSOE2022Spring/NAPC2022/Lockout/CurrencySys.cpp)
@@ -301,31 +301,36 @@ add_executable(Reset MSOE2022Spring/NAC22/Reset.cpp)
 #add_executable(EvenUpSolitaire MSOE2023Winter/EvenUpSolitaire.cpp)
 #add_executable(01Seq MSOE2023Winter/01Sequences.cpp)
 
-add_executable(BeastBullies MSOE2023Winter/NAQ/BeastBullies.cpp)
-add_executable(SpideyDistance MSOE2023Winter/NAQ/SpideyDistance.cpp)
-add_executable(ClassFieldTrip MSOE2023Winter/NAQ/ClassFieldTrip.cpp)
-add_executable(GhostLeg MSOE2023Winter/NAQ/GhostLeg.cpp)
-add_executable(TollRoads MSOE2023Winter/NAQ/TollRoads.cpp)
-add_executable(PlatformPlacing MSOE2023Winter/NAQ/PlatformPlacing.cpp)
-add_executable(MazeMan MSOE2023Winter/NAQ/MazeMan.cpp)
-add_executable(MovieNight MSOE2023Winter/NAQ/MovieNight.cpp)
-add_executable(RoomEvacuation MSOE2023Winter/NAQ/RoomEvacuation.cpp)
-add_executable(BirthdayGift MSOE2023Winter/NAQ/BirthdayGift.cpp)
-add_executable(Bribe MSOE2023Winter/Bribe.cpp)
-add_executable(LostLineup MSOE2023Winter/LostLineup.cpp)
-add_executable(IntegerDivision MSOE2023Winter/IntegerDivision.cpp)
-add_executable(NoThanks MSOE2023Winter/NoThanks.cpp)
-add_executable(PieceOfCake MSOE2023Winter/PieceOfCake.cpp)
-add_executable(ChainReactions MSOE2023Winter/ChainReactions.cpp)
-
-
-add_executable(LastGuess MSOE2023Spring/NWERC22/LastGuess.cpp)
-add_executable(InterviewQuestion MSOE2023Spring/NWERC22/InterviewQuestion.cpp)
-add_executable(NatureReserve MSOE2023Spring/NatureReserve.cpp)
-add_executable(JusticeServed MSOE2023Spring/NWERC22/JusticeServed.cpp)
-add_executable(PlayingWGeometry MSOE2023Spring/SWERC2014/PlayingWGeometry.cpp)
-add_executable(FloweryTrails MSOE2023Spring/SWERC2014/FloweryTrails.cpp)
-add_executable(BookClub MSOE2023Spring/SWERC2014/BookClub.cpp)
+#add_executable(BeastBullies MSOE2023Winter/NAQ/BeastBullies.cpp)
+#add_executable(SpideyDistance MSOE2023Winter/NAQ/SpideyDistance.cpp)
+#add_executable(ClassFieldTrip MSOE2023Winter/NAQ/ClassFieldTrip.cpp)
+#add_executable(GhostLeg MSOE2023Winter/NAQ/GhostLeg.cpp)
+#add_executable(TollRoads MSOE2023Winter/NAQ/TollRoads.cpp)
+#add_executable(PlatformPlacing MSOE2023Winter/NAQ/PlatformPlacing.cpp)
+#add_executable(MazeMan MSOE2023Winter/NAQ/MazeMan.cpp)
+#add_executable(MovieNight MSOE2023Winter/NAQ/MovieNight.cpp)
+#add_executable(RoomEvacuation MSOE2023Winter/NAQ/RoomEvacuation.cpp)
+#add_executable(BirthdayGift MSOE2023Winter/NAQ/BirthdayGift.cpp)
+#add_executable(Bribe MSOE2023Winter/Bribe.cpp)
+#add_executable(LostLineup MSOE2023Winter/LostLineup.cpp)
+#add_executable(IntegerDivision MSOE2023Winter/IntegerDivision.cpp)
+#add_executable(NoThanks MSOE2023Winter/NoThanks.cpp)
+#add_executable(PieceOfCake MSOE2023Winter/PieceOfCake.cpp)
+#add_executable(ChainReactions MSOE2023Winter/ChainReactions.cpp)
+#
+#
+#add_executable(LastGuess MSOE2023Spring/NWERC22/LastGuess.cpp)
+#add_executable(InterviewQuestion MSOE2023Spring/NWERC22/InterviewQuestion.cpp)
+#add_executable(NatureReserve MSOE2023Spring/NatureReserve.cpp)
+#add_executable(JusticeServed MSOE2023Spring/NWERC22/JusticeServed.cpp)
+#add_executable(PlayingWGeometry MSOE2023Spring/SWERC2014/PlayingWGeometry.cpp)
+#add_executable(FloweryTrails MSOE2023Spring/SWERC2014/FloweryTrails.cpp)
+#add_executable(BookClub MSOE2023Spring/SWERC2014/BookClub.cpp)
+#add_executable(SlideCount MSOE2023Spring/SlideCount.cpp)
+#add_executable(Beacons MSOE2023Spring/Beacons.cpp)
+#add_executable(RoyAndCoinBoxes MSOE2023Spring/RoyAndCoinBoxes.cpp)
+#add_executable(CribbageOnSteroids MSOE2023Spring/Plane/CribbageOnSteroids.cpp)
+#add_executable(AmazingPuzzle MSOE2023Spring/Plane/AmazingPuzzle.cpp)
 #add_executable(Uglinees MSOE2022Spring/NAPC2022/Lockout/Uglinesss.cpp)
 #add_executable(Books MSOE2022Spring/NAPC2022/Lockout/A.cpp)
 #add_executable(Grid MSOE2022Spring/NAPC2022/Lockout/C.cpp)
