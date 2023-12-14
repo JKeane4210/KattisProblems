@@ -54,23 +54,22 @@ int main() {
         stringstream ss(line);
         ss >> n >> m >> a >> k; // m is a, a is b
         if (n == 0 && m == 0 && a == 0 && k == 0) break;
+        if (m == 0 || a == 0) {
+            cout << min(n, k) << endl;
+            continue;
+        }
         int x, y, g;
         if (a > m) {
             g = gcd(a, m, y, x);
-//            cout << x << " " << y << endl;
-//            cout << x * m + n << endl;
+            x = -x;
         } else {
             g = gcd(m, a, x, y);
         }
-        cout << x << " " << y << endl;
-//        if ((g == a || g == m) && k != ) {
-//
-//        }
-//        cout <<
-        if ((g == a || g == m) && (k - n) % g != 0) {
+//        cout << x << " " << y << endl;
+        if ((k - n) % g != 0) {
             cout << "Impossible" << endl;
         } else {
-            cout << x * (k - n) * m + n << endl;
+            cout << x * m + n << endl;
         }
     }
 
